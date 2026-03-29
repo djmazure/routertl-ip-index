@@ -13,6 +13,7 @@ source:
 # Compatibility shim — used when the IP repo has no ip.yml.
 # List only the files required for this specific IP block.
 routertl_compat:
+  language: vhdl
   library: olo
   files:
     - src/base/vhdl/olo_base_pkg.vhd

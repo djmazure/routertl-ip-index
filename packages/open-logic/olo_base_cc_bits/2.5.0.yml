@@ -11,6 +11,7 @@ source:
   ip_yml_path: "."
 
 routertl_compat:
+  language: vhdl
   library: olo
   files:
     - src/base/vhdl/olo_base_pkg.vhd

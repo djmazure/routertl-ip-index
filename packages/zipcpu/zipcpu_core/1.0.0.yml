@@ -7,11 +7,14 @@ license: LGPL-3.0-or-later
 source:
   type: git
   url: https://github.com/ZipCPU/zipcpu.git
-  tag: master
+  # No semver tags on this repo — pinned to a known-good HEAD commit for reproducibility.
+  # Update by running: git ls-remote https://github.com/ZipCPU/zipcpu.git HEAD
+  commit: 42606d2d6ef55df313772232977621b2d72f0159
   ip_yml_path: "."
 
 routertl_compat:
   library: zipcpu
+  language: verilog
   files:
     - rtl/core/zipcpu.v
     - rtl/core/cpuops.v
