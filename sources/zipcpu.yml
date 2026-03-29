@@ -1,0 +1,12 @@
+# Source library metadata for the zipcpu namespace
+namespace: zipcpu
+display_name: "ZipCPU"
+description: "ZipCPU soft-CPU ecosystem — RISC core, UART, wishbone scope, peripherals"
+homepage: https://zipcpu.com
+license: LGPL-3.0-or-later
+maintainer: Dan Gisselquist (Gisselquist Technology)
+hdl_language: verilog
+fpga_vendors: [xilinx, lattice, altera, microchip]
+notes: |
+  Note: zipcpu repos use branch-based releases (no semver tags).
+  routertl locks by commit SHA for reproducibility.

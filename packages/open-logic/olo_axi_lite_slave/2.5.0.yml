@@ -1,0 +1,18 @@
+name: olo_axi_lite_slave
+namespace: open-logic
+version: "2.5.0"
+description: "AXI4-Lite slave port — register-map compatible, configurable address/data width"
+license: LGPL-2.1-or-later
+
+source:
+  type: git
+  url: https://github.com/open-logic/open-logic.git
+  tag: v2.5.0
+  ip_yml_path: "."
+
+routertl_compat:
+  library: olo
+  files:
+    - src/base/vhdl/olo_base_pkg.vhd
+    - src/axi/vhdl/olo_axi_pkg.vhd
+    - src/axi/vhdl/olo_axi_lite_slave.vhd

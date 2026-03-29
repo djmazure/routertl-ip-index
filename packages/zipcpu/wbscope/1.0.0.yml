@@ -1,0 +1,17 @@
+name: wbscope
+namespace: zipcpu
+version: "1.0.0"
+description: "Wishbone oscilloscope — logic analyzer / trigger core for FPGA debug"
+license: LGPL-3.0-or-later
+
+source:
+  type: git
+  url: https://github.com/ZipCPU/wbscope.git
+  tag: master
+  ip_yml_path: "."
+
+routertl_compat:
+  library: zipcpu
+  files:
+    - rtl/wbscope.v
+    - rtl/wbscopc.v

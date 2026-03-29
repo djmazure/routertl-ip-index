@@ -1,0 +1,145 @@
+[
+  {
+    "namespace": "open-logic",
+    "name": "olo_axi_lite_slave",
+    "latest": "2.5.0",
+    "versions": [
+      "2.5.0"
+    ],
+    "description": "AXI4-Lite slave port \u2014 register-map compatible, configurable address/data width",
+    "license": "LGPL-2.1-or-later",
+    "language": "",
+    "library": "olo",
+    "source_url": "https://github.com/open-logic/open-logic.git"
+  },
+  {
+    "namespace": "open-logic",
+    "name": "olo_axi_master_simple",
+    "latest": "2.5.0",
+    "versions": [
+      "2.5.0"
+    ],
+    "description": "Simple AXI4-Lite master \u2014 single-outstanding transaction, command/response FIFO",
+    "license": "LGPL-2.1-or-later",
+    "language": "",
+    "library": "olo",
+    "source_url": "https://github.com/open-logic/open-logic.git"
+  },
+  {
+    "namespace": "open-logic",
+    "name": "olo_base_arb_prio",
+    "latest": "2.5.0",
+    "versions": [
+      "2.5.0"
+    ],
+    "description": "Fixed-priority arbiter \u2014 configurable number of requestors",
+    "license": "LGPL-2.1-or-later",
+    "language": "",
+    "library": "olo",
+    "source_url": "https://github.com/open-logic/open-logic.git"
+  },
+  {
+    "namespace": "open-logic",
+    "name": "olo_base_cc_bits",
+    "latest": "2.5.0",
+    "versions": [
+      "2.5.0"
+    ],
+    "description": "Multi-bit clock crossing \u2014 gray-coded or handshake, configurable width",
+    "license": "LGPL-2.1-or-later",
+    "language": "",
+    "library": "olo",
+    "source_url": "https://github.com/open-logic/open-logic.git"
+  },
+  {
+    "namespace": "open-logic",
+    "name": "olo_base_cdc_sync",
+    "latest": "2.5.0",
+    "versions": [
+      "2.5.0"
+    ],
+    "description": "Two-flip-flop CDC synchronizer \u2014 single-bit, multi-vendor safe",
+    "license": "LGPL-2.1-or-later",
+    "language": "",
+    "library": "olo",
+    "source_url": "https://github.com/open-logic/open-logic.git"
+  },
+  {
+    "namespace": "open-logic",
+    "name": "olo_base_fifo_async",
+    "latest": "2.5.0",
+    "versions": [
+      "2.5.0"
+    ],
+    "description": "Asynchronous FIFO \u2014 configurable depth/width, CDC-safe two-clock design",
+    "license": "LGPL-2.1-or-later",
+    "language": "",
+    "library": "olo",
+    "source_url": "https://github.com/open-logic/open-logic.git"
+  },
+  {
+    "namespace": "open-logic",
+    "name": "olo_base_fifo_sync",
+    "latest": "2.5.0",
+    "versions": [
+      "2.5.0"
+    ],
+    "description": "Synchronous FIFO \u2014 configurable depth/width, single-clock",
+    "license": "LGPL-2.1-or-later",
+    "language": "",
+    "library": "olo",
+    "source_url": "https://github.com/open-logic/open-logic.git"
+  },
+  {
+    "namespace": "open-logic",
+    "name": "olo_base_ram_sdp",
+    "latest": "2.5.0",
+    "versions": [
+      "2.5.0"
+    ],
+    "description": "Simple dual-port RAM \u2014 inferred, vendor-independent, configurable width/depth",
+    "license": "LGPL-2.1-or-later",
+    "language": "",
+    "library": "olo",
+    "source_url": "https://github.com/open-logic/open-logic.git"
+  },
+  {
+    "namespace": "zipcpu",
+    "name": "wbscope",
+    "latest": "1.0.0",
+    "versions": [
+      "1.0.0"
+    ],
+    "description": "Wishbone oscilloscope \u2014 logic analyzer / trigger core for FPGA debug",
+    "license": "LGPL-3.0-or-later",
+    "language": "",
+    "library": "zipcpu",
+    "source_url": "https://github.com/ZipCPU/wbscope.git"
+  },
+  {
+    "namespace": "zipcpu",
+    "name": "zipcpu_core",
+    "latest": "1.0.0",
+    "versions": [
+      "1.0.0"
+    ],
+    "description": "ZipCPU \u2014 lightweight 32-bit RISC soft processor core for FPGAs",
+    "license": "LGPL-3.0-or-later",
+    "language": "",
+    "library": "zipcpu",
+    "source_url": "https://github.com/ZipCPU/zipcpu.git"
+  },
+  {
+    "namespace": "zipcpu",
+    "name": "zipcpu_uart",
+    "latest": "1.0.0",
+    "versions": [
+      "1.0.0"
+    ],
+    "description": "ZipCPU UART \u2014 configurable baud, Wishbone and AXI-Lite interface options",
+    "license": "LGPL-3.0-or-later",
+    "language": "",
+    "library": "zipcpu",
+    "source_url": "https://github.com/ZipCPU/wbuart32.git"
+  }
+]

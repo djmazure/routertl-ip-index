@@ -1,0 +1,13 @@
+# Source library metadata for the open-logic namespace
+namespace: open-logic
+display_name: "Open Logic"
+description: "Vendor-independent FPGA standard library — FIFOs, CDCs, arbiters, AXI"
+homepage: https://github.com/open-logic/open-logic
+license: LGPL-2.1-or-later
+maintainer: Patrick Studer
+hdl_language: vhdl-2008
+fpga_vendors: [xilinx, lattice, altera, microchip]
+notes: |
+  LGPL with a linking exception that permits use in closed-source FPGA bitstreams.
+  The exception covers compiled/synthesized output — source modifications must
+  be shared under LGPL terms.

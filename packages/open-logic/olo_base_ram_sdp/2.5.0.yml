@@ -1,0 +1,17 @@
+name: olo_base_ram_sdp
+namespace: open-logic
+version: "2.5.0"
+description: "Simple dual-port RAM — inferred, vendor-independent, configurable width/depth"
+license: LGPL-2.1-or-later
+
+source:
+  type: git
+  url: https://github.com/open-logic/open-logic.git
+  tag: v2.5.0
+  ip_yml_path: "."
+
+routertl_compat:
+  library: olo
+  files:
+    - src/base/vhdl/olo_base_pkg.vhd
+    - src/base/vhdl/olo_base_ram_sdp.vhd

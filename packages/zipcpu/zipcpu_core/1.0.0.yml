@@ -1,0 +1,27 @@
+name: zipcpu_core
+namespace: zipcpu
+version: "1.0.0"
+description: "ZipCPU — lightweight 32-bit RISC soft processor core for FPGAs"
+license: LGPL-3.0-or-later
+
+source:
+  type: git
+  url: https://github.com/ZipCPU/zipcpu.git
+  tag: master
+  ip_yml_path: "."
+
+routertl_compat:
+  library: zipcpu
+  files:
+    - rtl/core/zipcpu.v
+    - rtl/core/cpuops.v
+    - rtl/core/pfcache.v
+    - rtl/core/memops.v
+    - rtl/core/dcache.v
+    - rtl/core/idecode.v
+    - rtl/core/wbdblpriarb.v
+    - rtl/ex/wbdmac.v
+    - rtl/peripherals/zipcounter.v
+    - rtl/peripherals/ziptimer.v
+    - rtl/peripherals/zipjiffies.v
+    - rtl/peripherals/zipsystem.v
