@@ -1,0 +1,23 @@
+# RouteRTL IP Index — Registry
+#
+# Human-curated list of HDL repos to index. The CI action runs
+# scan_ip_repo.py for each entry, auto-generating catalog.json
+# and per-package version YAMLs.
+#
+# To add a new library:
+#   1. Add an entry below
+#   2. Push to main — CI scans and indexes automatically
+#
+# Fields:
+#   namespace:   Index namespace (e.g. open-logic)
+#   url:         Git clone URL
+#   tag:         Git tag to index (update to re-scan at new version)
+#   license:     SPDX license identifier
+#   description: One-line description for the namespace
+
+registries:
+  - namespace: open-logic
+    url: https://github.com/open-logic/open-logic.git
+    tag: "4.4.1"
+    license: LGPL-2.1-or-later
+    description: "Vendor-independent FPGA standard library — FIFOs, CDCs, arbiters, AXI"

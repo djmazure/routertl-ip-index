@@ -1,0 +1,175 @@
+# RouteRTL IP Index — Auto-Scan and Index
+#
+# Reads registry.yml, clones each HDL repo, runs the RouteRTL
+# dependency resolver to auto-discover IPs, and regenerates the
+# index (catalog.json + per-package version YAMLs).
+#
+# Triggers:
+#   - Push to registry.yml (new repo or tag bump)
+#   - Weekly Monday 06:00 UTC (catch upstream changes)
+#   - Manual dispatch (re-scan after scanner updates)
+#
+# Architecture: D.15 — registry-driven resolution
+# Backlog: P2.181
+
+name: Scan and Index
+
+on:
+  push:
+    branches: [main]
+    paths: ['registry.yml']
+  schedule:
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    name: Scan registries and rebuild index
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout index repo
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install GHDL (for VHDL standard detection)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y gnat llvm wget
+          wget -q https://github.com/ghdl/ghdl/releases/download/v4.1.0/ghdl-gha-ubuntu-22.04-llvm.tgz
+          sudo tar -xzf ghdl-gha-ubuntu-22.04-llvm.tgz -C /usr/local
+          ghdl --version
+
+      - name: Install RouteRTL SDK (for scanner + dependency resolver)
+        run: pip install routertl pyyaml
+
+      - name: Read registry and scan each repo
+        run: |
+          python3 << 'SCAN_SCRIPT'
+          import yaml
+          import subprocess
+          import sys
+          from pathlib import Path
+
+          with open("registry.yml") as f:
+              reg = yaml.safe_load(f)
+
+          entries = reg.get("registries", [])
+          print(f"📋 Registry has {len(entries)} source(s)\n")
+
+          # Find the scanner script from installed routertl
+          scanner = None
+          try:
+              import routertl
+              sdk_path = Path(routertl.__file__).parent.parent
+              candidate = sdk_path / "sdk" / "scripts" / "scan_ip_repo.py"
+              if candidate.exists():
+                  scanner = str(candidate)
+          except ImportError:
+              pass
+
+          if not scanner:
+              # Fallback: look in common pip paths
+              import shutil
+              for p in [
+                  Path(sys.prefix) / "sdk" / "scripts" / "scan_ip_repo.py",
+                  Path.home() / ".local" / "lib" / "python3.12" / "site-packages" / "sdk" / "scripts" / "scan_ip_repo.py",
+              ]:
+                  if p.exists():
+                      scanner = str(p)
+                      break
+
+          if not scanner:
+              print("❌ scan_ip_repo.py not found in installed routertl")
+              print("   Falling back to generate_catalog.py (existing entries only)")
+              subprocess.run([sys.executable, "generate_catalog.py"], check=True)
+              sys.exit(0)
+
+          print(f"🔧 Scanner: {scanner}\n")
+
+          failed = 0
+          for entry in entries:
+              ns = entry["namespace"]
+              url = entry["url"]
+              tag = entry["tag"]
+              print(f"{'='*60}")
+              print(f"Scanning: {ns} @ {tag}")
+              print(f"{'='*60}")
+
+              ret = subprocess.run(
+                  [
+                      sys.executable, scanner,
+                      "--url", url,
+                      "--tag", tag,
+                      "--namespace", ns,
+                      "--output", ".",
+                  ],
+                  capture_output=False,
+              )
+              if ret.returncode != 0:
+                  print(f"⚠️  Scan failed for {ns} — skipping")
+                  failed += 1
+              print()
+
+          # Merge per-namespace catalog snippets into main catalog
+          # The scanner outputs catalog_<ns>.json — merge them all
+          import json
+          merged = []
+          for cat_file in sorted(Path(".").glob("catalog_*.json")):
+              with open(cat_file) as f:
+                  merged.extend(json.load(f))
+              cat_file.unlink()  # Clean up snippet
+
+          # Also keep any manually-authored packages not in registry
+          # (read existing catalog and keep entries whose namespace
+          # isn't covered by registry scans)
+          scanned_namespaces = {e["namespace"] for e in entries}
+          try:
+              with open("catalog.json") as f:
+                  existing = json.load(f)
+              for e in existing:
+                  if e["namespace"] not in scanned_namespaces:
+                      merged.append(e)
+          except (FileNotFoundError, json.JSONDecodeError):
+              pass
+
+          # Deduplicate by (namespace, name)
+          seen = set()
+          deduped = []
+          for e in merged:
+              key = (e["namespace"], e["name"])
+              if key not in seen:
+                  seen.add(key)
+                  deduped.append(e)
+
+          # Regenerate catalog.json from all package version files
+          # (use generate_catalog.py for authoritative output)
+          subprocess.run([sys.executable, "generate_catalog.py"], check=True)
+
+          if failed:
+              print(f"\n⚠️  {failed} scan(s) failed — check logs above")
+              sys.exit(1)
+
+          print(f"\n🎉 All {len(entries)} registries scanned successfully")
+          SCAN_SCRIPT
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "routertl-bot"
+          git config user.email "noreply@routertl.dev"
+          git add catalog.json packages/
+          if git diff --cached --quiet; then
+            echo "📦 No changes — index is up to date"
+          else
+            CHANGED=$(git diff --cached --stat | tail -1)
+            git commit -m "chore: auto-scan registry — $CHANGED"
+            git push
+            echo "📦 Index updated and pushed"
+          fi
