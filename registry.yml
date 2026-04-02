@@ -21,3 +21,9 @@ registries:
     tag: "4.4.1"
     license: LGPL-2.1-or-later
     description: "Vendor-independent FPGA standard library — FIFOs, CDCs, arbiters, AXI"
+
+  - namespace: djmazure
+    url: https://github.com/djmazure/cameralink_controller.git
+    tag: main
+    license: MIT
+    description: "CameraLink controller for Xilinx UltraScale devices"

@@ -1,0 +1,15 @@
+name: cameralink_receiver
+namespace: djmazure
+version: main
+description: 'djmazure IP: cameralink_receiver'
+license: ''
+source:
+  type: git
+  url: https://github.com/djmazure/cameralink_controller.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: vhdl-2008
+  library: work
+  files:
+  - SRCs/cameralink_receiver.vhd

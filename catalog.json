@@ -1,5 +1,83 @@
 [
   {
+    "namespace": "djmazure",
+    "name": "cameralink_calibration",
+    "latest": "main",
+    "versions": [
+      "main"
+    ],
+    "description": "djmazure IP: cameralink_calibration",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "work",
+    "source_url": "https://github.com/djmazure/cameralink_controller.git"
+  },
+  {
+    "namespace": "djmazure",
+    "name": "cameralink_clocking",
+    "latest": "main",
+    "versions": [
+      "main"
+    ],
+    "description": "djmazure IP: cameralink_clocking",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "work",
+    "source_url": "https://github.com/djmazure/cameralink_controller.git"
+  },
+  {
+    "namespace": "djmazure",
+    "name": "cameralink_interface",
+    "latest": "main",
+    "versions": [
+      "main"
+    ],
+    "description": "djmazure IP: cameralink_interface",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "work",
+    "source_url": "https://github.com/djmazure/cameralink_controller.git"
+  },
+  {
+    "namespace": "djmazure",
+    "name": "cameralink_receiver",
+    "latest": "main",
+    "versions": [
+      "main"
+    ],
+    "description": "djmazure IP: cameralink_receiver",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "work",
+    "source_url": "https://github.com/djmazure/cameralink_controller.git"
+  },
+  {
+    "namespace": "djmazure",
+    "name": "clock_recovery",
+    "latest": "main",
+    "versions": [
+      "main"
+    ],
+    "description": "djmazure IP: clock_recovery",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "work",
+    "source_url": "https://github.com/djmazure/cameralink_controller.git"
+  },
+  {
+    "namespace": "djmazure",
+    "name": "test_pattern_generator",
+    "latest": "main",
+    "versions": [
+      "main"
+    ],
+    "description": "djmazure IP: test_pattern_generator",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "work",
+    "source_url": "https://github.com/djmazure/cameralink_controller.git"
+  },
+  {
     "namespace": "open-logic",
     "name": "olo_axi_lite_slave",
     "latest": "2.5.0",
