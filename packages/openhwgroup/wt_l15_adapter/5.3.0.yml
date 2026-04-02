@@ -14,9 +14,9 @@ routertl_compat:
   files:
   - core/include/ariane_pkg.sv
   - core/include/wt_cache_pkg.sv
-  - vendor/pulp-platform/common_cells/src/fifo_v3.sv
-  - vendor/pulp-platform/common_cells/src/deprecated/fifo_v2.sv
   - vendor/pulp-platform/common_cells/src/lzc.sv
   - vendor/pulp-platform/common_cells/src/rr_arb_tree.sv
   - vendor/pulp-platform/common_cells/src/deprecated/rrarbiter.sv
+  - vendor/pulp-platform/common_cells/src/fifo_v3.sv
+  - vendor/pulp-platform/common_cells/src/deprecated/fifo_v2.sv
   - core/cache_subsystem/wt_l15_adapter.sv

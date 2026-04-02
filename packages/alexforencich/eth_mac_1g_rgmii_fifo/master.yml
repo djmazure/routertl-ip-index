@@ -12,13 +12,13 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - rtl/mac_ctrl_rx.v
-  - rtl/mac_pause_ctrl_rx.v
-  - rtl/mac_pause_ctrl_tx.v
-  - rtl/mac_ctrl_tx.v
   - rtl/lfsr.v
   - rtl/axis_gmii_tx.v
+  - rtl/mac_ctrl_tx.v
   - rtl/axis_gmii_rx.v
+  - rtl/mac_pause_ctrl_tx.v
+  - rtl/mac_ctrl_rx.v
+  - rtl/mac_pause_ctrl_rx.v
   - rtl/eth_mac_1g.v
   - rtl/iddr.v
   - rtl/ssio_ddr_in.v

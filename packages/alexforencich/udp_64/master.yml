@@ -12,7 +12,7 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - rtl/udp_checksum_gen_64.v
   - rtl/udp_ip_rx_64.v
+  - rtl/udp_checksum_gen_64.v
   - rtl/udp_ip_tx_64.v
   - rtl/udp_64.v

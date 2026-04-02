@@ -12,4 +12,4 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - vendor/pulp-platform/tech_cells_generic/src/fpga/tc_clk_xilinx.sv
+  - vendor/pulp-platform/tech_cells_generic/src/rtl/tc_clk.sv

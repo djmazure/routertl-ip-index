@@ -13,6 +13,6 @@ routertl_compat:
   library: work
   files:
   - core/include/ariane_pkg.sv
-  - vendor/pulp-platform/common_cells/src/lzc.sv
   - vendor/pulp-platform/common_cells/src/popcount.sv
+  - vendor/pulp-platform/common_cells/src/lzc.sv
   - core/alu.sv

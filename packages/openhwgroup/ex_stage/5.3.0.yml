@@ -14,34 +14,32 @@ routertl_compat:
   files:
   - core/include/ariane_pkg.sv
   - core/cvxif_fu.sv
-  - core/fpu_wrap.sv
-  - core/multiplier.sv
   - vendor/pulp-platform/common_cells/src/lzc.sv
   - core/serdiv.sv
+  - core/multiplier.sv
   - core/mult.sv
+  - core/branch_unit.sv
+  - core/fpu_wrap.sv
+  - core/csr_buffer.sv
   - core/lsu_bypass.sv
-  - vendor/pulp-platform/common_cells/src/shift_reg.sv
+  - core/cva6_mmu/cva6_tlb.sv
+  - vendor/pulp-platform/common_cells/src/deprecated/sram.sv
+  - vendor/pulp-platform/common_cells/src/lfsr.sv
+  - core/cva6_mmu/cva6_shared_tlb.sv
   - core/pmp/src/pmp_entry.sv
   - core/pmp/src/pmp.sv
-  - core/pmp/src/pmp_data_if.sv
-  - core/load_unit.sv
+  - core/cva6_mmu/cva6_ptw.sv
+  - core/cva6_mmu/cva6_mmu.sv
   - core/store_buffer.sv
   - vendor/pulp-platform/fpga-support/rtl/SyncDpRam_ind_r_w.sv
   - vendor/pulp-platform/fpga-support/rtl/AsyncDpRam.sv
   - core/cva6_fifo_v3.sv
   - core/amo_buffer.sv
   - core/store_unit.sv
-  - core/cva6_mmu/cva6_ptw.sv
-  - core/cva6_mmu/cva6_tlb.sv
-  - vendor/pulp-platform/fpga-support/rtl/SyncSpRamBeNx64.sv
-  - common/local/util/tc_sram_fpga_wrapper.sv
-  - common/local/util/sram.sv
-  - vendor/pulp-platform/common_cells/src/lfsr.sv
-  - core/cva6_mmu/cva6_shared_tlb.sv
-  - core/cva6_mmu/cva6_mmu.sv
+  - vendor/pulp-platform/common_cells/src/shift_reg.sv
+  - core/load_unit.sv
+  - core/pmp/src/pmp_data_if.sv
   - core/load_store_unit.sv
-  - core/branch_unit.sv
-  - core/csr_buffer.sv
   - vendor/pulp-platform/common_cells/src/popcount.sv
   - core/alu.sv
   - core/ex_stage.sv

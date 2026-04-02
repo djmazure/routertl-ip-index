@@ -12,15 +12,14 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
+  - vendor/pulp-platform/axi/src/axi_intf.sv
+  - vendor/pulp-platform/common_cells/src/lzc.sv
+  - vendor/pulp-platform/common_cells/src/rr_arb_tree.sv
+  - vendor/pulp-platform/common_cells/src/addr_decode.sv
+  - vendor/pulp-platform/common_cells/src/onehot_to_bin.sv
   - vendor/pulp-platform/common_cells/src/spill_register_flushable.sv
   - vendor/pulp-platform/common_cells/src/spill_register.sv
-  - vendor/pulp-platform/common_cells/src/addr_decode.sv
   - vendor/pulp-platform/common_cells/src/fifo_v3.sv
   - vendor/pulp-platform/common_cells/src/deprecated/fifo_v2.sv
   - vendor/pulp-platform/common_cells/src/fall_through_register.sv
-  - vendor/pulp-platform/axi/src/axi_pkg.sv
-  - corev_apu/tb/axi_intf.sv
-  - vendor/pulp-platform/common_cells/src/onehot_to_bin.sv
-  - vendor/pulp-platform/common_cells/src/lzc.sv
-  - vendor/pulp-platform/common_cells/src/rr_arb_tree.sv
   - vendor/pulp-platform/axi/src/axi_lite_to_apb.sv

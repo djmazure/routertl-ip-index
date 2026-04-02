@@ -10,10 +10,10 @@ source:
   ip_yml_path: .
 routertl_compat:
   language: vhdl-2008
-  library: en_tb
+  library: vunit_lib
   files:
   - hdl/en_cl_fix_private_pkg.vhd
   - hdl/en_cl_fix_pkg.vhd
-  - hdl/en_cl_fix_round.vhd
   - hdl/en_cl_fix_saturate.vhd
+  - hdl/en_cl_fix_round.vhd
   - hdl/en_cl_fix_resize.vhd

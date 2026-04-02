@@ -9,7 +9,7 @@ source:
   tag: 4.4.1
   ip_yml_path: .
 routertl_compat:
-  language: vhdl-2008-relaxed
+  language: vhdl-2008
   library: olo
   files:
   - src/base/vhdl/olo_base_pkg_array.vhd

@@ -12,7 +12,6 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - vendor/pulp-platform/axi/src/axi_pkg.sv
-  - corev_apu/tb/axi_intf.sv
   - corev_apu/tb/common/mock_uart.sv
-  - corev_apu/tb/ariane_peripherals.sv
+  - vendor/pulp-platform/axi/src/axi_intf.sv
+  - corev_apu/fpga/src/ariane_peripherals_xilinx.sv

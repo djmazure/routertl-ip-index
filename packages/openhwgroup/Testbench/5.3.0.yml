@@ -13,7 +13,7 @@ routertl_compat:
   library: work
   files:
   - vendor/pulp-platform/fpga-support/behav/common/include/assertions.sv
-  - vendor/pulp-platform/fpga-support/behav/common/modules/ClkRstGen.sv
   - vendor/pulp-platform/fpga-support/synth/BramDwc/deps/BramPort.sv
   - vendor/pulp-platform/fpga-support/synth/BramDwc/deps/BramDwc.sv
+  - vendor/pulp-platform/fpga-support/behav/common/modules/ClkRstGen.sv
   - vendor/pulp-platform/fpga-support/behav/BramDwc/Testbench.sv

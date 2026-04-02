@@ -12,7 +12,7 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - vendor/pulp-platform/common_cells/src/sub_per_hash.sv
   - vendor/pulp-platform/common_cells/src/delta_counter.sv
   - vendor/pulp-platform/common_cells/src/counter.sv
+  - vendor/pulp-platform/common_cells/src/sub_per_hash.sv
   - vendor/pulp-platform/common_cells/src/cb_filter.sv

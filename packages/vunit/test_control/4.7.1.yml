@@ -12,4 +12,4 @@ routertl_compat:
   language: vhdl-2008
   library: vunit_lib
   files:
-  - examples/vhdl/run/test_control.vhd
+  - docs/run/src/test_control.vhd

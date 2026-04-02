@@ -12,6 +12,5 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - vendor/pulp-platform/axi/src/axi_pkg.sv
-  - corev_apu/tb/axi_intf.sv
+  - vendor/pulp-platform/axi/src/axi_intf.sv
   - verif/tb/core/tb_components/axi_master_connect.sv

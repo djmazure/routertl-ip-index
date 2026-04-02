@@ -14,6 +14,6 @@ routertl_compat:
   files:
   - rtl/priority_encoder.v
   - rtl/arbiter.v
-  - rtl/axi_register_wr.v
   - rtl/axi_crossbar_addr.v
+  - rtl/axi_register_wr.v
   - rtl/axi_crossbar_wr.v

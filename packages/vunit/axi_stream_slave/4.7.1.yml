@@ -40,8 +40,13 @@ routertl_compat:
   - vunit/vhdl/verification_components/src/sync_pkg.vhd
   - vunit/vhdl/verification_components/src/axi_stream_pkg.vhd
   - vunit/vhdl/verification_components/src/axi_stream_private_pkg.vhd
+  - vunit/vhdl/data_types/src/integer_vector_ptr_pool_pkg.vhd
+  - vunit/vhdl/dictionary/src/dictionary.vhd
   - vunit/vhdl/data_types/src/event_private_pkg.vhd
-  - vunit/vhdl/data_types/src/event_pkg.vhd
+  - vunit/vhdl/run/src/run_types.vhd
+  - vunit/vhdl/run/src/runner_pkg.vhd
+  - docs/data_types/src/vunit_events/incrementer_pkg.vhd
+  - docs/data_types/src/vunit_events/event_pkg.vhd
   - vunit/vhdl/verification_components/src/axi_stream_protocol_checker.vhd
   - vunit/vhdl/verification_components/src/axi_stream_monitor.vhd
   - vunit/vhdl/verification_components/src/axi_stream_slave.vhd

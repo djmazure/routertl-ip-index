@@ -9,12 +9,13 @@ source:
   tag: 4.4.1
   ip_yml_path: .
 routertl_compat:
-  language: vhdl-2008-relaxed
+  language: vhdl-2008
   library: olo
   files:
   - src/base/vhdl/olo_base_pkg_array.vhd
   - src/base/vhdl/olo_base_pkg_math.vhd
   - src/base/vhdl/olo_base_pkg_logic.vhd
+  - src/base/vhdl/olo_base_wconv_n2xn.vhd
   - src/axi/vhdl/olo_axi_pkg_protocol.vhd
   - src/base/vhdl/olo_base_pkg_attribute.vhd
   - src/base/vhdl/olo_base_pkg_string.vhd
@@ -22,5 +23,4 @@ routertl_compat:
   - src/base/vhdl/olo_base_fifo_sync.vhd
   - src/axi/vhdl/olo_axi_master_simple.vhd
   - src/base/vhdl/olo_base_pl_stage.vhd
-  - src/base/vhdl/olo_base_wconv_n2xn.vhd
   - src/axi/vhdl/olo_axi_master_full.vhd

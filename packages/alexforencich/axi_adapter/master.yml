@@ -12,6 +12,6 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - rtl/axi_adapter_wr.v
   - rtl/axi_adapter_rd.v
+  - rtl/axi_adapter_wr.v
   - rtl/axi_adapter.v

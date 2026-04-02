@@ -12,4 +12,4 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - common/local/util/find_first_one.sv
+  - vendor/pulp-platform/common_cells/src/deprecated/find_first_one.sv

@@ -12,8 +12,8 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - rtl/arp_eth_rx.v
   - rtl/arp_eth_tx.v
+  - rtl/arp_eth_rx.v
   - rtl/lfsr.v
   - rtl/arp_cache.v
   - rtl/arp.v

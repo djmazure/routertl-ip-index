@@ -14,7 +14,7 @@ routertl_compat:
   files:
   - rtl/axi_vfifo_dec.v
   - rtl/axi_vfifo_enc.v
-  - rtl/axi_vfifo_raw_wr.v
   - rtl/axi_vfifo_raw_rd.v
+  - rtl/axi_vfifo_raw_wr.v
   - rtl/axi_vfifo_raw.v
   - rtl/axi_vfifo.v

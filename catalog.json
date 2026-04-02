@@ -2076,7 +2076,7 @@
     "description": "enclustra IP: en_cl_fix_resize",
     "license": "",
     "language": "vhdl-2008",
-    "library": "en_tb",
+    "library": "vunit_lib",
     "source_url": "https://github.com/enclustra/en_cl_fix.git"
   },
   {
@@ -2089,7 +2089,7 @@
     "description": "enclustra IP: en_cl_fix_round",
     "license": "",
     "language": "vhdl-2008",
-    "library": "en_tb",
+    "library": "vunit_lib",
     "source_url": "https://github.com/enclustra/en_cl_fix.git"
   },
   {
@@ -2102,7 +2102,7 @@
     "description": "enclustra IP: en_cl_fix_saturate",
     "license": "",
     "language": "vhdl-2008",
-    "library": "en_tb",
+    "library": "vunit_lib",
     "source_url": "https://github.com/enclustra/en_cl_fix.git"
   },
   {
@@ -2947,7 +2947,7 @@
     ],
     "description": "open-logic IP: olo_axi_master_full",
     "license": "",
-    "language": "vhdl-2008-relaxed",
+    "language": "vhdl-2008",
     "library": "olo",
     "source_url": "https://github.com/open-logic/open-logic.git"
   },
@@ -2961,7 +2961,7 @@
     ],
     "description": "open-logic IP: olo_axi_master_simple",
     "license": "",
-    "language": "vhdl-2008-relaxed",
+    "language": "vhdl-2008",
     "library": "olo",
     "source_url": "https://github.com/open-logic/open-logic.git"
   },
@@ -3027,7 +3027,7 @@
     ],
     "description": "open-logic IP: olo_base_cam",
     "license": "",
-    "language": "vhdl-2008-relaxed",
+    "language": "vhdl-2008",
     "library": "olo",
     "source_url": "https://github.com/open-logic/open-logic.git"
   },
@@ -3184,7 +3184,7 @@
     ],
     "description": "open-logic IP: olo_base_crc_check",
     "license": "",
-    "language": "vhdl-2008-relaxed",
+    "language": "vhdl-2008",
     "library": "olo",
     "source_url": "https://github.com/open-logic/open-logic.git"
   },
@@ -3210,7 +3210,7 @@
     ],
     "description": "open-logic IP: olo_base_delay",
     "license": "",
-    "language": "vhdl-2008-relaxed",
+    "language": "vhdl-2008",
     "library": "olo",
     "source_url": "https://github.com/open-logic/open-logic.git"
   },
@@ -3223,7 +3223,7 @@
     ],
     "description": "open-logic IP: olo_base_delay_cfg",
     "license": "",
-    "language": "vhdl-2008-relaxed",
+    "language": "vhdl-2008",
     "library": "olo",
     "source_url": "https://github.com/open-logic/open-logic.git"
   },
@@ -3250,7 +3250,7 @@
     ],
     "description": "open-logic IP: olo_base_fifo_async",
     "license": "",
-    "language": "vhdl-2008-relaxed",
+    "language": "vhdl-2008",
     "library": "olo",
     "source_url": "https://github.com/open-logic/open-logic.git"
   },
@@ -3263,7 +3263,7 @@
     ],
     "description": "open-logic IP: olo_base_fifo_packet",
     "license": "",
-    "language": "vhdl-2008-relaxed",
+    "language": "vhdl-2008",
     "library": "olo",
     "source_url": "https://github.com/open-logic/open-logic.git"
   },
@@ -3277,7 +3277,7 @@
     ],
     "description": "open-logic IP: olo_base_fifo_sync",
     "license": "",
-    "language": "vhdl-2008-relaxed",
+    "language": "vhdl-2008",
     "library": "olo",
     "source_url": "https://github.com/open-logic/open-logic.git"
   },
@@ -3290,7 +3290,7 @@
     ],
     "description": "open-logic IP: olo_base_flowctrl_handler",
     "license": "",
-    "language": "vhdl-2008-relaxed",
+    "language": "vhdl-2008",
     "library": "olo",
     "source_url": "https://github.com/open-logic/open-logic.git"
   },
@@ -3303,7 +3303,7 @@
     ],
     "description": "open-logic IP: olo_base_latency_comp",
     "license": "",
-    "language": "vhdl-2008-relaxed",
+    "language": "vhdl-2008",
     "library": "olo",
     "source_url": "https://github.com/open-logic/open-logic.git"
   },
@@ -3343,7 +3343,7 @@
     ],
     "description": "open-logic IP: olo_base_ram_sdp",
     "license": "",
-    "language": "vhdl-2008-relaxed",
+    "language": "vhdl-2008",
     "library": "olo",
     "source_url": "https://github.com/open-logic/open-logic.git"
   },
@@ -3356,7 +3356,7 @@
     ],
     "description": "open-logic IP: olo_base_ram_sp",
     "license": "",
-    "language": "vhdl-2008-relaxed",
+    "language": "vhdl-2008",
     "library": "olo",
     "source_url": "https://github.com/open-logic/open-logic.git"
   },
@@ -3369,7 +3369,7 @@
     ],
     "description": "open-logic IP: olo_base_ram_tdp",
     "license": "",
-    "language": "vhdl-2008-relaxed",
+    "language": "vhdl-2008",
     "library": "olo",
     "source_url": "https://github.com/open-logic/open-logic.git"
   },

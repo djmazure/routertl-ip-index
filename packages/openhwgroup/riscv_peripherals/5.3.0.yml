@@ -12,11 +12,10 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - corev_apu/tb/common/SimDTM.sv
   - corev_apu/tb/common/SimJTAG.sv
   - corev_apu/clint/axi_lite_interface.sv
   - corev_apu/clint/clint.sv
   - corev_apu/bootrom/bootrom.sv
-  - vendor/pulp-platform/axi/src/axi_pkg.sv
-  - corev_apu/tb/axi_intf.sv
+  - corev_apu/tb/common/SimDTM.sv
+  - vendor/pulp-platform/axi/src/axi_intf.sv
   - corev_apu/openpiton/riscv_peripherals.sv

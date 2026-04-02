@@ -12,5 +12,6 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - vendor/pulp-platform/tech_cells_generic/src/fpga/tc_sram_xilinx.sv
+  - vendor/pulp-platform/common_cells/src/deprecated/sram.sv
+  - vendor/pulp-platform/tech_cells_generic/src/rtl/tc_sram.sv
   - pd/synth/tc_sram_wrapper_256_64_00000008_00000001_00000001_none_0.sv

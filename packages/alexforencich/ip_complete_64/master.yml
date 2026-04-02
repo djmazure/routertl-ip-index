@@ -13,8 +13,8 @@ routertl_compat:
   library: work
   files:
   - rtl/eth_arb_mux.v
-  - rtl/arp_eth_rx.v
   - rtl/arp_eth_tx.v
+  - rtl/arp_eth_rx.v
   - rtl/lfsr.v
   - rtl/arp_cache.v
   - rtl/arp.v

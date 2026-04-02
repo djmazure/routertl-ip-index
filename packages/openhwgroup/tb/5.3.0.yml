@@ -13,22 +13,12 @@ routertl_compat:
   library: work
   files:
   - corev_apu/tb/common/tb.svh
-  - corev_apu/tb/common/assign.svh
+  - corev_apu/tb/tb_serdiv/hdl/tb_udiv.sv
+  - corev_apu/tb/tb_serdiv/hdl/tb_urem.sv
+  - corev_apu/tb/tb_serdiv/hdl/tb_div.sv
+  - corev_apu/tb/tb_serdiv/hdl/tb_rem.sv
   - core/include/ariane_pkg.sv
-  - core/include/std_cache_pkg.sv
-  - vendor/pulp-platform/axi/src/axi_pkg.sv
-  - corev_apu/tb/axi_intf.sv
-  - vendor/pulp-platform/axi/src/axi_intf.sv
-  - vendor/pulp-platform/axi/src/axi_test.sv
-  - corev_apu/tb/common/tb_dcache_pkg.sv
-  - vendor/pulp-platform/fpga-support/rtl/SyncSpRamBeNx64.sv
-  - common/local/util/tc_sram_fpga_wrapper.sv
-  - common/local/util/sram.sv
-  - core/cache_subsystem/cache_ctrl.sv
-  - core/cache_subsystem/tag_cmp.sv
-  - core/cache_subsystem/axi_adapter.sv
-  - vendor/pulp-platform/common_cells/src/lfsr_8bit.sv
-  - core/cache_subsystem/miss_handler.sv
-  - core/cache_subsystem/std_nbdcache.sv
-  - vendor/pulp-platform/common_cells/src/fifo_v3.sv
-  - corev_apu/tb/tb_wb_dcache/hdl/tb.sv
+  - corev_apu/tb/tb_serdiv/hdl/tb_pkg.sv
+  - vendor/pulp-platform/common_cells/src/lzc.sv
+  - core/serdiv.sv
+  - corev_apu/tb/tb_serdiv/hdl/tb.sv

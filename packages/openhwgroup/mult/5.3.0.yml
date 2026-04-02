@@ -13,7 +13,7 @@ routertl_compat:
   library: work
   files:
   - core/include/ariane_pkg.sv
-  - core/multiplier.sv
   - vendor/pulp-platform/common_cells/src/lzc.sv
   - core/serdiv.sv
+  - core/multiplier.sv
   - core/mult.sv

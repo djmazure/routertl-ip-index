@@ -12,20 +12,19 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - vendor/pulp-platform/common_cells/src/spill_register_flushable.sv
-  - vendor/pulp-platform/common_cells/src/spill_register.sv
-  - vendor/pulp-platform/common_cells/src/delta_counter.sv
-  - vendor/pulp-platform/common_cells/src/fifo_v3.sv
-  - vendor/pulp-platform/axi/src/axi_pkg.sv
-  - corev_apu/tb/axi_intf.sv
   - vendor/pulp-platform/common_cells/src/lzc.sv
-  - vendor/pulp-platform/common_cells/src/rr_arb_tree.sv
-  - vendor/pulp-platform/axi/src/axi_demux.sv
-  - vendor/pulp-platform/common_cells/src/counter.sv
   - vendor/pulp-platform/common_cells/src/onehot_to_bin.sv
   - vendor/pulp-platform/common_cells/src/id_queue.sv
+  - vendor/pulp-platform/common_cells/src/delta_counter.sv
+  - vendor/pulp-platform/common_cells/src/counter.sv
+  - vendor/pulp-platform/common_cells/src/fifo_v3.sv
+  - vendor/pulp-platform/axi/src/axi_intf.sv
   - vendor/pulp-platform/common_cells/src/deprecated/fifo_v2.sv
   - vendor/pulp-platform/common_cells/src/stream_register.sv
   - vendor/pulp-platform/axi/src/axi_atop_filter.sv
   - vendor/pulp-platform/axi/src/axi_err_slv.sv
+  - vendor/pulp-platform/common_cells/src/rr_arb_tree.sv
+  - vendor/pulp-platform/common_cells/src/spill_register_flushable.sv
+  - vendor/pulp-platform/common_cells/src/spill_register.sv
+  - vendor/pulp-platform/axi/src/axi_demux.sv
   - vendor/pulp-platform/axi/src/axi_burst_splitter.sv

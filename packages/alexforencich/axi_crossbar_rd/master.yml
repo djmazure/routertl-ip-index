@@ -12,8 +12,8 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - rtl/axi_register_rd.v
   - rtl/priority_encoder.v
   - rtl/arbiter.v
   - rtl/axi_crossbar_addr.v
+  - rtl/axi_register_rd.v
   - rtl/axi_crossbar_rd.v

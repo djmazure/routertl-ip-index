@@ -13,10 +13,10 @@ routertl_compat:
   library: neorv32
   files:
   - rtl/core/neorv32_package.vhd
-  - rtl/core/neorv32_cpu_cp_shifter.vhd
-  - rtl/core/neorv32_cpu_cp_muldiv.vhd
   - rtl/core/neorv32_cpu_cp_bitmanip.vhd
   - rtl/core/neorv32_cpu_cp_fpu.vhd
-  - rtl/core/neorv32_cpu_cp_cond.vhd
   - rtl/core/neorv32_cpu_cp_cfu.vhd
+  - rtl/core/neorv32_cpu_cp_shifter.vhd
+  - rtl/core/neorv32_cpu_cp_cond.vhd
+  - rtl/core/neorv32_cpu_cp_muldiv.vhd
   - rtl/core/neorv32_cpu_alu.vhd
