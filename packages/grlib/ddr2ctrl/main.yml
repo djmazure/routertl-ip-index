@@ -1,0 +1,15 @@
+name: ddr2ctrl
+namespace: grlib
+version: main
+description: 'grlib IP: ddr2ctrl'
+license: ''
+source:
+  type: git
+  url: https://github.com/TUT-ASI/leon3-grlib-gpl-mirror.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: vhdl-2008
+  library: grlib
+  files:
+  - boards/terasic-de4/ddr2ctrl.vhd

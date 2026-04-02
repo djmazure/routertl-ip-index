@@ -1,0 +1,15 @@
+name: output_dqs_iobuf_inst
+namespace: grlib
+version: main
+description: 'grlib IP: output_dqs_iobuf_inst'
+license: ''
+source:
+  type: git
+  url: https://github.com/TUT-ASI/leon3-grlib-gpl-mirror.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: vhdl-2008
+  library: grlib
+  files:
+  - lib/techmap/stratixiii/adq_dqs/output_dqs_iobuf_inst.vhd

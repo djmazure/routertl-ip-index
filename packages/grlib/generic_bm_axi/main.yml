@@ -1,0 +1,22 @@
+name: generic_bm_axi
+namespace: grlib
+version: main
+description: 'grlib IP: generic_bm_axi'
+license: ''
+source:
+  type: git
+  url: https://github.com/TUT-ASI/leon3-grlib-gpl-mirror.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: vhdl-2008
+  library: grlib
+  files:
+  - lib/grlib/generic_bm/generic_bm_pkg.vhd
+  - lib/grlib/generic_bm/fifo_control_wc.vhd
+  - lib/grlib/generic_bm/bm_me_wc.vhd
+  - lib/grlib/generic_bm/bm_me_rc.vhd
+  - lib/grlib/generic_bm/axi4_be.vhd
+  - lib/grlib/generic_bm/fifo_control_rc.vhd
+  - lib/grlib/generic_bm/bm_fre.vhd
+  - lib/grlib/generic_bm/generic_bm_axi.vhd

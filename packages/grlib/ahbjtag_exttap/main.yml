@@ -1,0 +1,35 @@
+name: ahbjtag_exttap
+namespace: grlib
+version: main
+description: 'grlib IP: ahbjtag_exttap'
+license: ''
+source:
+  type: git
+  url: https://github.com/TUT-ASI/leon3-grlib-gpl-mirror.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: vhdl-2008
+  library: grlib
+  files:
+  - lib/grlib/stdlib/config_types.vhd
+  - lib/grlib/stdlib/config.vhd
+  - lib/grlib/stdlib/version.vhd
+  - lib/grlib/stdlib/stdlib.vhd
+  - lib/grlib/amba/amba.vhd
+  - lib/grlib/amba/devices.vhd
+  - lib/grlib/dftlib/dftlib.vhd
+  - lib/techmap/gencomp/gencomp.vhd
+  - lib/gaisler/jtag/libjtagcom.vhd
+  - lib/gaisler/jtag/jtag.vhd
+  - lib/gaisler/jtag/jtagcom.vhd
+  - lib/grlib/amba/ahbmst.vhd
+  - lib/techmap/alltech/allclkgen.vhd
+  - lib/techmap/nexus/buffer_nexus.vhd
+  - lib/techmap/unisim/buffer_unisim.vhd
+  - lib/techmap/maps/techbuf.vhd
+  - lib/techmap/maps/grgates.vhd
+  - lib/gaisler/jtag/jtagcom2.vhd
+  - lib/grlib/util/util.vhd
+  - lib/grlib/dftlib/trstmux.vhd
+  - lib/gaisler/jtag/ahbjtag_exttap.vhd

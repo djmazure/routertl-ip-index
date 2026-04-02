@@ -1,0 +1,18 @@
+name: saed32_iopad
+namespace: grlib
+version: main
+description: 'grlib IP: saed32_iopad'
+license: ''
+source:
+  type: git
+  url: https://github.com/TUT-ASI/leon3-grlib-gpl-mirror.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: vhdl-2008
+  library: grlib
+  files:
+  - lib/grlib/stdlib/config_types.vhd
+  - lib/grlib/stdlib/config.vhd
+  - lib/techmap/gencomp/gencomp.vhd
+  - lib/techmap/saed32/pads_saed32.vhd

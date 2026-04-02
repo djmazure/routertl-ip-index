@@ -1,0 +1,82 @@
+name: greths
+namespace: grlib
+version: main
+description: 'grlib IP: greths'
+license: ''
+source:
+  type: git
+  url: https://github.com/TUT-ASI/leon3-grlib-gpl-mirror.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: vhdl-2008
+  library: grlib
+  files:
+  - lib/grlib/stdlib/version.vhd
+  - lib/grlib/stdlib/stdlib.vhd
+  - lib/grlib/stdlib/config_types.vhd
+  - lib/grlib/stdlib/config.vhd
+  - lib/grlib/amba/amba.vhd
+  - lib/grlib/amba/devices.vhd
+  - lib/techmap/gencomp/gencomp.vhd
+  - lib/gaisler/net/net.vhd
+  - lib/gaisler/greth/ethernet_mac.vhd
+  - lib/eth/comp/ethcomp.vhd
+  - lib/grlib/util/util.vhd
+  - lib/techmap/alltech/allmem.vhd
+  - lib/techmap/unisim/memory_kintex7.vhd
+  - lib/techmap/ec/memory_ec.vhd
+  - lib/techmap/inferred/memory_inferred.vhd
+  - lib/techmap/unisim/memory_unisim.vhd
+  - lib/techmap/saed32/memory_saed32.vhd
+  - lib/techmap/nexus/memory_nexus.vhd
+  - lib/tech/eclipsee/simprims/eclipse.vhd
+  - lib/techmap/eclipsee/memory_eclipse.vhd
+  - lib/tech/simprim/vcomponents/vcomponents.vhd
+  - lib/techmap/unisim/memory_versal.vhd
+  - lib/techmap/altera_mf/memory_altera_mf.vhd
+  - lib/techmap/virtex/memory_virtex.vhd
+  - lib/tech/virage/simprims/virage_simprims.vhd
+  - lib/techmap/virage/memory_virage.vhd
+  - lib/techmap/maps/memrwcol.vhd
+  - lib/techmap/unisim/memory_ultrascale.vhd
+  - lib/techmap/maps/syncram_2p.vhd
+  - lib/gaisler/greth/greth_gbit.vhd
+  - lib/eth/core/greth_pkg.vhd
+  - lib/eth/core/eth_rstgen.vhd
+  - lib/eth/core/greth_tx.vhd
+  - lib/eth/core/eth_edcl_ahb_mst.vhd
+  - lib/eth/core/greth_rx.vhd
+  - lib/eth/core/eth_ahb_mst.vhd
+  - lib/eth/core/grethc.vhd
+  - lib/gaisler/greth/greth.vhd
+  - lib/gaisler/greth/grethm.vhd
+  - lib/gaisler/misc/misc.vhd
+  - lib/opencores/ge_1000baseX/ge_1000baseX_comp.vhd
+  - lib/gaisler/greth/adapters/comma_detect.vhd
+  - lib/grlib/dftlib/dftlib.vhd
+  - lib/grlib/dftlib/trstmux.vhd
+  - lib/techmap/alltech/allclkgen.vhd
+  - lib/techmap/maps/grgates.vhd
+  - lib/techmap/maps/syncreg.vhd
+  - lib/techmap/inferred/fifo_inferred.vhd
+  - lib/techmap/maps/syncfifo_2p.vhd
+  - lib/gaisler/greth/adapters/elastic_buffer.vhd
+  - lib/opencores/ge_1000baseX/timescale.v
+  - lib/opencores/ge_1000baseX/ge_1000baseX_regs.v
+  - lib/opencores/ge_1000baseX/ge_1000baseX_constants.v
+  - lib/opencores/ge_1000baseX/decoder_8b10b.v
+  - lib/opencores/ge_1000baseX/encoder_8b10b.v
+  - lib/opencores/ge_1000baseX/ge_1000baseX_tx.v
+  - lib/opencores/ge_1000baseX/ge_1000baseX_an.v
+  - lib/opencores/ge_1000baseX/ge_1000baseX_sync.v
+  - lib/opencores/ge_1000baseX/ge_1000baseX_rx.v
+  - lib/opencores/ge_1000baseX/ge_1000baseX_mdio.v
+  - lib/opencores/ge_1000baseX/ge_1000baseX.v
+  - lib/techmap/stratixiii/serdes_stratixiii.vhd
+  - lib/techmap/virtex5/serdes_unisim.vhd
+  - lib/techmap/maps/serdes.vhd
+  - lib/gaisler/greth/adapters/word_aligner.vhd
+  - lib/gaisler/greth/adapters/sgmii.vhd
+  - lib/gaisler/greth/adapters/gmii_to_mii.vhd
+  - lib/gaisler/greth/greths.vhd

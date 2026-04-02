@@ -1,0 +1,28 @@
+name: mul64
+namespace: grlib
+version: main
+description: 'grlib IP: mul64'
+license: ''
+source:
+  type: git
+  url: https://github.com/TUT-ASI/leon3-grlib-gpl-mirror.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: vhdl-2008
+  library: grlib
+  files:
+  - lib/grlib/stdlib/config_types.vhd
+  - lib/grlib/stdlib/config.vhd
+  - lib/techmap/gencomp/gencomp.vhd
+  - lib/grlib/modgen/multlib.vhd
+  - lib/grlib/stdlib/version.vhd
+  - lib/grlib/stdlib/stdlib.vhd
+  - lib/gaisler/noelv/core/utilnv.vhd
+  - lib/techmap/alltech/allmul.vhd
+  - lib/tech/dware/simprims/DWpackages.vhd
+  - lib/tech/dware/simprims/DW_Foundation_comp_arith.vhd
+  - lib/techmap/grdware/mul_dware.vhd
+  - lib/techmap/inferred/mul_inferred.vhd
+  - lib/techmap/maps/techmult.vhd
+  - lib/gaisler/noelv/core/mul64.vhd

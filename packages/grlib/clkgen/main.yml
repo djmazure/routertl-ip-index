@@ -1,0 +1,30 @@
+name: clkgen
+namespace: grlib
+version: main
+description: 'grlib IP: clkgen'
+license: ''
+source:
+  type: git
+  url: https://github.com/TUT-ASI/leon3-grlib-gpl-mirror.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: vhdl-2008
+  library: grlib
+  files:
+  - lib/grlib/stdlib/config_types.vhd
+  - lib/grlib/stdlib/config.vhd
+  - lib/techmap/gencomp/gencomp.vhd
+  - lib/techmap/alltech/allclkgen.vhd
+  - lib/grlib/stdlib/version.vhd
+  - lib/grlib/stdlib/stdlib.vhd
+  - lib/tech/simprim/vcomponents/vcomponents.vhd
+  - lib/grlib/util/util.vhd
+  - lib/techmap/unisim/clkgen_unisim.vhd
+  - lib/techmap/stratixiii/clkgen_stratixiii.vhd
+  - lib/techmap/stratixii/clkgen_stratixii.vhd
+  - lib/techmap/cycloneiii/cycloneiii_clkgen.vhd
+  - lib/techmap/saed32/clkgen_saed32.vhd
+  - lib/techmap/virtex/clkgen_virtex.vhd
+  - lib/techmap/altera_mf/clkgen_altera_mf.vhd
+  - lib/techmap/maps/clkgen.vhd

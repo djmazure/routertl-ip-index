@@ -1,0 +1,17 @@
+name: s25fl064a
+namespace: grlib
+version: main
+description: 'grlib IP: s25fl064a'
+license: ''
+source:
+  type: git
+  url: https://github.com/TUT-ASI/leon3-grlib-gpl-mirror.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: vhdl-2008
+  library: grlib
+  files:
+  - lib/fmf/utilities/gen_utils.vhd
+  - lib/fmf/utilities/conversions.vhd
+  - lib/fmf/flash/s25fl064a.vhd

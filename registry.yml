@@ -63,3 +63,9 @@ registries:
     tag: v1.9.9
     license: BSD-3-Clause
     description: "NEORV32 RISC-V SoC — 32-bit MCU-class CPU + peripherals, pure VHDL-2008"
+
+  - namespace: grlib
+    url: https://github.com/TUT-ASI/leon3-grlib-gpl-mirror.git
+    tag: main
+    license: GPL-3.0
+    description: "GRLIB GPL — LEON3 SPARC CPU + 1000+ IPs (Ethernet, PCI, SpaceWire, memory controllers)"

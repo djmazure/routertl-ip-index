@@ -1,0 +1,19 @@
+name: regfile64dffnv
+namespace: grlib
+version: main
+description: 'grlib IP: regfile64dffnv'
+license: ''
+source:
+  type: git
+  url: https://github.com/TUT-ASI/leon3-grlib-gpl-mirror.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: vhdl-2008
+  library: grlib
+  files:
+  - lib/grlib/stdlib/version.vhd
+  - lib/grlib/stdlib/stdlib.vhd
+  - lib/grlib/riscv/riscv.vhd
+  - lib/gaisler/noelv/core/utilnv.vhd
+  - lib/gaisler/noelv/core/regfile64dffnv.vhd
