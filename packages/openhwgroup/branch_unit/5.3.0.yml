@@ -1,0 +1,15 @@
+name: branch_unit
+namespace: openhwgroup
+version: 5.3.0
+description: 'openhwgroup IP: branch_unit'
+license: ''
+source:
+  type: git
+  url: https://github.com/openhwgroup/cva6.git
+  tag: v5.3.0
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - core/branch_unit.sv

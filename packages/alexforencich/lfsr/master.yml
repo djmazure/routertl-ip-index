@@ -1,0 +1,15 @@
+name: lfsr
+namespace: alexforencich
+version: master
+description: 'alexforencich IP: lfsr'
+license: ''
+source:
+  type: git
+  url: https://github.com/alexforencich/verilog-ethernet.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - rtl/lfsr.v

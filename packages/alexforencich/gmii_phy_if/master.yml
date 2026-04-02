@@ -1,0 +1,18 @@
+name: gmii_phy_if
+namespace: alexforencich
+version: master
+description: 'alexforencich IP: gmii_phy_if'
+license: ''
+source:
+  type: git
+  url: https://github.com/alexforencich/verilog-ethernet.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - rtl/oddr.v
+  - rtl/ssio_sdr_out.v
+  - rtl/ssio_sdr_in.v
+  - rtl/gmii_phy_if.v

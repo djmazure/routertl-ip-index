@@ -1,0 +1,17 @@
+name: other_file_tests
+namespace: vunit
+version: 4.7.1
+description: 'vunit IP: other_file_tests'
+license: ''
+source:
+  type: git
+  url: https://github.com/VUnit/vunit.git
+  tag: v4.7.1
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: vunit_lib
+  files:
+  - vunit/verilog/vunit_pkg.sv
+  - vunit/verilog/include/vunit_defines.svh
+  - tests/acceptance/artificial/verilog/other_file_tests.sv

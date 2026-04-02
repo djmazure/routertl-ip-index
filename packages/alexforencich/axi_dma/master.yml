@@ -1,0 +1,17 @@
+name: axi_dma
+namespace: alexforencich
+version: master
+description: 'alexforencich IP: axi_dma'
+license: ''
+source:
+  type: git
+  url: https://github.com/alexforencich/verilog-axi.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - rtl/axi_dma_rd.v
+  - rtl/axi_dma_wr.v
+  - rtl/axi_dma.v

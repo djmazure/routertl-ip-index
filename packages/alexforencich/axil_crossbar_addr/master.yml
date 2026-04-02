@@ -1,0 +1,15 @@
+name: axil_crossbar_addr
+namespace: alexforencich
+version: master
+description: 'alexforencich IP: axil_crossbar_addr'
+license: ''
+source:
+  type: git
+  url: https://github.com/alexforencich/verilog-axi.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - rtl/axil_crossbar_addr.v

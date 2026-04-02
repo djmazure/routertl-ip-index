@@ -1,0 +1,18 @@
+name: eth_mac_phy_10g_tx
+namespace: alexforencich
+version: master
+description: 'alexforencich IP: eth_mac_phy_10g_tx'
+license: ''
+source:
+  type: git
+  url: https://github.com/alexforencich/verilog-ethernet.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - rtl/lfsr.v
+  - rtl/axis_baser_tx_64.v
+  - rtl/eth_phy_10g_tx_if.v
+  - rtl/eth_mac_phy_10g_tx.v

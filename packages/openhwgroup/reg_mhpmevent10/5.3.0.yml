@@ -1,0 +1,15 @@
+name: reg_mhpmevent10
+namespace: openhwgroup
+version: 5.3.0
+description: 'openhwgroup IP: reg_mhpmevent10'
+license: ''
+source:
+  type: git
+  url: https://github.com/openhwgroup/cva6.git
+  tag: v5.3.0
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - verif/env/uvme/reg/cva6_csr_reg_file.sv

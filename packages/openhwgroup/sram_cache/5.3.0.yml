@@ -1,0 +1,20 @@
+name: sram_cache
+namespace: openhwgroup
+version: 5.3.0
+description: 'openhwgroup IP: sram_cache'
+license: ''
+source:
+  type: git
+  url: https://github.com/openhwgroup/cva6.git
+  tag: v5.3.0
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - vendor/pulp-platform/fpga-support/rtl/SyncSpRamBeNx64.sv
+  - common/local/util/tc_sram_fpga_wrapper.sv
+  - common/local/util/sram.sv
+  - vendor/pulp-platform/tech_cells_generic/src/fpga/tc_sram_xilinx.sv
+  - common/local/util/tc_sram_wrapper_cache_techno.sv
+  - common/local/util/sram_cache.sv

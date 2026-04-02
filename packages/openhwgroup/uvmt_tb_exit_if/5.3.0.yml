@@ -1,0 +1,15 @@
+name: uvmt_tb_exit_if
+namespace: openhwgroup
+version: 5.3.0
+description: 'openhwgroup IP: uvmt_tb_exit_if'
+license: ''
+source:
+  type: git
+  url: https://github.com/openhwgroup/cva6.git
+  tag: v5.3.0
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - verif/tb/uvmt/uvmt_cva6_tb_ifs.sv

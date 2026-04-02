@@ -1,0 +1,15 @@
+name: instr_trace_item
+namespace: openhwgroup
+version: 5.3.0
+description: 'openhwgroup IP: instr_trace_item'
+license: ''
+source:
+  type: git
+  url: https://github.com/openhwgroup/cva6.git
+  tag: v5.3.0
+  ip_yml_path: .
+routertl_compat:
+  language: vhdl-2008
+  library: work
+  files:
+  - common/local/util/instr_trace_item.svh

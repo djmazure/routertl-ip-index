@@ -1,0 +1,17 @@
+name: axi_axil_adapter
+namespace: alexforencich
+version: master
+description: 'alexforencich IP: axi_axil_adapter'
+license: ''
+source:
+  type: git
+  url: https://github.com/alexforencich/verilog-axi.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - rtl/axi_axil_adapter_wr.v
+  - rtl/axi_axil_adapter_rd.v
+  - rtl/axi_axil_adapter.v

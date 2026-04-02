@@ -1,0 +1,15 @@
+name: udp_checksum_gen
+namespace: alexforencich
+version: master
+description: 'alexforencich IP: udp_checksum_gen'
+license: ''
+source:
+  type: git
+  url: https://github.com/alexforencich/verilog-ethernet.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - rtl/udp_checksum_gen.v

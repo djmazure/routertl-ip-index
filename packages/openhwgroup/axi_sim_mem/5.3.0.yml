@@ -1,0 +1,15 @@
+name: axi_sim_mem
+namespace: openhwgroup
+version: 5.3.0
+description: 'openhwgroup IP: axi_sim_mem'
+license: ''
+source:
+  type: git
+  url: https://github.com/openhwgroup/cva6.git
+  tag: v5.3.0
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - vendor/pulp-platform/axi/src/axi_sim_mem.sv

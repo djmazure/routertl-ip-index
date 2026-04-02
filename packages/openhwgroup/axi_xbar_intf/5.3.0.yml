@@ -1,0 +1,32 @@
+name: axi_xbar_intf
+namespace: openhwgroup
+version: 5.3.0
+description: 'openhwgroup IP: axi_xbar_intf'
+license: ''
+source:
+  type: git
+  url: https://github.com/openhwgroup/cva6.git
+  tag: v5.3.0
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - vendor/pulp-platform/common_cells/src/addr_decode.sv
+  - vendor/pulp-platform/common_cells/src/spill_register_flushable.sv
+  - vendor/pulp-platform/common_cells/src/spill_register.sv
+  - vendor/pulp-platform/common_cells/src/delta_counter.sv
+  - vendor/pulp-platform/common_cells/src/fifo_v3.sv
+  - vendor/pulp-platform/axi/src/axi_pkg.sv
+  - corev_apu/tb/axi_intf.sv
+  - vendor/pulp-platform/common_cells/src/lzc.sv
+  - vendor/pulp-platform/common_cells/src/rr_arb_tree.sv
+  - vendor/pulp-platform/axi/src/axi_demux.sv
+  - vendor/pulp-platform/axi/src/axi_id_prepend.sv
+  - vendor/pulp-platform/axi/src/axi_mux.sv
+  - vendor/pulp-platform/common_cells/src/counter.sv
+  - vendor/pulp-platform/common_cells/src/deprecated/fifo_v2.sv
+  - vendor/pulp-platform/common_cells/src/stream_register.sv
+  - vendor/pulp-platform/axi/src/axi_atop_filter.sv
+  - vendor/pulp-platform/axi/src/axi_err_slv.sv
+  - vendor/pulp-platform/axi/src/axi_xbar.sv

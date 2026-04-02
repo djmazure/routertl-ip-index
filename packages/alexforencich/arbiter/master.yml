@@ -1,0 +1,16 @@
+name: arbiter
+namespace: alexforencich
+version: master
+description: 'alexforencich IP: arbiter'
+license: ''
+source:
+  type: git
+  url: https://github.com/alexforencich/verilog-axi.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - rtl/priority_encoder.v
+  - rtl/arbiter.v

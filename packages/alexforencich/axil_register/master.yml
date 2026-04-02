@@ -1,0 +1,17 @@
+name: axil_register
+namespace: alexforencich
+version: master
+description: 'alexforencich IP: axil_register'
+license: ''
+source:
+  type: git
+  url: https://github.com/alexforencich/verilog-axi.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - rtl/axil_register_wr.v
+  - rtl/axil_register_rd.v
+  - rtl/axil_register.v

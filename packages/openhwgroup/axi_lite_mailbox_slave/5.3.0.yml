@@ -1,0 +1,21 @@
+name: axi_lite_mailbox_slave
+namespace: openhwgroup
+version: 5.3.0
+description: 'openhwgroup IP: axi_lite_mailbox_slave'
+license: ''
+source:
+  type: git
+  url: https://github.com/openhwgroup/cva6.git
+  tag: v5.3.0
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - vendor/pulp-platform/common_cells/src/spill_register_flushable.sv
+  - vendor/pulp-platform/common_cells/src/spill_register.sv
+  - vendor/pulp-platform/common_cells/src/fifo_v3.sv
+  - vendor/pulp-platform/common_cells/src/addr_decode.sv
+  - vendor/pulp-platform/axi/src/axi_pkg.sv
+  - corev_apu/tb/axi_intf.sv
+  - vendor/pulp-platform/axi/src/axi_lite_mailbox.sv

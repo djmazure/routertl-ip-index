@@ -1,0 +1,20 @@
+name: wt_dcache_missunit
+namespace: openhwgroup
+version: 5.3.0
+description: 'openhwgroup IP: wt_dcache_missunit'
+license: ''
+source:
+  type: git
+  url: https://github.com/openhwgroup/cva6.git
+  tag: v5.3.0
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - core/include/ariane_pkg.sv
+  - core/include/wt_cache_pkg.sv
+  - vendor/pulp-platform/common_cells/src/lzc.sv
+  - vendor/pulp-platform/common_cells/src/lfsr.sv
+  - vendor/pulp-platform/common_cells/src/exp_backoff.sv
+  - core/cache_subsystem/wt_dcache_missunit.sv

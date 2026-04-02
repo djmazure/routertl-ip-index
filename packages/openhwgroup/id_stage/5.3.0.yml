@@ -1,0 +1,22 @@
+name: id_stage
+namespace: openhwgroup
+version: 5.3.0
+description: 'openhwgroup IP: id_stage'
+license: ''
+source:
+  type: git
+  url: https://github.com/openhwgroup/cva6.git
+  tag: v5.3.0
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - core/zcmt_decoder.sv
+  - core/compressed_decoder.sv
+  - core/macro_decoder.sv
+  - core/include/ariane_pkg.sv
+  - core/cva6_accel_first_pass_decoder_stub.sv
+  - core/decoder.sv
+  - core/cvxif_compressed_if_driver.sv
+  - core/id_stage.sv

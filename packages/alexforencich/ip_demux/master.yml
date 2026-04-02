@@ -1,0 +1,15 @@
+name: ip_demux
+namespace: alexforencich
+version: master
+description: 'alexforencich IP: ip_demux'
+license: ''
+source:
+  type: git
+  url: https://github.com/alexforencich/verilog-ethernet.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - rtl/ip_demux.v

@@ -1,0 +1,18 @@
+name: axi_dma_regs
+namespace: vunit
+version: 4.7.1
+description: 'vunit IP: axi_dma_regs'
+license: ''
+source:
+  type: git
+  url: https://github.com/VUnit/vunit.git
+  tag: v4.7.1
+  ip_yml_path: .
+routertl_compat:
+  language: vhdl-2008
+  library: vunit_lib
+  files:
+  - examples/vhdl/axi_dma/src/axil_pkg.vhd
+  - examples/vhdl/axi_dma/src/axi_pkg.vhd
+  - examples/vhdl/axi_dma/src/axi_dma_regs_pkg.vhd
+  - examples/vhdl/axi_dma/src/axi_dma_regs.vhd

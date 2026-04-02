@@ -1,0 +1,17 @@
+name: stream_to_mem
+namespace: openhwgroup
+version: 5.3.0
+description: 'openhwgroup IP: stream_to_mem'
+license: ''
+source:
+  type: git
+  url: https://github.com/openhwgroup/cva6.git
+  tag: v5.3.0
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - vendor/pulp-platform/common_cells/src/fifo_v3.sv
+  - vendor/pulp-platform/common_cells/src/stream_fifo.sv
+  - vendor/pulp-platform/common_cells/src/stream_to_mem.sv

@@ -1,0 +1,15 @@
+name: axi_dw_adapter_wr
+namespace: openhwgroup
+version: 5.3.0
+description: 'openhwgroup IP: axi_dw_adapter_wr'
+license: ''
+source:
+  type: git
+  url: https://github.com/openhwgroup/cva6.git
+  tag: v5.3.0
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - corev_apu/fpga/src/axi_dw_adapter/axi_dw_adapter_wr.v

@@ -1,0 +1,16 @@
+name: stream_fork_dynamic
+namespace: openhwgroup
+version: 5.3.0
+description: 'openhwgroup IP: stream_fork_dynamic'
+license: ''
+source:
+  type: git
+  url: https://github.com/openhwgroup/cva6.git
+  tag: v5.3.0
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - vendor/pulp-platform/common_cells/src/stream_fork.sv
+  - vendor/pulp-platform/common_cells/src/stream_fork_dynamic.sv

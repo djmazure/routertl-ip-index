@@ -1,0 +1,42 @@
+name: wt_cache_subsystem
+namespace: openhwgroup
+version: 5.3.0
+description: 'openhwgroup IP: wt_cache_subsystem'
+license: ''
+source:
+  type: git
+  url: https://github.com/openhwgroup/cva6.git
+  tag: v5.3.0
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - core/include/ariane_pkg.sv
+  - core/include/wt_cache_pkg.sv
+  - vendor/pulp-platform/common_cells/src/lzc.sv
+  - vendor/pulp-platform/common_cells/src/lfsr.sv
+  - vendor/pulp-platform/fpga-support/rtl/SyncSpRamBeNx64.sv
+  - common/local/util/tc_sram_fpga_wrapper.sv
+  - common/local/util/sram.sv
+  - vendor/pulp-platform/tech_cells_generic/src/fpga/tc_sram_xilinx.sv
+  - common/local/util/tc_sram_wrapper_cache_techno.sv
+  - common/local/util/sram_cache.sv
+  - core/cache_subsystem/cva6_icache.sv
+  - vendor/pulp-platform/common_cells/src/fifo_v3.sv
+  - vendor/pulp-platform/common_cells/src/deprecated/fifo_v2.sv
+  - vendor/pulp-platform/common_cells/src/rr_arb_tree.sv
+  - vendor/pulp-platform/common_cells/src/deprecated/rrarbiter.sv
+  - core/cache_subsystem/wt_l15_adapter.sv
+  - vendor/pulp-platform/fpga-support/rtl/SyncDpRam_ind_r_w.sv
+  - vendor/pulp-platform/fpga-support/rtl/AsyncDpRam.sv
+  - core/cva6_fifo_v3.sv
+  - core/cache_subsystem/wt_dcache_wbuffer.sv
+  - core/cache_subsystem/wt_dcache_mem.sv
+  - vendor/pulp-platform/common_cells/src/exp_backoff.sv
+  - core/cache_subsystem/wt_dcache_missunit.sv
+  - core/cache_subsystem/wt_dcache_ctrl.sv
+  - core/cache_subsystem/wt_dcache.sv
+  - core/axi_shim.sv
+  - core/cache_subsystem/wt_axi_adapter.sv
+  - core/cache_subsystem/wt_cache_subsystem.sv

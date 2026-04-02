@@ -1,0 +1,19 @@
+name: edge_detect
+namespace: openhwgroup
+version: 5.3.0
+description: 'openhwgroup IP: edge_detect'
+license: ''
+source:
+  type: git
+  url: https://github.com/openhwgroup/cva6.git
+  tag: v5.3.0
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - vendor/pulp-platform/common_cells/src/sync.sv
+  - vendor/pulp-platform/tech_cells_generic/src/fpga/tc_clk_xilinx.sv
+  - vendor/pulp-platform/tech_cells_generic/src/deprecated/pulp_clk_cells.sv
+  - vendor/pulp-platform/common_cells/src/sync_wedge.sv
+  - vendor/pulp-platform/common_cells/src/edge_detect.sv

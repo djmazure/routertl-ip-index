@@ -1,0 +1,19 @@
+name: olo_axi_lite_slave
+namespace: open-logic
+version: 4.4.1
+description: 'open-logic IP: olo_axi_lite_slave'
+license: ''
+source:
+  type: git
+  url: https://github.com/open-logic/open-logic.git
+  tag: 4.4.1
+  ip_yml_path: .
+routertl_compat:
+  language: vhdl-2008
+  library: olo
+  files:
+  - src/axi/vhdl/olo_axi_pkg_protocol.vhd
+  - src/base/vhdl/olo_base_pkg_array.vhd
+  - src/base/vhdl/olo_base_pkg_math.vhd
+  - src/base/vhdl/olo_base_pkg_logic.vhd
+  - src/axi/vhdl/olo_axi_lite_slave.vhd

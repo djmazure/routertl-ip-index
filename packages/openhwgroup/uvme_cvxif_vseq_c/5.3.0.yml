@@ -1,0 +1,16 @@
+name: uvme_cvxif_vseq_c
+namespace: openhwgroup
+version: 5.3.0
+description: 'openhwgroup IP: uvme_cvxif_vseq_c'
+license: ''
+source:
+  type: git
+  url: https://github.com/openhwgroup/cva6.git
+  tag: v5.3.0
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - verif/env/uvme/cvxif_vseq/uvme_cvxif_base_vseq.sv
+  - verif/env/uvme/cvxif_vseq/uvme_cvxif_vseq.sv

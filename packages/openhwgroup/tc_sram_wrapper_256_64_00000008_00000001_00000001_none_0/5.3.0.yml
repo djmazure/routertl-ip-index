@@ -1,0 +1,16 @@
+name: tc_sram_wrapper_256_64_00000008_00000001_00000001_none_0
+namespace: openhwgroup
+version: 5.3.0
+description: 'openhwgroup IP: tc_sram_wrapper_256_64_00000008_00000001_00000001_none_0'
+license: ''
+source:
+  type: git
+  url: https://github.com/openhwgroup/cva6.git
+  tag: v5.3.0
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - vendor/pulp-platform/tech_cells_generic/src/fpga/tc_sram_xilinx.sv
+  - pd/synth/tc_sram_wrapper_256_64_00000008_00000001_00000001_none_0.sv

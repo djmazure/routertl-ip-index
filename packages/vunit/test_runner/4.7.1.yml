@@ -1,0 +1,15 @@
+name: test_runner
+namespace: vunit
+version: 4.7.1
+description: 'vunit IP: test_runner'
+license: ''
+source:
+  type: git
+  url: https://github.com/VUnit/vunit.git
+  tag: v4.7.1
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: vunit_lib
+  files:
+  - vunit/verilog/vunit_pkg.sv

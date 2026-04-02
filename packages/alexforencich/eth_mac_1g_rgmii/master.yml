@@ -1,0 +1,27 @@
+name: eth_mac_1g_rgmii
+namespace: alexforencich
+version: master
+description: 'alexforencich IP: eth_mac_1g_rgmii'
+license: ''
+source:
+  type: git
+  url: https://github.com/alexforencich/verilog-ethernet.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - rtl/mac_ctrl_rx.v
+  - rtl/mac_pause_ctrl_rx.v
+  - rtl/mac_pause_ctrl_tx.v
+  - rtl/mac_ctrl_tx.v
+  - rtl/lfsr.v
+  - rtl/axis_gmii_tx.v
+  - rtl/axis_gmii_rx.v
+  - rtl/eth_mac_1g.v
+  - rtl/iddr.v
+  - rtl/ssio_ddr_in.v
+  - rtl/oddr.v
+  - rtl/rgmii_phy_if.v
+  - rtl/eth_mac_1g_rgmii.v

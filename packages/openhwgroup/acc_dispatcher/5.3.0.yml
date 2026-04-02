@@ -1,0 +1,26 @@
+name: acc_dispatcher
+namespace: openhwgroup
+version: 5.3.0
+description: 'openhwgroup IP: acc_dispatcher'
+license: ''
+source:
+  type: git
+  url: https://github.com/openhwgroup/cva6.git
+  tag: v5.3.0
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - core/include/ariane_pkg.sv
+  - core/pmp/include/riscv.sv
+  - vendor/pulp-platform/common_cells/src/cf_math_pkg.sv
+  - vendor/pulp-platform/common_cells/src/delta_counter.sv
+  - vendor/pulp-platform/common_cells/src/counter.sv
+  - vendor/pulp-platform/common_cells/src/fifo_v3.sv
+  - vendor/pulp-platform/common_cells/src/deprecated/fifo_v2.sv
+  - vendor/pulp-platform/common_cells/src/fall_through_register.sv
+  - vendor/pulp-platform/fpga-support/rtl/SyncDpRam_ind_r_w.sv
+  - vendor/pulp-platform/fpga-support/rtl/AsyncDpRam.sv
+  - core/cva6_fifo_v3.sv
+  - core/acc_dispatcher.sv

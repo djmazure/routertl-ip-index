@@ -27,3 +27,33 @@ registries:
     tag: main
     license: MIT
     description: "CameraLink controller for Xilinx UltraScale devices"
+
+  - namespace: alexforencich
+    url: https://github.com/alexforencich/verilog-axi.git
+    tag: master
+    license: MIT
+    description: "AXI4, AXI4-Lite, AXI4-Stream — crossbar, DMA, FIFO, adapter, interconnect"
+
+  - namespace: alexforencich
+    url: https://github.com/alexforencich/verilog-ethernet.git
+    tag: master
+    license: MIT
+    description: "Ethernet MAC, PHY, UDP/IP stack — 1G/10G/25G, RGMII, XGMII, PTP"
+
+  - namespace: enclustra
+    url: https://github.com/enclustra/en_cl_fix.git
+    tag: "2.3.0"
+    license: MIT
+    description: "Fixed-point arithmetic — resize, round, saturate"
+
+  - namespace: vunit
+    url: https://github.com/VUnit/vunit.git
+    tag: v4.7.1
+    license: MPL-2.0
+    description: "VHDL/SV verification framework — AXI, Avalon, UART, Wishbone bus masters"
+
+  - namespace: openhwgroup
+    url: https://github.com/openhwgroup/cva6.git
+    tag: v5.3.0
+    license: Apache-2.0
+    description: "CVA6 RISC-V CPU — 6-stage pipeline, RV32/64, Linux-capable"

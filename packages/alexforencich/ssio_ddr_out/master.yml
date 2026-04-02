@@ -1,0 +1,16 @@
+name: ssio_ddr_out
+namespace: alexforencich
+version: master
+description: 'alexforencich IP: ssio_ddr_out'
+license: ''
+source:
+  type: git
+  url: https://github.com/alexforencich/verilog-ethernet.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - rtl/oddr.v
+  - rtl/ssio_ddr_out.v

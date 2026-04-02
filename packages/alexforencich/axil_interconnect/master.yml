@@ -1,0 +1,17 @@
+name: axil_interconnect
+namespace: alexforencich
+version: master
+description: 'alexforencich IP: axil_interconnect'
+license: ''
+source:
+  type: git
+  url: https://github.com/alexforencich/verilog-axi.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - rtl/priority_encoder.v
+  - rtl/arbiter.v
+  - rtl/axil_interconnect.v

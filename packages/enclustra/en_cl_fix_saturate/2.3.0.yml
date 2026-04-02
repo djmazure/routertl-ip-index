@@ -1,0 +1,17 @@
+name: en_cl_fix_saturate
+namespace: enclustra
+version: 2.3.0
+description: 'enclustra IP: en_cl_fix_saturate'
+license: ''
+source:
+  type: git
+  url: https://github.com/enclustra/en_cl_fix.git
+  tag: 2.3.0
+  ip_yml_path: .
+routertl_compat:
+  language: vhdl-2008
+  library: en_tb
+  files:
+  - hdl/en_cl_fix_private_pkg.vhd
+  - hdl/en_cl_fix_pkg.vhd
+  - hdl/en_cl_fix_saturate.vhd

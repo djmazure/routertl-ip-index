@@ -1,0 +1,15 @@
+name: dut
+namespace: vunit
+version: 4.7.1
+description: 'vunit IP: dut'
+license: ''
+source:
+  type: git
+  url: https://github.com/VUnit/vunit.git
+  tag: v4.7.1
+  ip_yml_path: .
+routertl_compat:
+  language: vhdl-2008
+  library: vunit_lib
+  files:
+  - docs/id/src/dut.vhd
