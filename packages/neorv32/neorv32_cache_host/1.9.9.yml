@@ -1,0 +1,17 @@
+name: neorv32_cache_host
+namespace: neorv32
+version: 1.9.9
+description: 'neorv32 IP: neorv32_cache_host'
+license: ''
+source:
+  type: git
+  url: https://github.com/stnolting/neorv32.git
+  tag: v1.9.9
+  ip_yml_path: .
+routertl_compat:
+  language: vhdl-2008
+  library: neorv32
+  files:
+  - rtl/core/neorv32_package.vhd
+  - rtl/core/neorv32_intercon.vhd
+  - rtl/core/neorv32_cache.vhd

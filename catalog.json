@@ -2106,6 +2106,825 @@
     "source_url": "https://github.com/enclustra/en_cl_fix.git"
   },
   {
+    "namespace": "neorv32",
+    "name": "neoTRNG",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neoTRNG",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neoTRNG_cell",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neoTRNG_cell",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_ProcessorTop_Minimal",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_ProcessorTop_Minimal",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_ProcessorTop_MinimalBoot",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_ProcessorTop_MinimalBoot",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_ProcessorTop_UP5KDemo",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_ProcessorTop_UP5KDemo",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_SystemTop_axi4lite",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_SystemTop_axi4lite",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_boot_rom",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_boot_rom",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_bus_gateway",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_bus_gateway",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_bus_io_switch",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_bus_io_switch",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_bus_reservation_set",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_bus_reservation_set",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_bus_switch",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_bus_switch",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_cache",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_cache",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_cache_bus",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_cache_bus",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_cache_host",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_cache_host",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_cache_memory",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_cache_memory",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_cfs",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_cfs",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_clockgate",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_clockgate",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_cpu",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_cpu",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_cpu_alu",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_cpu_alu",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_cpu_control",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_cpu_control",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_cpu_cp_bitmanip",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_cpu_cp_bitmanip",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_cpu_cp_cfu",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_cpu_cp_cfu",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_cpu_cp_cond",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_cpu_cp_cond",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_cpu_cp_fpu",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_cpu_cp_fpu",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_cpu_cp_fpu_f2i",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_cpu_cp_fpu_f2i",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_cpu_cp_fpu_normalizer",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_cpu_cp_fpu_normalizer",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_cpu_cp_muldiv",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_cpu_cp_muldiv",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_cpu_cp_shifter",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_cpu_cp_shifter",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_cpu_decompressor",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_cpu_decompressor",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_cpu_lsu",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_cpu_lsu",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_cpu_pmp",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_cpu_pmp",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_cpu_regfile",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_cpu_regfile",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_crc",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_crc",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_debug_dm",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_debug_dm",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_debug_dtm",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_debug_dtm",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_dma",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_dma",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_dmem",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_dmem",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_fifo",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_fifo",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_gpio",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_gpio",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_gptmr",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_gptmr",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_imem",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_imem",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_litex_core_complex",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_litex_core_complex",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_mtime",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_mtime",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_neoled",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_neoled",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_onewire",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_onewire",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_pwm",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_pwm",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_sdi",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_sdi",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_slink",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_slink",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_spi",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_spi",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_sysinfo",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_sysinfo",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_test_on_chip_debugger",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_test_on_chip_debugger",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_test_setup_approm",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_test_setup_approm",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_test_setup_bootloader",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_test_setup_bootloader",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_top",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_top",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_top_avalonmm",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_top_avalonmm",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_trng",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_trng",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_twi",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_twi",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_uart",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_uart",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_wdt",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_wdt",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_xbus",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_xbus",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_xip",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_xip",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_xip_phy",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_xip_phy",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
+    "namespace": "neorv32",
+    "name": "neorv32_xirq",
+    "latest": "1.9.9",
+    "versions": [
+      "1.9.9"
+    ],
+    "description": "neorv32 IP: neorv32_xirq",
+    "license": "",
+    "language": "vhdl-2008",
+    "library": "neorv32",
+    "source_url": "https://github.com/stnolting/neorv32.git"
+  },
+  {
     "namespace": "open-logic",
     "name": "olo_axi_lite_slave",
     "latest": "4.4.1",
