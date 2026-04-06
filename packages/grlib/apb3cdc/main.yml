@@ -19,10 +19,10 @@ routertl_compat:
   - lib/grlib/amba/amba.vhd
   - lib/techmap/gencomp/gencomp.vhd
   - lib/techmap/alltech/allclkgen.vhd
-  - lib/techmap/saed32/clkgen_saed32.vhd
   - lib/tech/simprim/vcomponents/vcomponents.vhd
   - lib/grlib/util/util.vhd
   - lib/techmap/unisim/clkgen_unisim.vhd
+  - lib/techmap/saed32/clkgen_saed32.vhd
   - lib/techmap/maps/clkand.vhd
   - lib/techmap/maps/grgates.vhd
   - lib/techmap/maps/cdcbus.vhd

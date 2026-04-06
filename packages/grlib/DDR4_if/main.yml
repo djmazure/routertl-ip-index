@@ -12,6 +12,6 @@ routertl_compat:
   language: systemverilog
   library: grlib
   files:
-  - designs/leon3-xilinx-kcu105/model/arch_defines.v
-  - designs/leon3-xilinx-kcu105/model/arch_package.sv
-  - designs/leon3-xilinx-kcu105/model/interface.sv
+  - designs/leon5-xilinx-kcu105/model/arch_defines.v
+  - designs/leon5-xilinx-kcu105/model/arch_package.sv
+  - designs/leon5-xilinx-kcu105/model/interface.sv

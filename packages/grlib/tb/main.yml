@@ -12,12 +12,10 @@ routertl_compat:
   language: systemverilog
   library: grlib
   files:
-  - designs/leon3-xilinx-kcu105/model/arch_defines.v
-  - designs/leon3-xilinx-kcu105/model/dimm.vh
-  - designs/leon3-xilinx-kcu105/model/timing_tasks.sv
-  - designs/leon3-xilinx-kcu105/model/dimm_subtest.vh
-  - designs/leon3-xilinx-kcu105/model/arch_package.sv
-  - designs/leon3-xilinx-kcu105/model/proj_package.sv
-  - designs/leon3-xilinx-kcu105/model/interface.sv
-  - designs/leon3-xilinx-kcu105/model/dimm_interface.sv
-  - designs/leon3-xilinx-kcu105/model/dimm_tb.sv
+  - designs/leon5-xilinx-kcu105/model/arch_defines.v
+  - designs/leon5-xilinx-kcu105/model/timing_tasks.sv
+  - designs/leon5-xilinx-kcu105/model/subtest.vh
+  - designs/leon5-xilinx-kcu105/model/arch_package.sv
+  - designs/leon5-xilinx-kcu105/model/proj_package.sv
+  - designs/leon5-xilinx-kcu105/model/interface.sv
+  - designs/leon5-xilinx-kcu105/model/tb.sv

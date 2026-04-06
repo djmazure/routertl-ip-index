@@ -14,7 +14,7 @@ routertl_compat:
   files:
   - lib/grlib/stdlib/version.vhd
   - lib/grlib/stdlib/stdlib.vhd
-  - lib/grlib/sparc/sparc.vhd
+  - lib/grlib/riscv/riscv.vhd
   - lib/grlib/stdlib/testlib.vhd
-  - lib/grlib/sparc/sparc_disas.vhd
-  - lib/work/debug/cpu_disas.vhd
+  - lib/grlib/riscv/riscv_disas.vhd
+  - lib/grlib/riscv/cpu_disas.vhd

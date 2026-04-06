@@ -12,12 +12,12 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - core/include/ariane_pkg.sv
   - core/include/wt_cache_pkg.sv
-  - vendor/pulp-platform/fpga-support/rtl/SyncDpRam_ind_r_w.sv
+  - core/include/ariane_pkg.sv
   - vendor/pulp-platform/fpga-support/rtl/AsyncDpRam.sv
+  - vendor/pulp-platform/fpga-support/rtl/SyncDpRam_ind_r_w.sv
   - core/cva6_fifo_v3.sv
-  - core/axi_shim.sv
   - vendor/pulp-platform/common_cells/src/lzc.sv
   - vendor/pulp-platform/common_cells/src/rr_arb_tree.sv
+  - core/axi_shim.sv
   - core/cache_subsystem/wt_axi_adapter.sv

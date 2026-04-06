@@ -13,10 +13,10 @@ routertl_compat:
   library: grlib
   files:
   - lib/grlib/generic_bm/generic_bm_pkg.vhd
-  - lib/grlib/generic_bm/fifo_control_wc.vhd
+  - lib/grlib/generic_bm/bm_fre.vhd
   - lib/grlib/generic_bm/bm_me_wc.vhd
-  - lib/grlib/generic_bm/bm_me_rc.vhd
   - lib/grlib/generic_bm/axi4_be.vhd
   - lib/grlib/generic_bm/fifo_control_rc.vhd
-  - lib/grlib/generic_bm/bm_fre.vhd
+  - lib/grlib/generic_bm/fifo_control_wc.vhd
+  - lib/grlib/generic_bm/bm_me_rc.vhd
   - lib/grlib/generic_bm/generic_bm_axi.vhd

@@ -20,7 +20,7 @@ routertl_compat:
   - lib/grlib/amba/devices.vhd
   - lib/techmap/gencomp/gencomp.vhd
   - lib/gaisler/misc/misc.vhd
-  - lib/grlib/util/util.vhd
   - lib/techmap/unisim/sysmon_unisim.vhd
   - lib/techmap/maps/system_monitor.vhd
+  - lib/grlib/util/util.vhd
   - lib/gaisler/misc/grsysmon.vhd

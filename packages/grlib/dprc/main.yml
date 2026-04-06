@@ -22,38 +22,38 @@ routertl_compat:
   - lib/techmap/gencomp/gencomp.vhd
   - lib/testgrouppolito/pr/dprc_pkg.vhd
   - lib/tech/simprim/vcomponents/vcomponents.vhd
+  - lib/grlib/amba/dma2ahb.vhd
   - lib/techmap/alltech/allclkgen.vhd
-  - lib/techmap/maps/grgates.vhd
-  - lib/techmap/maps/syncreg.vhd
+  - lib/techmap/saed32/clkgen_saed32.vhd
+  - lib/grlib/util/util.vhd
+  - lib/techmap/unisim/clkgen_unisim.vhd
+  - lib/techmap/stratixiii/clkgen_stratixiii.vhd
+  - lib/techmap/virtex/clkgen_virtex.vhd
+  - lib/techmap/stratixii/clkgen_stratixii.vhd
+  - lib/techmap/cycloneiii/cycloneiii_clkgen.vhd
+  - lib/techmap/altera_mf/clkgen_altera_mf.vhd
+  - lib/techmap/maps/clkgen.vhd
   - lib/techmap/alltech/allmem.vhd
-  - lib/techmap/unisim/memory_kintex7.vhd
-  - lib/techmap/ec/memory_ec.vhd
-  - lib/techmap/inferred/memory_inferred.vhd
-  - lib/techmap/unisim/memory_unisim.vhd
+  - lib/techmap/maps/memrwcol.vhd
   - lib/techmap/saed32/memory_saed32.vhd
+  - lib/techmap/inferred/memory_inferred.vhd
+  - lib/techmap/virtex/memory_virtex.vhd
+  - lib/techmap/unisim/memory_versal.vhd
+  - lib/techmap/unisim/memory_ultrascale.vhd
+  - lib/tech/virage/simprims/virage_simprims.vhd
+  - lib/techmap/virage/memory_virage.vhd
+  - lib/techmap/ec/memory_ec.vhd
+  - lib/techmap/unisim/memory_kintex7.vhd
+  - lib/techmap/altera_mf/memory_altera_mf.vhd
   - lib/techmap/nexus/memory_nexus.vhd
   - lib/tech/eclipsee/simprims/eclipse.vhd
   - lib/techmap/eclipsee/memory_eclipse.vhd
-  - lib/techmap/unisim/memory_versal.vhd
-  - lib/techmap/altera_mf/memory_altera_mf.vhd
-  - lib/techmap/virtex/memory_virtex.vhd
-  - lib/tech/virage/simprims/virage_simprims.vhd
-  - lib/techmap/virage/memory_virage.vhd
-  - lib/techmap/maps/memrwcol.vhd
-  - lib/techmap/unisim/memory_ultrascale.vhd
+  - lib/techmap/unisim/memory_unisim.vhd
   - lib/techmap/maps/syncram_2p.vhd
+  - lib/techmap/maps/grgates.vhd
+  - lib/techmap/maps/syncreg.vhd
   - lib/testgrouppolito/pr/d2prc.vhd
-  - lib/grlib/util/util.vhd
-  - lib/grlib/amba/dma2ahb.vhd
-  - lib/testgrouppolito/pr/sync_dprc.vhd
-  - lib/techmap/unisim/clkgen_unisim.vhd
-  - lib/techmap/stratixiii/clkgen_stratixiii.vhd
-  - lib/techmap/stratixii/clkgen_stratixii.vhd
-  - lib/techmap/cycloneiii/cycloneiii_clkgen.vhd
-  - lib/techmap/saed32/clkgen_saed32.vhd
-  - lib/techmap/virtex/clkgen_virtex.vhd
-  - lib/techmap/altera_mf/clkgen_altera_mf.vhd
-  - lib/techmap/maps/clkgen.vhd
   - lib/testgrouppolito/pr/async_dprc.vhd
   - lib/testgrouppolito/pr/d2prc_edac.vhd
+  - lib/testgrouppolito/pr/sync_dprc.vhd
   - lib/testgrouppolito/pr/dprc.vhd

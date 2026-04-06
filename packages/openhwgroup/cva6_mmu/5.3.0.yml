@@ -13,12 +13,12 @@ routertl_compat:
   library: work
   files:
   - core/include/ariane_pkg.sv
-  - core/cva6_mmu/cva6_tlb.sv
   - vendor/pulp-platform/common_cells/src/lzc.sv
-  - vendor/pulp-platform/common_cells/src/deprecated/sram.sv
-  - vendor/pulp-platform/common_cells/src/lfsr.sv
-  - core/cva6_mmu/cva6_shared_tlb.sv
   - core/pmp/src/pmp_entry.sv
   - core/pmp/src/pmp.sv
   - core/cva6_mmu/cva6_ptw.sv
+  - vendor/pulp-platform/common_cells/src/lfsr.sv
+  - vendor/pulp-platform/common_cells/src/deprecated/sram.sv
+  - core/cva6_mmu/cva6_shared_tlb.sv
+  - core/cva6_mmu/cva6_tlb.sv
   - core/cva6_mmu/cva6_mmu.sv

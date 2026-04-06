@@ -24,22 +24,22 @@ routertl_compat:
   - lib/opencores/can/cancomp.vhd
   - lib/opencores/can/can_top.vhd
   - lib/techmap/alltech/allmem.vhd
-  - lib/techmap/unisim/memory_kintex7.vhd
-  - lib/techmap/ec/memory_ec.vhd
-  - lib/techmap/inferred/memory_inferred.vhd
-  - lib/techmap/unisim/memory_unisim.vhd
+  - lib/techmap/maps/memrwcol.vhd
   - lib/techmap/saed32/memory_saed32.vhd
+  - lib/techmap/inferred/memory_inferred.vhd
+  - lib/techmap/virtex/memory_virtex.vhd
+  - lib/tech/simprim/vcomponents/vcomponents.vhd
+  - lib/techmap/unisim/memory_versal.vhd
+  - lib/techmap/unisim/memory_ultrascale.vhd
+  - lib/tech/virage/simprims/virage_simprims.vhd
+  - lib/techmap/virage/memory_virage.vhd
+  - lib/techmap/ec/memory_ec.vhd
+  - lib/techmap/unisim/memory_kintex7.vhd
+  - lib/techmap/altera_mf/memory_altera_mf.vhd
   - lib/techmap/nexus/memory_nexus.vhd
   - lib/tech/eclipsee/simprims/eclipse.vhd
   - lib/techmap/eclipsee/memory_eclipse.vhd
-  - lib/tech/simprim/vcomponents/vcomponents.vhd
-  - lib/techmap/unisim/memory_versal.vhd
-  - lib/techmap/altera_mf/memory_altera_mf.vhd
-  - lib/techmap/virtex/memory_virtex.vhd
-  - lib/tech/virage/simprims/virage_simprims.vhd
-  - lib/techmap/virage/memory_virage.vhd
-  - lib/techmap/maps/memrwcol.vhd
-  - lib/techmap/unisim/memory_ultrascale.vhd
+  - lib/techmap/unisim/memory_unisim.vhd
   - lib/techmap/maps/syncram_2p.vhd
   - lib/gaisler/can/can_mod.vhd
   - lib/gaisler/can/can_oc.vhd

@@ -23,6 +23,6 @@ routertl_compat:
   - lib/techmap/alltech/allclkgen.vhd
   - lib/techmap/maps/grgates.vhd
   - lib/techmap/maps/scanreg.vhd
-  - lib/gaisler/jtag/bscanregs.vhd
   - lib/gaisler/jtag/bscanregsbd.vhd
+  - lib/gaisler/jtag/bscanregs.vhd
   - designs/leon3-asic/bschain.vhd

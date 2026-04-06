@@ -16,15 +16,15 @@ routertl_compat:
   - lib/grlib/stdlib/config.vhd
   - lib/techmap/gencomp/gencomp.vhd
   - lib/techmap/alltech/allclkgen.vhd
+  - lib/techmap/saed32/clkgen_saed32.vhd
   - lib/grlib/stdlib/version.vhd
   - lib/grlib/stdlib/stdlib.vhd
   - lib/tech/simprim/vcomponents/vcomponents.vhd
   - lib/grlib/util/util.vhd
   - lib/techmap/unisim/clkgen_unisim.vhd
   - lib/techmap/stratixiii/clkgen_stratixiii.vhd
+  - lib/techmap/virtex/clkgen_virtex.vhd
   - lib/techmap/stratixii/clkgen_stratixii.vhd
   - lib/techmap/cycloneiii/cycloneiii_clkgen.vhd
-  - lib/techmap/saed32/clkgen_saed32.vhd
-  - lib/techmap/virtex/clkgen_virtex.vhd
   - lib/techmap/altera_mf/clkgen_altera_mf.vhd
   - lib/techmap/maps/clkgen.vhd

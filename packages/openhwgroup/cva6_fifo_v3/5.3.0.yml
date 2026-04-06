@@ -12,6 +12,6 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - vendor/pulp-platform/fpga-support/rtl/SyncDpRam_ind_r_w.sv
   - vendor/pulp-platform/fpga-support/rtl/AsyncDpRam.sv
+  - vendor/pulp-platform/fpga-support/rtl/SyncDpRam_ind_r_w.sv
   - core/cva6_fifo_v3.sv

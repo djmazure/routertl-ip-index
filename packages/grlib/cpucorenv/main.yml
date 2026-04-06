@@ -30,72 +30,68 @@ routertl_compat:
   - lib/gaisler/noelv/core/noelvtypes.vhd
   - lib/gaisler/noelv/pkg/noelv_cpu_cfg.vhd
   - lib/gaisler/noelv/core/noelvint.vhd
+  - lib/techmap/alltech/allmem.vhd
+  - lib/techmap/ec/memory_ec.vhd
+  - lib/techmap/inferred/memory_inferred.vhd
+  - lib/tech/virage/simprims/virage_simprims.vhd
+  - lib/techmap/virage/memory_virage.vhd
+  - lib/tech/simprim/vcomponents/vcomponents.vhd
+  - lib/techmap/unisim/memory_ultrascale.vhd
+  - lib/techmap/saed32/memory_saed32.vhd
+  - lib/tech/umc18/components/umc_simprims.vhd
+  - lib/techmap/umc18/memory_umc18.vhd
+  - lib/techmap/nexus/memory_nexus.vhd
+  - lib/techmap/unisim/memory_kintex7.vhd
+  - lib/techmap/unisim/memory_unisim.vhd
+  - lib/techmap/altera_mf/memory_altera_mf.vhd
+  - lib/techmap/unisim/memory_versal.vhd
+  - lib/techmap/virtex/memory_virtex.vhd
+  - lib/techmap/alltech/allclkgen.vhd
+  - lib/techmap/maps/grgates.vhd
+  - lib/tech/eclipsee/simprims/eclipse.vhd
+  - lib/techmap/eclipsee/memory_eclipse.vhd
+  - lib/techmap/maps/syncram.vhd
+  - lib/gaisler/l5nv/shared/snoopmem5.vhd
+  - lib/gaisler/noelv/core/regfile64dffnv.vhd
   - lib/gaisler/noelv/core/nvsupport.vhd
   - lib/gaisler/noelv/core/fputilnv.vhd
+  - lib/grlib/stdlib/testlib.vhd
+  - lib/grlib/riscv/riscv_disas.vhd
+  - lib/grlib/riscv/cpu_disas.vhd
+  - lib/gaisler/noelv/core/itracenv.vhd
   - lib/gaisler/noelv/core/mulfp.vhd
   - lib/gaisler/noelv/core/nanofpunv.vhd
+  - lib/gaisler/noelv/core/interrupt_file.vhd
+  - lib/gaisler/noelv/core/imsic_int_files.vhd
+  - lib/techmap/maps/syncram64.vhd
+  - lib/gaisler/noelv/core/tbufmemnv.vhd
+  - lib/gaisler/noelv/core/rasnv.vhd
+  - lib/gaisler/noelv/core/mmuconfig.vhd
+  - lib/gaisler/noelv/core/alunv.vhd
+  - lib/gaisler/noelv/core/iunv.vhd
+  - lib/techmap/maps/memrwcol.vhd
+  - lib/techmap/maps/syncram_2p.vhd
+  - lib/gaisler/noelv/core/bhtnv.vhd
   - lib/gaisler/noelv/core/btbdmnv.vhd
+  - lib/gaisler/noelv/core/div64.vhd
+  - lib/gaisler/noelv/core/regfile64sramnv.vhd
   - lib/grlib/modgen/multlib.vhd
   - lib/techmap/alltech/allmul.vhd
   - lib/tech/dware/simprims/DWpackages.vhd
   - lib/tech/dware/simprims/DW_Foundation_comp_arith.vhd
-  - lib/techmap/grdware/mul_dware.vhd
+  - lib/techmap/dware/mul_dware.vhd
   - lib/techmap/inferred/mul_inferred.vhd
   - lib/techmap/maps/techmult.vhd
   - lib/gaisler/noelv/core/mul64.vhd
-  - lib/gaisler/noelv/core/rasnv.vhd
-  - lib/gaisler/noelv/core/div64.vhd
   - lib/grlib/sparc/sparc.vhd
-  - lib/gaisler/noelv/core/mmuconfig.vhd
-  - lib/gaisler/noelv/core/alunv.vhd
   - lib/gaisler/noelv/core/cctrl5nv.vhd
-  - lib/techmap/alltech/allmem.vhd
-  - lib/techmap/unisim/memory_kintex7.vhd
-  - lib/techmap/ec/memory_ec.vhd
-  - lib/techmap/inferred/memory_inferred.vhd
-  - lib/techmap/unisim/memory_unisim.vhd
-  - lib/techmap/saed32/memory_saed32.vhd
-  - lib/techmap/nexus/memory_nexus.vhd
-  - lib/tech/eclipsee/simprims/eclipse.vhd
-  - lib/techmap/eclipsee/memory_eclipse.vhd
-  - lib/tech/simprim/vcomponents/vcomponents.vhd
-  - lib/techmap/unisim/memory_versal.vhd
-  - lib/techmap/altera_mf/memory_altera_mf.vhd
-  - lib/techmap/virtex/memory_virtex.vhd
-  - lib/tech/virage/simprims/virage_simprims.vhd
-  - lib/techmap/virage/memory_virage.vhd
-  - lib/techmap/maps/memrwcol.vhd
-  - lib/techmap/unisim/memory_ultrascale.vhd
-  - lib/techmap/maps/syncram_2p.vhd
-  - lib/gaisler/noelv/core/regfile64sramnv.vhd
-  - lib/gaisler/noelv/core/interrupt_file.vhd
-  - lib/gaisler/noelv/core/imsic_int_files.vhd
-  - lib/gaisler/noelv/core/bhtnv.vhd
-  - lib/gaisler/noelv/core/regfile64dffnv.vhd
-  - lib/techmap/alltech/allclkgen.vhd
-  - lib/techmap/maps/grgates.vhd
-  - lib/tech/umc18/components/umc_simprims.vhd
-  - lib/techmap/umc18/memory_umc18.vhd
-  - lib/techmap/maps/syncram.vhd
-  - lib/techmap/maps/syncram64.vhd
-  - lib/gaisler/noelv/core/tbufmemnv.vhd
-  - lib/grlib/stdlib/testlib.vhd
-  - lib/grlib/sparc/sparc_disas.vhd
-  - lib/work/debug/cpu_disas.vhd
-  - lib/gaisler/noelv/core/itracenv.vhd
-  - lib/gaisler/noelv/core/iunv.vhd
   - lib/gaisler/noelv/core/cpucorenvbc.vhd
-  - lib/gaisler/arith/arith.vhd
-  - lib/gaisler/leon5/leon5.vhd
-  - lib/gaisler/leon5v0/leon5int.vhd
-  - lib/gaisler/leon5v0/cpucore5int.vhd
-  - lib/techmap/maps/syncramlb.vhd
   - lib/techmap/maps/syncram_dp.vhd
+  - lib/techmap/maps/syncramlb.vhd
   - lib/techmap/maps/syncrambw.vhd
-  - lib/gaisler/leon5v0/tcmwrap5.vhd
-  - lib/gaisler/leon5v0/cachemem5.vhd
+  - lib/gaisler/l5nv/shared/tcmwrap5.vhd
+  - lib/gaisler/l5nv/shared/cachemem5.vhd
   - lib/gaisler/noelv/core/cpucorenvb.vhd
-  - lib/gaisler/l5nv/shared/snoopmem5.vhd
   - lib/gaisler/l5nv/shared/busif5rdb.vhd
   - lib/gaisler/l5nv/shared/busif5x.vhd
   - lib/gaisler/l5nv/shared/busif5.vhd

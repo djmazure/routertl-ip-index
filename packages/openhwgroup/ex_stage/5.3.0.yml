@@ -13,33 +13,33 @@ routertl_compat:
   library: work
   files:
   - core/include/ariane_pkg.sv
-  - core/cvxif_fu.sv
-  - vendor/pulp-platform/common_cells/src/lzc.sv
-  - core/serdiv.sv
-  - core/multiplier.sv
-  - core/mult.sv
-  - core/branch_unit.sv
-  - core/fpu_wrap.sv
   - core/csr_buffer.sv
+  - vendor/pulp-platform/common_cells/src/lzc.sv
+  - core/load_unit.sv
+  - vendor/pulp-platform/fpga-support/rtl/AsyncDpRam.sv
+  - vendor/pulp-platform/fpga-support/rtl/SyncDpRam_ind_r_w.sv
+  - core/cva6_fifo_v3.sv
+  - core/amo_buffer.sv
+  - core/store_buffer.sv
+  - core/store_unit.sv
   - core/lsu_bypass.sv
-  - core/cva6_mmu/cva6_tlb.sv
-  - vendor/pulp-platform/common_cells/src/deprecated/sram.sv
-  - vendor/pulp-platform/common_cells/src/lfsr.sv
-  - core/cva6_mmu/cva6_shared_tlb.sv
+  - vendor/pulp-platform/common_cells/src/shift_reg.sv
   - core/pmp/src/pmp_entry.sv
   - core/pmp/src/pmp.sv
   - core/cva6_mmu/cva6_ptw.sv
+  - vendor/pulp-platform/common_cells/src/lfsr.sv
+  - vendor/pulp-platform/common_cells/src/deprecated/sram.sv
+  - core/cva6_mmu/cva6_shared_tlb.sv
+  - core/cva6_mmu/cva6_tlb.sv
   - core/cva6_mmu/cva6_mmu.sv
-  - core/store_buffer.sv
-  - vendor/pulp-platform/fpga-support/rtl/SyncDpRam_ind_r_w.sv
-  - vendor/pulp-platform/fpga-support/rtl/AsyncDpRam.sv
-  - core/cva6_fifo_v3.sv
-  - core/amo_buffer.sv
-  - core/store_unit.sv
-  - vendor/pulp-platform/common_cells/src/shift_reg.sv
-  - core/load_unit.sv
   - core/pmp/src/pmp_data_if.sv
   - core/load_store_unit.sv
   - vendor/pulp-platform/common_cells/src/popcount.sv
   - core/alu.sv
+  - core/branch_unit.sv
+  - core/cvxif_fu.sv
+  - core/fpu_wrap.sv
+  - core/multiplier.sv
+  - core/serdiv.sv
+  - core/mult.sv
   - core/ex_stage.sv

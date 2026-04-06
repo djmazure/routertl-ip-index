@@ -22,6 +22,6 @@ routertl_compat:
   - lib/techmap/gencomp/gencomp.vhd
   - lib/gaisler/misc/misc.vhd
   - lib/gaisler/uart/libdcom.vhd
-  - lib/gaisler/uart/dcom.vhd
   - lib/grlib/util/util.vhd
+  - lib/gaisler/uart/dcom.vhd
   - designs/leon3-ahbfile/ahbfile.vhd

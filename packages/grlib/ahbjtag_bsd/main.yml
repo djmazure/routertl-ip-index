@@ -22,6 +22,6 @@ routertl_compat:
   - lib/gaisler/jtag/libjtagcom.vhd
   - lib/gaisler/jtag/jtag.vhd
   - lib/grlib/util/util.vhd
-  - lib/gaisler/jtag/jtagcom.vhd
   - lib/grlib/amba/ahbmst.vhd
+  - lib/gaisler/jtag/jtagcom.vhd
   - lib/gaisler/jtag/ahbjtag_bsd.vhd

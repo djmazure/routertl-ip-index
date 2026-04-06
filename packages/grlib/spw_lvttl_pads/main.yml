@@ -22,9 +22,9 @@ routertl_compat:
   - lib/tech/umc18/components/umc_simprims.vhd
   - lib/techmap/umc18/pads_umc18.vhd
   - lib/techmap/nexus/pads_nexus.vhd
-  - lib/techmap/saed32/pads_saed32.vhd
   - lib/tech/atc18/components/atmel_simprims.vhd
   - lib/techmap/atc18/pads_atc18.vhd
-  - lib/techmap/maps/outpad.vhd
+  - lib/techmap/saed32/pads_saed32.vhd
   - lib/techmap/maps/inpad.vhd
+  - lib/techmap/maps/outpad.vhd
   - designs/leon3-asic/spw_lvttl_pads.vhd

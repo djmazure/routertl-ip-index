@@ -17,8 +17,8 @@ routertl_compat:
   - corev_apu/tb/tb_serdiv/hdl/tb_urem.sv
   - corev_apu/tb/tb_serdiv/hdl/tb_div.sv
   - corev_apu/tb/tb_serdiv/hdl/tb_rem.sv
-  - core/include/ariane_pkg.sv
   - corev_apu/tb/tb_serdiv/hdl/tb_pkg.sv
+  - core/include/ariane_pkg.sv
   - vendor/pulp-platform/common_cells/src/lzc.sv
   - core/serdiv.sv
   - corev_apu/tb/tb_serdiv/hdl/tb.sv

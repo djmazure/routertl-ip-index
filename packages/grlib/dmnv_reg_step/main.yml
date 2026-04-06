@@ -21,10 +21,10 @@ routertl_compat:
   - lib/gaisler/l5nv/shared/busif5_types.vhd
   - lib/gaisler/l5nv/shared/l5nv_shared.vhd
   - lib/techmap/alltech/allclkgen.vhd
-  - lib/techmap/saed32/clkgen_saed32.vhd
   - lib/tech/simprim/vcomponents/vcomponents.vhd
   - lib/grlib/util/util.vhd
   - lib/techmap/unisim/clkgen_unisim.vhd
+  - lib/techmap/saed32/clkgen_saed32.vhd
   - lib/techmap/maps/clkand.vhd
   - lib/techmap/maps/grgates.vhd
   - lib/techmap/maps/cdcbus.vhd

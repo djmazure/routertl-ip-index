@@ -12,4 +12,4 @@ routertl_compat:
   language: vhdl-2008
   library: grlib
   files:
-  - designs/leon3-gr-cpci-xc4v/dprc_fir_demo/fir_v2.vhd
+  - designs/leon3-digilent-nexys4ddr/dprc_fir_demo/fir_v1.vhd

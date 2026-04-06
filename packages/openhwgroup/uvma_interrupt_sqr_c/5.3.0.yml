@@ -12,8 +12,8 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - verif/env/uvme/uvma_interrupt/seq/uvma_interrupt_seq_item.sv
+  - verif/env/uvme/uvma_interrupt/uvma_interrupt_cfg.sv
   - verif/env/uvme/uvma_interrupt/uvma_interrupt_if.sv
   - verif/env/uvme/uvma_interrupt/uvma_interrupt_cntxt.sv
-  - verif/env/uvme/uvma_interrupt/uvma_interrupt_cfg.sv
+  - verif/env/uvme/uvma_interrupt/seq/uvma_interrupt_seq_item.sv
   - verif/env/uvme/uvma_interrupt/uvma_interrupt_sqr.sv

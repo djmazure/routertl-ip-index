@@ -9,7 +9,7 @@ source:
   tag: main
   ip_yml_path: .
 routertl_compat:
-  language: vhdl-2008-relaxed
+  language: vhdl-2008
   library: grlib
   files:
   - lib/techmap/unisim/buffer_unisim.vhd

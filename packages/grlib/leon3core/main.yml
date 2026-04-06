@@ -29,73 +29,73 @@ routertl_compat:
   - lib/gaisler/spacewire/spacewire.vhd
   - lib/gaisler/net/net.vhd
   - lib/esa/memoryctrl/memoryctrl.vhd
-  - lib/techmap/gencomp/netcomp.vhd
-  - lib/grlib/util/util.vhd
-  - lib/techmap/unisim/spictrl_unisim.vhd
-  - lib/techmap/maps/spictrl_net.vhd
-  - lib/techmap/alltech/allmem.vhd
-  - lib/techmap/unisim/memory_kintex7.vhd
-  - lib/techmap/ec/memory_ec.vhd
-  - lib/techmap/inferred/memory_inferred.vhd
-  - lib/techmap/unisim/memory_unisim.vhd
-  - lib/techmap/saed32/memory_saed32.vhd
-  - lib/techmap/nexus/memory_nexus.vhd
-  - lib/tech/eclipsee/simprims/eclipse.vhd
-  - lib/techmap/eclipsee/memory_eclipse.vhd
-  - lib/tech/simprim/vcomponents/vcomponents.vhd
-  - lib/techmap/unisim/memory_versal.vhd
-  - lib/techmap/altera_mf/memory_altera_mf.vhd
-  - lib/techmap/virtex/memory_virtex.vhd
-  - lib/tech/virage/simprims/virage_simprims.vhd
-  - lib/techmap/virage/memory_virage.vhd
-  - lib/techmap/maps/memrwcol.vhd
-  - lib/techmap/unisim/memory_ultrascale.vhd
-  - lib/techmap/maps/syncram_2p.vhd
-  - lib/gaisler/spi/spictrlx.vhd
-  - lib/gaisler/spi/spictrl.vhd
-  - lib/techmap/alltech/alltap.vhd
   - lib/techmap/alltech/allclkgen.vhd
+  - lib/tech/simprim/vcomponents/vcomponents.vhd
+  - lib/grlib/util/util.vhd
+  - lib/techmap/unisim/clkgen_unisim.vhd
+  - lib/techmap/saed32/clkgen_saed32.vhd
+  - lib/techmap/maps/clkand.vhd
+  - lib/grlib/dftlib/dftlib.vhd
+  - lib/gaisler/jtag/libjtagcom.vhd
+  - lib/grlib/dftlib/trstmux.vhd
+  - lib/gaisler/jtag/jtagcom.vhd
   - lib/techmap/nexus/buffer_nexus.vhd
   - lib/techmap/unisim/buffer_unisim.vhd
   - lib/techmap/maps/techbuf.vhd
+  - lib/grlib/amba/ahbmst.vhd
+  - lib/techmap/maps/grgates.vhd
+  - lib/gaisler/jtag/jtagcom2.vhd
+  - lib/techmap/alltech/alltap.vhd
   - lib/techmap/unisim/tap_unisim.vhd
   - bin/altera/altera_mf.vhd
   - lib/techmap/altera_mf/tap_altera_mf.vhd
   - lib/techmap/nexus/tap_nexus.vhd
-  - lib/techmap/maps/grgates.vhd
-  - lib/techmap/saed32/clkgen_saed32.vhd
-  - lib/techmap/unisim/clkgen_unisim.vhd
   - lib/techmap/maps/clkmux.vhd
   - lib/techmap/maps/tap.vhd
-  - lib/techmap/maps/clkand.vhd
-  - lib/gaisler/misc/ahbstat.vhd
-  - lib/gaisler/misc/grgpio.vhd
+  - lib/gaisler/jtag/ahbjtag.vhd
   - lib/techmap/maps/syncreg.vhd
   - lib/gaisler/misc/rstgen.vhd
-  - lib/grlib/dftlib/dftlib.vhd
-  - lib/gaisler/jtag/libjtagcom.vhd
-  - lib/gaisler/jtag/jtagcom.vhd
-  - lib/grlib/amba/ahbmst.vhd
-  - lib/gaisler/jtag/jtagcom2.vhd
-  - lib/grlib/dftlib/trstmux.vhd
-  - lib/gaisler/jtag/ahbjtag.vhd
+  - lib/gaisler/misc/ahbstat.vhd
+  - lib/techmap/gencomp/netcomp.vhd
+  - lib/techmap/alltech/allmem.vhd
+  - lib/techmap/maps/memrwcol.vhd
+  - lib/techmap/saed32/memory_saed32.vhd
+  - lib/techmap/inferred/memory_inferred.vhd
+  - lib/techmap/virtex/memory_virtex.vhd
+  - lib/techmap/unisim/memory_versal.vhd
+  - lib/techmap/unisim/memory_ultrascale.vhd
+  - lib/tech/virage/simprims/virage_simprims.vhd
+  - lib/techmap/virage/memory_virage.vhd
+  - lib/techmap/ec/memory_ec.vhd
+  - lib/techmap/unisim/memory_kintex7.vhd
+  - lib/techmap/altera_mf/memory_altera_mf.vhd
+  - lib/techmap/nexus/memory_nexus.vhd
+  - lib/tech/eclipsee/simprims/eclipse.vhd
+  - lib/techmap/eclipsee/memory_eclipse.vhd
+  - lib/techmap/unisim/memory_unisim.vhd
+  - lib/techmap/maps/syncram_2p.vhd
+  - lib/gaisler/spi/spictrlx.vhd
+  - lib/techmap/unisim/spictrl_unisim.vhd
+  - lib/techmap/maps/spictrl_net.vhd
+  - lib/gaisler/spi/spictrl.vhd
+  - lib/gaisler/misc/grgpio.vhd
+  - lib/gaisler/greth/ethernet_mac.vhd
+  - lib/eth/comp/ethcomp.vhd
+  - lib/eth/core/greth_pkg.vhd
+  - lib/eth/core/eth_rstgen.vhd
+  - lib/eth/core/greth_tx.vhd
+  - lib/eth/core/eth_ahb_mst.vhd
+  - lib/eth/core/greth_rx.vhd
+  - lib/eth/core/eth_edcl_ahb_mst.vhd
+  - lib/eth/core/grethc.vhd
+  - lib/gaisler/greth/greth.vhd
+  - lib/gaisler/greth/greth_gbit.vhd
+  - lib/gaisler/greth/grethm.vhd
   - lib/opencores/i2c/i2coc.vhd
   - lib/opencores/i2c/i2c_master_bit_ctrl.vhd
   - lib/opencores/i2c/i2c_master_byte_ctrl.vhd
   - lib/gaisler/i2c/i2cmst.vhd
-  - lib/techmap/maps/clkinv.vhd
   - lib/gaisler/memctrl/sdmctrl.vhd
   - lib/esa/memoryctrl/mctrl.vhd
-  - lib/gaisler/greth/ethernet_mac.vhd
-  - lib/eth/comp/ethcomp.vhd
-  - lib/gaisler/greth/greth_gbit.vhd
-  - lib/eth/core/greth_pkg.vhd
-  - lib/eth/core/eth_rstgen.vhd
-  - lib/eth/core/greth_tx.vhd
-  - lib/eth/core/eth_edcl_ahb_mst.vhd
-  - lib/eth/core/greth_rx.vhd
-  - lib/eth/core/eth_ahb_mst.vhd
-  - lib/eth/core/grethc.vhd
-  - lib/gaisler/greth/greth.vhd
-  - lib/gaisler/greth/grethm.vhd
+  - lib/techmap/maps/clkinv.vhd
   - designs/leon3-asic/leon3core.vhd

@@ -23,21 +23,21 @@ routertl_compat:
   - lib/gaisler/misc/misc.vhd
   - lib/techmap/alltech/allclkgen.vhd
   - lib/eth/core/greth_pkg.vhd
-  - lib/techmap/maps/grgates.vhd
-  - lib/techmap/maps/syncreg.vhd
   - lib/techmap/alltech/allddr.vhd
   - lib/tech/simprim/vcomponents/vcomponents.vhd
   - lib/techmap/unisim/ddr_unisim.vhd
+  - lib/techmap/nexus/ddr_nexus.vhd
+  - lib/techmap/inferred/ddr_inferred.vhd
+  - lib/techmap/maps/ddr_ireg.vhd
   - lib/tech/ec/orca/global.vhd
-  - lib/micron/sdram/components.vhd
+  - lib/cypress/ssram/components.vhd
   - lib/tech/ec/orca/orca.vhd
   - lib/techmap/ec/ddr_ec.vhd
-  - lib/techmap/inferred/ddr_inferred.vhd
   - lib/techmap/maps/ddr_oreg.vhd
+  - lib/techmap/maps/grgates.vhd
+  - lib/techmap/maps/syncreg.vhd
   - lib/grlib/util/util.vhd
   - lib/techmap/saed32/clkgen_saed32.vhd
   - lib/techmap/unisim/clkgen_unisim.vhd
   - lib/techmap/maps/clkmux.vhd
-  - lib/techmap/nexus/ddr_nexus.vhd
-  - lib/techmap/maps/ddr_ireg.vhd
   - lib/gaisler/greth/adapters/rgmii_series6.vhd

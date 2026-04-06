@@ -17,22 +17,22 @@ routertl_compat:
   - lib/techmap/gencomp/gencomp.vhd
   - lib/techmap/alltech/allddr.vhd
   - lib/techmap/alltech/allpads.vhd
-  - lib/tech/simprim/vcomponents/vcomponents.vhd
-  - lib/techmap/unisim/ddr_unisim.vhd
-  - lib/tech/ec/orca/global.vhd
-  - lib/micron/sdram/components.vhd
-  - lib/tech/ec/orca/orca.vhd
-  - lib/techmap/ec/ddr_ec.vhd
-  - lib/techmap/inferred/ddr_inferred.vhd
-  - lib/techmap/maps/ddr_oreg.vhd
-  - lib/techmap/unisim/pads_unisim.vhd
+  - lib/techmap/saed32/pads_saed32.vhd
+  - lib/techmap/nexus/pads_nexus.vhd
   - lib/grlib/stdlib/version.vhd
   - lib/grlib/stdlib/stdlib.vhd
   - lib/tech/umc18/components/umc_simprims.vhd
   - lib/techmap/umc18/pads_umc18.vhd
-  - lib/techmap/nexus/pads_nexus.vhd
-  - lib/techmap/saed32/pads_saed32.vhd
   - lib/tech/atc18/components/atmel_simprims.vhd
   - lib/techmap/atc18/pads_atc18.vhd
+  - lib/techmap/unisim/pads_unisim.vhd
   - lib/techmap/maps/outpad.vhd
+  - lib/tech/ec/orca/global.vhd
+  - lib/cypress/ssram/components.vhd
+  - lib/tech/ec/orca/orca.vhd
+  - lib/techmap/ec/ddr_ec.vhd
+  - lib/tech/simprim/vcomponents/vcomponents.vhd
+  - lib/techmap/unisim/ddr_unisim.vhd
+  - lib/techmap/inferred/ddr_inferred.vhd
+  - lib/techmap/maps/ddr_oreg.vhd
   - lib/techmap/maps/outpad_ddr.vhd

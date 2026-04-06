@@ -18,11 +18,11 @@ routertl_compat:
   - lib/techmap/alltech/alltap.vhd
   - lib/grlib/stdlib/version.vhd
   - lib/grlib/stdlib/stdlib.vhd
+  - lib/techmap/unisim/tap_unisim.vhd
   - lib/techmap/alltech/allclkgen.vhd
   - lib/techmap/nexus/buffer_nexus.vhd
   - lib/techmap/unisim/buffer_unisim.vhd
   - lib/techmap/maps/techbuf.vhd
-  - lib/techmap/unisim/tap_unisim.vhd
   - bin/altera/altera_mf.vhd
   - lib/techmap/altera_mf/tap_altera_mf.vhd
   - lib/techmap/nexus/tap_nexus.vhd

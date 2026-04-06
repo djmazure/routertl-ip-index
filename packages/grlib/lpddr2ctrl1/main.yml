@@ -12,6 +12,4 @@ routertl_compat:
   language: vhdl-2008
   library: grlib
   files:
-  - lib/grlib/stdlib/version.vhd
-  - lib/grlib/stdlib/stdlib.vhd
-  - designs/leon3-altera-c5ekit/memifsim.vhd
+  - boards/altera-c5ekit/lpddr2ctrl1.vhd

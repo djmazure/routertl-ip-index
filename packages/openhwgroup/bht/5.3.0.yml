@@ -12,6 +12,6 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - vendor/pulp-platform/fpga-support/rtl/SyncThreePortRam.sv
   - vendor/pulp-platform/fpga-support/rtl/AsyncThreePortRam.sv
+  - vendor/pulp-platform/fpga-support/rtl/SyncThreePortRam.sv
   - core/frontend/bht.sv

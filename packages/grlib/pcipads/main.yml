@@ -21,17 +21,17 @@ routertl_compat:
   - lib/grlib/amba/devices.vhd
   - lib/gaisler/pci/pci.vhd
   - lib/techmap/alltech/allpads.vhd
-  - lib/techmap/unisim/pads_unisim.vhd
-  - lib/tech/atc18/components/atmel_simprims.vhd
-  - lib/techmap/atc18/pads_atc18.vhd
+  - lib/techmap/saed32/pads_saed32.vhd
   - lib/techmap/nexus/pads_nexus.vhd
   - lib/tech/umc18/components/umc_simprims.vhd
   - lib/techmap/umc18/pads_umc18.vhd
-  - lib/techmap/maps/odpad.vhd
-  - lib/techmap/saed32/pads_saed32.vhd
+  - lib/tech/atc18/components/atmel_simprims.vhd
+  - lib/techmap/atc18/pads_atc18.vhd
+  - lib/techmap/unisim/pads_unisim.vhd
   - lib/techmap/maps/outpad.vhd
+  - lib/techmap/maps/inpad.vhd
+  - lib/techmap/maps/iopad.vhd
+  - lib/techmap/maps/odpad.vhd
   - lib/techmap/maps/iodpad.vhd
   - lib/techmap/maps/toutpad.vhd
-  - lib/techmap/maps/iopad.vhd
-  - lib/techmap/maps/inpad.vhd
   - lib/gaisler/pci/pcipads.vhd

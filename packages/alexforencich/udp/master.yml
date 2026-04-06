@@ -13,6 +13,6 @@ routertl_compat:
   library: work
   files:
   - rtl/udp_ip_rx.v
-  - rtl/udp_ip_tx.v
   - rtl/udp_checksum_gen.v
+  - rtl/udp_ip_tx.v
   - rtl/udp.v

@@ -14,4 +14,4 @@ routertl_compat:
   files:
   - lib/grlib/stdlib/version.vhd
   - lib/grlib/stdlib/stdlib.vhd
-  - lib/tech/dware/simprims/DWpackages.vhd
+  - lib/tech/snps/dw02/comp/DW02_components.vhd

@@ -14,6 +14,6 @@ routertl_compat:
   files:
   - vendor/pulp-platform/common_cells/src/delta_counter.sv
   - vendor/pulp-platform/common_cells/src/counter.sv
-  - vendor/pulp-platform/common_cells/src/lzc.sv
   - vendor/pulp-platform/axi/src/axi_intf.sv
+  - vendor/pulp-platform/common_cells/src/lzc.sv
   - vendor/pulp-platform/axi/src/axi_id_remap.sv

@@ -19,7 +19,7 @@ routertl_compat:
   - lib/grlib/amba/amba.vhd
   - lib/grlib/amba/devices.vhd
   - lib/gaisler/plic/plic.vhd
-  - lib/gaisler/plic/plic_encoder.vhd
   - lib/gaisler/plic/plic_target.vhd
   - lib/gaisler/plic/plic_gateway.vhd
+  - lib/gaisler/plic/plic_encoder.vhd
   - lib/gaisler/plic/grplic_ahb.vhd

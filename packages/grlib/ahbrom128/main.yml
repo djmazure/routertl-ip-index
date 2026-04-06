@@ -19,4 +19,4 @@ routertl_compat:
   - lib/grlib/amba/amba.vhd
   - lib/grlib/amba/devices.vhd
   - lib/grlib/util/util.vhd
-  - designs/noelv-digilent-arty-a7/rtl/ahbrom128.vhd
+  - designs/noelv-lattice-lfcpnx-versa-evn/rtl/ahbrom128.vhd

@@ -12,7 +12,7 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - rtl/xgmii_baser_enc_64.v
   - rtl/lfsr.v
   - rtl/eth_phy_10g_tx_if.v
+  - rtl/xgmii_baser_enc_64.v
   - rtl/eth_phy_10g_tx.v

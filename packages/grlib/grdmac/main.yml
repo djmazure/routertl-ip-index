@@ -20,28 +20,28 @@ routertl_compat:
   - lib/grlib/amba/amba.vhd
   - lib/gaisler/grdmac/grdmac_pkg.vhd
   - lib/grlib/amba/devices.vhd
+  - lib/gaisler/grdmac/grdmac_ahbmst.vhd
   - lib/techmap/alltech/allmem.vhd
+  - lib/techmap/ec/memory_ec.vhd
   - lib/techmap/inferred/memory_inferred.vhd
-  - lib/techmap/unisim/memory_unisim.vhd
-  - lib/techmap/alltech/allclkgen.vhd
-  - lib/techmap/maps/grgates.vhd
-  - lib/techmap/saed32/memory_saed32.vhd
-  - lib/techmap/unisim/memory_kintex7.vhd
-  - lib/tech/simprim/vcomponents/vcomponents.vhd
-  - lib/techmap/unisim/memory_ultrascale.vhd
-  - lib/techmap/nexus/memory_nexus.vhd
-  - lib/tech/eclipsee/simprims/eclipse.vhd
-  - lib/techmap/eclipsee/memory_eclipse.vhd
-  - lib/techmap/virtex/memory_virtex.vhd
   - lib/tech/virage/simprims/virage_simprims.vhd
   - lib/techmap/virage/memory_virage.vhd
-  - lib/techmap/unisim/memory_versal.vhd
-  - lib/techmap/altera_mf/memory_altera_mf.vhd
-  - lib/techmap/ec/memory_ec.vhd
+  - lib/tech/simprim/vcomponents/vcomponents.vhd
+  - lib/techmap/unisim/memory_ultrascale.vhd
+  - lib/techmap/saed32/memory_saed32.vhd
   - lib/tech/umc18/components/umc_simprims.vhd
   - lib/techmap/umc18/memory_umc18.vhd
+  - lib/techmap/nexus/memory_nexus.vhd
+  - lib/techmap/unisim/memory_kintex7.vhd
+  - lib/techmap/unisim/memory_unisim.vhd
+  - lib/techmap/altera_mf/memory_altera_mf.vhd
+  - lib/techmap/unisim/memory_versal.vhd
+  - lib/techmap/virtex/memory_virtex.vhd
+  - lib/techmap/alltech/allclkgen.vhd
+  - lib/techmap/maps/grgates.vhd
+  - lib/tech/eclipsee/simprims/eclipse.vhd
+  - lib/techmap/eclipsee/memory_eclipse.vhd
   - lib/techmap/maps/syncram.vhd
   - lib/techmap/maps/syncrambw.vhd
   - lib/gaisler/grdmac/grdmac_alignram.vhd
-  - lib/gaisler/grdmac/grdmac_ahbmst.vhd
   - lib/gaisler/grdmac/grdmac.vhd

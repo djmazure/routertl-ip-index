@@ -20,4 +20,4 @@ routertl_compat:
   - lib/grlib/stdlib/stdlib.vhd
   - lib/grlib/util/util.vhd
   - lib/techmap/virtex/clkgen_virtex.vhd
-  - designs/leon3-xilinx-sp605/vga_clkgen.vhd
+  - designs/leon3-gr-xc6s/vga_clkgen.vhd

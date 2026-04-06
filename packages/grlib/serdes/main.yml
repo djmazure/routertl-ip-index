@@ -17,7 +17,7 @@ routertl_compat:
   - lib/techmap/gencomp/gencomp.vhd
   - lib/grlib/stdlib/version.vhd
   - lib/grlib/stdlib/stdlib.vhd
-  - lib/techmap/stratixiii/serdes_stratixiii.vhd
   - lib/tech/simprim/vcomponents/vcomponents.vhd
   - lib/techmap/virtex5/serdes_unisim.vhd
+  - lib/techmap/stratixiii/serdes_stratixiii.vhd
   - lib/techmap/maps/serdes.vhd

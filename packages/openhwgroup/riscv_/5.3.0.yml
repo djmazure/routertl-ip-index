@@ -13,8 +13,8 @@ routertl_compat:
   library: work
   files:
   - verif/env/corev-dv/cva6_instr_gen_config.sv
+  - verif/env/corev-dv/custom/riscv_zcmp_instr.sv
   - verif/env/corev-dv/custom/cvxif_custom_instr.sv
   - verif/env/corev-dv/custom/riscv_zicond_instr.sv
   - verif/env/corev-dv/custom/riscv_zcb_instr.sv
-  - verif/env/corev-dv/custom/riscv_zcmp_instr.sv
   - verif/env/corev-dv/cva6_defines.svh

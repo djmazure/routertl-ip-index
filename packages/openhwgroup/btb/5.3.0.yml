@@ -12,6 +12,6 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - vendor/pulp-platform/common_cells/src/unread.sv
   - vendor/pulp-platform/fpga-support/rtl/SyncDpRam.sv
+  - vendor/pulp-platform/common_cells/src/unread.sv
   - core/frontend/btb.sv

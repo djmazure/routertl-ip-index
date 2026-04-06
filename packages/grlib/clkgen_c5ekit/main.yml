@@ -15,5 +15,5 @@ routertl_compat:
   - lib/grlib/stdlib/config_types.vhd
   - lib/grlib/stdlib/config.vhd
   - lib/techmap/gencomp/gencomp.vhd
-  - designs/leon3-altera-c5ekit/pllsim.vhd
+  - boards/altera-c5ekit/syspll1.vhd
   - designs/leon3-altera-c5ekit/clkgen_c5ekit.vhd

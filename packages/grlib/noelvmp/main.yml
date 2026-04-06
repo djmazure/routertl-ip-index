@@ -30,151 +30,148 @@ routertl_compat:
   - lib/gaisler/noelv/pkg/noelv_cfg_32.vhd
   - lib/gaisler/noelv/pkg/noelv.vhd
   - lib/gaisler/sim/sim.vhd
-  - designs/noelv-digilent-arty-a7/cfg/config_local.vhd
-  - designs/noelv-generic/rtl/core/rev.vhd
+  - designs/noelv-lattice-lfcpnx-versa-evn/cfg/config_local.vhd
   - designs/noelv-generic/rtl/core/cfgmap.vhd
   - lib/techmap/alltech/allpads.vhd
   - lib/techmap/unisim/pads_unisim.vhd
   - lib/tech/umc18/components/umc_simprims.vhd
   - lib/techmap/umc18/pads_umc18.vhd
   - lib/techmap/nexus/pads_nexus.vhd
-  - lib/techmap/saed32/pads_saed32.vhd
   - lib/tech/atc18/components/atmel_simprims.vhd
   - lib/techmap/atc18/pads_atc18.vhd
+  - lib/techmap/saed32/pads_saed32.vhd
+  - lib/techmap/maps/inpad.vhd
   - lib/techmap/maps/outpad.vhd
-  - designs/noelv-digilent-arty-a7/rtl/axi_mig3_7series.vhd
+  - lib/grlib/util/util.vhd
+  - designs/noelv-lattice-lfcpnx-versa-evn/rtl/ahbrom64.vhd
   - lib/gaisler/l2c_lite/l2c_lite.vhd
   - lib/gaisler/nandfctrl2/nandfctrl2_pkg.vhd
   - lib/gaisler/canfd/canfd.vhd
   - lib/gaisler/hssl/hssl.vhd
   - lib/gaisler/spacewire/spacewire.vhd
-  - lib/grlib/generic_bm/generic_bm_pkg.vhd
-  - lib/techmap/alltech/allmem.vhd
-  - lib/techmap/unisim/memory_kintex7.vhd
-  - lib/techmap/ec/memory_ec.vhd
-  - lib/techmap/inferred/memory_inferred.vhd
-  - lib/techmap/unisim/memory_unisim.vhd
-  - lib/techmap/saed32/memory_saed32.vhd
-  - lib/techmap/nexus/memory_nexus.vhd
-  - lib/tech/eclipsee/simprims/eclipse.vhd
-  - lib/techmap/eclipsee/memory_eclipse.vhd
-  - lib/tech/simprim/vcomponents/vcomponents.vhd
-  - lib/techmap/unisim/memory_versal.vhd
-  - lib/techmap/altera_mf/memory_altera_mf.vhd
-  - lib/techmap/virtex/memory_virtex.vhd
-  - lib/tech/virage/simprims/virage_simprims.vhd
-  - lib/techmap/virage/memory_virage.vhd
-  - lib/techmap/maps/memrwcol.vhd
-  - lib/techmap/unisim/memory_ultrascale.vhd
-  - lib/techmap/maps/syncram_2p.vhd
-  - lib/gaisler/l2c_lite/l2c_lite_core.vhd
-  - lib/grlib/generic_bm/fifo_control_wc.vhd
-  - lib/grlib/generic_bm/bm_me_wc.vhd
-  - lib/grlib/generic_bm/bmahbmst.vhd
-  - lib/grlib/generic_bm/ahb_be.vhd
-  - lib/grlib/generic_bm/bm_me_rc.vhd
-  - lib/grlib/generic_bm/fifo_control_rc.vhd
-  - lib/grlib/generic_bm/bm_fre.vhd
-  - lib/grlib/generic_bm/generic_bm_ahb.vhd
-  - lib/gaisler/l2c_lite/l2c_lite_ahb.vhd
-  - lib/gaisler/greth/ethernet_mac.vhd
-  - lib/eth/comp/ethcomp.vhd
-  - lib/grlib/util/util.vhd
-  - lib/eth/core/greth_pkg.vhd
-  - lib/eth/core/eth_rstgen.vhd
-  - lib/eth/core/greth_tx.vhd
-  - lib/eth/core/eth_edcl_ahb_mst.vhd
-  - lib/eth/core/greth_rx.vhd
-  - lib/eth/core/eth_ahb_mst.vhd
-  - lib/eth/core/grethc.vhd
-  - lib/gaisler/greth/greth_mb.vhd
-  - lib/gaisler/greth/greth_gbit_mb.vhd
-  - lib/gaisler/greth/grethm_mb.vhd
-  - lib/gaisler/misc/ahbstat.vhd
-  - lib/gaisler/uart/libdcom.vhd
-  - lib/gaisler/uart/dcom.vhd
-  - lib/grlib/amba/ahbmst.vhd
-  - lib/gaisler/uart/dcom_uart.vhd
-  - lib/gaisler/uart/ahbuart.vhd
-  - lib/grlib/generic_bm/axi4_be.vhd
-  - lib/grlib/generic_bm/generic_bm_axi.vhd
-  - lib/gaisler/l2c_lite/l2c_lite_axi3.vhd
-  - lib/gaisler/aplic/aplic.vhd
-  - lib/grlib/amba/ahbctrl.vhd
-  - lib/gaisler/uart/apbuart.vhd
-  - lib/gaisler/noelv/aclint/aclint_ahb.vhd
-  - lib/gaisler/misc/gptimer.vhd
-  - lib/gaisler/noelv/dm/dmnvint.vhd
-  - lib/gaisler/l5nv/shared/busif5_types.vhd
-  - lib/gaisler/l5nv/shared/l5nv_shared.vhd
-  - lib/techmap/alltech/allclkgen.vhd
-  - lib/techmap/maps/grgates.vhd
-  - lib/techmap/umc18/memory_umc18.vhd
-  - lib/techmap/maps/syncram.vhd
-  - lib/techmap/maps/syncram64.vhd
-  - lib/gaisler/l5nv/shared/tbufmemnv_mbus.vhd
-  - lib/gaisler/l5nv/shared/dmnv_trace.vhd
-  - lib/gaisler/noelv/dm/progbuf.vhd
-  - lib/gaisler/noelv/dm/dmnvx.vhd
-  - lib/gaisler/l5nv/shared/dmnv_ahbs.vhd
-  - lib/gaisler/l5nv/shared/dmnv_ic_busport.vhd
-  - lib/gaisler/l5nv/shared/dmnv_ic_dmaport.vhd
-  - lib/gaisler/l5nv/shared/dmnv_ic_ebp.vhd
-  - lib/gaisler/l5nv/shared/dmnv_ic.vhd
-  - lib/gaisler/noelv/dm/dmnv.vhd
-  - lib/gaisler/noelv/pkg/noelv_cpu_cfg.vhd
-  - lib/gaisler/noelv/subsys/noelvcpu.vhd
-  - lib/gaisler/aplic/aplic_encoder.vhd
-  - lib/gaisler/aplic/graplic_ahb.vhd
-  - lib/grlib/amba/apbctrlx.vhd
-  - lib/grlib/amba/apbctrl.vhd
-  - lib/gaisler/uart/apbuart_16550.vhd
-  - lib/gaisler/noelv/imsic/imsic_ahb.vhd
-  - lib/gaisler/plic/plic_encoder.vhd
-  - lib/gaisler/plic/plic_target.vhd
-  - lib/gaisler/plic/plic_gateway.vhd
-  - lib/gaisler/plic/grplic_ahb.vhd
-  - lib/gaisler/noelv/subsys/noelvsys.vhd
-  - lib/techmap/maps/syncreg.vhd
-  - lib/gaisler/misc/rstgen.vhd
+  - designs/noelv-generic/rtl/core/rev.vhd
+  - lib/grlib/dftlib/dftlib.vhd
   - lib/gaisler/jtag/libjtagcom.vhd
+  - lib/grlib/dftlib/trstmux.vhd
   - lib/gaisler/jtag/jtagcom.vhd
-  - lib/techmap/alltech/alltap.vhd
+  - lib/techmap/alltech/allclkgen.vhd
   - lib/techmap/nexus/buffer_nexus.vhd
   - lib/techmap/unisim/buffer_unisim.vhd
   - lib/techmap/maps/techbuf.vhd
+  - lib/grlib/amba/ahbmst.vhd
+  - lib/techmap/maps/grgates.vhd
+  - lib/gaisler/jtag/jtagcom2.vhd
+  - lib/techmap/alltech/alltap.vhd
   - lib/techmap/unisim/tap_unisim.vhd
   - bin/altera/altera_mf.vhd
   - lib/techmap/altera_mf/tap_altera_mf.vhd
   - lib/techmap/nexus/tap_nexus.vhd
   - lib/techmap/saed32/clkgen_saed32.vhd
+  - lib/tech/simprim/vcomponents/vcomponents.vhd
   - lib/techmap/unisim/clkgen_unisim.vhd
   - lib/techmap/maps/clkmux.vhd
   - lib/techmap/maps/tap.vhd
-  - lib/gaisler/jtag/jtagcomrv.vhd
-  - lib/gaisler/jtag/jtagcom2.vhd
-  - lib/gaisler/jtag/ahbjtagrv.vhd
-  - lib/gaisler/misc/grgpio.vhd
-  - lib/grlib/dftlib/dftlib.vhd
-  - lib/grlib/dftlib/trstmux.vhd
   - lib/gaisler/jtag/ahbjtag.vhd
+  - lib/grlib/generic_bm/generic_bm_pkg.vhd
+  - lib/grlib/generic_bm/bm_fre.vhd
+  - lib/grlib/generic_bm/bm_me_wc.vhd
+  - lib/grlib/generic_bm/fifo_control_rc.vhd
+  - lib/grlib/generic_bm/fifo_control_wc.vhd
+  - lib/grlib/generic_bm/bm_me_rc.vhd
+  - lib/grlib/generic_bm/bmahbmst.vhd
+  - lib/grlib/generic_bm/ahb_be.vhd
+  - lib/grlib/generic_bm/generic_bm_ahb.vhd
+  - lib/techmap/alltech/allmem.vhd
+  - lib/techmap/maps/memrwcol.vhd
+  - lib/techmap/saed32/memory_saed32.vhd
+  - lib/techmap/inferred/memory_inferred.vhd
+  - lib/techmap/virtex/memory_virtex.vhd
+  - lib/techmap/unisim/memory_versal.vhd
+  - lib/techmap/unisim/memory_ultrascale.vhd
+  - lib/tech/virage/simprims/virage_simprims.vhd
+  - lib/techmap/virage/memory_virage.vhd
+  - lib/techmap/ec/memory_ec.vhd
+  - lib/techmap/unisim/memory_kintex7.vhd
+  - lib/techmap/altera_mf/memory_altera_mf.vhd
+  - lib/techmap/nexus/memory_nexus.vhd
+  - lib/tech/eclipsee/simprims/eclipse.vhd
+  - lib/techmap/eclipsee/memory_eclipse.vhd
+  - lib/techmap/unisim/memory_unisim.vhd
+  - lib/techmap/maps/syncram_2p.vhd
+  - lib/gaisler/l2c_lite/l2c_lite_core.vhd
+  - lib/gaisler/l2c_lite/l2c_lite_ahb.vhd
+  - lib/grlib/amba/apbctrlx.vhd
+  - lib/grlib/amba/apbctrl.vhd
+  - lib/techmap/maps/syncreg.vhd
+  - lib/gaisler/misc/rstgen.vhd
+  - lib/gaisler/jtag/jtagcomrv.vhd
+  - lib/gaisler/jtag/ahbjtagrv.vhd
+  - lib/gaisler/uart/libdcom.vhd
+  - lib/gaisler/uart/dcom_uart.vhd
+  - lib/gaisler/uart/dcom.vhd
+  - lib/gaisler/uart/ahbuart.vhd
+  - lib/gaisler/aplic/aplic.vhd
+  - lib/gaisler/noelv/imsic/imsic_ahb.vhd
+  - lib/gaisler/noelv/dm/dmnvint.vhd
+  - lib/gaisler/l5nv/shared/busif5_types.vhd
+  - lib/gaisler/l5nv/shared/l5nv_shared.vhd
+  - lib/gaisler/l5nv/shared/dmnv_ahbs.vhd
+  - lib/techmap/umc18/memory_umc18.vhd
+  - lib/techmap/maps/syncram.vhd
+  - lib/techmap/maps/syncram64.vhd
+  - lib/gaisler/l5nv/shared/tbufmemnv_mbus.vhd
+  - lib/gaisler/l5nv/shared/dmnv_trace.vhd
+  - lib/gaisler/l5nv/shared/dmnv_ic_dmaport.vhd
+  - lib/gaisler/l5nv/shared/dmnv_ic_busport.vhd
+  - lib/gaisler/l5nv/shared/dmnv_ic_ebp.vhd
+  - lib/gaisler/l5nv/shared/dmnv_ic.vhd
+  - lib/gaisler/noelv/dm/progbuf.vhd
+  - lib/gaisler/noelv/dm/dmnvx.vhd
+  - lib/gaisler/noelv/dm/dmnv.vhd
+  - lib/gaisler/noelv/pkg/noelv_cpu_cfg.vhd
+  - lib/gaisler/noelv/subsys/noelvcpu.vhd
+  - lib/gaisler/noelv/aclint/aclint_ahb.vhd
+  - lib/gaisler/aplic/aplic_encoder.vhd
+  - lib/gaisler/aplic/graplic_ahb.vhd
+  - lib/gaisler/uart/apbuart.vhd
+  - lib/grlib/amba/ahbctrl.vhd
+  - lib/gaisler/misc/gptimer.vhd
+  - lib/gaisler/uart/apbuart_16550.vhd
+  - lib/gaisler/plic/plic_target.vhd
+  - lib/gaisler/plic/plic_gateway.vhd
+  - lib/gaisler/plic/plic_encoder.vhd
+  - lib/gaisler/plic/grplic_ahb.vhd
+  - lib/gaisler/noelv/subsys/noelvsys.vhd
   - lib/gaisler/misc/grversion.vhd
+  - lib/gaisler/misc/ahbstat.vhd
+  - lib/gaisler/misc/grgpio.vhd
+  - lib/gaisler/greth/ethernet_mac.vhd
+  - lib/eth/comp/ethcomp.vhd
+  - lib/eth/core/greth_pkg.vhd
+  - lib/eth/core/eth_rstgen.vhd
+  - lib/eth/core/greth_tx.vhd
+  - lib/eth/core/eth_ahb_mst.vhd
+  - lib/eth/core/greth_rx.vhd
+  - lib/eth/core/eth_edcl_ahb_mst.vhd
+  - lib/eth/core/grethc.vhd
+  - lib/gaisler/greth/greth_mb.vhd
+  - lib/gaisler/greth/greth_gbit_mb.vhd
+  - lib/gaisler/greth/grethm_mb.vhd
+  - lib/grlib/generic_bm/axi4_be.vhd
+  - lib/grlib/generic_bm/generic_bm_axi.vhd
+  - lib/gaisler/l2c_lite/l2c_lite_axi3.vhd
   - lib/gaisler/axi/ahb2axib.vhd
   - lib/gaisler/axi/ahb2axi3b.vhd
   - lib/gaisler/sim/ahbrep.vhd
   - designs/noelv-generic/rtl/core/noelvcore.vhd
-  - lib/techmap/maps/clkpad.vhd
-  - designs/noelv-digilent-arty-a7/rtl/ahbrom64.vhd
+  - lib/techmap/maps/odpad.vhd
+  - designs/noelv-lattice-lfcpnx-versa-evn/rtl/ahbrom128.vhd
+  - lib/techmap/maps/iopad.vhd
+  - designs/noelv-lattice-lfcpnx-versa-evn/rtl/ahbrom.vhd
   - lib/techmap/maps/syncrambw.vhd
-  - lib/gaisler/sim/ahbram_sim.vhd
-  - designs/noelv-digilent-arty-a7/rtl/ahbrom128.vhd
   - lib/gaisler/misc/ahbram.vhd
+  - lib/techmap/maps/clkpad.vhd
+  - lib/gaisler/sim/ahbram_sim.vhd
   - lib/gaisler/sim/ramback.vhd
   - lib/gaisler/sim/aximem.vhd
-  - lib/techmap/maps/iopad.vhd
-  - lib/techmap/maps/inpad.vhd
-  - lib/gaisler/axi/ahb2axi4b.vhd
-  - boards/digilent-arty-a7/ahb2axi_mig3_arty_a7.vhd
-  - designs/noelv-digilent-arty-a7/rtl/clockers_mig.vhd
-  - designs/leon3-digilent-anvyl/ahbrom.vhd
-  - designs/noelv-digilent-arty-a7/rtl/noelvmp.vhd
+  - designs/noelv-lattice-lfcpnx-versa-evn/rtl/noelvmp.vhd

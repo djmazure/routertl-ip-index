@@ -13,7 +13,8 @@ routertl_compat:
   library: grlib
   files:
   - lib/tech/ec/orca/global.vhd
-  - lib/tech/ec/orca/mem3.vhd
+  - lib/cypress/ssram/components.vhd
+  - lib/tech/ec/orca/orca.vhd
   - lib/grlib/stdlib/version.vhd
   - lib/grlib/stdlib/stdlib.vhd
   - lib/tech/ec/orca/orca_ecmem.vhd

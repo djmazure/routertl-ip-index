@@ -13,15 +13,15 @@ routertl_compat:
   library: work
   files:
   - rtl/lfsr.v
-  - rtl/axis_gmii_tx.v
-  - rtl/mac_ctrl_tx.v
   - rtl/axis_gmii_rx.v
   - rtl/mac_pause_ctrl_tx.v
-  - rtl/mac_ctrl_rx.v
   - rtl/mac_pause_ctrl_rx.v
+  - rtl/mac_ctrl_tx.v
+  - rtl/axis_gmii_tx.v
+  - rtl/mac_ctrl_rx.v
   - rtl/eth_mac_1g.v
+  - rtl/oddr.v
   - rtl/iddr.v
   - rtl/ssio_ddr_in.v
-  - rtl/oddr.v
   - rtl/rgmii_phy_if.v
   - rtl/eth_mac_1g_rgmii.v

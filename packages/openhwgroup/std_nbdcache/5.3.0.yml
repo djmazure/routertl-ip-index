@@ -14,10 +14,10 @@ routertl_compat:
   files:
   - core/include/ariane_pkg.sv
   - core/include/std_cache_pkg.sv
-  - core/cache_subsystem/tag_cmp.sv
   - vendor/pulp-platform/common_cells/src/deprecated/sram.sv
   - core/cache_subsystem/cache_ctrl.sv
-  - core/cache_subsystem/axi_adapter.sv
   - vendor/pulp-platform/common_cells/src/lfsr_8bit.sv
+  - core/cache_subsystem/axi_adapter.sv
   - core/cache_subsystem/miss_handler.sv
+  - core/cache_subsystem/tag_cmp.sv
   - core/cache_subsystem/std_nbdcache.sv

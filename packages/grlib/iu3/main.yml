@@ -26,6 +26,8 @@ routertl_compat:
   - lib/gaisler/leon3v3/libiu.vhd
   - lib/grlib/stdlib/testlib.vhd
   - lib/grlib/sparc/sparc_disas.vhd
-  - lib/work/debug/cpu_disas.vhd
+  - lib/grlib/riscv/riscv.vhd
+  - lib/grlib/riscv/riscv_disas.vhd
+  - lib/grlib/riscv/cpu_disas.vhd
   - lib/gaisler/leon3/cpu_disasx.vhd
   - lib/gaisler/leon3v3/iu3.vhd

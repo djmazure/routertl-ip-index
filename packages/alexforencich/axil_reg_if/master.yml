@@ -12,6 +12,6 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - rtl/axil_reg_if_rd.v
   - rtl/axil_reg_if_wr.v
+  - rtl/axil_reg_if_rd.v
   - rtl/axil_reg_if.v

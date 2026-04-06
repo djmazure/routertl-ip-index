@@ -29,8 +29,7 @@ routertl_compat:
   - lib/gaisler/noelv/core/noelvint.vhd
   - lib/gaisler/noelv/core/nvsupport.vhd
   - lib/gaisler/noelv/core/fputilnv.vhd
-  - lib/grlib/sparc/sparc.vhd
   - lib/grlib/stdlib/testlib.vhd
-  - lib/grlib/sparc/sparc_disas.vhd
-  - lib/work/debug/cpu_disas.vhd
+  - lib/grlib/riscv/riscv_disas.vhd
+  - lib/grlib/riscv/cpu_disas.vhd
   - lib/gaisler/noelv/core/itracenv.vhd

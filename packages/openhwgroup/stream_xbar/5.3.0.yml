@@ -12,9 +12,9 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - vendor/pulp-platform/common_cells/src/stream_demux.sv
   - vendor/pulp-platform/common_cells/src/lzc.sv
   - vendor/pulp-platform/common_cells/src/rr_arb_tree.sv
   - vendor/pulp-platform/common_cells/src/spill_register_flushable.sv
   - vendor/pulp-platform/common_cells/src/spill_register.sv
+  - vendor/pulp-platform/common_cells/src/stream_demux.sv
   - vendor/pulp-platform/common_cells/src/stream_xbar.sv

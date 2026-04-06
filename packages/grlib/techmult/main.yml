@@ -21,6 +21,6 @@ routertl_compat:
   - lib/techmap/gencomp/gencomp.vhd
   - lib/tech/dware/simprims/DWpackages.vhd
   - lib/tech/dware/simprims/DW_Foundation_comp_arith.vhd
-  - lib/techmap/grdware/mul_dware.vhd
+  - lib/techmap/dware/mul_dware.vhd
   - lib/techmap/inferred/mul_inferred.vhd
   - lib/techmap/maps/techmult.vhd

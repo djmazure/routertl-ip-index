@@ -12,11 +12,11 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - core/cvxif_compressed_if_driver.sv
-  - core/zcmt_decoder.sv
+  - core/macro_decoder.sv
   - core/include/ariane_pkg.sv
   - core/cva6_accel_first_pass_decoder_stub.sv
   - core/decoder.sv
-  - core/macro_decoder.sv
+  - core/zcmt_decoder.sv
   - core/compressed_decoder.sv
+  - core/cvxif_compressed_if_driver.sv
   - core/id_stage.sv

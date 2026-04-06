@@ -18,29 +18,29 @@ routertl_compat:
   - lib/grlib/stdlib/config.vhd
   - lib/techmap/gencomp/gencomp.vhd
   - lib/eth/comp/ethcomp.vhd
-  - lib/eth/core/greth_pkg.vhd
-  - lib/eth/core/eth_rstgen.vhd
-  - lib/eth/core/greth_tx.vhd
-  - lib/eth/core/eth_edcl_ahb_mst.vhd
-  - lib/eth/core/greth_rx.vhd
-  - lib/eth/core/eth_ahb_mst.vhd
-  - lib/eth/core/grethc.vhd
   - lib/techmap/alltech/allmem.vhd
-  - lib/techmap/unisim/memory_kintex7.vhd
-  - lib/techmap/ec/memory_ec.vhd
-  - lib/techmap/inferred/memory_inferred.vhd
-  - lib/techmap/unisim/memory_unisim.vhd
+  - lib/techmap/maps/memrwcol.vhd
   - lib/techmap/saed32/memory_saed32.vhd
+  - lib/techmap/inferred/memory_inferred.vhd
+  - lib/techmap/virtex/memory_virtex.vhd
+  - lib/tech/simprim/vcomponents/vcomponents.vhd
+  - lib/techmap/unisim/memory_versal.vhd
+  - lib/techmap/unisim/memory_ultrascale.vhd
+  - lib/tech/virage/simprims/virage_simprims.vhd
+  - lib/techmap/virage/memory_virage.vhd
+  - lib/techmap/ec/memory_ec.vhd
+  - lib/techmap/unisim/memory_kintex7.vhd
+  - lib/techmap/altera_mf/memory_altera_mf.vhd
   - lib/techmap/nexus/memory_nexus.vhd
   - lib/tech/eclipsee/simprims/eclipse.vhd
   - lib/techmap/eclipsee/memory_eclipse.vhd
-  - lib/tech/simprim/vcomponents/vcomponents.vhd
-  - lib/techmap/unisim/memory_versal.vhd
-  - lib/techmap/altera_mf/memory_altera_mf.vhd
-  - lib/techmap/virtex/memory_virtex.vhd
-  - lib/tech/virage/simprims/virage_simprims.vhd
-  - lib/techmap/virage/memory_virage.vhd
-  - lib/techmap/maps/memrwcol.vhd
-  - lib/techmap/unisim/memory_ultrascale.vhd
+  - lib/techmap/unisim/memory_unisim.vhd
   - lib/techmap/maps/syncram_2p.vhd
+  - lib/eth/core/greth_pkg.vhd
+  - lib/eth/core/eth_rstgen.vhd
+  - lib/eth/core/greth_tx.vhd
+  - lib/eth/core/eth_ahb_mst.vhd
+  - lib/eth/core/greth_rx.vhd
+  - lib/eth/core/eth_edcl_ahb_mst.vhd
+  - lib/eth/core/grethc.vhd
   - lib/eth/wrapper/greth_gen.vhd

@@ -12,16 +12,16 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - rtl/ptp_clock_cdc.v
+  - rtl/lfsr.v
+  - rtl/axis_baser_tx_64.v
+  - rtl/eth_phy_10g_tx_if.v
+  - rtl/eth_mac_phy_10g_tx.v
   - rtl/eth_phy_10g_rx_ber_mon.v
   - rtl/eth_phy_10g_rx_frame_sync.v
-  - rtl/lfsr.v
   - rtl/eth_phy_10g_rx_watchdog.v
   - rtl/eth_phy_10g_rx_if.v
   - rtl/axis_baser_rx_64.v
   - rtl/eth_mac_phy_10g_rx.v
-  - rtl/axis_baser_tx_64.v
-  - rtl/eth_phy_10g_tx_if.v
-  - rtl/eth_mac_phy_10g_tx.v
   - rtl/eth_mac_phy_10g.v
+  - rtl/ptp_clock_cdc.v
   - rtl/eth_mac_phy_10g_fifo.v

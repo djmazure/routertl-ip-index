@@ -16,8 +16,8 @@ routertl_compat:
   - lib/grlib/stdlib/config.vhd
   - lib/techmap/gencomp/gencomp.vhd
   - lib/techmap/alltech/allddr.vhd
-  - lib/techmap/inferred/ddr_inferred.vhd
   - lib/tech/simprim/vcomponents/vcomponents.vhd
   - lib/techmap/unisim/ddr_unisim.vhd
   - lib/techmap/nexus/ddr_nexus.vhd
+  - lib/techmap/inferred/ddr_inferred.vhd
   - lib/techmap/maps/ddr_ireg.vhd

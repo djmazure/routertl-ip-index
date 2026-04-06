@@ -25,36 +25,36 @@ routertl_compat:
   - lib/gaisler/l5nv/shared/busif5_types.vhd
   - lib/gaisler/l5nv/shared/l5nv_shared.vhd
   - lib/grlib/amba/devices.vhd
+  - lib/grlib/amba/ahbmst.vhd
+  - lib/gaisler/l5nv/shared/dmnv_ahbs.vhd
   - lib/techmap/alltech/allmem.vhd
-  - lib/tech/simprim/vcomponents/vcomponents.vhd
+  - lib/techmap/ec/memory_ec.vhd
   - lib/techmap/inferred/memory_inferred.vhd
-  - lib/techmap/unisim/memory_versal.vhd
-  - lib/techmap/saed32/memory_saed32.vhd
-  - lib/techmap/unisim/memory_kintex7.vhd
-  - lib/techmap/unisim/memory_ultrascale.vhd
-  - lib/techmap/nexus/memory_nexus.vhd
-  - lib/tech/eclipsee/simprims/eclipse.vhd
-  - lib/techmap/eclipsee/memory_eclipse.vhd
-  - lib/techmap/virtex/memory_virtex.vhd
-  - lib/techmap/unisim/memory_unisim.vhd
   - lib/tech/virage/simprims/virage_simprims.vhd
   - lib/techmap/virage/memory_virage.vhd
-  - lib/techmap/alltech/allclkgen.vhd
-  - lib/techmap/maps/grgates.vhd
-  - lib/techmap/altera_mf/memory_altera_mf.vhd
-  - lib/techmap/ec/memory_ec.vhd
+  - lib/tech/simprim/vcomponents/vcomponents.vhd
+  - lib/techmap/unisim/memory_ultrascale.vhd
+  - lib/techmap/saed32/memory_saed32.vhd
   - lib/tech/umc18/components/umc_simprims.vhd
   - lib/techmap/umc18/memory_umc18.vhd
+  - lib/techmap/nexus/memory_nexus.vhd
+  - lib/techmap/unisim/memory_kintex7.vhd
+  - lib/techmap/unisim/memory_unisim.vhd
+  - lib/techmap/altera_mf/memory_altera_mf.vhd
+  - lib/techmap/unisim/memory_versal.vhd
+  - lib/techmap/virtex/memory_virtex.vhd
+  - lib/techmap/alltech/allclkgen.vhd
+  - lib/techmap/maps/grgates.vhd
+  - lib/tech/eclipsee/simprims/eclipse.vhd
+  - lib/techmap/eclipsee/memory_eclipse.vhd
   - lib/techmap/maps/syncram.vhd
   - lib/techmap/maps/syncram64.vhd
   - lib/gaisler/l5nv/shared/tbufmemnv_mbus.vhd
   - lib/gaisler/l5nv/shared/dmnv_trace.vhd
-  - lib/gaisler/noelv/dm/progbuf.vhd
-  - lib/gaisler/noelv/dm/dmnvx.vhd
-  - lib/grlib/amba/ahbmst.vhd
-  - lib/gaisler/l5nv/shared/dmnv_ahbs.vhd
-  - lib/gaisler/l5nv/shared/dmnv_ic_busport.vhd
   - lib/gaisler/l5nv/shared/dmnv_ic_dmaport.vhd
+  - lib/gaisler/l5nv/shared/dmnv_ic_busport.vhd
   - lib/gaisler/l5nv/shared/dmnv_ic_ebp.vhd
   - lib/gaisler/l5nv/shared/dmnv_ic.vhd
+  - lib/gaisler/noelv/dm/progbuf.vhd
+  - lib/gaisler/noelv/dm/dmnvx.vhd
   - lib/gaisler/noelv/dm/dmnv.vhd

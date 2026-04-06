@@ -12,6 +12,6 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - corev_apu/fpga/src/axi_dw_adapter/axi_dw_adapter_wr.v
   - corev_apu/fpga/src/axi_dw_adapter/axi_dw_adapter_rd.v
+  - corev_apu/fpga/src/axi_dw_adapter/axi_dw_adapter_wr.v
   - corev_apu/fpga/src/axi_dw_adapter/axi_dw_adapter.v

@@ -12,4 +12,4 @@ routertl_compat:
   language: vhdl-2008
   library: grlib
   files:
-  - lib/techmap/cycloneiii/alt/apll.vhd
+  - lib/techmap/stratixiii/alt/apll.vhd

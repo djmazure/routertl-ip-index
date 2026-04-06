@@ -4701,7 +4701,7 @@
     ],
     "description": "grlib IP: ahbtbm",
     "license": "",
-    "language": "vhdl-2008-relaxed",
+    "language": "vhdl-2008",
     "library": "grlib",
     "source_url": "https://github.com/TUT-ASI/leon3-grlib-gpl-mirror.git"
   },
@@ -5637,7 +5637,7 @@
     ],
     "description": "grlib IP: bscane2_tap",
     "license": "",
-    "language": "vhdl-2008-relaxed",
+    "language": "vhdl-2008",
     "library": "grlib",
     "source_url": "https://github.com/TUT-ASI/leon3-grlib-gpl-mirror.git"
   },
@@ -6222,7 +6222,7 @@
     ],
     "description": "grlib IP: clkbuf_xilinx",
     "license": "",
-    "language": "vhdl-2008-relaxed",
+    "language": "vhdl-2008",
     "library": "grlib",
     "source_url": "https://github.com/TUT-ASI/leon3-grlib-gpl-mirror.git"
   },
@@ -6560,7 +6560,7 @@
     ],
     "description": "grlib IP: clkmux_xilinx",
     "license": "",
-    "language": "vhdl-2008-relaxed",
+    "language": "vhdl-2008",
     "library": "grlib",
     "source_url": "https://github.com/TUT-ASI/leon3-grlib-gpl-mirror.git"
   },
@@ -10655,7 +10655,7 @@
     ],
     "description": "grlib IP: kintex7_syncram",
     "license": "",
-    "language": "vhdl-2008-relaxed",
+    "language": "vhdl-2008",
     "library": "grlib",
     "source_url": "https://github.com/TUT-ASI/leon3-grlib-gpl-mirror.git"
   },
@@ -10668,7 +10668,7 @@
     ],
     "description": "grlib IP: kintex7_syncram_2p",
     "license": "",
-    "language": "vhdl-2008-relaxed",
+    "language": "vhdl-2008",
     "library": "grlib",
     "source_url": "https://github.com/TUT-ASI/leon3-grlib-gpl-mirror.git"
   },
@@ -10681,7 +10681,7 @@
     ],
     "description": "grlib IP: kintex7_syncram_dp",
     "license": "",
-    "language": "vhdl-2008-relaxed",
+    "language": "vhdl-2008",
     "library": "grlib",
     "source_url": "https://github.com/TUT-ASI/leon3-grlib-gpl-mirror.git"
   },
@@ -14113,7 +14113,7 @@
     ],
     "description": "grlib IP: spartan3_tap",
     "license": "",
-    "language": "vhdl-2008-relaxed",
+    "language": "vhdl-2008",
     "library": "grlib",
     "source_url": "https://github.com/TUT-ASI/leon3-grlib-gpl-mirror.git"
   },
@@ -14165,7 +14165,7 @@
     ],
     "description": "grlib IP: spartan6_tap",
     "license": "",
-    "language": "vhdl-2008-relaxed",
+    "language": "vhdl-2008",
     "library": "grlib",
     "source_url": "https://github.com/TUT-ASI/leon3-grlib-gpl-mirror.git"
   },
@@ -15660,7 +15660,7 @@
     ],
     "description": "grlib IP: virtex2_tap",
     "license": "",
-    "language": "vhdl-2008-relaxed",
+    "language": "vhdl-2008",
     "library": "grlib",
     "source_url": "https://github.com/TUT-ASI/leon3-grlib-gpl-mirror.git"
   },
@@ -15725,7 +15725,7 @@
     ],
     "description": "grlib IP: virtex4_tap",
     "license": "",
-    "language": "vhdl-2008-relaxed",
+    "language": "vhdl-2008",
     "library": "grlib",
     "source_url": "https://github.com/TUT-ASI/leon3-grlib-gpl-mirror.git"
   },
@@ -15751,7 +15751,7 @@
     ],
     "description": "grlib IP: virtex5_tap",
     "license": "",
-    "language": "vhdl-2008-relaxed",
+    "language": "vhdl-2008",
     "library": "grlib",
     "source_url": "https://github.com/TUT-ASI/leon3-grlib-gpl-mirror.git"
   },
@@ -15777,7 +15777,7 @@
     ],
     "description": "grlib IP: virtex6_tap",
     "license": "",
-    "language": "vhdl-2008-relaxed",
+    "language": "vhdl-2008",
     "library": "grlib",
     "source_url": "https://github.com/TUT-ASI/leon3-grlib-gpl-mirror.git"
   },
@@ -15816,7 +15816,7 @@
     ],
     "description": "grlib IP: virtex_tap",
     "license": "",
-    "language": "vhdl-2008-relaxed",
+    "language": "vhdl-2008",
     "library": "grlib",
     "source_url": "https://github.com/TUT-ASI/leon3-grlib-gpl-mirror.git"
   },

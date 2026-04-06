@@ -17,12 +17,4 @@ routertl_compat:
   - lib/grlib/stdlib/config_types.vhd
   - lib/grlib/stdlib/config.vhd
   - lib/techmap/gencomp/gencomp.vhd
-  - lib/techmap/cycloneiii/alt/apll.vhd
-  - lib/techmap/cycloneiii/alt/adqin.vhd
-  - lib/techmap/cycloneiii/alt/admout.vhd
-  - lib/techmap/cycloneiii/alt/adqsin.vhd
-  - lib/techmap/cycloneiii/alt/aclkout.vhd
-  - lib/techmap/cycloneiii/alt/adqout.vhd
-  - lib/techmap/cycloneiii/alt/actrlout.vhd
-  - lib/techmap/cycloneiii/alt/adqsout.vhd
-  - lib/techmap/cycloneiii/ddr_phy_cycloneiii.vhd
+  - lib/techmap/cycloneiii/cycloneiii_ddr_phy.vhd

@@ -17,4 +17,4 @@ routertl_compat:
   - lib/grlib/stdlib/config_types.vhd
   - lib/grlib/stdlib/config.vhd
   - lib/techmap/gencomp/gencomp.vhd
-  - lib/techmap/cycloneiii/alt/actrlout.vhd
+  - lib/techmap/stratixiii/alt/actrlout.vhd

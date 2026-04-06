@@ -18,4 +18,4 @@ routertl_compat:
   - lib/grlib/stdlib/stdlib.vhd
   - lib/grlib/amba/amba.vhd
   - lib/grlib/amba/devices.vhd
-  - designs/leon3-xilinx-kcu105/rtl/ddr4ram.vhd
+  - designs/leon5-xilinx-kcu105/rtl/ddr4ram.vhd

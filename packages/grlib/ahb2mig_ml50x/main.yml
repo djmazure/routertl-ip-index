@@ -21,4 +21,4 @@ routertl_compat:
   - lib/techmap/gencomp/gencomp.vhd
   - lib/gaisler/memctrl/memctrl.vhd
   - lib/grlib/util/util.vhd
-  - designs/leon3-xilinx-ml501/ahb2mig_ml50x.vhd
+  - designs/leon3-xilinx-ml50x/ahb2mig_ml50x.vhd

@@ -23,13 +23,13 @@ routertl_compat:
   - lib/gaisler/jtag/libjtagcom.vhd
   - lib/gaisler/jtag/jtag.vhd
   - lib/gaisler/jtag/jtagcom.vhd
-  - lib/grlib/amba/ahbmst.vhd
   - lib/techmap/alltech/allclkgen.vhd
   - lib/techmap/nexus/buffer_nexus.vhd
   - lib/techmap/unisim/buffer_unisim.vhd
   - lib/techmap/maps/techbuf.vhd
+  - lib/grlib/util/util.vhd
+  - lib/grlib/amba/ahbmst.vhd
   - lib/techmap/maps/grgates.vhd
   - lib/gaisler/jtag/jtagcom2.vhd
-  - lib/grlib/util/util.vhd
   - lib/grlib/dftlib/trstmux.vhd
   - lib/gaisler/jtag/ahbjtag_exttap.vhd

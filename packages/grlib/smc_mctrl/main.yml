@@ -22,4 +22,4 @@ routertl_compat:
   - lib/gaisler/memctrl/memctrl.vhd
   - lib/esa/memoryctrl/memoryctrl.vhd
   - lib/gaisler/memctrl/sdmctrl.vhd
-  - designs/leon3-nuhorizons-3s1500/smc_mctrl.vhd
+  - designs/leon3-altera-ep2s60-ddr/smc_mctrl.vhd

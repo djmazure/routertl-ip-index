@@ -15,12 +15,12 @@ routertl_compat:
   - lib/grlib/stdlib/config_types.vhd
   - lib/grlib/stdlib/config.vhd
   - lib/techmap/gencomp/gencomp.vhd
+  - lib/tech/simprim/vcomponents/vcomponents.vhd
+  - lib/techmap/unisim/mul_unisim.vhd
   - lib/grlib/stdlib/version.vhd
   - lib/grlib/stdlib/stdlib.vhd
   - lib/techmap/inferred/mul_inferred.vhd
   - lib/tech/dware/simprims/DWpackages.vhd
   - lib/tech/dware/simprims/DW_Foundation_comp_arith.vhd
-  - lib/techmap/grdware/mul_dware.vhd
-  - lib/tech/simprim/vcomponents/vcomponents.vhd
-  - lib/techmap/unisim/mul_unisim.vhd
+  - lib/techmap/dware/mul_dware.vhd
   - lib/techmap/maps/mul_61x61.vhd

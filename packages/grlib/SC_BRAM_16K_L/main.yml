@@ -12,5 +12,5 @@ routertl_compat:
   language: vhdl-2008
   library: grlib
   files:
-  - lib/micron/sdram/components.vhd
+  - lib/cypress/ssram/components.vhd
   - lib/tech/ec/orca/ORCA_L.vhd

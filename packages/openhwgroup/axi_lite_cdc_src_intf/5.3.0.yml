@@ -12,11 +12,11 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
+  - vendor/pulp-platform/axi/src/axi_intf.sv
   - vendor/pulp-platform/common_cells/src/sync.sv
-  - vendor/pulp-platform/common_cells/src/gray_to_binary.sv
   - vendor/pulp-platform/common_cells/src/binary_to_gray.sv
   - vendor/pulp-platform/common_cells/src/spill_register_flushable.sv
   - vendor/pulp-platform/common_cells/src/spill_register.sv
+  - vendor/pulp-platform/common_cells/src/gray_to_binary.sv
   - vendor/pulp-platform/common_cells/src/cdc_fifo_gray.sv
-  - vendor/pulp-platform/axi/src/axi_intf.sv
   - vendor/pulp-platform/axi/src/axi_cdc_src.sv

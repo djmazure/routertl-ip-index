@@ -19,6 +19,6 @@ routertl_compat:
   - lib/grlib/amba/amba.vhd
   - lib/grlib/amba/devices.vhd
   - lib/gaisler/aplic/aplic.vhd
-  - lib/grlib/amba/ahbmst.vhd
   - lib/gaisler/aplic/aplic_encoder.vhd
+  - lib/grlib/amba/ahbmst.vhd
   - lib/gaisler/aplic/graplic_ahb.vhd

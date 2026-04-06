@@ -15,8 +15,8 @@ routertl_compat:
   - rtl/axil_crossbar_addr.v
   - rtl/priority_encoder.v
   - rtl/arbiter.v
-  - rtl/axil_register_rd.v
-  - rtl/axil_crossbar_rd.v
   - rtl/axil_register_wr.v
   - rtl/axil_crossbar_wr.v
+  - rtl/axil_register_rd.v
+  - rtl/axil_crossbar_rd.v
   - rtl/axil_crossbar.v

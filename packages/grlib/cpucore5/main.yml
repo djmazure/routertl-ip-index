@@ -27,48 +27,50 @@ routertl_compat:
   - lib/grlib/stdlib/testlib.vhd
   - lib/grlib/sparc/sparc_disas.vhd
   - lib/techmap/alltech/allmem.vhd
-  - lib/techmap/unisim/memory_kintex7.vhd
-  - lib/techmap/ec/memory_ec.vhd
-  - lib/techmap/inferred/memory_inferred.vhd
-  - lib/techmap/unisim/memory_unisim.vhd
+  - lib/techmap/maps/memrwcol.vhd
   - lib/techmap/saed32/memory_saed32.vhd
+  - lib/techmap/inferred/memory_inferred.vhd
+  - lib/techmap/virtex/memory_virtex.vhd
+  - lib/tech/simprim/vcomponents/vcomponents.vhd
+  - lib/techmap/unisim/memory_versal.vhd
+  - lib/techmap/unisim/memory_ultrascale.vhd
+  - lib/tech/virage/simprims/virage_simprims.vhd
+  - lib/techmap/virage/memory_virage.vhd
+  - lib/techmap/ec/memory_ec.vhd
+  - lib/techmap/unisim/memory_kintex7.vhd
+  - lib/techmap/altera_mf/memory_altera_mf.vhd
   - lib/techmap/nexus/memory_nexus.vhd
   - lib/tech/eclipsee/simprims/eclipse.vhd
   - lib/techmap/eclipsee/memory_eclipse.vhd
-  - lib/tech/simprim/vcomponents/vcomponents.vhd
-  - lib/techmap/unisim/memory_versal.vhd
-  - lib/techmap/altera_mf/memory_altera_mf.vhd
-  - lib/techmap/virtex/memory_virtex.vhd
-  - lib/tech/virage/simprims/virage_simprims.vhd
-  - lib/techmap/virage/memory_virage.vhd
-  - lib/techmap/maps/memrwcol.vhd
-  - lib/techmap/unisim/memory_ultrascale.vhd
+  - lib/techmap/unisim/memory_unisim.vhd
   - lib/techmap/maps/syncram_2p.vhd
   - lib/gaisler/leon5v0/bht_pap.vhd
   - lib/gaisler/leon5v0/btb.vhd
   - lib/gaisler/leon5v0/iu5.vhd
-  - lib/gaisler/leon5v0/nanofpu.vhd
+  - lib/gaisler/leon5v0/regfile5_ram.vhd
+  - lib/gaisler/leon5v0/regfile5_dff.vhd
+  - lib/gaisler/arith/div32.vhd
+  - lib/gaisler/l5nv/shared/busif5_types.vhd
+  - lib/gaisler/l5nv/shared/l5nv_shared.vhd
+  - lib/techmap/maps/syncram_dp.vhd
+  - lib/tech/umc18/components/umc_simprims.vhd
+  - lib/techmap/umc18/memory_umc18.vhd
+  - lib/techmap/alltech/allclkgen.vhd
+  - lib/techmap/maps/grgates.vhd
+  - lib/techmap/maps/syncram.vhd
+  - lib/techmap/maps/syncramlb.vhd
+  - lib/techmap/maps/syncrambw.vhd
+  - lib/gaisler/l5nv/shared/tcmwrap5.vhd
+  - lib/gaisler/l5nv/shared/cachemem5.vhd
   - lib/grlib/modgen/multlib.vhd
   - lib/techmap/alltech/allmul.vhd
   - lib/tech/dware/simprims/DWpackages.vhd
   - lib/tech/dware/simprims/DW_Foundation_comp_arith.vhd
-  - lib/techmap/grdware/mul_dware.vhd
+  - lib/techmap/dware/mul_dware.vhd
   - lib/techmap/inferred/mul_inferred.vhd
   - lib/techmap/maps/techmult.vhd
   - lib/gaisler/arith/mul32.vhd
-  - lib/techmap/alltech/allclkgen.vhd
-  - lib/techmap/maps/grgates.vhd
-  - lib/tech/umc18/components/umc_simprims.vhd
-  - lib/techmap/umc18/memory_umc18.vhd
-  - lib/techmap/maps/syncram.vhd
-  - lib/techmap/maps/syncramlb.vhd
-  - lib/techmap/maps/syncram_dp.vhd
-  - lib/techmap/maps/syncrambw.vhd
-  - lib/gaisler/leon5v0/tcmwrap5.vhd
-  - lib/gaisler/leon5v0/cachemem5.vhd
-  - lib/gaisler/leon5v0/regfile5_ram.vhd
-  - lib/gaisler/leon5v0/regfile5_dff.vhd
+  - lib/gaisler/leon5v0/nanofpu.vhd
   - lib/grlib/amba/devices.vhd
   - lib/gaisler/leon5v0/cctrl5.vhd
-  - lib/gaisler/arith/div32.vhd
   - lib/gaisler/leon5v0/cpucore5.vhd

@@ -12,7 +12,7 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
+  - vendor/pulp-platform/common_cells/src/lfsr.sv
   - vendor/pulp-platform/common_cells/src/lzc.sv
   - vendor/pulp-platform/common_cells/src/deprecated/sram.sv
-  - vendor/pulp-platform/common_cells/src/lfsr.sv
   - core/cva6_mmu/cva6_shared_tlb.sv
