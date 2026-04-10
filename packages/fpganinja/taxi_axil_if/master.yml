@@ -1,0 +1,15 @@
+name: taxi_axil_if
+namespace: fpganinja
+version: master
+description: 'fpganinja IP: taxi_axil_if'
+license: ''
+source:
+  type: git
+  url: https://github.com/fpganinja/taxi.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/axi/rtl/taxi_axil_if.sv

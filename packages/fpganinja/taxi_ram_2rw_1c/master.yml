@@ -1,0 +1,15 @@
+name: taxi_ram_2rw_1c
+namespace: fpganinja
+version: master
+description: 'fpganinja IP: taxi_ram_2rw_1c'
+license: ''
+source:
+  type: git
+  url: https://github.com/fpganinja/taxi.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/prim/rtl/taxi_ram_2rw_1c.sv

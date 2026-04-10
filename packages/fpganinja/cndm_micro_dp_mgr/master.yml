@@ -1,0 +1,17 @@
+name: cndm_micro_dp_mgr
+namespace: fpganinja
+version: master
+description: 'fpganinja IP: cndm_micro_dp_mgr'
+license: ''
+source:
+  type: git
+  url: https://github.com/fpganinja/taxi.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/apb/rtl/taxi_apb_if.sv
+  - src/axis/rtl/taxi_axis_if.sv
+  - src/cndm/rtl/cndm_micro_dp_mgr.sv

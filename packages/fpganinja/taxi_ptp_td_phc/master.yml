@@ -1,0 +1,15 @@
+name: taxi_ptp_td_phc
+namespace: fpganinja
+version: master
+description: 'fpganinja IP: taxi_ptp_td_phc'
+license: ''
+source:
+  type: git
+  url: https://github.com/fpganinja/taxi.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/ptp/rtl/taxi_ptp_td_phc.sv

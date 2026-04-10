@@ -1,0 +1,16 @@
+name: taxi_pcie_us_vsec_apb
+namespace: fpganinja
+version: master
+description: 'fpganinja IP: taxi_pcie_us_vsec_apb'
+license: ''
+source:
+  type: git
+  url: https://github.com/fpganinja/taxi.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/axi/rtl/taxi_axil_if.sv
+  - src/pcie/rtl/taxi_pcie_us_vsec_axil.sv

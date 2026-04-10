@@ -1,0 +1,16 @@
+name: taxi_dma_psdpram
+namespace: fpganinja
+version: master
+description: 'fpganinja IP: taxi_dma_psdpram'
+license: ''
+source:
+  type: git
+  url: https://github.com/fpganinja/taxi.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/dma/rtl/taxi_dma_ram_if.sv
+  - src/dma/rtl/taxi_dma_psdpram.sv

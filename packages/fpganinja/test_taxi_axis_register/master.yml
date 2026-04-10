@@ -1,0 +1,17 @@
+name: test_taxi_axis_register
+namespace: fpganinja
+version: master
+description: 'fpganinja IP: test_taxi_axis_register'
+license: ''
+source:
+  type: git
+  url: https://github.com/fpganinja/taxi.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/axis/rtl/taxi_axis_if.sv
+  - src/axis/rtl/taxi_axis_register.sv
+  - src/axis/tb/taxi_axis_register/test_taxi_axis_register.sv

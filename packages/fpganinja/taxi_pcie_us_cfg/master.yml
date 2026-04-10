@@ -1,0 +1,15 @@
+name: taxi_pcie_us_cfg
+namespace: fpganinja
+version: master
+description: 'fpganinja IP: taxi_pcie_us_cfg'
+license: ''
+source:
+  type: git
+  url: https://github.com/fpganinja/taxi.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/pcie/rtl/taxi_pcie_us_cfg.sv

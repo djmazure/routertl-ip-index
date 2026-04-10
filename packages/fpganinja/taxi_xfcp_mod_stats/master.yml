@@ -1,0 +1,23 @@
+name: taxi_xfcp_mod_stats
+namespace: fpganinja
+version: master
+description: 'fpganinja IP: taxi_xfcp_mod_stats'
+license: ''
+source:
+  type: git
+  url: https://github.com/fpganinja/taxi.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/axi/rtl/taxi_axil_if.sv
+  - src/axis/rtl/taxi_axis_if.sv
+  - src/stats/rtl/taxi_stats_counter.sv
+  - src/xfcp/rtl/taxi_xfcp_mod_axil.sv
+  - src/stats/rtl/taxi_stats_strings_full.sv
+  - src/prim/rtl/taxi_penc.sv
+  - src/prim/rtl/taxi_arbiter.sv
+  - src/xfcp/rtl/taxi_xfcp_switch.sv
+  - src/xfcp/rtl/taxi_xfcp_mod_stats.sv

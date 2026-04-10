@@ -1,0 +1,17 @@
+name: taxi_ssio_sdr_out_diff
+namespace: fpganinja
+version: master
+description: 'fpganinja IP: taxi_ssio_sdr_out_diff'
+license: ''
+source:
+  type: git
+  url: https://github.com/fpganinja/taxi.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/io/rtl/taxi_oddr.sv
+  - src/io/rtl/taxi_ssio_sdr_out.sv
+  - src/io/rtl/taxi_ssio_sdr_out_diff.sv

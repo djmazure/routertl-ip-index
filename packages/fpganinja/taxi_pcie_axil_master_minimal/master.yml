@@ -1,0 +1,17 @@
+name: taxi_pcie_axil_master_minimal
+namespace: fpganinja
+version: master
+description: 'fpganinja IP: taxi_pcie_axil_master_minimal'
+license: ''
+source:
+  type: git
+  url: https://github.com/fpganinja/taxi.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/pcie/rtl/taxi_pcie_tlp_if.sv
+  - src/axi/rtl/taxi_axil_if.sv
+  - src/pcie/rtl/taxi_pcie_axil_master_minimal.sv

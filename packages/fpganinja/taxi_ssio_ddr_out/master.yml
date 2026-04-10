@@ -1,0 +1,16 @@
+name: taxi_ssio_ddr_out
+namespace: fpganinja
+version: master
+description: 'fpganinja IP: taxi_ssio_ddr_out'
+license: ''
+source:
+  type: git
+  url: https://github.com/fpganinja/taxi.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/io/rtl/taxi_oddr.sv
+  - src/io/rtl/taxi_ssio_ddr_out.sv

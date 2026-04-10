@@ -1,0 +1,16 @@
+name: taxi_i2c_init
+namespace: fpganinja
+version: master
+description: 'fpganinja IP: taxi_i2c_init'
+license: ''
+source:
+  type: git
+  url: https://github.com/fpganinja/taxi.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/axis/rtl/taxi_axis_if.sv
+  - src/lss/rtl/taxi_i2c_init.sv

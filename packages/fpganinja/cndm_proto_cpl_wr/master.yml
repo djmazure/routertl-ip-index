@@ -1,0 +1,21 @@
+name: cndm_proto_cpl_wr
+namespace: fpganinja
+version: master
+description: 'fpganinja IP: cndm_proto_cpl_wr'
+license: ''
+source:
+  type: git
+  url: https://github.com/fpganinja/taxi.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/dma/rtl/taxi_dma_desc_if.sv
+  - src/prim/rtl/taxi_penc.sv
+  - src/prim/rtl/taxi_arbiter.sv
+  - src/axis/rtl/taxi_axis_if.sv
+  - src/axis/rtl/taxi_axis_arb_mux.sv
+  - src/dma/rtl/taxi_dma_ram_if.sv
+  - src/cndm_proto/rtl/cndm_proto_cpl_wr.sv

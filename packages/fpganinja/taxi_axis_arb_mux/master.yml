@@ -1,0 +1,18 @@
+name: taxi_axis_arb_mux
+namespace: fpganinja
+version: master
+description: 'fpganinja IP: taxi_axis_arb_mux'
+license: ''
+source:
+  type: git
+  url: https://github.com/fpganinja/taxi.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/prim/rtl/taxi_penc.sv
+  - src/prim/rtl/taxi_arbiter.sv
+  - src/axis/rtl/taxi_axis_if.sv
+  - src/axis/rtl/taxi_axis_arb_mux.sv

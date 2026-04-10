@@ -1,0 +1,16 @@
+name: taxi_stats_collect
+namespace: fpganinja
+version: master
+description: 'fpganinja IP: taxi_stats_collect'
+license: ''
+source:
+  type: git
+  url: https://github.com/fpganinja/taxi.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/axis/rtl/taxi_axis_if.sv
+  - src/stats/rtl/taxi_stats_collect.sv

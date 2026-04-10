@@ -1,0 +1,16 @@
+name: taxi_arbiter
+namespace: fpganinja
+version: master
+description: 'fpganinja IP: taxi_arbiter'
+license: ''
+source:
+  type: git
+  url: https://github.com/fpganinja/taxi.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/prim/rtl/taxi_penc.sv
+  - src/prim/rtl/taxi_arbiter.sv

@@ -1,0 +1,16 @@
+name: test_taxi_i2c_single_reg
+namespace: fpganinja
+version: master
+description: 'fpganinja IP: test_taxi_i2c_single_reg'
+license: ''
+source:
+  type: git
+  url: https://github.com/fpganinja/taxi.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/lss/rtl/taxi_i2c_single_reg.sv
+  - src/lss/tb/taxi_i2c_single_reg/test_taxi_i2c_single_reg.sv

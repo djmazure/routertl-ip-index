@@ -1,0 +1,16 @@
+name: taxi_led_sreg
+namespace: fpganinja
+version: master
+description: 'fpganinja IP: taxi_led_sreg'
+license: ''
+source:
+  type: git
+  url: https://github.com/fpganinja/taxi.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/sync/rtl/taxi_sync_signal.sv
+  - src/io/rtl/taxi_led_sreg.sv

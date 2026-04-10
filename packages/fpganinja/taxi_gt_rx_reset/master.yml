@@ -1,0 +1,17 @@
+name: taxi_gt_rx_reset
+namespace: fpganinja
+version: master
+description: 'fpganinja IP: taxi_gt_rx_reset'
+license: ''
+source:
+  type: git
+  url: https://github.com/fpganinja/taxi.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/sync/rtl/taxi_sync_signal.sv
+  - src/sync/rtl/taxi_sync_reset.sv
+  - src/hip/rtl/us/taxi_gt_rx_reset.sv

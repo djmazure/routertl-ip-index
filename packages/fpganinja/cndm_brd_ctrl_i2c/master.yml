@@ -1,0 +1,17 @@
+name: cndm_brd_ctrl_i2c
+namespace: fpganinja
+version: master
+description: 'fpganinja IP: cndm_brd_ctrl_i2c'
+license: ''
+source:
+  type: git
+  url: https://github.com/fpganinja/taxi.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/axis/rtl/taxi_axis_if.sv
+  - src/lss/rtl/taxi_i2c_master.sv
+  - src/cndm/rtl/cndm_brd_ctrl_i2c.sv

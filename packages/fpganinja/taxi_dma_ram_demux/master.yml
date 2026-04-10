@@ -1,0 +1,18 @@
+name: taxi_dma_ram_demux
+namespace: fpganinja
+version: master
+description: 'fpganinja IP: taxi_dma_ram_demux'
+license: ''
+source:
+  type: git
+  url: https://github.com/fpganinja/taxi.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/dma/rtl/taxi_dma_ram_if.sv
+  - src/dma/rtl/taxi_dma_ram_demux_wr.sv
+  - src/dma/rtl/taxi_dma_ram_demux_rd.sv
+  - src/dma/rtl/taxi_dma_ram_demux.sv

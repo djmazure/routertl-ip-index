@@ -1,0 +1,15 @@
+name: taxi_mac_pause_ctrl_rx
+namespace: fpganinja
+version: master
+description: 'fpganinja IP: taxi_mac_pause_ctrl_rx'
+license: ''
+source:
+  type: git
+  url: https://github.com/fpganinja/taxi.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/eth/rtl/taxi_mac_pause_ctrl_rx.sv

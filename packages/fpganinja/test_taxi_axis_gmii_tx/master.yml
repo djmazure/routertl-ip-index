@@ -1,0 +1,18 @@
+name: test_taxi_axis_gmii_tx
+namespace: fpganinja
+version: master
+description: 'fpganinja IP: test_taxi_axis_gmii_tx'
+license: ''
+source:
+  type: git
+  url: https://github.com/fpganinja/taxi.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/lfsr/rtl/taxi_lfsr.sv
+  - src/axis/rtl/taxi_axis_if.sv
+  - src/eth/rtl/taxi_axis_gmii_tx.sv
+  - src/eth/tb/taxi_axis_gmii_tx/test_taxi_axis_gmii_tx.sv

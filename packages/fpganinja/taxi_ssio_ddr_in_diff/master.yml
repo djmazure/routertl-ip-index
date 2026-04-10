@@ -1,0 +1,17 @@
+name: taxi_ssio_ddr_in_diff
+namespace: fpganinja
+version: master
+description: 'fpganinja IP: taxi_ssio_ddr_in_diff'
+license: ''
+source:
+  type: git
+  url: https://github.com/fpganinja/taxi.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/io/rtl/taxi_iddr.sv
+  - src/io/rtl/taxi_ssio_ddr_in.sv
+  - src/io/rtl/taxi_ssio_ddr_in_diff.sv

@@ -1,0 +1,20 @@
+name: test_taxi_uart
+namespace: fpganinja
+version: master
+description: 'fpganinja IP: test_taxi_uart'
+license: ''
+source:
+  type: git
+  url: https://github.com/fpganinja/taxi.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/lss/rtl/taxi_uart_brg.sv
+  - src/axis/rtl/taxi_axis_if.sv
+  - src/lss/rtl/taxi_uart_tx.sv
+  - src/lss/rtl/taxi_uart_rx.sv
+  - src/lss/rtl/taxi_uart.sv
+  - src/lss/tb/taxi_uart/test_taxi_uart.sv

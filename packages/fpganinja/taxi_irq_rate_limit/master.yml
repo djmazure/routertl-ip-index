@@ -1,0 +1,16 @@
+name: taxi_irq_rate_limit
+namespace: fpganinja
+version: master
+description: 'fpganinja IP: taxi_irq_rate_limit'
+license: ''
+source:
+  type: git
+  url: https://github.com/fpganinja/taxi.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/axis/rtl/taxi_axis_if.sv
+  - src/pcie/rtl/taxi_irq_rate_limit.sv

@@ -1,0 +1,19 @@
+name: taxi_axil_axi_adapter
+namespace: fpganinja
+version: master
+description: 'fpganinja IP: taxi_axil_axi_adapter'
+license: ''
+source:
+  type: git
+  url: https://github.com/fpganinja/taxi.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/axi/rtl/taxi_axi_if.sv
+  - src/axi/rtl/taxi_axil_if.sv
+  - src/axi/rtl/taxi_axil_axi_adapter_wr.sv
+  - src/axi/rtl/taxi_axil_axi_adapter_rd.sv
+  - src/axi/rtl/taxi_axil_axi_adapter.sv

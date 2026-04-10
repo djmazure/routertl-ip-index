@@ -1,0 +1,20 @@
+name: taxi_rgmii_phy_if
+namespace: fpganinja
+version: master
+description: 'fpganinja IP: taxi_rgmii_phy_if'
+license: ''
+source:
+  type: git
+  url: https://github.com/fpganinja/taxi.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/io/rtl/taxi_iddr.sv
+  - src/io/rtl/taxi_ssio_ddr_in.sv
+  - src/sync/rtl/taxi_sync_reset.sv
+  - src/io/rtl/taxi_oddr.sv
+  - src/sync/rtl/taxi_sync_signal.sv
+  - src/eth/rtl/taxi_rgmii_phy_if.sv

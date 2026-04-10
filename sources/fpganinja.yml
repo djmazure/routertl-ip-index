@@ -1,0 +1,13 @@
+# Source library metadata for the fpganinja namespace
+namespace: fpganinja
+display_name: "FPGA Ninja (Taxi)"
+description: "High-performance FPGA IP — Ethernet MACs, AXI/AXI-Lite, PCIe, UART, I2C, PTP, XFCP"
+homepage: https://github.com/fpganinja/taxi
+license: MIT
+maintainer: Alex Forencich
+hdl_language: systemverilog
+fpga_vendors: [xilinx, altera]
+notes: |
+  Successor to alexforencich/verilog-axi and alexforencich/verilog-ethernet.
+  Those repositories are deprecated — all development continues here under
+  the fpganinja organisation as the unified "Taxi" library.
