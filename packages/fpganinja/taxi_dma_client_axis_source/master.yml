@@ -1,7 +1,7 @@
 name: taxi_dma_client_axis_source
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_dma_client_axis_source'
+description: AXI stream source DMA client
 license: ''
 source:
   type: git
@@ -13,7 +13,7 @@ routertl_compat:
   library: work
   files:
   - src/axis/rtl/taxi_axis_if.sv
+  - src/dma/rtl/taxi_dma_desc_if.sv
   - src/lss/rtl/taxi_i2c_slave.sv
   - src/dma/rtl/taxi_dma_ram_if.sv
-  - src/dma/rtl/taxi_dma_desc_if.sv
   - src/dma/rtl/taxi_dma_client_axis_source.sv

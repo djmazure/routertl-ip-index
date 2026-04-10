@@ -1,7 +1,8 @@
 name: olo_base_fifo_async
 namespace: open-logic
 version: 4.4.1
-description: 'open-logic IP: olo_base_fifo_async'
+description: This is a very basic asynchronous FIFO. The clocks can be fully asynchronous
+  (unrelated). It  has optional level- and almost-full/empty ports.
 license: ''
 source:
   type: git
@@ -9,7 +10,7 @@ source:
   tag: 4.4.1
   ip_yml_path: .
 routertl_compat:
-  language: vhdl-2008
+  language: vhdl-2008-relaxed
   library: olo
   files:
   - src/base/vhdl/olo_base_pkg_array.vhd
@@ -17,7 +18,7 @@ routertl_compat:
   - src/base/vhdl/olo_base_pkg_logic.vhd
   - src/base/vhdl/olo_base_pkg_string.vhd
   - src/base/vhdl/olo_base_pkg_attribute.vhd
-  - src/base/vhdl/olo_base_cc_bits.vhd
   - src/base/vhdl/olo_base_ram_sdp.vhd
+  - src/base/vhdl/olo_base_cc_bits.vhd
   - src/base/vhdl/olo_base_cc_reset.vhd
   - src/base/vhdl/olo_base_fifo_async.vhd

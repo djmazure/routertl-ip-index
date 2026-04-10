@@ -1,7 +1,7 @@
 name: taxi_ptp_td_rel2tod
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_ptp_td_rel2tod'
+description: PTP time distribution ToD timestamp reconstruction module
 license: ''
 source:
   type: git

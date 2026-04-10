@@ -1,7 +1,8 @@
 name: olo_base_arb_prio
 namespace: open-logic
 version: 4.4.1
-description: 'open-logic IP: olo_base_arb_prio'
+description: This entity implements an efficient priority arbiter. The highest index
+  of the input has priority.
 license: ''
 source:
   type: git

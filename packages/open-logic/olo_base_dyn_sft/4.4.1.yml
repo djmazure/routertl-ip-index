@@ -1,7 +1,8 @@
 name: olo_base_dyn_sft
 namespace: open-logic
 version: 4.4.1
-description: 'open-logic IP: olo_base_dyn_sft'
+description: This entity implements a dynamic shift implemented in multiple stages
+  in order to achieve good timing.
 license: ''
 source:
   type: git

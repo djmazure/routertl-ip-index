@@ -1,7 +1,7 @@
 name: test_taxi_pcie_us_axil_master
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: test_taxi_pcie_us_axil_master'
+description: UltraScale PCIe AXI Lite Master testbench
 license: ''
 source:
   type: git

@@ -1,7 +1,7 @@
 name: taxi_axis_xgmii_rx_64
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_axis_xgmii_rx_64'
+description: AXI4-Stream XGMII frame receiver (XGMII in, AXI out)
 license: ''
 source:
   type: git
@@ -12,6 +12,6 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - src/lfsr/rtl/taxi_lfsr.sv
   - src/axis/rtl/taxi_axis_if.sv
+  - src/lfsr/rtl/taxi_lfsr.sv
   - src/eth/rtl/taxi_axis_xgmii_rx_64.sv

@@ -2112,7 +2112,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: are",
+    "description": "I2C slave APB master wrapper",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -2151,7 +2151,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: cndm_lite_pcie_us",
+    "description": "Corundum-lite core logic for UltraScale PCIe",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -2229,7 +2229,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: cndm_micro_pcie_us",
+    "description": "Corundum-micro core logic for UltraScale PCIe",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -2255,7 +2255,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: cndm_micro_queue_state",
+    "description": "Corundum-micro queue state manager module",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -2333,7 +2333,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: cndm_proto_pcie_us",
+    "description": "Corundum-proto core logic for UltraScale PCIe",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -2411,7 +2411,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: has",
+    "description": "I2C slave AXI lite master wrapper",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -2476,7 +2476,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: pyrite_pcie_us_vpd_bpi",
+    "description": "Pyrite flashing support for UltraScale+ PCIe VPD and BPI flash",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -2489,7 +2489,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: pyrite_pcie_us_vpd_qspi",
+    "description": "Pyrite flashing support for UltraScale+ PCIe VPD and QSPI flash",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -2502,7 +2502,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: pyrite_pcie_us_vsec_bpi",
+    "description": "Pyrite flashing support for UltraScale+ PCIe VSEC and BPI flash",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -2515,7 +2515,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: pyrite_pcie_us_vsec_qspi",
+    "description": "Pyrite flashing support for UltraScale+ PCIe VSEC and QSPI flash",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -2580,7 +2580,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: ssio_sdr_in_diff",
+    "description": "Generic source synchronous SDR input",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -2593,7 +2593,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: starting",
+    "description": "I2C slave AXI lite master wrapper",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -2619,7 +2619,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_apb_axil_adapter",
+    "description": "APB to AXI4 lite adapter",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -2775,7 +2775,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_axi_axil_adapter_rd",
+    "description": "AXI4 to AXI4-Lite adapter (read)",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -2788,7 +2788,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_axi_axil_adapter_wr",
+    "description": "AXI4 to AXI4-Lite adapter (write)",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -2866,7 +2866,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_axi_crossbar_addr",
+    "description": "AXI4 crossbar address decode and admission control",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -3230,7 +3230,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_axil_adapter_rd",
+    "description": "AXI4 lite width adapter (read)",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -3243,7 +3243,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_axil_adapter_wr",
+    "description": "AXI4 lite width adapter (write)",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -3256,7 +3256,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_axil_apb_adapter",
+    "description": "AXI4 lite to APB adapter",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -3269,7 +3269,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_axil_axi_adapter",
+    "description": "AXI4 lite to AXI4 adapter",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -3282,7 +3282,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_axil_axi_adapter_rd",
+    "description": "AXI4 lite to AXI4 adapter (read)",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -3295,7 +3295,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_axil_axi_adapter_wr",
+    "description": "AXI4 lite to AXI4 adapter (write)",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -3360,7 +3360,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_axil_crossbar_addr",
+    "description": "AXI4 lite crossbar address decode and admission control",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -3633,7 +3633,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_axis_async_fifo_adapter",
+    "description": "AXI4-Stream asynchronous FIFO with width converter",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -3646,7 +3646,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_axis_baser_rx_32",
+    "description": "AXI4-Stream 10GBASE-R frame receiver (10GBASE-R in, AXI out)",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -3659,7 +3659,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_axis_baser_rx_64",
+    "description": "AXI4-Stream 10GBASE-R frame receiver (10GBASE-R in, AXI out)",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -3672,7 +3672,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_axis_baser_tx_32",
+    "description": "AXI4-Stream 10GBASE-R frame transmitter (AXI in, 10GBASE-R out)",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -3685,7 +3685,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_axis_baser_tx_64",
+    "description": "AXI4-Stream 10GBASE-R frame transmitter (AXI in, 10GBASE-R out)",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -3711,7 +3711,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_axis_cobs_decode",
+    "description": "AXI4-Stream consistent overhead byte stuffing (COBS) decoder",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -3724,7 +3724,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_axis_cobs_encode",
+    "description": "AXI4-Stream consistent overhead byte stuffing (COBS) encoder",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -3776,7 +3776,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_axis_fifo_adapter",
+    "description": "AXI4-Stream FIFO with width converter",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -3789,7 +3789,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_axis_gmii_rx",
+    "description": "AXI4-Stream GMII frame receiver (GMII in, AXI out)",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -3802,7 +3802,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_axis_gmii_tx",
+    "description": "AXI4-Stream GMII frame transmitter (AXI in, GMII out)",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -3932,7 +3932,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_axis_xgmii_rx_32",
+    "description": "AXI4-Stream XGMII frame receiver (XGMII in, AXI out)",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -3945,7 +3945,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_axis_xgmii_rx_64",
+    "description": "AXI4-Stream XGMII frame receiver (XGMII in, AXI out)",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -3958,7 +3958,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_axis_xgmii_tx_32",
+    "description": "AXI4-Stream XGMII frame transmitter (AXI in, XGMII out)",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -3971,7 +3971,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_axis_xgmii_tx_64",
+    "description": "AXI4-Stream XGMII frame transmitter (AXI in, XGMII out)",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -3984,7 +3984,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_debounce_switch",
+    "description": "Synchronizes switch and button inputs with a slow sampled shift register",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -3997,7 +3997,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_dma_client_axis_sink",
+    "description": "AXI stream sink DMA client",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -4010,7 +4010,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_dma_client_axis_source",
+    "description": "AXI stream source DMA client",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -4140,7 +4140,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_dma_if_pcie_us_rd",
+    "description": "UltraScale PCIe DMA read interface",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -4153,7 +4153,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_dma_if_pcie_us_wr",
+    "description": "UltraScale PCIe DMA write interface",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -4166,7 +4166,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_dma_psdpram",
+    "description": "DMA parallel simple dual port RAM",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -4179,7 +4179,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_dma_psdpram_async",
+    "description": "DMA parallel simple dual port RAM (asynchronous)",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -4257,7 +4257,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_eth_mac_10g_fifo",
+    "description": "10G Ethernet MAC with TX and RX FIFOs",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -4283,7 +4283,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_eth_mac_1g_fifo",
+    "description": "1G Ethernet MAC with TX and RX FIFOs",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -4296,7 +4296,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_eth_mac_1g_gmii",
+    "description": "1G Ethernet MAC with GMII interface",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -4309,7 +4309,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_eth_mac_1g_gmii_fifo",
+    "description": "1G Ethernet MAC with GMII interface and TX and RX FIFOs",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -4322,7 +4322,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_eth_mac_1g_rgmii",
+    "description": "1G Ethernet MAC with RGMII interface",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -4335,7 +4335,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_eth_mac_1g_rgmii_fifo",
+    "description": "1G Ethernet MAC with RGMII interface and TX and RX FIFOs",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -4348,7 +4348,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_eth_mac_25g_us",
+    "description": "Transceiver and MAC/PHY quad wrapper for UltraScale/UltraScale+",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -4361,7 +4361,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_eth_mac_25g_us_ch",
+    "description": "Transceiver and MAC/PHY wrapper for UltraScale/UltraScale+",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -4374,7 +4374,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_eth_mac_mii",
+    "description": "10M/100M Ethernet MAC with MII interface",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -4387,7 +4387,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_eth_mac_mii_fifo",
+    "description": "10M/100M Ethernet MAC with MII interface and TX and RX FIFOs",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -4413,7 +4413,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_eth_mac_phy_10g_fifo",
+    "description": "10G Ethernet MAC/PHY combination with TX and RX FIFOs",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -4504,7 +4504,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_eth_phy_10g_rx_ber_mon",
+    "description": "10G Ethernet PHY BER monitor",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -4517,7 +4517,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_eth_phy_10g_rx_frame_sync",
+    "description": "10G Ethernet PHY frame sync",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -4530,7 +4530,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_eth_phy_10g_rx_if",
+    "description": "10G Ethernet PHY RX IF",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -4543,7 +4543,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_eth_phy_10g_rx_watchdog",
+    "description": "10G Ethernet PHY serdes watchdog",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -4569,7 +4569,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_eth_phy_10g_tx_if",
+    "description": "10G Ethernet PHY TX IF",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -4595,7 +4595,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_eth_phy_10g_us_gt_ll",
+    "description": "Transceiver wrapper for UltraScale/UltraScale+ (low latency)",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -4621,7 +4621,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_eth_phy_25g_us_gt_apb",
+    "description": "Transceiver wrapper APB interface for UltraScale/UltraScale+",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -4634,7 +4634,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_eth_phy_25g_us_gt_ll",
+    "description": "Transceiver wrapper for UltraScale/UltraScale+ (low latency)",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -4660,7 +4660,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_gt_qpll_reset",
+    "description": "GT QPLL reset controller for UltraScale/UltraScale+ GTH/GTY",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -4673,7 +4673,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_gt_rx_reset",
+    "description": "GT RX reset controller for UltraScale/UltraScale+ GTH/GTY",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -4686,7 +4686,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_gt_tx_reset",
+    "description": "GT TX reset controller for UltraScale/UltraScale+ GTH/GTY",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -4751,7 +4751,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_i2c_slave_apb_master",
+    "description": "I2C slave APB master wrapper",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -4764,7 +4764,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_i2c_slave_axil_master",
+    "description": "I2C slave AXI lite master wrapper",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -4920,7 +4920,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_mac_pause_ctrl_rx",
+    "description": "PFC and pause frame receive handling",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -4933,7 +4933,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_mac_pause_ctrl_tx",
+    "description": "PFC and pause frame transmit handling",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -5024,7 +5024,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_pcie_axil_master_minimal",
+    "description": "PCIe AXI Lite Master (minimal version, supports only aligned, 1 DW operations)",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -5037,7 +5037,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_pcie_msix_apb",
+    "description": "PCIe MSI-X module with APB interface",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -5050,7 +5050,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_pcie_msix_axil",
+    "description": "PCIe MSI-X module with AXI lite interface",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -5076,7 +5076,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_pcie_us_axil_master",
+    "description": "UltraScale PCIe AXI Lite Master",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -5128,7 +5128,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_pcie_us_vsec_apb",
+    "description": "UltraScale PCIe vendor-specific capability for register access via AXI lite",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -5167,7 +5167,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_ptp_clock_cdc",
+    "description": "PTP clock CDC (clock domain crossing) module",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -5219,7 +5219,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_ptp_td_phc_apb",
+    "description": "PTP time distribution PHC with APB register interface",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -5232,7 +5232,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_ptp_td_phc_axil",
+    "description": "PTP time distribution PHC with AXI-lite register interface",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -5245,7 +5245,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_ptp_td_rel2tod",
+    "description": "PTP time distribution ToD timestamp reconstruction module",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -5336,7 +5336,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_ssio_ddr_in",
+    "description": "Generic source synchronous DDR input",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -5349,7 +5349,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_ssio_ddr_in_diff",
+    "description": "Generic source synchronous DDR input",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -5362,7 +5362,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_ssio_ddr_out",
+    "description": "Generic source synchronous DDR output",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -5375,7 +5375,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_ssio_ddr_out_diff",
+    "description": "Generic source synchronous DDR output",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -5388,7 +5388,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_ssio_sdr_in",
+    "description": "Generic source synchronous SDR input",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -5401,7 +5401,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_ssio_sdr_out",
+    "description": "Generic source synchronous SDR output",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -5414,7 +5414,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_ssio_sdr_out_diff",
+    "description": "Generic source synchronous SDR output",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -5466,7 +5466,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_sync_reset",
+    "description": "Synchronizes an active-high asynchronous reset signal to a given clock by using a pipeline of N registers.",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -5479,7 +5479,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_sync_signal",
+    "description": "Synchronizes an asynchronous signal to a given clock by using a pipeline of two registers.",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -5505,7 +5505,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: taxi_uart_brg",
+    "description": "AXI4-Stream UART baud rate generator",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -5739,7 +5739,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: test_taxi_apb_axil_adapter",
+    "description": "APB to AXI4 lite adapter testbench",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -5817,7 +5817,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: test_taxi_axi_axil_adapter",
+    "description": "AXI4 to AXI4-Lite adapter testbench",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -5986,7 +5986,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: test_taxi_axil_axi_adapter",
+    "description": "AXI4-Lite to AXI4 adapter testbench",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -6025,7 +6025,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: test_taxi_axil_dp_ram",
+    "description": "AXI4 lite dual-port RAM testbench",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -6129,7 +6129,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: test_taxi_axis_async_fifo_adapter",
+    "description": "AXI4-Stream asynchronous FIFO with width converter testbench",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -6142,7 +6142,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: test_taxi_axis_baser_rx_32",
+    "description": "AXI4-Stream 10GBASE-R frame receiver testbench",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -6155,7 +6155,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: test_taxi_axis_baser_rx_64",
+    "description": "AXI4-Stream 10GBASE-R frame receiver testbench",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -6168,7 +6168,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: test_taxi_axis_baser_tx_32",
+    "description": "AXI4-Stream 10GBASE-R frame transmitter testbench",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -6181,7 +6181,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: test_taxi_axis_baser_tx_64",
+    "description": "AXI4-Stream 10GBASE-R frame transmitter testbench",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -6272,7 +6272,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: test_taxi_axis_fifo_adapter",
+    "description": "AXI4-Stream FIFO with width converter testbench",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -6285,7 +6285,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: test_taxi_axis_gmii_rx",
+    "description": "AXI4-Stream GMII frame receiver testbench",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -6298,7 +6298,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: test_taxi_axis_gmii_tx",
+    "description": "AXI4-Stream GMII frame transmitter testbench",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -6376,7 +6376,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: test_taxi_axis_xgmii_rx_32",
+    "description": "AXI4-Stream XGMII frame receiver testbench",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -6389,7 +6389,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: test_taxi_axis_xgmii_rx_64",
+    "description": "AXI4-Stream XGMII frame receiver testbench",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -6402,7 +6402,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: test_taxi_axis_xgmii_tx_32",
+    "description": "AXI4-Stream XGMII frame transmitter testbench",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -6415,7 +6415,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: test_taxi_axis_xgmii_tx_64",
+    "description": "AXI4-Stream XGMII frame transmitter testbench",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -6428,7 +6428,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: test_taxi_dma_client_axis_sink",
+    "description": "AXI stream sink DMA client testbench",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -6441,7 +6441,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: test_taxi_dma_client_axis_source",
+    "description": "AXI stream source DMA client testbench",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -6493,7 +6493,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: test_taxi_dma_if_pcie_us",
+    "description": "UltraScale PCIe DMA interface testbench",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -6506,7 +6506,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: test_taxi_dma_if_pcie_us_rd",
+    "description": "UltraScale PCIe DMA interface testbench",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -6519,7 +6519,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: test_taxi_dma_if_pcie_us_wr",
+    "description": "UltraScale PCIe DMA interface testbench",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -6532,7 +6532,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: test_taxi_dma_psdpram",
+    "description": "DMA parallel simple dual port RAM testbench",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -6545,7 +6545,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: test_taxi_dma_psdpram_async",
+    "description": "DMA parallel simple dual port RAM (asynchronous) testbench",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -6571,7 +6571,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: test_taxi_eth_mac_10g_fifo",
+    "description": "10G Ethernet MAC with TX and RX FIFOs testbench",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -6597,7 +6597,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: test_taxi_eth_mac_1g_fifo",
+    "description": "1G Ethernet MAC with TX and RX FIFOs testbench",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -6610,7 +6610,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: test_taxi_eth_mac_1g_gmii",
+    "description": "1G Ethernet MAC with GMII interface testbench",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -6623,7 +6623,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: test_taxi_eth_mac_1g_gmii_fifo",
+    "description": "1G Ethernet MAC with GMII interface and TX and RX FIFOs testbench",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -6636,7 +6636,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: test_taxi_eth_mac_1g_rgmii",
+    "description": "1G Ethernet MAC with RGMII interface testbench",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -6649,7 +6649,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: test_taxi_eth_mac_1g_rgmii_fifo",
+    "description": "1G Ethernet MAC with RGMII interface and TX and RX FIFOs testbench",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -6662,7 +6662,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: test_taxi_eth_mac_25g_us",
+    "description": "Transceiver and MAC/PHY quad wrapper for UltraScale/UltraScale+ testbench",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -6675,7 +6675,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: test_taxi_eth_mac_mii",
+    "description": "10M/100M Ethernet MAC with MII interface testbench",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -6688,7 +6688,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: test_taxi_eth_mac_mii_fifo",
+    "description": "10M/100M Ethernet MAC with MII interface and TX and RX FIFOs testbench",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -6714,7 +6714,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: test_taxi_eth_mac_phy_10g_fifo",
+    "description": "10G Ethernet MAC with TX and RX FIFOs testbench",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -6766,7 +6766,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: test_taxi_i2c_slave_apb_master",
+    "description": "I2C slave APB master testbench",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -6779,7 +6779,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: test_taxi_i2c_slave_axil_master",
+    "description": "I2C slave AXI lite master testbench",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -6792,7 +6792,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: test_taxi_irq_rate_limit",
+    "description": "IRQ rate limit module testbench",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -6831,7 +6831,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: test_taxi_mt19937",
+    "description": "MT19937/MT19937-64 Mersenne Twister PRNG testbench",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -6844,7 +6844,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: test_taxi_pcie_axil_master",
+    "description": "PCIe AXI Lite Master testbench",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -6857,7 +6857,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: test_taxi_pcie_axil_master_minimal",
+    "description": "PCIe AXI Lite Master (minimal) testbench",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -6896,7 +6896,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: test_taxi_pcie_us_axil_master",
+    "description": "UltraScale PCIe AXI Lite Master testbench",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -6909,7 +6909,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: test_taxi_ptp_td_rel2tod",
+    "description": "PTP time distribution ToD timestamp reconstruction module testbench",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -7013,7 +7013,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: test_taxi_xfcp_mod_axil",
+    "description": "XFCP AXI lite module testbench",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -7026,7 +7026,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: test_taxi_xfcp_mod_i2c_master",
+    "description": "XFCP I2C master module testbench",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -7091,7 +7091,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: zircon_ip_len_cksum",
+    "description": "Zircon IP stack - Length and checksum computation",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -7104,7 +7104,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: zircon_ip_rx_egress",
+    "description": "Zircon IP stack - RX egress module",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -7117,7 +7117,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: zircon_ip_rx_ingress",
+    "description": "Zircon IP stack - RX ingress module",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -7130,7 +7130,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: zircon_ip_rx_parse",
+    "description": "Zircon IP stack - RX parser",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -7143,7 +7143,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: zircon_ip_tx_buffer",
+    "description": "Zircon IP stack - TX packet buffer",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -7156,7 +7156,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: zircon_ip_tx_deparse",
+    "description": "Zircon IP stack - TX deparser",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -7169,7 +7169,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: zircon_ip_tx_egress",
+    "description": "Zircon IP stack - TX egress module",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -7182,7 +7182,7 @@
     "versions": [
       "master"
     ],
-    "description": "fpganinja IP: zircon_ip_tx_ingress",
+    "description": "Zircon IP stack - TX ingress module",
     "license": "",
     "language": "systemverilog",
     "library": "work",
@@ -21883,10 +21883,9 @@
     "name": "olo_axi_lite_slave",
     "latest": "4.4.1",
     "versions": [
-      "2.5.0",
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_axi_lite_slave",
+    "description": "This entity implements an AXI-Lite Slave Interface, which can be used to access registers and memory. On the user-side it provides a simple read/write/address/data interface.",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -21899,9 +21898,9 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_axi_master_full",
+    "description": "This entity implements a full AXI master. In contrast to olo_axi_master_simple, this entity can do unaligned transfers and it supports different width for the AXI interface than for the data interf...",
     "license": "",
-    "language": "vhdl-2008",
+    "language": "vhdl-2008-relaxed",
     "library": "olo",
     "source_url": "https://github.com/open-logic/open-logic.git"
   },
@@ -21910,12 +21909,11 @@
     "name": "olo_axi_master_simple",
     "latest": "4.4.1",
     "versions": [
-      "2.5.0",
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_axi_master_simple",
+    "description": "This entity implements a simple AXI master. Simple means: It does not support any unaligned reads/writes and it does not do any width conversions. It just executes the transfers requested and split...",
     "license": "",
-    "language": "vhdl-2008",
+    "language": "vhdl-2008-relaxed",
     "library": "olo",
     "source_url": "https://github.com/open-logic/open-logic.git"
   },
@@ -21926,7 +21924,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_axi_pl_stage",
+    "description": "This entity implements multiple pipeline stages for an axi4 interface.",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -21937,10 +21935,9 @@
     "name": "olo_base_arb_prio",
     "latest": "4.4.1",
     "versions": [
-      "2.5.0",
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_base_arb_prio",
+    "description": "This entity implements an efficient priority arbiter. The highest index of the input has priority.",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -21953,7 +21950,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_base_arb_rr",
+    "description": "This entity implements an efficient round-robin arbiter.",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -21966,7 +21963,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_base_arb_wrr",
+    "description": "This entity implements an efficient weighted round-robin arbiter.",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -21979,9 +21976,9 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_base_cam",
+    "description": "This components implements a content addressable memory.",
     "license": "",
-    "language": "vhdl-2008",
+    "language": "vhdl-2008-relaxed",
     "library": "olo",
     "source_url": "https://github.com/open-logic/open-logic.git"
   },
@@ -21990,10 +21987,9 @@
     "name": "olo_base_cc_bits",
     "latest": "4.4.1",
     "versions": [
-      "2.5.0",
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_base_cc_bits",
+    "description": "This is a very basic clock crossing that allows passing multple independent single-bit signals from one clock domain to another one. Double stage synchronizers are implemeted for each bit, includin...",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22006,7 +22002,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_base_cc_handshake",
+    "description": "This is a very basic clock crossing that allows passing of data with the commonly used Valid/Ready handshake. The clock crossing is not meant to achieve high-performance but to be simple and safe.",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22019,7 +22015,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_base_cc_n2xn",
+    "description": "This entity implements a clock crossing between two synchronous clocks where the input clock period is an integer multiple of the output clock period (output clock frequency is an integer multiple ...",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22032,7 +22028,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_base_cc_pulse",
+    "description": "This is a very basic clock crossing that allows passing pulses from one clock domain to another. The pulse frequency must be significantly lower than then slower clock speed. Note that this entity ...",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22045,7 +22041,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_base_cc_reset",
+    "description": "This is a very basic clock crossing that allows to clock-cross resets. It does assert reset on the other clock domain immediately and de-asserts the reset synchronously to the corresponding clock. ...",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22058,7 +22054,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_base_cc_simple",
+    "description": "This is a very basic clock crossing that allows passing single samples of data from one clock domain to another. It only works if sample rates are significantly lower than the clock speed of both d...",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22071,7 +22067,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_base_cc_status",
+    "description": "This is a very basic clock crossing that allows passing of static-data (i.e. data that is not sample based) from one clock domain to another. This entity ensures that the data is passed correctly a...",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22084,22 +22080,9 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_base_cc_xn2n",
+    "description": "This entity implements a clock crossing between two synchronous clocks where the output clock period is an integer multiple of the input clock period (input clock frequency is an integer multiple o...",
     "license": "",
     "language": "vhdl-2008",
-    "library": "olo",
-    "source_url": "https://github.com/open-logic/open-logic.git"
-  },
-  {
-    "namespace": "open-logic",
-    "name": "olo_base_cdc_sync",
-    "latest": "2.5.0",
-    "versions": [
-      "2.5.0"
-    ],
-    "description": "Two-flip-flop CDC synchronizer \u2014 single-bit, multi-vendor safe",
-    "license": "LGPL-2.1-or-later",
-    "language": "vhdl",
     "library": "olo",
     "source_url": "https://github.com/open-logic/open-logic.git"
   },
@@ -22110,7 +22093,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_base_crc",
+    "description": "Description: A CRC generator based on a linear-feedback shifter register. Can be used to generate CRCs to add on TX side or to calculate CRCs to compare to received CRC on RX side.",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22123,7 +22106,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_base_crc_append",
+    "description": "Description: Append a CRC to AXI4-Stream packets.",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22136,9 +22119,9 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_base_crc_check",
+    "description": "Description: Check the CRC appended to AXI4-Stream packets and drop packets with errors.",
     "license": "",
-    "language": "vhdl-2008",
+    "language": "vhdl-2008-relaxed",
     "library": "olo",
     "source_url": "https://github.com/open-logic/open-logic.git"
   },
@@ -22149,7 +22132,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_base_decode_firstbit",
+    "description": "This entity implements a pipelined first bit decoder. It finds out which is the lowest index of a bit set in the input vecotr.",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22162,9 +22145,9 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_base_delay",
+    "description": "This is a delay element. It is either emplemented in BRAM or SRL. The output is always a fabric register for improved timing.",
     "license": "",
-    "language": "vhdl-2008",
+    "language": "vhdl-2008-relaxed",
     "library": "olo",
     "source_url": "https://github.com/open-logic/open-logic.git"
   },
@@ -22175,9 +22158,9 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_base_delay_cfg",
+    "description": "This is a delay element. It is either implemented in BRAM & SRL. The output is always a fabric register for improved timing. The delay is settable by a input and not fixed as the olo_base_delay. Ch...",
     "license": "",
-    "language": "vhdl-2008",
+    "language": "vhdl-2008-relaxed",
     "library": "olo",
     "source_url": "https://github.com/open-logic/open-logic.git"
   },
@@ -22188,7 +22171,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_base_dyn_sft",
+    "description": "This entity implements a dynamic shift implemented in multiple stages in order to achieve good timing.",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22199,12 +22182,11 @@
     "name": "olo_base_fifo_async",
     "latest": "4.4.1",
     "versions": [
-      "2.5.0",
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_base_fifo_async",
+    "description": "This is a very basic asynchronous FIFO. The clocks can be fully asynchronous (unrelated). It  has optional level- and almost-full/empty ports.",
     "license": "",
-    "language": "vhdl-2008",
+    "language": "vhdl-2008-relaxed",
     "library": "olo",
     "source_url": "https://github.com/open-logic/open-logic.git"
   },
@@ -22215,9 +22197,9 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_base_fifo_packet",
+    "description": "This is a synchronous packet FIFO. In contrast to a normal FIFO, it allows",
     "license": "",
-    "language": "vhdl-2008",
+    "language": "vhdl-2008-relaxed",
     "library": "olo",
     "source_url": "https://github.com/open-logic/open-logic.git"
   },
@@ -22226,12 +22208,11 @@
     "name": "olo_base_fifo_sync",
     "latest": "4.4.1",
     "versions": [
-      "2.5.0",
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_base_fifo_sync",
+    "description": "This is a very basic synchronous FIFO. It  has optional level- and almost-full/empty ports.",
     "license": "",
-    "language": "vhdl-2008",
+    "language": "vhdl-2008-relaxed",
     "library": "olo",
     "source_url": "https://github.com/open-logic/open-logic.git"
   },
@@ -22242,9 +22223,9 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_base_flowctrl_handler",
+    "description": "Implements full flow-control handling (including Ready/backpressure) for processing entities that do not support flow-control natively.",
     "license": "",
-    "language": "vhdl-2008",
+    "language": "vhdl-2008-relaxed",
     "library": "olo",
     "source_url": "https://github.com/open-logic/open-logic.git"
   },
@@ -22255,9 +22236,9 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_base_latency_comp",
+    "description": "This module implements a latency compensation for signals that bypass some processing logic.",
     "license": "",
-    "language": "vhdl-2008",
+    "language": "vhdl-2008-relaxed",
     "library": "olo",
     "source_url": "https://github.com/open-logic/open-logic.git"
   },
@@ -22268,7 +22249,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_base_pl_stage",
+    "description": "This entity implements a pipelinestage with handshaking (AXI-S Ready/Valild). The pipeline stage ensures all signals are registered in both directions (including Ready). This is important to break ...",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22281,7 +22262,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_base_prbs",
+    "description": "Description: A generic pseudo random binary sequence based on a linear-feedback shifter register.",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22292,12 +22273,11 @@
     "name": "olo_base_ram_sdp",
     "latest": "4.4.1",
     "versions": [
-      "2.5.0",
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_base_ram_sdp",
+    "description": "This is a pure VHDL and vendor indpendent simple dual port RAM with optional byte enables.",
     "license": "",
-    "language": "vhdl-2008",
+    "language": "vhdl-2008-relaxed",
     "library": "olo",
     "source_url": "https://github.com/open-logic/open-logic.git"
   },
@@ -22308,9 +22288,9 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_base_ram_sp",
+    "description": "This is a pure VHDL and vendor indpendent true single-port RAM with optional byte-enables.",
     "license": "",
-    "language": "vhdl-2008",
+    "language": "vhdl-2008-relaxed",
     "library": "olo",
     "source_url": "https://github.com/open-logic/open-logic.git"
   },
@@ -22321,9 +22301,9 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_base_ram_tdp",
+    "description": "This is a pure VHDL and vendor indpendent true dual port RAM with optional byte enables.",
     "license": "",
-    "language": "vhdl-2008",
+    "language": "vhdl-2008-relaxed",
     "library": "olo",
     "source_url": "https://github.com/open-logic/open-logic.git"
   },
@@ -22334,7 +22314,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_base_rate_limit",
+    "description": "This component limits the rate of AXI4-Stream style handshaked interfaces to a specified maximum data rate. It can be used to avoid overloading downstream components. This is especially useful when...",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22347,7 +22327,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_base_reset_gen",
+    "description": "This is a reset generator. It generates a pulse of the specified duration after FPGA configuration. The reset output is High-Active according to the Open-Logic definitions. The reset generator also...",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22360,7 +22340,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_base_strobe_div",
+    "description": "This is a very basic strobe divider. It forwards only every Nth single cycle pulse to the output.",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22373,7 +22353,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_base_strobe_gen",
+    "description": "This is a very basic strobe generator. It produces pulses with a duration of one clock cycle at a given frequency.",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22386,7 +22366,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_base_tdm_mux",
+    "description": "This is a very basic mux for Time Division Multiplxed data input",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22399,7 +22379,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_base_wconv_n2m",
+    "description": "This entity implements a simple data-width conversion between arbitrary input and output widths.",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22412,7 +22392,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_base_wconv_n2xn",
+    "description": "This entity implements a simple data-width conversion. The output width must be an integer multiple of the input width (Wo = n*Wi).",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22425,7 +22405,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_base_wconv_xn2n",
+    "description": "This entity implements a simple data-width conversion. The input width must be an integer multiple of the output width (Wi = n*Wo)",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22438,7 +22418,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_fix_abs",
+    "description": "This entity implements the cl_fix_abs function as entity. Includes pipeline stages and allows usage from Verilog.",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22451,7 +22431,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_fix_add",
+    "description": "This entity implements the cl_fix_add function as entity. Includes pipeline stages and allows usage from Verilog.",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22464,7 +22444,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_fix_addsub",
+    "description": "This entity implements the cl_fix_addsub function as entity. Includes pipeline stages and allows usage from Verilog.",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22477,7 +22457,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_fix_bin_div",
+    "description": "This entity implements a binary division of two fixed-point numbers using a non-restoring division algorithm.",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22490,7 +22470,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_fix_cic_dec_par_tdm",
+    "description": "This entity implements a CIC decimator. It supports one or multiple channels. On the input side the channels are received in parallel (allowing one sample per cycle for every channel). On the outpu...",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22503,7 +22483,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_fix_cic_dec_tdm",
+    "description": "This entity implements a CIC decimator. It supports one or multiple channels (time-division-multiplexed). The decimation ratio can either be configurable or fixed.",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22516,7 +22496,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_fix_compare",
+    "description": "This entity implements the cl_fix_compare function as entity. Includes pipeline stages and allows usage from Verilog.",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22529,7 +22509,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_fix_cordic_rot",
+    "description": "This entity implements a rotating CORDIC algorithm in either pipelined or serial mode.",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22542,7 +22522,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_fix_cordic_vect",
+    "description": "This entity implements a vectoring CORDIC algorithm in either pipelined or serial mode.",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22555,7 +22535,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_fix_from_real",
+    "description": "This entity implements the cl_fix_from_real function as entity. it does NOT include pipeline stages because real numbers are only used for synthesis/simuation. They do not exist in the hardware.",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22568,7 +22548,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_fix_limit",
+    "description": "This entity implements the cl_fix_limit function as entity. Includes pipeline stages and allows usage from Verilog.",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22581,7 +22561,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_fix_mult",
+    "description": "This entity implements the cl_fix_mult function as entity. Includes pipeline stages and allows usage from Verilog.",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22594,7 +22574,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_fix_neg",
+    "description": "This entity implements the cl_fix_neg function as entity. Includes pipeline stages and allows usage from Verilog.",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22607,7 +22587,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_fix_resize",
+    "description": "This entity implements the cl_fix_resize function as entity. Includes pipeline stages and allows usage from Verilog.",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22620,7 +22600,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_fix_round",
+    "description": "This entity implements the cl_fix_round function as entity. Includes pipeline stages and allows usage from Verilog.",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22633,7 +22613,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_fix_saturate",
+    "description": "This entity implements the cl_fix_saturate function as entity. Includes pipeline stages and allows usage from Verilog.",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22646,7 +22626,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_fix_sim_checker",
+    "description": "This entity implements reads a olo_fix signal from a file and checks DUT outputs against it. It is used for writing testbenches for entities based on olo_fix.",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22659,7 +22639,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_fix_sim_from_real",
+    "description": "This entity implements the cl_fix_from_real function as entity. it does NOT include pipeline stages because real numbers are only used for synthesis/simuation. They do not exist in the hardware.",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22672,7 +22652,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_fix_sim_stimuli",
+    "description": "This entity implements reads a olo_fix signal from a file and applies it to a DUT. It is used for writing testbenches for entities based on olo_fix.",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22685,7 +22665,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_fix_sub",
+    "description": "This entity implements the cl_fix_sub function as entity. Includes pipeline stages and allows usage from Verilog.",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22698,7 +22678,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_fix_to_real",
+    "description": "This entity implements the cl_fix_to_real function as entity. it does NOT include pipeline stages because real numbers are only used for synthesis/simuation. They do not exist in the hardware.",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22711,7 +22691,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_intf_clk_meas",
+    "description": "This entity measures the frequency of a clock under the assumption that the frequency of the main-clock (Clk) is exactly correct.",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22724,7 +22704,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_intf_debounce",
+    "description": "This is a debouncer for button and switch inputs. It contains a double stage synchronizer to synchronize those inputs to the clock.",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22737,7 +22717,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_intf_i2c_master",
+    "description": "This entity implements a simple I2C-master (multi master capable)",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22750,7 +22730,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_intf_spi_master",
+    "description": "This entity implements a simple SPI-master",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22763,7 +22743,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_intf_spi_slave",
+    "description": "This entity implements a simple SPI-slave",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22776,7 +22756,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_intf_sync",
+    "description": "This is a simple double-stage synchronizer for synchronizing external signals to the internal system clock.",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",
@@ -22789,7 +22769,7 @@
     "versions": [
       "4.4.1"
     ],
-    "description": "open-logic IP: olo_intf_uart",
+    "description": "This entity implements a simple UART.",
     "license": "",
     "language": "vhdl-2008",
     "library": "olo",

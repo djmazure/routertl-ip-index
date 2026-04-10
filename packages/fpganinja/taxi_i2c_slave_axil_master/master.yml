@@ -1,7 +1,7 @@
 name: taxi_i2c_slave_axil_master
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_i2c_slave_axil_master'
+description: I2C slave AXI lite master wrapper
 license: ''
 source:
   type: git

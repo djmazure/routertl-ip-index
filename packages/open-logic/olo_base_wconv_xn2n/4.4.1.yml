@@ -1,7 +1,8 @@
 name: olo_base_wconv_xn2n
 namespace: open-logic
 version: 4.4.1
-description: 'open-logic IP: olo_base_wconv_xn2n'
+description: This entity implements a simple data-width conversion. The input width
+  must be an integer multiple of the output width (Wi = n*Wo)
 license: ''
 source:
   type: git

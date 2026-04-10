@@ -1,7 +1,7 @@
 name: test_taxi_axis_baser_rx_32
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: test_taxi_axis_baser_rx_32'
+description: AXI4-Stream 10GBASE-R frame receiver testbench
 license: ''
 source:
   type: git
@@ -12,7 +12,7 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - src/lfsr/rtl/taxi_lfsr.sv
   - src/axis/rtl/taxi_axis_if.sv
+  - src/lfsr/rtl/taxi_lfsr.sv
   - src/eth/rtl/taxi_axis_baser_rx_32.sv
   - src/eth/tb/taxi_axis_baser_rx_32/test_taxi_axis_baser_rx_32.sv

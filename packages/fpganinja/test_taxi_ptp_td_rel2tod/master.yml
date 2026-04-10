@@ -1,7 +1,7 @@
 name: test_taxi_ptp_td_rel2tod
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: test_taxi_ptp_td_rel2tod'
+description: PTP time distribution ToD timestamp reconstruction module testbench
 license: ''
 source:
   type: git

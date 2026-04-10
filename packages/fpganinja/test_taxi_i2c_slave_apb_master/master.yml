@@ -1,7 +1,7 @@
 name: test_taxi_i2c_slave_apb_master
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: test_taxi_i2c_slave_apb_master'
+description: I2C slave APB master testbench
 license: ''
 source:
   type: git

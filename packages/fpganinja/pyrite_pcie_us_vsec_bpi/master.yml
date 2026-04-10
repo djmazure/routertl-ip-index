@@ -1,7 +1,7 @@
 name: pyrite_pcie_us_vsec_bpi
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: pyrite_pcie_us_vsec_bpi'
+description: Pyrite flashing support for UltraScale+ PCIe VSEC and BPI flash
 license: ''
 source:
   type: git

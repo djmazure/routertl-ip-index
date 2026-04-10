@@ -1,7 +1,7 @@
 name: taxi_uart_brg
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_uart_brg'
+description: AXI4-Stream UART baud rate generator
 license: ''
 source:
   type: git

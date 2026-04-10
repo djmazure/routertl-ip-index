@@ -1,7 +1,7 @@
 name: taxi_eth_phy_10g_tx_if
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_eth_phy_10g_tx_if'
+description: 10G Ethernet PHY TX IF
 license: ''
 source:
   type: git

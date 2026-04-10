@@ -1,7 +1,7 @@
 name: taxi_dma_psdpram
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_dma_psdpram'
+description: DMA parallel simple dual port RAM
 license: ''
 source:
   type: git

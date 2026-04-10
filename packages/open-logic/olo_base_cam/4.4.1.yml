@@ -1,7 +1,7 @@
 name: olo_base_cam
 namespace: open-logic
 version: 4.4.1
-description: 'open-logic IP: olo_base_cam'
+description: This components implements a content addressable memory.
 license: ''
 source:
   type: git
@@ -9,7 +9,7 @@ source:
   tag: 4.4.1
   ip_yml_path: .
 routertl_compat:
-  language: vhdl-2008
+  language: vhdl-2008-relaxed
   library: olo
   files:
   - src/base/vhdl/olo_base_pkg_array.vhd

@@ -1,7 +1,9 @@
 name: olo_base_cc_reset
 namespace: open-logic
 version: 4.4.1
-description: 'open-logic IP: olo_base_cc_reset'
+description: This is a very basic clock crossing that allows to clock-cross resets.
+  It does assert reset on the other clock domain immediately and de-asserts the reset
+  synchronously to the corresponding clock. ...
 license: ''
 source:
   type: git

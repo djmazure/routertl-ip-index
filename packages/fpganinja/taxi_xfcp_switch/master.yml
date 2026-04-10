@@ -12,7 +12,7 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
+  - src/axis/rtl/taxi_axis_if.sv
   - src/prim/rtl/taxi_penc.sv
   - src/prim/rtl/taxi_arbiter.sv
-  - src/axis/rtl/taxi_axis_if.sv
   - src/xfcp/rtl/taxi_xfcp_switch.sv

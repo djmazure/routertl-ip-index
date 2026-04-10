@@ -1,7 +1,7 @@
 name: test_taxi_axil_axi_adapter
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: test_taxi_axil_axi_adapter'
+description: AXI4-Lite to AXI4 adapter testbench
 license: ''
 source:
   type: git
@@ -12,8 +12,8 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - src/axi/rtl/taxi_axi_if.sv
   - src/axi/rtl/taxi_axil_if.sv
+  - src/axi/rtl/taxi_axi_if.sv
   - src/axi/rtl/taxi_axil_axi_adapter_wr.sv
   - src/axi/rtl/taxi_axil_axi_adapter_rd.sv
   - src/axi/rtl/taxi_axil_axi_adapter.sv

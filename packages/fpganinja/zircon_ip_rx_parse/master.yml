@@ -1,7 +1,7 @@
 name: zircon_ip_rx_parse
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: zircon_ip_rx_parse'
+description: Zircon IP stack - RX parser
 license: ''
 source:
   type: git

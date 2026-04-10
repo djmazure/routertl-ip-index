@@ -1,7 +1,7 @@
 name: taxi_ptp_clock_cdc
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_ptp_clock_cdc'
+description: PTP clock CDC (clock domain crossing) module
 license: ''
 source:
   type: git

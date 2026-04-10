@@ -1,7 +1,7 @@
 name: test_taxi_axis_fifo_adapter
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: test_taxi_axis_fifo_adapter'
+description: AXI4-Stream FIFO with width converter testbench
 license: ''
 source:
   type: git

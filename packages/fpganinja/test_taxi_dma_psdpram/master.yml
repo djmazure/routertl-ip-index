@@ -1,7 +1,7 @@
 name: test_taxi_dma_psdpram
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: test_taxi_dma_psdpram'
+description: DMA parallel simple dual port RAM testbench
 license: ''
 source:
   type: git

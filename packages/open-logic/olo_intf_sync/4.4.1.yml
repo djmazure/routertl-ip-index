@@ -1,7 +1,8 @@
 name: olo_intf_sync
 namespace: open-logic
 version: 4.4.1
-description: 'open-logic IP: olo_intf_sync'
+description: This is a simple double-stage synchronizer for synchronizing external
+  signals to the internal system clock.
 license: ''
 source:
   type: git

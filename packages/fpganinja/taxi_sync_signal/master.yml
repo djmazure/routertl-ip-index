@@ -1,7 +1,8 @@
 name: taxi_sync_signal
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_sync_signal'
+description: Synchronizes an asynchronous signal to a given clock by using a pipeline
+  of two registers.
 license: ''
 source:
   type: git

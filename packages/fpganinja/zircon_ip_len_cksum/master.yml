@@ -1,7 +1,7 @@
 name: zircon_ip_len_cksum
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: zircon_ip_len_cksum'
+description: Zircon IP stack - Length and checksum computation
 license: ''
 source:
   type: git

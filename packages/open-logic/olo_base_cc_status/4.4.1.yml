@@ -1,7 +1,9 @@
 name: olo_base_cc_status
 namespace: open-logic
 version: 4.4.1
-description: 'open-logic IP: olo_base_cc_status'
+description: This is a very basic clock crossing that allows passing of static-data
+  (i.e. data that is not sample based) from one clock domain to another. This entity
+  ensures that the data is passed correctly a...
 license: ''
 source:
   type: git

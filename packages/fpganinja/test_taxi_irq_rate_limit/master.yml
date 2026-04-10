@@ -1,7 +1,7 @@
 name: test_taxi_irq_rate_limit
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: test_taxi_irq_rate_limit'
+description: IRQ rate limit module testbench
 license: ''
 source:
   type: git

@@ -1,7 +1,7 @@
 name: zircon_ip_tx_deparse
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: zircon_ip_tx_deparse'
+description: Zircon IP stack - TX deparser
 license: ''
 source:
   type: git

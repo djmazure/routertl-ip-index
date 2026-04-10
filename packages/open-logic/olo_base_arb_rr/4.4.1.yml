@@ -1,7 +1,7 @@
 name: olo_base_arb_rr
 namespace: open-logic
 version: 4.4.1
-description: 'open-logic IP: olo_base_arb_rr'
+description: This entity implements an efficient round-robin arbiter.
 license: ''
 source:
   type: git

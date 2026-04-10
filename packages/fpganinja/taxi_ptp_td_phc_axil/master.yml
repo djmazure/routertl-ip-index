@@ -1,7 +1,7 @@
 name: taxi_ptp_td_phc_axil
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_ptp_td_phc_axil'
+description: PTP time distribution PHC with AXI-lite register interface
 license: ''
 source:
   type: git
@@ -13,6 +13,6 @@ routertl_compat:
   library: work
   files:
   - src/ptp/rtl/taxi_ptp_td_leaf.sv
-  - src/axi/rtl/taxi_axil_if.sv
   - src/ptp/rtl/taxi_ptp_td_phc.sv
+  - src/axi/rtl/taxi_axil_if.sv
   - src/ptp/rtl/taxi_ptp_td_phc_axil.sv

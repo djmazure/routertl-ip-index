@@ -1,7 +1,8 @@
 name: olo_base_fifo_sync
 namespace: open-logic
 version: 4.4.1
-description: 'open-logic IP: olo_base_fifo_sync'
+description: This is a very basic synchronous FIFO. It  has optional level- and almost-full/empty
+  ports.
 license: ''
 source:
   type: git
@@ -9,7 +10,7 @@ source:
   tag: 4.4.1
   ip_yml_path: .
 routertl_compat:
-  language: vhdl-2008
+  language: vhdl-2008-relaxed
   library: olo
   files:
   - src/base/vhdl/olo_base_pkg_array.vhd

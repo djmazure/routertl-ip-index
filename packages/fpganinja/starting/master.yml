@@ -1,7 +1,7 @@
 name: starting
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: starting'
+description: I2C slave AXI lite master wrapper
 license: ''
 source:
   type: git

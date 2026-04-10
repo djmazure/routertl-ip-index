@@ -1,7 +1,7 @@
 name: taxi_ssio_ddr_out
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_ssio_ddr_out'
+description: Generic source synchronous DDR output
 license: ''
 source:
   type: git

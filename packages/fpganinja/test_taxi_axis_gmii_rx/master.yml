@@ -1,7 +1,7 @@
 name: test_taxi_axis_gmii_rx
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: test_taxi_axis_gmii_rx'
+description: AXI4-Stream GMII frame receiver testbench
 license: ''
 source:
   type: git

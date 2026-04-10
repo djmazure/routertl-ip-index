@@ -1,7 +1,7 @@
 name: taxi_pcie_axil_master_minimal
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_pcie_axil_master_minimal'
+description: PCIe AXI Lite Master (minimal version, supports only aligned, 1 DW operations)
 license: ''
 source:
   type: git

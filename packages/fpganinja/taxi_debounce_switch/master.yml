@@ -1,7 +1,7 @@
 name: taxi_debounce_switch
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_debounce_switch'
+description: Synchronizes switch and button inputs with a slow sampled shift register
 license: ''
 source:
   type: git

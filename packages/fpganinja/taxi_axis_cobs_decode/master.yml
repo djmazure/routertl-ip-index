@@ -1,7 +1,7 @@
 name: taxi_axis_cobs_decode
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_axis_cobs_decode'
+description: AXI4-Stream consistent overhead byte stuffing (COBS) decoder
 license: ''
 source:
   type: git

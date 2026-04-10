@@ -1,7 +1,7 @@
 name: test_taxi_axis_xgmii_tx_32
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: test_taxi_axis_xgmii_tx_32'
+description: AXI4-Stream XGMII frame transmitter testbench
 license: ''
 source:
   type: git

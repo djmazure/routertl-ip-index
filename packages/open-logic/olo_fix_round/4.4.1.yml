@@ -1,7 +1,8 @@
 name: olo_fix_round
 namespace: open-logic
 version: 4.4.1
-description: 'open-logic IP: olo_fix_round'
+description: This entity implements the cl_fix_round function as entity. Includes
+  pipeline stages and allows usage from Verilog.
 license: ''
 source:
   type: git

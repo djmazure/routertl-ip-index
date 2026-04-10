@@ -1,7 +1,8 @@
 name: taxi_pcie_us_vsec_apb
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_pcie_us_vsec_apb'
+description: UltraScale PCIe vendor-specific capability for register access via AXI
+  lite
 license: ''
 source:
   type: git

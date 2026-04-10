@@ -1,7 +1,9 @@
 name: olo_fix_sim_checker
 namespace: open-logic
 version: 4.4.1
-description: 'open-logic IP: olo_fix_sim_checker'
+description: This entity implements reads a olo_fix signal from a file and checks
+  DUT outputs against it. It is used for writing testbenches for entities based on
+  olo_fix.
 license: ''
 source:
   type: git

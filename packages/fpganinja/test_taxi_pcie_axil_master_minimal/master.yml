@@ -1,7 +1,7 @@
 name: test_taxi_pcie_axil_master_minimal
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: test_taxi_pcie_axil_master_minimal'
+description: PCIe AXI Lite Master (minimal) testbench
 license: ''
 source:
   type: git

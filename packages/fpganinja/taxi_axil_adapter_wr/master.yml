@@ -1,7 +1,7 @@
 name: taxi_axil_adapter_wr
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_axil_adapter_wr'
+description: AXI4 lite width adapter (write)
 license: ''
 source:
   type: git

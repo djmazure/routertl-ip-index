@@ -1,7 +1,7 @@
 name: taxi_eth_phy_10g_rx_frame_sync
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_eth_phy_10g_rx_frame_sync'
+description: 10G Ethernet PHY frame sync
 license: ''
 source:
   type: git

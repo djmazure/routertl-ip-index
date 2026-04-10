@@ -1,7 +1,7 @@
 name: taxi_axil_crossbar_addr
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_axil_crossbar_addr'
+description: AXI4 lite crossbar address decode and admission control
 license: ''
 source:
   type: git

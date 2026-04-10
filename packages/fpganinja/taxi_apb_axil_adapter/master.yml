@@ -1,7 +1,7 @@
 name: taxi_apb_axil_adapter
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_apb_axil_adapter'
+description: APB to AXI4 lite adapter
 license: ''
 source:
   type: git

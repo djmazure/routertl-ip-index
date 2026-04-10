@@ -1,7 +1,7 @@
 name: taxi_gt_rx_reset
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_gt_rx_reset'
+description: GT RX reset controller for UltraScale/UltraScale+ GTH/GTY
 license: ''
 source:
   type: git
@@ -12,6 +12,6 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - src/sync/rtl/taxi_sync_signal.sv
   - src/sync/rtl/taxi_sync_reset.sv
+  - src/sync/rtl/taxi_sync_signal.sv
   - src/hip/rtl/us/taxi_gt_rx_reset.sv

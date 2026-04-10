@@ -1,7 +1,7 @@
 name: test_taxi_xfcp_mod_i2c_master
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: test_taxi_xfcp_mod_i2c_master'
+description: XFCP I2C master module testbench
 license: ''
 source:
   type: git

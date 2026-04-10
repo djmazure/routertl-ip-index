@@ -1,7 +1,8 @@
 name: taxi_sync_reset
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_sync_reset'
+description: Synchronizes an active-high asynchronous reset signal to a given clock
+  by using a pipeline of N registers.
 license: ''
 source:
   type: git

@@ -1,7 +1,7 @@
 name: test_taxi_xfcp_mod_axil
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: test_taxi_xfcp_mod_axil'
+description: XFCP AXI lite module testbench
 license: ''
 source:
   type: git
@@ -12,7 +12,7 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - src/axi/rtl/taxi_axil_if.sv
   - src/axis/rtl/taxi_axis_if.sv
+  - src/axi/rtl/taxi_axil_if.sv
   - src/xfcp/rtl/taxi_xfcp_mod_axil.sv
   - src/xfcp/tb/taxi_xfcp_mod_axil/test_taxi_xfcp_mod_axil.sv

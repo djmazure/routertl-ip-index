@@ -1,7 +1,8 @@
 name: olo_base_ram_tdp
 namespace: open-logic
 version: 4.4.1
-description: 'open-logic IP: olo_base_ram_tdp'
+description: This is a pure VHDL and vendor indpendent true dual port RAM with optional
+  byte enables.
 license: ''
 source:
   type: git
@@ -9,7 +10,7 @@ source:
   tag: 4.4.1
   ip_yml_path: .
 routertl_compat:
-  language: vhdl-2008
+  language: vhdl-2008-relaxed
   library: olo
   files:
   - src/base/vhdl/olo_base_pkg_array.vhd

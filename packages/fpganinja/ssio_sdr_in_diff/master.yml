@@ -1,7 +1,7 @@
 name: ssio_sdr_in_diff
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: ssio_sdr_in_diff'
+description: Generic source synchronous SDR input
 license: ''
 source:
   type: git

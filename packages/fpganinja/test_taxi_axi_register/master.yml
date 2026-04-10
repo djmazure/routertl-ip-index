@@ -13,7 +13,7 @@ routertl_compat:
   library: work
   files:
   - src/axi/rtl/taxi_axi_if.sv
-  - src/axi/rtl/taxi_axi_register_wr.sv
   - src/axi/rtl/taxi_axi_register_rd.sv
+  - src/axi/rtl/taxi_axi_register_wr.sv
   - src/axi/rtl/taxi_axi_register.sv
   - src/axi/tb/taxi_axi_register/test_taxi_axi_register.sv

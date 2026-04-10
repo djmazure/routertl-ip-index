@@ -1,7 +1,7 @@
 name: taxi_mac_pause_ctrl_rx
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_mac_pause_ctrl_rx'
+description: PFC and pause frame receive handling
 license: ''
 source:
   type: git

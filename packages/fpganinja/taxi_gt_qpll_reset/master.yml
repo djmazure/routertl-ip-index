@@ -1,7 +1,7 @@
 name: taxi_gt_qpll_reset
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_gt_qpll_reset'
+description: GT QPLL reset controller for UltraScale/UltraScale+ GTH/GTY
 license: ''
 source:
   type: git

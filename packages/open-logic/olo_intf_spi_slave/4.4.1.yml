@@ -1,7 +1,7 @@
 name: olo_intf_spi_slave
 namespace: open-logic
 version: 4.4.1
-description: 'open-logic IP: olo_intf_spi_slave'
+description: This entity implements a simple SPI-slave
 license: ''
 source:
   type: git

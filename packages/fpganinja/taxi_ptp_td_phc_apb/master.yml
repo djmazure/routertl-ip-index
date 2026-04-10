@@ -1,7 +1,7 @@
 name: taxi_ptp_td_phc_apb
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_ptp_td_phc_apb'
+description: PTP time distribution PHC with APB register interface
 license: ''
 source:
   type: git
