@@ -1,0 +1,32 @@
+name: util_axis_fifo_asym
+namespace: analog-devices
+version: 0.0.0
+description: In this HDL repository, there are many different and unique modules,
+  consisting of various HDL (Verilog or VHDL) components. The individual modules are
+license: In this HDL repository, there are many different and unique modules, consisting
+license_class: unknown
+source:
+  type: git
+  url: https://github.com/analogdevicesinc/hdl.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - library/util_cdc/sync_bits.v
+  - library/util_cdc/sync_gray.v
+  - library/util_axis_fifo/util_axis_fifo_address_generator.v
+  - library/common/ad_mem.v
+  - library/util_axis_fifo/util_axis_fifo.v
+  - library/util_axis_fifo_asym/util_axis_fifo_asym.v
+tags:
+- asym
+- axi
+- axis
+- buffer
+- fifo
+- queue
+- stream
+- util
+role: component

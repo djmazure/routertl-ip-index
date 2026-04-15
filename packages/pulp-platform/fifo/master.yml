@@ -1,0 +1,27 @@
+name: fifo
+namespace: pulp-platform
+version: master
+description: 'pulp-platform IP: fifo'
+license: Apache-2.0
+license_class: permissive
+source:
+  type: git
+  url: https://github.com/pulp-platform/common_cells.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/fifo_v3.sv
+  - src/deprecated/fifo_v2.sv
+  - src/deprecated/fifo_v1.sv
+tags:
+- buffer
+- queue
+role: top
+components:
+- fifo_v2
+- fifo_v3
+- mem_to_banks_detailed
+- stream_fifo

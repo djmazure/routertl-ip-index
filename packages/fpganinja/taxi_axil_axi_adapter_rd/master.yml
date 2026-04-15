@@ -2,7 +2,8 @@ name: taxi_axil_axi_adapter_rd
 namespace: fpganinja
 version: master
 description: AXI4 lite to AXI4 adapter (read)
-license: ''
+license: CERN-OHL-S-2.0
+license_class: strong-copyleft
 source:
   type: git
   url: https://github.com/fpganinja/taxi.git
@@ -15,3 +16,15 @@ routertl_compat:
   - src/axi/rtl/taxi_axil_if.sv
   - src/axi/rtl/taxi_axi_if.sv
   - src/axi/rtl/taxi_axil_axi_adapter_rd.sv
+tags:
+- adapter
+- amba
+- axi
+- axil
+- bridge
+- bus
+- converter
+- protocol
+- rd
+- taxi
+role: component

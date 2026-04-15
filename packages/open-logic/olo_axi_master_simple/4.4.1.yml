@@ -5,6 +5,7 @@ description: 'This entity implements a simple AXI master. Simple means: It does 
   support any unaligned reads/writes and it does not do any width conversions. It
   just executes the transfers requested and split...'
 license: ''
+license_class: unknown
 source:
   type: git
   url: https://github.com/open-logic/open-logic.git
@@ -23,3 +24,12 @@ routertl_compat:
   - src/base/vhdl/olo_base_ram_sdp.vhd
   - src/base/vhdl/olo_base_fifo_sync.vhd
   - src/axi/vhdl/olo_axi_master_simple.vhd
+tags:
+- amba
+- axi
+- bus
+- master
+- olo
+- open
+- simple
+role: component

@@ -1,0 +1,18 @@
+name: unread
+namespace: pulp-platform
+version: master
+description: 'pulp-platform IP: unread'
+license: Apache-2.0
+license_class: permissive
+source:
+  type: git
+  url: https://github.com/pulp-platform/common_cells.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/unread.sv
+tags: []
+role: top

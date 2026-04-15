@@ -1,0 +1,25 @@
+name: i3c_controller_bit_mod
+namespace: analog-devices
+version: 0.0.0
+description: 'Modulates the SDA and SCL lanes. SCL high time is fixed at 40ns in I3C
+  mode: * 4 clock cycles at 100MHz clk. * 2 clock cycles at 50MHz clk. I3C Open drain
+  is 1.5625MHz,while I2C speed depends on I2...'
+license: In this HDL repository, there are many different and unique modules, consisting
+license_class: unknown
+source:
+  type: git
+  url: https://github.com/analogdevicesinc/hdl.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - library/i3c_controller/i3c_controller_core/i3c_controller_bit_mod.vh
+  - library/i3c_controller/i3c_controller_core/i3c_controller_bit_mod.v
+tags:
+- bit
+- controller
+- i3c
+- mod
+role: component

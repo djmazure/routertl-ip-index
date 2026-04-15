@@ -3,6 +3,7 @@ namespace: open-logic
 version: 4.4.1
 description: This entity implements a simple SPI-master
 license: ''
+license_class: unknown
 source:
   type: git
   url: https://github.com/open-logic/open-logic.git
@@ -17,3 +18,37 @@ routertl_compat:
   - src/base/vhdl/olo_base_pkg_logic.vhd
   - src/base/vhdl/olo_base_pkg_attribute.vhd
   - src/intf/vhdl/olo_intf_spi_master.vhd
+tags:
+- interface
+- intf
+- master
+- olo
+- open
+- peripheral
+- serial
+- spi
+role: top
+components:
+- olo_axi_master_simple
+- olo_base_arb_prio
+- olo_base_arb_rr
+- olo_base_cc_bits
+- olo_base_cc_pulse
+- olo_base_cc_reset
+- olo_base_cc_simple
+- olo_base_crc
+- olo_base_decode_firstbit
+- olo_base_delay
+- olo_base_dyn_sft
+- olo_base_fifo_packet
+- olo_base_fifo_sync
+- olo_base_pl_stage
+- olo_base_ram_sdp
+- olo_base_strobe_gen
+- olo_base_wconv_n2xn
+- olo_base_wconv_xn2n
+- olo_fix_mult
+- olo_fix_resize
+- olo_fix_round
+- olo_fix_saturate
+- olo_intf_sync

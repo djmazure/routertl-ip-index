@@ -1,0 +1,28 @@
+name: axi_cdc_dst
+namespace: pulp-platform
+version: master
+description: or agreed to in writing, software, hardware and materials distributed
+  under
+license: Apache-2.0
+license_class: permissive
+source:
+  type: git
+  url: https://github.com/pulp-platform/axi.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/axi_intf.sv
+  - src/axi_cdc_dst.sv
+tags:
+- amba
+- axi
+- bus
+- cdc
+- clock
+- crossing
+- domain
+- dst
+role: component

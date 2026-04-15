@@ -1,0 +1,39 @@
+name: stream_fifo_optimal_wrap
+namespace: pulp-platform
+version: master
+description: Thomas Benz <tbenz@ethz.ch> Optimal implementation of a stream FIFO based
+  on the common cells modules. Selects the smaller and faster spill register if the
+  depth is 2 and the FIFO if the depth is >...
+license: Apache-2.0
+license_class: permissive
+source:
+  type: git
+  url: https://github.com/pulp-platform/common_cells.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/spill_register_flushable.sv
+  - src/fifo_v3.sv
+  - src/stream_fifo.sv
+  - src/stream_fifo_optimal_wrap.sv
+tags:
+- buffer
+- fifo
+- optimal
+- queue
+- stream
+- wrap
+role: top
+components:
+- cdc_4phase
+- cdc_reset_ctrlr
+- fifo_v2
+- fifo_v3
+- mem_to_banks_detailed
+- spill_register
+- spill_register_flushable
+- stream_fifo
+- stream_xbar

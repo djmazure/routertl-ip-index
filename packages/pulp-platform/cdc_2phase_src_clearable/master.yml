@@ -1,0 +1,39 @@
+name: cdc_2phase_src_clearable
+namespace: pulp-platform
+version: master
+description: 'pulp-platform IP: cdc_2phase_src_clearable'
+license: Apache-2.0
+license_class: permissive
+source:
+  type: git
+  url: https://github.com/pulp-platform/common_cells.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/sync.sv
+  - src/cdc_reset_ctrlr_pkg.sv
+  - src/spill_register_flushable.sv
+  - src/spill_register.sv
+  - src/cdc_4phase.sv
+  - src/cdc_reset_ctrlr.sv
+  - src/cdc_2phase_clearable.sv
+tags:
+- 2phase
+- cdc
+- clearable
+- clock
+- crossing
+- domain
+- src
+role: top
+components:
+- cdc_4phase
+- cdc_reset_ctrlr
+- spill_register
+- spill_register_flushable
+- stream_xbar
+- sync
+- sync_wedge

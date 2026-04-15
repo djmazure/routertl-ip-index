@@ -1,0 +1,28 @@
+name: axi_ad9434_if
+namespace: analog-devices
+version: 0.0.0
+description: In this HDL repository, there are many different and unique modules,
+  consisting of various HDL (Verilog or VHDL) components. The individual modules are
+license: In this HDL repository, there are many different and unique modules, consisting
+license_class: unknown
+source:
+  type: git
+  url: https://github.com/analogdevicesinc/hdl.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - library/xilinx/common/ad_mmcm_drp.v
+  - library/xilinx/common/ad_serdes_clk.v
+  - library/util_cdc/sync_bits.v
+  - library/util_cdc/sync_event.v
+  - library/xilinx/common/ad_serdes_in.v
+  - library/axi_ad9434/axi_ad9434_if.v
+tags:
+- ad9434
+- amba
+- axi
+- bus
+role: component

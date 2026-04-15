@@ -1,0 +1,24 @@
+name: addr_decode
+namespace: pulp-platform
+version: master
+description: or agreed to in writing, software, hardware and materials distributed
+  under
+license: Apache-2.0
+license_class: permissive
+source:
+  type: git
+  url: https://github.com/pulp-platform/common_cells.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/addr_decode_dync.sv
+  - src/addr_decode.sv
+tags:
+- addr
+- decode
+role: top
+components:
+- addr_decode_dync

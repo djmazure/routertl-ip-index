@@ -1,0 +1,31 @@
+name: clk_or_tree
+namespace: pulp-platform
+version: master
+description: 'Title         : Glitch-free Clock Multiplexer'
+license: Apache-2.0
+license_class: permissive
+source:
+  type: git
+  url: https://github.com/pulp-platform/common_cells.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/rstgen_bypass.sv
+  - src/rstgen.sv
+  - src/sync.sv
+  - src/clk_mux_glitch_free.sv
+tags:
+- clk
+- clock
+- tree
+role: top
+components:
+- cdc_4phase
+- cdc_reset_ctrlr
+- rstgen
+- rstgen_bypass
+- sync
+- sync_wedge

@@ -2,7 +2,8 @@ name: taxi_irq_rate_limit
 namespace: fpganinja
 version: master
 description: 'fpganinja IP: taxi_irq_rate_limit'
-license: ''
+license: CERN-OHL-S-2.0
+license_class: strong-copyleft
 source:
   type: git
   url: https://github.com/fpganinja/taxi.git
@@ -14,3 +15,10 @@ routertl_compat:
   files:
   - src/axis/rtl/taxi_axis_if.sv
   - src/pcie/rtl/taxi_irq_rate_limit.sv
+tags:
+- interrupt
+- irq
+- limit
+- rate
+- taxi
+role: component

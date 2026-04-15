@@ -1,0 +1,30 @@
+name: stream_arbiter
+namespace: pulp-platform
+version: master
+description: or agreed to in writing, software, hardware and materials distributed
+  under
+license: Apache-2.0
+license_class: permissive
+source:
+  type: git
+  url: https://github.com/pulp-platform/common_cells.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/lzc.sv
+  - src/rr_arb_tree.sv
+  - src/stream_arbiter_flushable.sv
+  - src/stream_arbiter.sv
+tags:
+- arbiter
+- arbitration
+- stream
+role: top
+components:
+- lzc
+- rr_arb_tree
+- stream_arbiter_flushable
+- stream_xbar

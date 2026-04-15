@@ -1,0 +1,35 @@
+name: jesd204_versal_gt_adapter_rx
+namespace: analog-devices
+version: 0.0.0
+description: 'analog-devices IP: jesd204_versal_gt_adapter_rx'
+license: In this HDL repository, there are many different and unique modules, consisting
+license_class: unknown
+source:
+  type: git
+  url: https://github.com/analogdevicesinc/hdl.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - library/jesd204/jesd204_common/sync_header_align.v
+  - library/jesd204/jesd204_versal_gt_adapter_rx/lane_align.v
+  - library/jesd204/jesd204_versal_gt_adapter_rx/jesd204_versal_gt_adapter_rx.v
+tags:
+- adapter
+- bridge
+- converter
+- gt
+- jesd204
+- protocol
+- receive
+- receiver
+- rx
+- versal
+role: top
+components:
+- axi_xcvrlb_1
+- lane_align
+- sync_header_align
+- util_adxcvr_xch

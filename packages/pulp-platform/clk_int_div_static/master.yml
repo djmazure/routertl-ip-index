@@ -1,0 +1,29 @@
+name: clk_int_div_static
+namespace: pulp-platform
+version: master
+description: 'Title         : Static Integer Clock Divider'
+license: Apache-2.0
+license_class: permissive
+source:
+  type: git
+  url: https://github.com/pulp-platform/common_cells.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/clk_int_div.sv
+  - src/clk_int_div_static.sv
+tags:
+- clk
+- clock
+- div
+- divider
+- int
+- static
+role: top
+components:
+- clk_div
+- clk_int_div
+- clock_divider_counter

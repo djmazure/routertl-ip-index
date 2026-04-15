@@ -1,0 +1,23 @@
+name: corundum_core
+namespace: analog-devices
+version: 0.0.0
+description: 'This file repackages Corundum MQNIC Core AXI with the sole purpose of
+  providing it as an IP Core. The original file can be refereed at:'
+license: In this HDL repository, there are many different and unique modules, consisting
+license_class: unknown
+source:
+  type: git
+  url: https://github.com/analogdevicesinc/hdl.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - library/corundum/corundum_core/mqnic_app_custom_params.vh
+  - library/corundum/corundum_core/mqnic_app_custom_ports.vh
+  - library/corundum/corundum_core/corundum_core.v
+tags:
+- core
+- corundum
+role: top

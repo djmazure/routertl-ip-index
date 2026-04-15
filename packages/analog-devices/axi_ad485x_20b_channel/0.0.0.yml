@@ -1,0 +1,29 @@
+name: axi_ad485x_20b_channel
+namespace: analog-devices
+version: 0.0.0
+description: In this HDL repository, there are many different and unique modules,
+  consisting of various HDL (Verilog or VHDL) components. The individual modules are
+license: In this HDL repository, there are many different and unique modules, consisting
+license_class: unknown
+source:
+  type: git
+  url: https://github.com/analogdevicesinc/hdl.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - library/common/up_xfer_cntrl.v
+  - library/common/up_xfer_status.v
+  - library/common/up_adc_channel.v
+  - library/common/ad_datafmt.v
+  - library/axi_ad485x/axi_ad485x_20b_channel.v
+tags:
+- 20b
+- ad485x
+- amba
+- axi
+- bus
+- channel
+role: component

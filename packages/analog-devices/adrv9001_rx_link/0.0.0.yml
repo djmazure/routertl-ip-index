@@ -1,0 +1,27 @@
+name: adrv9001_rx_link
+namespace: analog-devices
+version: 0.0.0
+description: In this HDL repository, there are many different and unique modules,
+  consisting of various HDL (Verilog or VHDL) components. The individual modules are
+license: In this HDL repository, there are many different and unique modules, consisting
+license_class: unknown
+source:
+  type: git
+  url: https://github.com/analogdevicesinc/hdl.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - library/axi_adrv9001/adrv9001_aligner4.v
+  - library/axi_adrv9001/adrv9001_pack.v
+  - library/axi_adrv9001/adrv9001_aligner8.v
+  - library/axi_adrv9001/adrv9001_rx_link.v
+tags:
+- adrv9001
+- link
+- receive
+- receiver
+- rx
+role: component

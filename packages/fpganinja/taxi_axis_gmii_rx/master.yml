@@ -2,7 +2,8 @@ name: taxi_axis_gmii_rx
 namespace: fpganinja
 version: master
 description: AXI4-Stream GMII frame receiver (GMII in, AXI out)
-license: ''
+license: CERN-OHL-S-2.0
+license_class: strong-copyleft
 source:
   type: git
   url: https://github.com/fpganinja/taxi.git
@@ -12,6 +13,20 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - src/axis/rtl/taxi_axis_if.sv
   - src/lfsr/rtl/taxi_lfsr.sv
+  - src/axis/rtl/taxi_axis_if.sv
   - src/eth/rtl/taxi_axis_gmii_rx.sv
+tags:
+- axi
+- axis
+- gigabit
+- gmii
+- independent
+- interface
+- media
+- receive
+- receiver
+- rx
+- stream
+- taxi
+role: component

@@ -1,0 +1,25 @@
+name: cn0363_dma_sequencer
+namespace: analog-devices
+version: 0.0.0
+description: In this HDL repository, there are many different and unique modules,
+  consisting of various HDL (Verilog or VHDL) components. The individual modules are
+license: In this HDL repository, there are many different and unique modules, consisting
+license_class: unknown
+source:
+  type: git
+  url: https://github.com/analogdevicesinc/hdl.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - library/cn0363/cn0363_dma_sequencer/cn0363_dma_sequencer.v
+tags:
+- access
+- cn0363
+- direct
+- dma
+- memory
+- sequencer
+role: top

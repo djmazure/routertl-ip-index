@@ -1,0 +1,22 @@
+name: isochronous_4phase_handshake
+namespace: pulp-platform
+version: master
+description: or agreed to in writing, software, hardware and materials distributed
+  under
+license: Apache-2.0
+license_class: permissive
+source:
+  type: git
+  url: https://github.com/pulp-platform/common_cells.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/isochronous_4phase_handshake.sv
+tags:
+- 4phase
+- handshake
+- isochronous
+role: top

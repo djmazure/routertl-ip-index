@@ -1,0 +1,24 @@
+name: axi_throttle
+namespace: pulp-platform
+version: master
+description: 'Authors: - Thomas Benz <tbenz@iis.ee.ethz.ch> Throttles an AXI4+ATOP
+  bus. The maximum number of outstanding transfers have to be set as a compile-time
+  parameter, whereas the number of outstanding t...'
+license: Apache-2.0
+license_class: permissive
+source:
+  type: git
+  url: https://github.com/pulp-platform/axi.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/axi_throttle.sv
+tags:
+- amba
+- axi
+- bus
+- throttle
+role: top

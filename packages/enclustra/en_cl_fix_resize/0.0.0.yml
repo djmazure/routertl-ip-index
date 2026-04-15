@@ -1,0 +1,31 @@
+name: en_cl_fix_resize
+namespace: enclustra
+version: 0.0.0
+description: Permission is hereby granted, free of charge, to any person obtaining
+  a copy of this hardware, software, firmware, and associated documentation files
+  (the "Product"), to deal in the Product without...
+license: MIT
+license_class: permissive
+source:
+  type: git
+  url: https://github.com/enclustra/en_cl_fix.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: vhdl-2008
+  library: en_tb
+  files:
+  - hdl/en_cl_fix_private_pkg.vhd
+  - hdl/en_cl_fix_pkg.vhd
+  - hdl/en_cl_fix_saturate.vhd
+  - hdl/en_cl_fix_round.vhd
+  - hdl/en_cl_fix_resize.vhd
+tags:
+- cl
+- en
+- fix
+- resize
+role: top
+components:
+- en_cl_fix_round
+- en_cl_fix_saturate

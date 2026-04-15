@@ -1,0 +1,27 @@
+name: up_hdmi_tx
+namespace: analog-devices
+version: 0.0.0
+description: In this HDL repository, there are many different and unique modules,
+  consisting of various HDL (Verilog or VHDL) components. The individual modules are
+license: In this HDL repository, there are many different and unique modules, consisting
+license_class: unknown
+source:
+  type: git
+  url: https://github.com/analogdevicesinc/hdl.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - library/common/up_xfer_cntrl.v
+  - library/common/ad_rst.v
+  - library/common/up_clock_mon.v
+  - library/common/up_xfer_status.v
+  - library/common/up_hdmi_tx.v
+tags:
+- hdmi
+- transmit
+- transmitter
+- tx
+role: component

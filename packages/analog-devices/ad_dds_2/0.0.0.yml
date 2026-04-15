@@ -1,0 +1,26 @@
+name: ad_dds_2
+namespace: analog-devices
+version: 0.0.0
+description: In this HDL repository, there are many different and unique modules,
+  consisting of various HDL (Verilog or VHDL) components. The individual modules are
+license: In this HDL repository, there are many different and unique modules, consisting
+license_class: unknown
+source:
+  type: git
+  url: https://github.com/analogdevicesinc/hdl.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - library/common/ad_dds_cordic_pipe.v
+  - library/common/ad_dds_sine_cordic.v
+  - library/xilinx/common/ad_mul.v
+  - library/common/ad_dds_sine.v
+  - library/common/ad_dds_1.v
+  - library/common/ad_dds_2.v
+tags:
+- ad
+- dds
+role: component

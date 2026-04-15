@@ -4,6 +4,7 @@ version: 4.4.1
 description: This is a delay element. It is either emplemented in BRAM or SRL. The
   output is always a fabric register for improved timing.
 license: ''
+license_class: unknown
 source:
   type: git
   url: https://github.com/open-logic/open-logic.git
@@ -19,3 +20,9 @@ routertl_compat:
   - src/base/vhdl/olo_base_pkg_string.vhd
   - src/base/vhdl/olo_base_ram_sdp.vhd
   - src/base/vhdl/olo_base_delay.vhd
+tags:
+- base
+- delay
+- olo
+- open
+role: component

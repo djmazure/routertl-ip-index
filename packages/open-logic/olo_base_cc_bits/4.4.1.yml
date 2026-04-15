@@ -5,6 +5,7 @@ description: This is a very basic clock crossing that allows passing multple ind
   single-bit signals from one clock domain to another one. Double stage synchronizers
   are implemeted for each bit, includin...
 license: ''
+license_class: unknown
 source:
   type: git
   url: https://github.com/open-logic/open-logic.git
@@ -16,3 +17,12 @@ routertl_compat:
   files:
   - src/base/vhdl/olo_base_pkg_attribute.vhd
   - src/base/vhdl/olo_base_cc_bits.vhd
+tags:
+- base
+- bits
+- cc
+- clock
+- crossing
+- olo
+- open
+role: component

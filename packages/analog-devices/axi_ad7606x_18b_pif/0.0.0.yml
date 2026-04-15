@@ -1,0 +1,26 @@
+name: axi_ad7606x_18b_pif
+namespace: analog-devices
+version: 0.0.0
+description: In this HDL repository, there are many different and unique modules,
+  consisting of various HDL (Verilog or VHDL) components. The individual modules are
+license: In this HDL repository, there are many different and unique modules, consisting
+license_class: unknown
+source:
+  type: git
+  url: https://github.com/analogdevicesinc/hdl.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - library/common/ad_edge_detect.v
+  - library/axi_ad7606x/axi_ad7606x_18b_pif.v
+tags:
+- 18b
+- ad7606x
+- amba
+- axi
+- bus
+- pif
+role: component

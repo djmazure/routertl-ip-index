@@ -2,7 +2,8 @@ name: taxi_uart_tx
 namespace: fpganinja
 version: master
 description: 'fpganinja IP: taxi_uart_tx'
-license: ''
+license: CERN-OHL-S-2.0
+license_class: strong-copyleft
 source:
   type: git
   url: https://github.com/fpganinja/taxi.git
@@ -14,3 +15,14 @@ routertl_compat:
   files:
   - src/axis/rtl/taxi_axis_if.sv
   - src/lss/rtl/taxi_uart_tx.sv
+tags:
+- asynchronous
+- receiver
+- serial
+- taxi
+- transmit
+- transmitter
+- tx
+- uart
+- universal
+role: component

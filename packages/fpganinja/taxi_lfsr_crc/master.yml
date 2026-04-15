@@ -2,7 +2,8 @@ name: taxi_lfsr_crc
 namespace: fpganinja
 version: master
 description: 'fpganinja IP: taxi_lfsr_crc'
-license: ''
+license: CERN-OHL-S-2.0
+license_class: strong-copyleft
 source:
   type: git
   url: https://github.com/fpganinja/taxi.git
@@ -14,3 +15,42 @@ routertl_compat:
   files:
   - src/lfsr/rtl/taxi_lfsr.sv
   - src/lfsr/rtl/taxi_lfsr_crc.sv
+tags:
+- check
+- crc
+- cyclic
+- feedback
+- lfsr
+- linear
+- prng
+- redundancy
+- register
+- shift
+- taxi
+role: top
+components:
+- taxi_axis_baser_rx_32
+- taxi_axis_baser_rx_64
+- taxi_axis_baser_tx_32
+- taxi_axis_baser_tx_64
+- taxi_axis_gmii_rx
+- taxi_axis_gmii_tx
+- taxi_axis_xgmii_rx_32
+- taxi_axis_xgmii_rx_64
+- taxi_axis_xgmii_tx_32
+- taxi_axis_xgmii_tx_64
+- taxi_eth_mac_10g
+- taxi_eth_mac_1g
+- taxi_eth_mac_1g_gmii
+- taxi_eth_mac_1g_rgmii
+- taxi_eth_mac_25g_us_ch
+- taxi_eth_mac_mii
+- taxi_eth_mac_phy_10g
+- taxi_eth_mac_phy_10g_rx
+- taxi_eth_mac_phy_10g_tx
+- taxi_eth_phy_10g
+- taxi_eth_phy_10g_rx
+- taxi_eth_phy_10g_rx_if
+- taxi_eth_phy_10g_tx
+- taxi_eth_phy_10g_tx_if
+- taxi_lfsr

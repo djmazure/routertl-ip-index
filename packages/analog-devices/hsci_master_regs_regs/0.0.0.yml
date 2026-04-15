@@ -1,0 +1,23 @@
+name: hsci_master_regs_regs
+namespace: analog-devices
+version: 0.0.0
+description: +----------+----------------------------+---------+-----------------------------------------------------------------------+
+  |  ADDRESS | REG NAME                   |  BITS   |  BITFIELD            ...
+license: In this HDL repository, there are many different and unique modules, consisting
+license_class: unknown
+source:
+  type: git
+  url: https://github.com/analogdevicesinc/hdl.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - library/axi_hsci/hsci_master_regs_defs.vh
+  - library/axi_hsci/hsci_master_regs_regs.sv
+tags:
+- hsci
+- master
+- regs
+role: component

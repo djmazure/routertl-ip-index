@@ -2,7 +2,8 @@ name: taxi_gt_qpll_reset
 namespace: fpganinja
 version: master
 description: GT QPLL reset controller for UltraScale/UltraScale+ GTH/GTY
-license: ''
+license: CERN-OHL-S-2.0
+license_class: strong-copyleft
 source:
   type: git
   url: https://github.com/fpganinja/taxi.git
@@ -14,3 +15,9 @@ routertl_compat:
   files:
   - src/sync/rtl/taxi_sync_signal.sv
   - src/hip/rtl/us/taxi_gt_qpll_reset.sv
+tags:
+- gt
+- qpll
+- reset
+- taxi
+role: component

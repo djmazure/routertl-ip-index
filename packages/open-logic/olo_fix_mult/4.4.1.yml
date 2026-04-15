@@ -4,6 +4,7 @@ version: 4.4.1
 description: This entity implements the cl_fix_mult function as entity. Includes pipeline
   stages and allows usage from Verilog.
 license: ''
+license_class: unknown
 source:
   type: git
   url: https://github.com/open-logic/open-logic.git
@@ -22,3 +23,9 @@ routertl_compat:
   - src/fix/vhdl/olo_fix_saturate.vhd
   - src/fix/vhdl/olo_fix_resize.vhd
   - src/fix/vhdl/olo_fix_mult.vhd
+tags:
+- fix
+- mult
+- olo
+- open
+role: component

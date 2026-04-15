@@ -1,0 +1,32 @@
+name: axi_intr_monitor
+namespace: analog-devices
+version: 0.0.0
+description: In this HDL repository, there are many different and unique modules,
+  consisting of various HDL (Verilog or VHDL) components. The individual modules are
+license: In this HDL repository, there are many different and unique modules, consisting
+license_class: unknown
+source:
+  type: git
+  url: https://github.com/analogdevicesinc/hdl.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - library/common/up_axi.v
+  - library/axi_intr_monitor/axi_intr_monitor.v
+tags:
+- amba
+- axi
+- bus
+- intr
+- monitor
+role: top
+components:
+- ad_ip_jesd204_tpl_adc
+- ad_ip_jesd204_tpl_adc_regmap
+- ad_ip_jesd204_tpl_dac_regmap
+- axi_dmac_regmap
+- i3c_controller_regmap
+- up_axi

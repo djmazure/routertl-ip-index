@@ -5,6 +5,7 @@ description: This is a very basic clock crossing that allows passing pulses from
   clock domain to another. The pulse frequency must be significantly lower than then
   slower clock speed. Note that this entity ...
 license: ''
+license_class: unknown
 source:
   type: git
   url: https://github.com/open-logic/open-logic.git
@@ -18,3 +19,12 @@ routertl_compat:
   - src/base/vhdl/olo_base_cc_bits.vhd
   - src/base/vhdl/olo_base_cc_reset.vhd
   - src/base/vhdl/olo_base_cc_pulse.vhd
+tags:
+- base
+- cc
+- clock
+- crossing
+- olo
+- open
+- pulse
+role: component

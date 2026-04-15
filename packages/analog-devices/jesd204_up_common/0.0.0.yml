@@ -1,0 +1,21 @@
+name: jesd204_up_common
+namespace: analog-devices
+version: 0.0.0
+description: 'analog-devices IP: jesd204_up_common'
+license: In this HDL repository, there are many different and unique modules, consisting
+license_class: unknown
+source:
+  type: git
+  url: https://github.com/analogdevicesinc/hdl.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - library/common/up_clock_mon.v
+  - library/jesd204/axi_jesd204_common/jesd204_up_common.v
+tags:
+- common
+- jesd204
+role: component

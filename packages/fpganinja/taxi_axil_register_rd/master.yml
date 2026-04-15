@@ -2,7 +2,8 @@ name: taxi_axil_register_rd
 namespace: fpganinja
 version: master
 description: 'fpganinja IP: taxi_axil_register_rd'
-license: ''
+license: CERN-OHL-S-2.0
+license_class: strong-copyleft
 source:
   type: git
   url: https://github.com/fpganinja/taxi.git
@@ -14,3 +15,9 @@ routertl_compat:
   files:
   - src/axi/rtl/taxi_axil_if.sv
   - src/axi/rtl/taxi_axil_register_rd.sv
+tags:
+- axil
+- rd
+- register
+- taxi
+role: component

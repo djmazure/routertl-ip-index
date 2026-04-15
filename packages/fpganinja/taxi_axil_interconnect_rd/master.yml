@@ -2,7 +2,8 @@ name: taxi_axil_interconnect_rd
 namespace: fpganinja
 version: master
 description: 'fpganinja IP: taxi_axil_interconnect_rd'
-license: ''
+license: CERN-OHL-S-2.0
+license_class: strong-copyleft
 source:
   type: git
   url: https://github.com/fpganinja/taxi.git
@@ -12,7 +13,13 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
+  - src/axi/rtl/taxi_axil_if.sv
   - src/prim/rtl/taxi_penc.sv
   - src/prim/rtl/taxi_arbiter.sv
-  - src/axi/rtl/taxi_axil_if.sv
   - src/axi/rtl/taxi_axil_interconnect_rd.sv
+tags:
+- axil
+- interconnect
+- rd
+- taxi
+role: component

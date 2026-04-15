@@ -3,7 +3,8 @@ namespace: fpganinja
 version: master
 description: UltraScale PCIe vendor-specific capability for register access via AXI
   lite
-license: ''
+license: CERN-OHL-S-2.0
+license_class: strong-copyleft
 source:
   type: git
   url: https://github.com/fpganinja/taxi.git
@@ -15,3 +16,16 @@ routertl_compat:
   files:
   - src/axi/rtl/taxi_axil_if.sv
   - src/pcie/rtl/taxi_pcie_us_vsec_axil.sv
+tags:
+- advanced
+- amba
+- apb
+- bus
+- express
+- pci
+- pcie
+- peripheral
+- taxi
+- us
+- vsec
+role: component

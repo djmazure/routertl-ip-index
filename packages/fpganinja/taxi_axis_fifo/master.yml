@@ -2,7 +2,8 @@ name: taxi_axis_fifo
 namespace: fpganinja
 version: master
 description: 'fpganinja IP: taxi_axis_fifo'
-license: ''
+license: CERN-OHL-S-2.0
+license_class: strong-copyleft
 source:
   type: git
   url: https://github.com/fpganinja/taxi.git
@@ -15,3 +16,12 @@ routertl_compat:
   - src/axis/rtl/taxi_axis_if.sv
   - src/lss/rtl/taxi_i2c_slave.sv
   - src/axis/rtl/taxi_axis_fifo.sv
+tags:
+- axi
+- axis
+- buffer
+- fifo
+- queue
+- stream
+- taxi
+role: component

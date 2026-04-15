@@ -1,0 +1,30 @@
+name: axi_dac_interpolate_reg
+namespace: analog-devices
+version: 0.0.0
+description: In this HDL repository, there are many different and unique modules,
+  consisting of various HDL (Verilog or VHDL) components. The individual modules are
+license: In this HDL repository, there are many different and unique modules, consisting
+license_class: unknown
+source:
+  type: git
+  url: https://github.com/analogdevicesinc/hdl.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - library/common/up_xfer_cntrl.v
+  - library/axi_dac_interpolate/axi_dac_interpolate_reg.v
+tags:
+- amba
+- analog
+- axi
+- bus
+- converter
+- dac
+- digital
+- interpolate
+- reg
+- register
+role: component

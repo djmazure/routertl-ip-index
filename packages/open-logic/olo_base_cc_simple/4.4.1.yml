@@ -5,6 +5,7 @@ description: This is a very basic clock crossing that allows passing single samp
   of data from one clock domain to another. It only works if sample rates are significantly
   lower than the clock speed of both d...
 license: ''
+license_class: unknown
 source:
   type: git
   url: https://github.com/open-logic/open-logic.git
@@ -19,3 +20,12 @@ routertl_compat:
   - src/base/vhdl/olo_base_cc_reset.vhd
   - src/base/vhdl/olo_base_cc_pulse.vhd
   - src/base/vhdl/olo_base_cc_simple.vhd
+tags:
+- base
+- cc
+- clock
+- crossing
+- olo
+- open
+- simple
+role: component

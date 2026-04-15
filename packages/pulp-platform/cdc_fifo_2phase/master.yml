@@ -1,0 +1,30 @@
+name: cdc_fifo_2phase
+namespace: pulp-platform
+version: master
+description: or agreed to in writing, software, hardware and materials distributed
+  under
+license: Apache-2.0
+license_class: permissive
+source:
+  type: git
+  url: https://github.com/pulp-platform/common_cells.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/cdc_2phase.sv
+  - src/cdc_fifo_2phase.sv
+tags:
+- 2phase
+- buffer
+- cdc
+- clock
+- crossing
+- domain
+- fifo
+- queue
+role: top
+components:
+- cdc_2phase

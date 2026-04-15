@@ -2,7 +2,8 @@ name: taxi_dma_if_mux
 namespace: fpganinja
 version: master
 description: 'fpganinja IP: taxi_dma_if_mux'
-license: ''
+license: CERN-OHL-S-2.0
+license_class: strong-copyleft
 source:
   type: git
   url: https://github.com/fpganinja/taxi.git
@@ -12,13 +13,22 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - src/dma/rtl/taxi_dma_desc_if.sv
   - src/dma/rtl/taxi_dma_ram_if.sv
-  - src/dma/rtl/taxi_dma_ram_demux_wr.sv
+  - src/dma/rtl/taxi_dma_ram_demux_rd.sv
+  - src/dma/rtl/taxi_dma_desc_if.sv
   - src/prim/rtl/taxi_penc.sv
   - src/prim/rtl/taxi_arbiter.sv
   - src/dma/rtl/taxi_dma_desc_mux.sv
-  - src/dma/rtl/taxi_dma_if_mux_rd.sv
-  - src/dma/rtl/taxi_dma_ram_demux_rd.sv
   - src/dma/rtl/taxi_dma_if_mux_wr.sv
+  - src/dma/rtl/taxi_dma_ram_demux_wr.sv
+  - src/dma/rtl/taxi_dma_if_mux_rd.sv
   - src/dma/rtl/taxi_dma_if_mux.sv
+tags:
+- access
+- direct
+- dma
+- memory
+- multiplexer
+- mux
+- taxi
+role: component

@@ -4,6 +4,7 @@ version: 4.4.1
 description: This is a very basic strobe generator. It produces pulses with a duration
   of one clock cycle at a given frequency.
 license: ''
+license_class: unknown
 source:
   type: git
   url: https://github.com/open-logic/open-logic.git
@@ -16,3 +17,10 @@ routertl_compat:
   - src/base/vhdl/olo_base_pkg_array.vhd
   - src/base/vhdl/olo_base_pkg_math.vhd
   - src/base/vhdl/olo_base_strobe_gen.vhd
+tags:
+- base
+- gen
+- olo
+- open
+- strobe
+role: component

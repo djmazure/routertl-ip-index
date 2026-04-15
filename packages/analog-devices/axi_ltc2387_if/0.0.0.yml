@@ -1,0 +1,24 @@
+name: axi_ltc2387_if
+namespace: analog-devices
+version: 0.0.0
+description: In this HDL repository, there are many different and unique modules,
+  consisting of various HDL (Verilog or VHDL) components. The individual modules are
+license: In this HDL repository, there are many different and unique modules, consisting
+license_class: unknown
+source:
+  type: git
+  url: https://github.com/analogdevicesinc/hdl.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - library/xilinx/common/ad_data_in.v
+  - library/axi_ltc2387/axi_ltc2387_if.v
+tags:
+- amba
+- axi
+- bus
+- ltc2387
+role: component

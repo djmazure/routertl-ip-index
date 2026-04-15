@@ -2,7 +2,8 @@ name: taxi_pcie_us_axil_master
 namespace: fpganinja
 version: master
 description: UltraScale PCIe AXI Lite Master
-license: ''
+license: CERN-OHL-S-2.0
+license_class: strong-copyleft
 source:
   type: git
   url: https://github.com/fpganinja/taxi.git
@@ -12,6 +13,15 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - src/axis/rtl/taxi_axis_if.sv
   - src/axi/rtl/taxi_axil_if.sv
+  - src/axis/rtl/taxi_axis_if.sv
   - src/pcie/rtl/taxi_pcie_us_axil_master.sv
+tags:
+- axil
+- express
+- master
+- pci
+- pcie
+- taxi
+- us
+role: component

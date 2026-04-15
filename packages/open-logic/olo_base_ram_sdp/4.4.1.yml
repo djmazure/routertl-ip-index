@@ -4,6 +4,7 @@ version: 4.4.1
 description: This is a pure VHDL and vendor indpendent simple dual port RAM with optional
   byte enables.
 license: ''
+license_class: unknown
 source:
   type: git
   url: https://github.com/open-logic/open-logic.git
@@ -18,3 +19,13 @@ routertl_compat:
   - src/base/vhdl/olo_base_pkg_attribute.vhd
   - src/base/vhdl/olo_base_pkg_string.vhd
   - src/base/vhdl/olo_base_ram_sdp.vhd
+tags:
+- access
+- base
+- memory
+- olo
+- open
+- ram
+- random
+- sdp
+role: component

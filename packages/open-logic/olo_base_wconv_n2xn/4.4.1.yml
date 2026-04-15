@@ -4,6 +4,7 @@ version: 4.4.1
 description: This entity implements a simple data-width conversion. The output width
   must be an integer multiple of the input width (Wo = n*Wi).
 license: ''
+license_class: unknown
 source:
   type: git
   url: https://github.com/open-logic/open-logic.git
@@ -17,3 +18,12 @@ routertl_compat:
   - src/base/vhdl/olo_base_pkg_math.vhd
   - src/base/vhdl/olo_base_pkg_logic.vhd
   - src/base/vhdl/olo_base_wconv_n2xn.vhd
+tags:
+- base
+- converter
+- n2xn
+- olo
+- open
+- wconv
+- width
+role: component

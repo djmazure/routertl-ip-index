@@ -1,0 +1,24 @@
+name: ad9265_spi
+namespace: analog-devices
+version: 0.0.0
+description: In this HDL repository, there are many different and unique modules,
+  consisting of various HDL (Verilog or VHDL) components. The individual modules are
+license: In this HDL repository, there are many different and unique modules, consisting
+license_class: unknown
+source:
+  type: git
+  url: https://github.com/analogdevicesinc/hdl.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - projects/ad9265_fmc/common/ad9265_spi.v
+tags:
+- ad9265
+- interface
+- peripheral
+- serial
+- spi
+role: top

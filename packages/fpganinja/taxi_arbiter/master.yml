@@ -2,7 +2,8 @@ name: taxi_arbiter
 namespace: fpganinja
 version: master
 description: 'fpganinja IP: taxi_arbiter'
-license: ''
+license: CERN-OHL-S-2.0
+license_class: strong-copyleft
 source:
   type: git
   url: https://github.com/fpganinja/taxi.git
@@ -14,3 +15,8 @@ routertl_compat:
   files:
   - src/prim/rtl/taxi_penc.sv
   - src/prim/rtl/taxi_arbiter.sv
+tags:
+- arbiter
+- arbitration
+- taxi
+role: component

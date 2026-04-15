@@ -2,7 +2,8 @@ name: taxi_stats_strings_full
 namespace: fpganinja
 version: master
 description: 'fpganinja IP: taxi_stats_strings_full'
-license: ''
+license: CERN-OHL-S-2.0
+license_class: strong-copyleft
 source:
   type: git
   url: https://github.com/fpganinja/taxi.git
@@ -12,6 +13,12 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - src/axis/rtl/taxi_axis_if.sv
   - src/axi/rtl/taxi_axil_if.sv
+  - src/axis/rtl/taxi_axis_if.sv
   - src/stats/rtl/taxi_stats_strings_full.sv
+tags:
+- full
+- stats
+- strings
+- taxi
+role: component

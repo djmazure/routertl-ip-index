@@ -1,0 +1,27 @@
+name: adrv9009zu11eg_spi
+namespace: analog-devices
+version: 0.0.0
+description: In this HDL repository, there are many different and unique modules,
+  consisting of various HDL (Verilog or VHDL) components. The individual modules are
+license: In this HDL repository, there are many different and unique modules, consisting
+license_class: unknown
+source:
+  type: git
+  url: https://github.com/analogdevicesinc/hdl.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - library/common/ad_iobuf.v
+  - projects/adrv9009zu11eg/common/adrv9009zu11eg_spi.v
+tags:
+- adrv9009zu11eg
+- interface
+- peripheral
+- serial
+- spi
+role: top
+components:
+- ad_iobuf

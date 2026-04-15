@@ -1,0 +1,25 @@
+name: rx_cap_reg
+namespace: analog-devices
+version: 0.0.0
+description: WISHBONE SPDIF IP Core                                       ----
+license: In this HDL repository, there are many different and unique modules, consisting
+license_class: unknown
+source:
+  type: git
+  url: https://github.com/analogdevicesinc/hdl.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: vhdl-2008
+  library: work
+  files:
+  - library/axi_spdif_rx/rx_package.vhd
+  - library/axi_spdif_rx/rx_cap_reg.vhd
+tags:
+- cap
+- receive
+- receiver
+- reg
+- register
+- rx
+role: top

@@ -1,0 +1,26 @@
+name: util_fir_int
+namespace: analog-devices
+version: 0.0.0
+description: In this HDL repository, there are many different and unique modules,
+  consisting of various HDL (Verilog or VHDL) components. The individual modules are
+license: In this HDL repository, there are many different and unique modules, consisting
+license_class: unknown
+source:
+  type: git
+  url: https://github.com/analogdevicesinc/hdl.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - library/axi_dac_interpolate/fir_interp.v
+  - library/util_fir_int/util_fir_int.v
+tags:
+- fir
+- int
+- util
+role: top
+components:
+- axi_dac_interpolate_filter
+- fir_interp

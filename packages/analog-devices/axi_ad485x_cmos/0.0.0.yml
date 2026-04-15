@@ -1,0 +1,26 @@
+name: axi_ad485x_cmos
+namespace: analog-devices
+version: 0.0.0
+description: In this HDL repository, there are many different and unique modules,
+  consisting of various HDL (Verilog or VHDL) components. The individual modules are
+license: In this HDL repository, there are many different and unique modules, consisting
+license_class: unknown
+source:
+  type: git
+  url: https://github.com/analogdevicesinc/hdl.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - library/axi_ad485x/axi_ad485x_crc.v
+  - library/xilinx/common/ad_data_in.v
+  - library/axi_ad485x/axi_ad485x_cmos.v
+tags:
+- ad485x
+- amba
+- axi
+- bus
+- cmos
+role: component

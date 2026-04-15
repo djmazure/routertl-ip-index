@@ -2,7 +2,8 @@ name: taxi_led_sreg
 namespace: fpganinja
 version: master
 description: 'fpganinja IP: taxi_led_sreg'
-license: ''
+license: CERN-OHL-S-2.0
+license_class: strong-copyleft
 source:
   type: git
   url: https://github.com/fpganinja/taxi.git
@@ -14,3 +15,36 @@ routertl_compat:
   files:
   - src/sync/rtl/taxi_sync_signal.sv
   - src/io/rtl/taxi_led_sreg.sv
+tags:
+- led
+- sreg
+- taxi
+role: top
+components:
+- cndm_lite_core
+- cndm_micro_core
+- cndm_micro_port
+- cndm_proto_core
+- cndm_proto_port
+- taxi_axis_async_fifo
+- taxi_axis_async_fifo_adapter
+- taxi_eth_mac_10g
+- taxi_eth_mac_1g
+- taxi_eth_mac_1g_gmii
+- taxi_eth_mac_1g_rgmii
+- taxi_eth_mac_25g_us_ch
+- taxi_eth_mac_mii
+- taxi_eth_mac_phy_10g
+- taxi_eth_mac_stats
+- taxi_eth_phy_10g_7_gt
+- taxi_eth_phy_10g_us_gt
+- taxi_eth_phy_10g_us_gt_ll
+- taxi_eth_phy_25g_us_gt
+- taxi_eth_phy_25g_us_gt_apb
+- taxi_eth_phy_25g_us_gt_ll
+- taxi_gmii_phy_if
+- taxi_gt_qpll_reset
+- taxi_gt_rx_reset
+- taxi_gt_tx_reset
+- taxi_rgmii_phy_if
+- taxi_sync_signal

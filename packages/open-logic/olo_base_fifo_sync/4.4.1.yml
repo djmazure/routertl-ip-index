@@ -4,6 +4,7 @@ version: 4.4.1
 description: This is a very basic synchronous FIFO. It  has optional level- and almost-full/empty
   ports.
 license: ''
+license_class: unknown
 source:
   type: git
   url: https://github.com/open-logic/open-logic.git
@@ -19,3 +20,14 @@ routertl_compat:
   - src/base/vhdl/olo_base_pkg_string.vhd
   - src/base/vhdl/olo_base_ram_sdp.vhd
   - src/base/vhdl/olo_base_fifo_sync.vhd
+tags:
+- base
+- buffer
+- fifo
+- olo
+- open
+- queue
+- sync
+- synchronizer
+- synchronous
+role: component

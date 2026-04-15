@@ -2,7 +2,8 @@ name: taxi_eth_phy_10g_us_gt_ll
 namespace: fpganinja
 version: master
 description: Transceiver wrapper for UltraScale/UltraScale+ (low latency)
-license: ''
+license: CERN-OHL-S-2.0
+license_class: strong-copyleft
 source:
   type: git
   url: https://github.com/fpganinja/taxi.git
@@ -20,3 +21,17 @@ routertl_compat:
   - src/hip/rtl/us/taxi_gt_qpll_reset.sv
   - src/hip/rtl/us/taxi_gt_tx_reset.sv
   - src/eth/rtl/us/taxi_eth_phy_10g_us_gt_ll.sv
+tags:
+- 10g
+- 10gbe
+- eth
+- ethernet
+- gigabit
+- gt
+- layer
+- ll
+- phy
+- physical
+- taxi
+- us
+role: component

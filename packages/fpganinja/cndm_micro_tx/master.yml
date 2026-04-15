@@ -2,7 +2,8 @@ name: cndm_micro_tx
 namespace: fpganinja
 version: master
 description: 'fpganinja IP: cndm_micro_tx'
-license: ''
+license: CERN-OHL-S-2.0
+license_class: strong-copyleft
 source:
   type: git
   url: https://github.com/fpganinja/taxi.git
@@ -14,9 +15,16 @@ routertl_compat:
   files:
   - src/dma/rtl/taxi_dma_ram_if.sv
   - src/dma/rtl/taxi_dma_psdpram.sv
-  - src/axis/rtl/taxi_axis_if.sv
   - src/dma/rtl/taxi_dma_desc_if.sv
+  - src/axis/rtl/taxi_axis_if.sv
   - src/lss/rtl/taxi_i2c_slave.sv
   - src/dma/rtl/taxi_dma_client_axis_source.sv
   - src/ptp/rtl/taxi_ptp_td_rel2tod.sv
   - src/cndm/rtl/cndm_micro_tx.sv
+tags:
+- cndm
+- micro
+- transmit
+- transmitter
+- tx
+role: component

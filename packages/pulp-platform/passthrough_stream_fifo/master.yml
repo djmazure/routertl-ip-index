@@ -1,0 +1,25 @@
+name: passthrough_stream_fifo
+namespace: pulp-platform
+version: master
+description: 'Authors: - Thomas Benz  <tbenz@iis.ee.ethz.ch> - Tobias Senti <tsenti@ethz.ch>
+  Stream FIFO that does not cut the timing path. When full; pushing data is allowed
+  if in the same cycle data is popped....'
+license: Apache-2.0
+license_class: permissive
+source:
+  type: git
+  url: https://github.com/pulp-platform/common_cells.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/passthrough_stream_fifo.sv
+tags:
+- buffer
+- fifo
+- passthrough
+- queue
+- stream
+role: top

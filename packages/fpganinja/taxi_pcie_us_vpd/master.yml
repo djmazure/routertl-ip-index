@@ -2,7 +2,8 @@ name: taxi_pcie_us_vpd
 namespace: fpganinja
 version: master
 description: 'fpganinja IP: taxi_pcie_us_vpd'
-license: ''
+license: CERN-OHL-S-2.0
+license_class: strong-copyleft
 source:
   type: git
   url: https://github.com/fpganinja/taxi.git
@@ -14,3 +15,11 @@ routertl_compat:
   files:
   - src/apb/rtl/taxi_apb_if.sv
   - src/pcie/rtl/taxi_pcie_us_vpd.sv
+tags:
+- express
+- pci
+- pcie
+- taxi
+- us
+- vpd
+role: component

@@ -2,7 +2,8 @@ name: taxi_pcie_us_msi
 namespace: fpganinja
 version: master
 description: 'fpganinja IP: taxi_pcie_us_msi'
-license: ''
+license: CERN-OHL-S-2.0
+license_class: strong-copyleft
 source:
   type: git
   url: https://github.com/fpganinja/taxi.git
@@ -15,3 +16,11 @@ routertl_compat:
   - src/prim/rtl/taxi_penc.sv
   - src/prim/rtl/taxi_arbiter.sv
   - src/pcie/rtl/taxi_pcie_us_msi.sv
+tags:
+- express
+- msi
+- pci
+- pcie
+- taxi
+- us
+role: component

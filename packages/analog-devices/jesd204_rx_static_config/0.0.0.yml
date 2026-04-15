@@ -1,0 +1,24 @@
+name: jesd204_rx_static_config
+namespace: analog-devices
+version: 0.0.0
+description: 'analog-devices IP: jesd204_rx_static_config'
+license: In this HDL repository, there are many different and unique modules, consisting
+license_class: unknown
+source:
+  type: git
+  url: https://github.com/analogdevicesinc/hdl.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - library/jesd204/jesd204_rx_static_config/jesd204_rx_static_config.v
+tags:
+- config
+- jesd204
+- receive
+- receiver
+- rx
+- static
+role: top

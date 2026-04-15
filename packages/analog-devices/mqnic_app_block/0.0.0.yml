@@ -1,0 +1,23 @@
+name: mqnic_app_block
+namespace: analog-devices
+version: 0.0.0
+description: 'analog-devices IP: mqnic_app_block'
+license: In this HDL repository, there are many different and unique modules, consisting
+license_class: unknown
+source:
+  type: git
+  url: https://github.com/analogdevicesinc/hdl.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - library/corundum/corundum_core/mqnic_app_custom_params.vh
+  - library/corundum/corundum_core/mqnic_app_custom_ports.vh
+  - library/corundum/corundum_core/mqnic_app_block.v
+tags:
+- app
+- block
+- mqnic
+role: top

@@ -5,6 +5,7 @@ description: This is a very basic clock crossing that allows to clock-cross rese
   It does assert reset on the other clock domain immediately and de-asserts the reset
   synchronously to the corresponding clock. ...
 license: ''
+license_class: unknown
 source:
   type: git
   url: https://github.com/open-logic/open-logic.git
@@ -17,3 +18,12 @@ routertl_compat:
   - src/base/vhdl/olo_base_pkg_attribute.vhd
   - src/base/vhdl/olo_base_cc_bits.vhd
   - src/base/vhdl/olo_base_cc_reset.vhd
+tags:
+- base
+- cc
+- clock
+- crossing
+- olo
+- open
+- reset
+role: component

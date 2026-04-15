@@ -2,7 +2,8 @@ name: taxi_dma_psdpram_async
 namespace: fpganinja
 version: master
 description: DMA parallel simple dual port RAM (asynchronous)
-license: ''
+license: CERN-OHL-S-2.0
+license_class: strong-copyleft
 source:
   type: git
   url: https://github.com/fpganinja/taxi.git
@@ -14,3 +15,41 @@ routertl_compat:
   files:
   - src/dma/rtl/taxi_dma_ram_if.sv
   - src/dma/rtl/taxi_dma_psdpram_async.sv
+tags:
+- access
+- async
+- asynchronous
+- direct
+- dma
+- memory
+- psdpram
+- taxi
+role: top
+components:
+- cndm_lite_core
+- cndm_micro_core
+- cndm_micro_cpl_wr
+- cndm_micro_desc_rd
+- cndm_micro_port
+- cndm_micro_rx
+- cndm_micro_tx
+- cndm_proto_core
+- cndm_proto_cpl_wr
+- cndm_proto_desc_rd
+- cndm_proto_port
+- cndm_proto_rx
+- cndm_proto_tx
+- taxi_dma_client_axis_sink
+- taxi_dma_client_axis_source
+- taxi_dma_if_axi_rd
+- taxi_dma_if_axi_wr
+- taxi_dma_if_mux
+- taxi_dma_if_mux_rd
+- taxi_dma_if_mux_wr
+- taxi_dma_if_pcie_us
+- taxi_dma_if_pcie_us_rd
+- taxi_dma_if_pcie_us_wr
+- taxi_dma_psdpram
+- taxi_dma_ram_demux_rd
+- taxi_dma_ram_demux_wr
+- taxi_dma_ram_if

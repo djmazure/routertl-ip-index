@@ -1,0 +1,32 @@
+name: ad_ip_jesd204_tpl_adc_pnmon
+namespace: analog-devices
+version: 0.0.0
+description: In this HDL repository, there are many different and unique modules,
+  consisting of various HDL (Verilog or VHDL) components. The individual modules are
+license: In this HDL repository, there are many different and unique modules, consisting
+license_class: unknown
+source:
+  type: git
+  url: https://github.com/analogdevicesinc/hdl.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - library/common/ad_pnmon.v
+  - library/jesd204/ad_ip_jesd204_tpl_adc/ad_ip_jesd204_tpl_adc_pnmon.v
+tags:
+- ad
+- adc
+- analog
+- converter
+- digital
+- internet
+- ip
+- jesd204
+- network
+- pnmon
+- protocol
+- tpl
+role: component

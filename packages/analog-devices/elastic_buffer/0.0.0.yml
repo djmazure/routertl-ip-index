@@ -1,0 +1,22 @@
+name: elastic_buffer
+namespace: analog-devices
+version: 0.0.0
+description: 'analog-devices IP: elastic_buffer'
+license: In this HDL repository, there are many different and unique modules, consisting
+license_class: unknown
+source:
+  type: git
+  url: https://github.com/analogdevicesinc/hdl.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - library/common/ad_pack.v
+  - library/common/ad_upack.v
+  - library/jesd204/jesd204_rx/elastic_buffer.v
+tags:
+- buffer
+- elastic
+role: component

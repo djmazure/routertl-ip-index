@@ -1,0 +1,25 @@
+name: rr_arb_tree
+namespace: pulp-platform
+version: master
+description: or agreed to in writing, software, hardware and materials distributed
+  under
+license: Apache-2.0
+license_class: permissive
+source:
+  type: git
+  url: https://github.com/pulp-platform/common_cells.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/lzc.sv
+  - src/rr_arb_tree.sv
+tags:
+- arb
+- arbiter
+- arbitration
+- rr
+- tree
+role: component

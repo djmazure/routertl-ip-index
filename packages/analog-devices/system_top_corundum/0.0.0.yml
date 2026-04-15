@@ -1,0 +1,27 @@
+name: system_top_corundum
+namespace: analog-devices
+version: 0.0.0
+description: In this HDL repository, there are many different and unique modules,
+  consisting of various HDL (Verilog or VHDL) components. The individual modules are
+license: In this HDL repository, there are many different and unique modules, consisting
+license_class: unknown
+source:
+  type: git
+  url: https://github.com/analogdevicesinc/hdl.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - library/common/ad_iobuf.v
+  - library/common/ad_3w_spi.v
+  - projects/ad9081_fmca_ebz/vcu118/system_top_corundum.v
+tags:
+- corundum
+- system
+- top
+role: top
+components:
+- ad_3w_spi
+- ad_iobuf

@@ -1,0 +1,39 @@
+name: ad_ip_jesd204_tpl_adc_core
+namespace: analog-devices
+version: 0.0.0
+description: In this HDL repository, there are many different and unique modules,
+  consisting of various HDL (Verilog or VHDL) components. The individual modules are
+license: In this HDL repository, there are many different and unique modules, consisting
+license_class: unknown
+source:
+  type: git
+  url: https://github.com/analogdevicesinc/hdl.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - library/common/ad_perfect_shuffle.v
+  - library/common/ad_xcvr_rx_if.v
+  - library/jesd204/ad_ip_jesd204_tpl_adc/ad_ip_jesd204_tpl_adc_deframer.v
+  - library/common/ad_datafmt.v
+  - library/common/ad_pnmon.v
+  - library/jesd204/ad_ip_jesd204_tpl_adc/ad_ip_jesd204_tpl_adc_pnmon.v
+  - library/jesd204/ad_ip_jesd204_tpl_adc/ad_ip_jesd204_tpl_adc_channel.v
+  - library/common/util_ext_sync.v
+  - library/jesd204/ad_ip_jesd204_tpl_adc/ad_ip_jesd204_tpl_adc_core.v
+tags:
+- ad
+- adc
+- analog
+- converter
+- core
+- digital
+- internet
+- ip
+- jesd204
+- network
+- protocol
+- tpl
+role: component

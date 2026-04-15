@@ -4,6 +4,7 @@ version: 4.4.1
 description: This entity implements an efficient priority arbiter. The highest index
   of the input has priority.
 license: ''
+license_class: unknown
 source:
   type: git
   url: https://github.com/open-logic/open-logic.git
@@ -17,3 +18,12 @@ routertl_compat:
   - src/base/vhdl/olo_base_pkg_math.vhd
   - src/base/vhdl/olo_base_pkg_logic.vhd
   - src/base/vhdl/olo_base_arb_prio.vhd
+tags:
+- arb
+- arbiter
+- arbitration
+- base
+- olo
+- open
+- prio
+role: component

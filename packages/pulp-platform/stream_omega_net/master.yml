@@ -1,0 +1,38 @@
+name: stream_omega_net
+namespace: pulp-platform
+version: master
+description: or agreed to in writing, software, hardware and materials distributed
+  under
+license: Apache-2.0
+license_class: permissive
+source:
+  type: git
+  url: https://github.com/pulp-platform/common_cells.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/spill_register_flushable.sv
+  - src/spill_register.sv
+  - src/lzc.sv
+  - src/rr_arb_tree.sv
+  - src/stream_demux.sv
+  - src/stream_xbar.sv
+  - src/stream_omega_net.sv
+tags:
+- net
+- omega
+- stream
+role: top
+components:
+- cdc_4phase
+- cdc_reset_ctrlr
+- lzc
+- rr_arb_tree
+- spill_register
+- spill_register_flushable
+- stream_arbiter_flushable
+- stream_demux
+- stream_xbar

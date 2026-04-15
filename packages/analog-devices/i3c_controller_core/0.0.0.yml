@@ -1,0 +1,31 @@
+name: i3c_controller_core
+namespace: analog-devices
+version: 0.0.0
+description: In this HDL repository, there are many different and unique modules,
+  consisting of various HDL (Verilog or VHDL) components. The individual modules are
+license: In this HDL repository, there are many different and unique modules, consisting
+license_class: unknown
+source:
+  type: git
+  url: https://github.com/analogdevicesinc/hdl.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - library/i3c_controller/i3c_controller_core/i3c_controller_bit_mod.vh
+  - library/i3c_controller/i3c_controller_core/i3c_controller_word.vh
+  - library/i3c_controller/i3c_controller_core/i3c_controller_bit_mod.v
+  - library/i3c_controller/i3c_controller_core/i3c_controller_word.v
+  - library/i3c_controller/i3c_controller_core/i3c_controller_framing.v
+  - library/i3c_controller/i3c_controller_core/i3c_controller_core.v
+tags:
+- controller
+- core
+- i3c
+role: top
+components:
+- i3c_controller_bit_mod
+- i3c_controller_framing
+- i3c_controller_word

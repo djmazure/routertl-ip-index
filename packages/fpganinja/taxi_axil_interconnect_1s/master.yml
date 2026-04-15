@@ -2,7 +2,8 @@ name: taxi_axil_interconnect_1s
 namespace: fpganinja
 version: master
 description: 'fpganinja IP: taxi_axil_interconnect_1s'
-license: ''
+license: CERN-OHL-S-2.0
+license_class: strong-copyleft
 source:
   type: git
   url: https://github.com/fpganinja/taxi.git
@@ -24,3 +25,9 @@ routertl_compat:
   - src/axi/rtl/taxi_axil_tie_rd.sv
   - src/axi/rtl/taxi_axil_interconnect_1s_rd.sv
   - src/axi/rtl/taxi_axil_interconnect_1s.sv
+tags:
+- 1s
+- axil
+- interconnect
+- taxi
+role: component

@@ -1,0 +1,29 @@
+name: jesd204_soft_pcs_rx
+namespace: analog-devices
+version: 0.0.0
+description: 'analog-devices IP: jesd204_soft_pcs_rx'
+license: In this HDL repository, there are many different and unique modules, consisting
+license_class: unknown
+source:
+  type: git
+  url: https://github.com/analogdevicesinc/hdl.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - library/jesd204/jesd204_soft_pcs_rx/jesd204_pattern_align.v
+  - library/jesd204/jesd204_soft_pcs_rx/jesd204_8b10b_decoder.v
+  - library/jesd204/jesd204_soft_pcs_rx/jesd204_soft_pcs_rx.v
+tags:
+- jesd204
+- pcs
+- receive
+- receiver
+- rx
+- soft
+role: top
+components:
+- jesd204_8b10b_decoder
+- jesd204_pattern_align

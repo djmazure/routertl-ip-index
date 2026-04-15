@@ -1,0 +1,24 @@
+name: data_offload_fsm
+namespace: analog-devices
+version: 0.0.0
+description: This module controls the read and write access to the storage unit. It
+  is used for both transmit and receive use cases
+license: In this HDL repository, there are many different and unique modules, consisting
+license_class: unknown
+source:
+  type: git
+  url: https://github.com/analogdevicesinc/hdl.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - library/util_cdc/sync_bits.v
+  - library/util_cdc/sync_event.v
+  - library/data_offload/data_offload_fsm.v
+tags:
+- data
+- fsm
+- offload
+role: component

@@ -2,7 +2,8 @@ name: taxi_ram_1rw
 namespace: fpganinja
 version: master
 description: 'fpganinja IP: taxi_ram_1rw'
-license: ''
+license: CERN-OHL-S-2.0
+license_class: strong-copyleft
 source:
   type: git
   url: https://github.com/fpganinja/taxi.git
@@ -13,3 +14,11 @@ routertl_compat:
   library: work
   files:
   - src/prim/rtl/taxi_ram_1rw.sv
+tags:
+- 1rw
+- access
+- memory
+- ram
+- random
+- taxi
+role: top

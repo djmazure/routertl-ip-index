@@ -1,0 +1,29 @@
+name: cdc_reset_ctrlr
+namespace: pulp-platform
+version: master
+description: 'Title : CDC Clear Signaling Synchronization'
+license: Apache-2.0
+license_class: permissive
+source:
+  type: git
+  url: https://github.com/pulp-platform/common_cells.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/cdc_reset_ctrlr_pkg.sv
+  - src/spill_register_flushable.sv
+  - src/spill_register.sv
+  - src/sync.sv
+  - src/cdc_4phase.sv
+  - src/cdc_reset_ctrlr.sv
+tags:
+- cdc
+- clock
+- crossing
+- ctrlr
+- domain
+- reset
+role: component

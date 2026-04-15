@@ -1,0 +1,26 @@
+name: cdc_2phase_src
+namespace: pulp-platform
+version: master
+description: 'pulp-platform IP: cdc_2phase_src'
+license: Apache-2.0
+license_class: permissive
+source:
+  type: git
+  url: https://github.com/pulp-platform/common_cells.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/cdc_2phase.sv
+tags:
+- 2phase
+- cdc
+- clock
+- crossing
+- domain
+- src
+role: top
+components:
+- cdc_2phase

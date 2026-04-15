@@ -1,0 +1,28 @@
+name: spi_engine_execution
+namespace: analog-devices
+version: 0.0.0
+description: In this HDL repository, there are many different and unique modules,
+  consisting of various HDL (Verilog or VHDL) components. The individual modules are
+license: In this HDL repository, there are many different and unique modules, consisting
+license_class: unknown
+source:
+  type: git
+  url: https://github.com/analogdevicesinc/hdl.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - library/spi_engine/spi_engine_execution/spi_engine_execution_shiftreg.v
+  - library/spi_engine/spi_engine_execution/spi_engine_execution.v
+tags:
+- engine
+- execution
+- interface
+- peripheral
+- serial
+- spi
+role: top
+components:
+- spi_engine_execution_shiftreg

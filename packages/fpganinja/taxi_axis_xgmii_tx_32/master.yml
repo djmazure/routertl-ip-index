@@ -2,7 +2,8 @@ name: taxi_axis_xgmii_tx_32
 namespace: fpganinja
 version: master
 description: AXI4-Stream XGMII frame transmitter (AXI in, XGMII out)
-license: ''
+license: CERN-OHL-S-2.0
+license_class: strong-copyleft
 source:
   type: git
   url: https://github.com/fpganinja/taxi.git
@@ -12,6 +13,21 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - src/axis/rtl/taxi_axis_if.sv
   - src/lfsr/rtl/taxi_lfsr.sv
+  - src/axis/rtl/taxi_axis_if.sv
   - src/eth/rtl/taxi_axis_xgmii_tx_32.sv
+tags:
+- '32'
+- axi
+- axis
+- gigabit
+- independent
+- interface
+- media
+- stream
+- taxi
+- transmit
+- transmitter
+- tx
+- xgmii
+role: component

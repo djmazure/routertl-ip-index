@@ -2,7 +2,8 @@ name: taxi_axis_cobs_decode
 namespace: fpganinja
 version: master
 description: AXI4-Stream consistent overhead byte stuffing (COBS) decoder
-license: ''
+license: CERN-OHL-S-2.0
+license_class: strong-copyleft
 source:
   type: git
   url: https://github.com/fpganinja/taxi.git
@@ -14,3 +15,11 @@ routertl_compat:
   files:
   - src/axis/rtl/taxi_axis_if.sv
   - src/axis/rtl/taxi_axis_cobs_decode.sv
+tags:
+- axi
+- axis
+- cobs
+- decode
+- stream
+- taxi
+role: component

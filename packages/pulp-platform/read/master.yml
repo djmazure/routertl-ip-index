@@ -1,0 +1,19 @@
+name: read
+namespace: pulp-platform
+version: master
+description: 'Date: 07.11.2022 Description: Dummy circuit to assign a signal, prevent
+  signal being removed after non-ungroupped synthesis compilation'
+license: Apache-2.0
+license_class: permissive
+source:
+  type: git
+  url: https://github.com/pulp-platform/common_cells.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/read.sv
+tags: []
+role: top

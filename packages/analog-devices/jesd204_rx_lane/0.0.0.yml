@@ -1,0 +1,34 @@
+name: jesd204_rx_lane
+namespace: analog-devices
+version: 0.0.0
+description: 'analog-devices IP: jesd204_rx_lane'
+license: In this HDL repository, there are many different and unique modules, consisting
+license_class: unknown
+source:
+  type: git
+  url: https://github.com/analogdevicesinc/hdl.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - library/jesd204/jesd204_common/jesd204_scrambler.v
+  - library/common/ad_pack.v
+  - library/common/ad_upack.v
+  - library/jesd204/jesd204_rx/elastic_buffer.v
+  - library/jesd204/jesd204_rx/align_mux.v
+  - library/jesd204/jesd204_common/jesd204_frame_mark.v
+  - library/jesd204/jesd204_common/jesd204_frame_align_replace.v
+  - library/jesd204/jesd204_rx/jesd204_rx_frame_align.v
+  - library/common/util_pipeline_stage.v
+  - library/jesd204/jesd204_rx/jesd204_rx_cgs.v
+  - library/jesd204/jesd204_rx/jesd204_ilas_monitor.v
+  - library/jesd204/jesd204_rx/jesd204_rx_lane.v
+tags:
+- jesd204
+- lane
+- receive
+- receiver
+- rx
+role: component

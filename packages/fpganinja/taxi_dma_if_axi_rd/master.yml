@@ -2,7 +2,8 @@ name: taxi_dma_if_axi_rd
 namespace: fpganinja
 version: master
 description: 'fpganinja IP: taxi_dma_if_axi_rd'
-license: ''
+license: CERN-OHL-S-2.0
+license_class: strong-copyleft
 source:
   type: git
   url: https://github.com/fpganinja/taxi.git
@@ -12,9 +13,20 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - src/dma/rtl/taxi_dma_desc_if.sv
-  - src/axi/rtl/taxi_axi_if.sv
   - src/dma/rtl/taxi_dma_ram_if.sv
   - src/axis/rtl/taxi_axis_if.sv
   - src/lss/rtl/taxi_i2c_slave.sv
+  - src/axi/rtl/taxi_axi_if.sv
+  - src/dma/rtl/taxi_dma_desc_if.sv
   - src/dma/rtl/taxi_dma_if_axi_rd.sv
+tags:
+- access
+- amba
+- axi
+- bus
+- direct
+- dma
+- memory
+- rd
+- taxi
+role: component

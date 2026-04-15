@@ -2,7 +2,8 @@ name: taxi_ssio_ddr_out_diff
 namespace: fpganinja
 version: master
 description: Generic source synchronous DDR output
-license: ''
+license: CERN-OHL-S-2.0
+license_class: strong-copyleft
 source:
   type: git
   url: https://github.com/fpganinja/taxi.git
@@ -15,3 +16,21 @@ routertl_compat:
   - src/io/rtl/taxi_oddr.sv
   - src/io/rtl/taxi_ssio_ddr_out.sv
   - src/io/rtl/taxi_ssio_ddr_out_diff.sv
+tags:
+- data
+- ddr
+- diff
+- double
+- memory
+- rate
+- ssio
+- taxi
+role: top
+components:
+- taxi_eth_mac_1g_gmii
+- taxi_eth_mac_1g_rgmii
+- taxi_gmii_phy_if
+- taxi_oddr
+- taxi_rgmii_phy_if
+- taxi_ssio_ddr_out
+- taxi_ssio_sdr_out

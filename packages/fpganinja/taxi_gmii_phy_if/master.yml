@@ -2,7 +2,8 @@ name: taxi_gmii_phy_if
 namespace: fpganinja
 version: master
 description: 'fpganinja IP: taxi_gmii_phy_if'
-license: ''
+license: CERN-OHL-S-2.0
+license_class: strong-copyleft
 source:
   type: git
   url: https://github.com/fpganinja/taxi.git
@@ -13,8 +14,19 @@ routertl_compat:
   library: work
   files:
   - src/sync/rtl/taxi_sync_reset.sv
+  - src/sync/rtl/taxi_sync_signal.sv
   - src/io/rtl/taxi_oddr.sv
   - src/io/rtl/taxi_ssio_sdr_out.sv
   - src/io/rtl/taxi_ssio_sdr_in.sv
-  - src/sync/rtl/taxi_sync_signal.sv
   - src/eth/rtl/taxi_gmii_phy_if.sv
+tags:
+- gigabit
+- gmii
+- independent
+- interface
+- layer
+- media
+- phy
+- physical
+- taxi
+role: component

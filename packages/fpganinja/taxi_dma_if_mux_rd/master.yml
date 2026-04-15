@@ -2,7 +2,8 @@ name: taxi_dma_if_mux_rd
 namespace: fpganinja
 version: master
 description: 'fpganinja IP: taxi_dma_if_mux_rd'
-license: ''
+license: CERN-OHL-S-2.0
+license_class: strong-copyleft
 source:
   type: git
   url: https://github.com/fpganinja/taxi.git
@@ -19,3 +20,13 @@ routertl_compat:
   - src/prim/rtl/taxi_arbiter.sv
   - src/dma/rtl/taxi_dma_desc_mux.sv
   - src/dma/rtl/taxi_dma_if_mux_rd.sv
+tags:
+- access
+- direct
+- dma
+- memory
+- multiplexer
+- mux
+- rd
+- taxi
+role: component

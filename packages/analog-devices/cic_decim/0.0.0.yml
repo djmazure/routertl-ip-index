@@ -1,0 +1,23 @@
+name: cic_decim
+namespace: analog-devices
+version: 0.0.0
+description: In this HDL repository, there are many different and unique modules,
+  consisting of various HDL (Verilog or VHDL) components. The individual modules are
+license: In this HDL repository, there are many different and unique modules, consisting
+license_class: unknown
+source:
+  type: git
+  url: https://github.com/analogdevicesinc/hdl.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - library/util_cic/cic_int.v
+  - library/util_cic/cic_comb.v
+  - library/axi_adc_decimate/cic_decim.v
+tags:
+- cic
+- decim
+role: component

@@ -1,0 +1,20 @@
+name: ethernet_adrv9009zu11eg
+namespace: analog-devices
+version: 0.0.0
+description: 'analog-devices IP: ethernet_adrv9009zu11eg'
+license: In this HDL repository, there are many different and unique modules, consisting
+license_class: unknown
+source:
+  type: git
+  url: https://github.com/analogdevicesinc/hdl.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - library/corundum/ethernet/adrv9009zu11eg/ethernet_adrv9009zu11eg.v
+tags:
+- adrv9009zu11eg
+- ethernet
+role: top

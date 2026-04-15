@@ -4,6 +4,7 @@ version: 4.4.1
 description: This entity implements a pipelined first bit decoder. It finds out which
   is the lowest index of a bit set in the input vecotr.
 license: ''
+license_class: unknown
 source:
   type: git
   url: https://github.com/open-logic/open-logic.git
@@ -17,3 +18,10 @@ routertl_compat:
   - src/base/vhdl/olo_base_pkg_math.vhd
   - src/base/vhdl/olo_base_pkg_logic.vhd
   - src/base/vhdl/olo_base_decode_firstbit.vhd
+tags:
+- base
+- decode
+- firstbit
+- olo
+- open
+role: component

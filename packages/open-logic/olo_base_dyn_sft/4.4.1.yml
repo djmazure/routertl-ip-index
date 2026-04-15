@@ -4,6 +4,7 @@ version: 4.4.1
 description: This entity implements a dynamic shift implemented in multiple stages
   in order to achieve good timing.
 license: ''
+license_class: unknown
 source:
   type: git
   url: https://github.com/open-logic/open-logic.git
@@ -18,3 +19,12 @@ routertl_compat:
   - src/base/vhdl/olo_base_pkg_logic.vhd
   - src/base/vhdl/olo_base_pkg_string.vhd
   - src/base/vhdl/olo_base_dyn_sft.vhd
+tags:
+- base
+- dyn
+- olo
+- open
+- sft
+- shift
+- shifter
+role: component

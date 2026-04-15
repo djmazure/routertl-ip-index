@@ -1,0 +1,27 @@
+name: i3c_controller_framing
+namespace: analog-devices
+version: 0.0.0
+description: Frames commands to the word module. That means, joins cmdp and sdio bus
+  into single interface cmdw. It is the main state-machine for the Command Descriptors
+  received. The Dynamic Address Assigment ...
+license: In this HDL repository, there are many different and unique modules, consisting
+license_class: unknown
+source:
+  type: git
+  url: https://github.com/analogdevicesinc/hdl.git
+  tag: main
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - library/i3c_controller/i3c_controller_core/i3c_controller_word.vh
+  - library/i3c_controller/i3c_controller_core/i3c_controller_bit_mod.vh
+  - library/i3c_controller/i3c_controller_core/i3c_controller_bit_mod.v
+  - library/i3c_controller/i3c_controller_core/i3c_controller_word.v
+  - library/i3c_controller/i3c_controller_core/i3c_controller_framing.v
+tags:
+- controller
+- framing
+- i3c
+role: component

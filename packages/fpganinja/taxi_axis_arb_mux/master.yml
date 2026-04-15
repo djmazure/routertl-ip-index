@@ -2,7 +2,8 @@ name: taxi_axis_arb_mux
 namespace: fpganinja
 version: master
 description: 'fpganinja IP: taxi_axis_arb_mux'
-license: ''
+license: CERN-OHL-S-2.0
+license_class: strong-copyleft
 source:
   type: git
   url: https://github.com/fpganinja/taxi.git
@@ -12,7 +13,18 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - src/axis/rtl/taxi_axis_if.sv
   - src/prim/rtl/taxi_penc.sv
   - src/prim/rtl/taxi_arbiter.sv
+  - src/axis/rtl/taxi_axis_if.sv
   - src/axis/rtl/taxi_axis_arb_mux.sv
+tags:
+- arb
+- arbiter
+- arbitration
+- axi
+- axis
+- multiplexer
+- mux
+- stream
+- taxi
+role: component

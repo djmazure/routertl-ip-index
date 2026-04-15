@@ -2,7 +2,8 @@ name: taxi_eth_phy_25g_us_gt
 namespace: fpganinja
 version: master
 description: 'fpganinja IP: taxi_eth_phy_25g_us_gt'
-license: ''
+license: CERN-OHL-S-2.0
+license_class: strong-copyleft
 source:
   type: git
   url: https://github.com/fpganinja/taxi.git
@@ -20,3 +21,14 @@ routertl_compat:
   - src/hip/rtl/us/taxi_gt_qpll_reset.sv
   - src/hip/rtl/us/taxi_gt_tx_reset.sv
   - src/eth/rtl/us/taxi_eth_phy_25g_us_gt.sv
+tags:
+- 25g
+- eth
+- ethernet
+- gt
+- layer
+- phy
+- physical
+- taxi
+- us
+role: component

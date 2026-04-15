@@ -1,0 +1,32 @@
+name: axi_burst_splitter
+namespace: pulp-platform
+version: master
+description: or agreed to in writing, software, hardware and materials distributed
+  under
+license: Apache-2.0
+license_class: permissive
+source:
+  type: git
+  url: https://github.com/pulp-platform/axi.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/axi_demux_id_counters.sv
+  - src/axi_demux_simple.sv
+  - src/axi_intf.sv
+  - src/axi_cut.sv
+  - src/axi_multicut.sv
+  - src/axi_atop_filter.sv
+  - src/axi_err_slv.sv
+  - src/axi_burst_splitter_gran.sv
+  - src/axi_burst_splitter.sv
+tags:
+- amba
+- axi
+- burst
+- bus
+- splitter
+role: component

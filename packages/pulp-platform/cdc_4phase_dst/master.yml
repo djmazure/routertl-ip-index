@@ -1,0 +1,35 @@
+name: cdc_4phase_dst
+namespace: pulp-platform
+version: master
+description: 'pulp-platform IP: cdc_4phase_dst'
+license: Apache-2.0
+license_class: permissive
+source:
+  type: git
+  url: https://github.com/pulp-platform/common_cells.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/spill_register_flushable.sv
+  - src/spill_register.sv
+  - src/sync.sv
+  - src/cdc_4phase.sv
+tags:
+- 4phase
+- cdc
+- clock
+- crossing
+- domain
+- dst
+role: top
+components:
+- cdc_4phase
+- cdc_reset_ctrlr
+- spill_register
+- spill_register_flushable
+- stream_xbar
+- sync
+- sync_wedge

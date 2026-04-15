@@ -2,7 +2,8 @@ name: taxi_i2c_slave
 namespace: fpganinja
 version: master
 description: 'fpganinja IP: taxi_i2c_slave'
-license: ''
+license: CERN-OHL-S-2.0
+license_class: strong-copyleft
 source:
   type: git
   url: https://github.com/fpganinja/taxi.git
@@ -14,3 +15,10 @@ routertl_compat:
   files:
   - src/axis/rtl/taxi_axis_if.sv
   - src/lss/rtl/taxi_i2c_slave.sv
+tags:
+- circuit
+- i2c
+- inter-integrated
+- slave
+- taxi
+role: component

@@ -2,7 +2,8 @@ name: taxi_ptp_td_phc_apb
 namespace: fpganinja
 version: master
 description: PTP time distribution PHC with APB register interface
-license: ''
+license: CERN-OHL-S-2.0
+license_class: strong-copyleft
 source:
   type: git
   url: https://github.com/fpganinja/taxi.git
@@ -12,7 +13,18 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
+  - src/apb/rtl/taxi_apb_if.sv
   - src/ptp/rtl/taxi_ptp_td_leaf.sv
   - src/ptp/rtl/taxi_ptp_td_phc.sv
-  - src/apb/rtl/taxi_apb_if.sv
   - src/ptp/rtl/taxi_ptp_td_phc_apb.sv
+tags:
+- advanced
+- amba
+- apb
+- bus
+- peripheral
+- phc
+- ptp
+- taxi
+- td
+role: component

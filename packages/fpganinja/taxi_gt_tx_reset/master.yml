@@ -2,7 +2,8 @@ name: taxi_gt_tx_reset
 namespace: fpganinja
 version: master
 description: GT TX reset controller for UltraScale/UltraScale+ GTH/GTY
-license: ''
+license: CERN-OHL-S-2.0
+license_class: strong-copyleft
 source:
   type: git
   url: https://github.com/fpganinja/taxi.git
@@ -15,3 +16,11 @@ routertl_compat:
   - src/sync/rtl/taxi_sync_reset.sv
   - src/sync/rtl/taxi_sync_signal.sv
   - src/hip/rtl/us/taxi_gt_tx_reset.sv
+tags:
+- gt
+- reset
+- taxi
+- transmit
+- transmitter
+- tx
+role: component

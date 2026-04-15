@@ -2,7 +2,8 @@ name: taxi_eth_phy_10g_rx_if
 namespace: fpganinja
 version: master
 description: 10G Ethernet PHY RX IF
-license: ''
+license: CERN-OHL-S-2.0
+license_class: strong-copyleft
 source:
   type: git
   url: https://github.com/fpganinja/taxi.git
@@ -12,8 +13,22 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - src/eth/rtl/taxi_eth_phy_10g_rx_frame_sync.sv
-  - src/eth/rtl/taxi_eth_phy_10g_rx_watchdog.sv
-  - src/eth/rtl/taxi_eth_phy_10g_rx_ber_mon.sv
   - src/lfsr/rtl/taxi_lfsr.sv
+  - src/eth/rtl/taxi_eth_phy_10g_rx_watchdog.sv
+  - src/eth/rtl/taxi_eth_phy_10g_rx_frame_sync.sv
+  - src/eth/rtl/taxi_eth_phy_10g_rx_ber_mon.sv
   - src/eth/rtl/taxi_eth_phy_10g_rx_if.sv
+tags:
+- 10g
+- 10gbe
+- eth
+- ethernet
+- gigabit
+- layer
+- phy
+- physical
+- receive
+- receiver
+- rx
+- taxi
+role: component

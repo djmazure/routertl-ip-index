@@ -5,6 +5,7 @@ description: This entity implements a pipelinestage with handshaking (AXI-S Read
   The pipeline stage ensures all signals are registered in both directions (including
   Ready). This is important to break ...
 license: ''
+license_class: unknown
 source:
   type: git
   url: https://github.com/open-logic/open-logic.git
@@ -16,3 +17,10 @@ routertl_compat:
   files:
   - src/base/vhdl/olo_base_pkg_attribute.vhd
   - src/base/vhdl/olo_base_pl_stage.vhd
+tags:
+- base
+- olo
+- open
+- pl
+- stage
+role: component

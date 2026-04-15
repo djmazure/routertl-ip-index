@@ -2,7 +2,8 @@ name: taxi_axi_crossbar_rd
 namespace: fpganinja
 version: master
 description: 'fpganinja IP: taxi_axi_crossbar_rd'
-license: ''
+license: CERN-OHL-S-2.0
+license_class: strong-copyleft
 source:
   type: git
   url: https://github.com/fpganinja/taxi.git
@@ -12,9 +13,20 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
+  - src/axi/rtl/taxi_axi_if.sv
+  - src/axi/rtl/taxi_axi_register_rd.sv
   - src/axi/rtl/taxi_axi_crossbar_addr.sv
   - src/prim/rtl/taxi_penc.sv
   - src/prim/rtl/taxi_arbiter.sv
-  - src/axi/rtl/taxi_axi_if.sv
-  - src/axi/rtl/taxi_axi_register_rd.sv
   - src/axi/rtl/taxi_axi_crossbar_rd.sv
+tags:
+- amba
+- axi
+- bus
+- crossbar
+- interconnect
+- matrix
+- rd
+- switch
+- taxi
+role: component

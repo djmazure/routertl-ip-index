@@ -1,0 +1,28 @@
+name: edge_propagator
+namespace: pulp-platform
+version: master
+description: or agreed to in writing, software, hardware and materials distributed
+  under
+license: Apache-2.0
+license_class: permissive
+source:
+  type: git
+  url: https://github.com/pulp-platform/common_cells.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - src/deprecated/pulp_sync.sv
+  - src/deprecated/pulp_sync_wedge.sv
+  - src/edge_propagator_ack.sv
+  - src/edge_propagator.sv
+tags:
+- edge
+- propagator
+role: top
+components:
+- edge_propagator_ack
+- pulp_sync
+- pulp_sync_wedge
