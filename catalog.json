@@ -14252,7 +14252,7 @@
   },
   {
     "namespace": "openhwgroup",
-    "name": "openhwgroup",
+    "name": "cva6",
     "latest": "master",
     "description": "CVA6 is a 6-stage, single-issue, in-order CPU which implements the 64-bit RISC-V instruction set. It fully implements I, M, A and C extensions as specified in Volume I: User-Level ISA V 2.3 as well...",
     "license": "Apache-2.0",
@@ -14549,7 +14549,7 @@
   },
   {
     "namespace": "openhwgroup",
-    "name": "openhwgroup",
+    "name": "cv32e40p",
     "latest": "master",
     "description": "CV32E40P is a small and efficient, 32-bit, in-order RISC-V core with a 4-stage pipeline that implements the RV32IM\\[F|Zfinx\\]C instruction set architecture, and the PULP custom extensions for achie...",
     "license": "Apache-2.0",
@@ -14630,7 +14630,7 @@
   },
   {
     "namespace": "openhwgroup",
-    "name": "openhwgroup",
+    "name": "cv32e40x",
     "latest": "master",
     "description": "CV32E40X is a small and efficient, 32-bit, in-order RISC-V core with a 4-stage pipeline that implements the following instruction set architecture:",
     "license": "Apache-2.0",
@@ -14747,7 +14747,7 @@
   },
   {
     "namespace": "openhwgroup",
-    "name": "openhwgroup",
+    "name": "cv32e40s",
     "latest": "master",
     "description": "CV32E40S is a small and efficient, 32-bit, in-order RISC-V core with a 4-stage pipeline that implements the following instruction set architecture:",
     "license": "Apache-2.0",
@@ -14883,7 +14883,7 @@
   },
   {
     "namespace": "openhwgroup",
-    "name": "openhwgroup",
+    "name": "cve2",
     "latest": "0.0.0",
     "description": "CVE2 is a class of 2-stage pipeline OpenHW Foundation cores. Currently, the only core in this class is the CV32E20. CV32E20 is a fork of the [Ibex](https://github.com/lowRISC/ibex) core. Differentl...",
     "license": "Apache-2.0",
@@ -33274,7 +33274,7 @@
   },
   {
     "namespace": "enjoy-digital",
-    "name": "enjoy-digital",
+    "name": "litex",
     "latest": "master",
     "description": "``` Copyright 2012-2026 / Enjoy-Digital & LiteX developers ```",
     "license": "BSD-2-Clause",

@@ -14,8 +14,8 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - src/lzc.sv
   - src/onehot_to_bin.sv
+  - src/lzc.sv
   - src/id_queue.sv
 tags:
 - id

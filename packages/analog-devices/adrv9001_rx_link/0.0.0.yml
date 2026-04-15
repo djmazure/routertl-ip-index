@@ -14,8 +14,8 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - library/axi_adrv9001/adrv9001_aligner4.v
   - library/axi_adrv9001/adrv9001_pack.v
+  - library/axi_adrv9001/adrv9001_aligner4.v
   - library/axi_adrv9001/adrv9001_aligner8.v
   - library/axi_adrv9001/adrv9001_rx_link.v
 tags:

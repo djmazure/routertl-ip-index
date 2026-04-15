@@ -16,8 +16,8 @@ routertl_compat:
   files:
   - library/axi_dmac/inc_id.vh
   - library/axi_dmac/resp.vh
-  - library/axi_dmac/address_generator.v
   - library/axi_dmac/splitter.v
+  - library/axi_dmac/address_generator.v
   - library/axi_dmac/src_axi_mm.v
 tags:
 - amba

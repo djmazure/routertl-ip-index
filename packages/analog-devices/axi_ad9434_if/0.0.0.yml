@@ -14,11 +14,11 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - library/xilinx/common/ad_mmcm_drp.v
-  - library/xilinx/common/ad_serdes_clk.v
   - library/util_cdc/sync_bits.v
   - library/util_cdc/sync_event.v
   - library/xilinx/common/ad_serdes_in.v
+  - library/xilinx/common/ad_mmcm_drp.v
+  - library/xilinx/common/ad_serdes_clk.v
   - library/axi_ad9434/axi_ad9434_if.v
 tags:
 - ad9434

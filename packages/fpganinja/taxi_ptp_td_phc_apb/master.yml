@@ -14,8 +14,8 @@ routertl_compat:
   library: work
   files:
   - src/apb/rtl/taxi_apb_if.sv
-  - src/ptp/rtl/taxi_ptp_td_leaf.sv
   - src/ptp/rtl/taxi_ptp_td_phc.sv
+  - src/ptp/rtl/taxi_ptp_td_leaf.sv
   - src/ptp/rtl/taxi_ptp_td_phc_apb.sv
 tags:
 - advanced

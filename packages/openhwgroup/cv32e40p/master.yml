@@ -1,0 +1,142 @@
+name: cv32e40p
+namespace: openhwgroup
+version: master
+description: CV32E40P is a small and efficient, 32-bit, in-order RISC-V core with
+  a 4-stage pipeline that implements the RV32IM\[F|Zfinx\]C instruction set architecture,
+  and the PULP custom extensions for achie...
+license: Apache-2.0
+license_class: permissive
+source:
+  type: git
+  url: https://github.com/openhwgroup/cv32e40p.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - rtl/cv32e40p_aligner.sv
+  - rtl/include/cv32e40p_pkg.sv
+  - rtl/cv32e40p_alu_div.sv
+  - rtl/cv32e40p_popcnt.sv
+  - rtl/cv32e40p_ff_one.sv
+  - rtl/cv32e40p_alu.sv
+  - rtl/cv32e40p_apu_disp.sv
+  - rtl/cv32e40p_compressed_decoder.sv
+  - rtl/cv32e40p_controller.sv
+  - rtl/include/cv32e40p_apu_core_pkg.sv
+  - rtl/cv32e40p_sleep_unit.sv
+  - rtl/cv32e40p_cs_registers.sv
+  - rtl/cv32e40p_prefetch_controller.sv
+  - rtl/cv32e40p_obi_interface.sv
+  - rtl/cv32e40p_fifo.sv
+  - rtl/cv32e40p_prefetch_buffer.sv
+  - rtl/cv32e40p_if_stage.sv
+  - rtl/cv32e40p_load_store_unit.sv
+  - rtl/cv32e40p_mult.sv
+  - rtl/cv32e40p_ex_stage.sv
+  - rtl/include/cv32e40p_fpu_pkg.sv
+  - rtl/cv32e40p_decoder.sv
+  - rtl/cv32e40p_register_file_latch.sv
+  - rtl/cv32e40p_hwloop_regs.sv
+  - rtl/cv32e40p_int_controller.sv
+  - rtl/cv32e40p_id_stage.sv
+  - rtl/cv32e40p_core.sv
+  - rtl/vendor/pulp_platform_fpnew/src/fpnew_pkg.sv
+  - rtl/vendor/pulp_platform_common_cells/src/lzc.sv
+  - rtl/vendor/pulp_platform_common_cells/src/rr_arb_tree.sv
+  - rtl/vendor/pulp_platform_fpnew/src/fpnew_rounding.sv
+  - rtl/vendor/pulp_platform_fpnew/src/fpnew_classifier.sv
+  - rtl/vendor/pulp_platform_fpnew/src/fpnew_fma.sv
+  - rtl/vendor/pulp_platform_fpnew/src/fpnew_noncomp.sv
+  - rtl/vendor/pulp_platform_fpnew/src/fpnew_opgroup_fmt_slice.sv
+  - rtl/vendor/pulp_platform_fpnew/src/fpnew_cast_multi.sv
+  - rtl/vendor/pulp_platform_fpnew/src/fpnew_divsqrt_multi.sv
+  - rtl/vendor/pulp_platform_fpnew/src/fpnew_fma_multi.sv
+  - rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/fpu/rtl/pa_fpu_frbus.v
+  - rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/fpu/rtl/pa_fpu_src_type.v
+  - rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/clk/rtl/gated_clk_cell.v
+  - rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/fpu/rtl/pa_fpu_dp.v
+  - rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/fdsu/rtl/pa_fdsu_pack_single.v
+  - rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/fdsu/rtl/pa_fdsu_round_single.v
+  - rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/fdsu/rtl/pa_fdsu_ff1.v
+  - rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/fdsu/rtl/pa_fdsu_prepare.v
+  - rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/fdsu/rtl/pa_fdsu_special.v
+  - rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/fdsu/rtl/pa_fdsu_srt_single.v
+  - rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/fdsu/rtl/pa_fdsu_ctrl.v
+  - rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/fdsu/rtl/pa_fdsu_top.v
+  - rtl/vendor/pulp_platform_fpnew/src/fpnew_divsqrt_th_32.sv
+  - rtl/vendor/pulp_platform_fpnew/src/fpnew_opgroup_multifmt_slice.sv
+  - rtl/vendor/pulp_platform_fpnew/src/fpnew_opgroup_block.sv
+  - rtl/vendor/pulp_platform_fpnew/src/fpnew_top.sv
+  - rtl/cv32e40p_fp_wrapper.sv
+  - rtl/cv32e40p_top.sv
+tags:
+- aligner
+- alu
+- apu
+- buffer
+- compressed
+- controller
+- core
+- cs
+- cv32e40p
+- decoder
+- disp
+- div
+- divider
+- ex
+- ff
+- fifo
+- file
+- fp
+- hwloop
+- id
+- int
+- interface
+- load
+- mult
+- obi
+- one
+- popcnt
+- prefetch
+- queue
+- register
+- registers
+- regs
+- sleep
+- stage
+- store
+- top
+- unit
+- wrapper
+role: repo
+top_modules:
+- cv32e40p_top
+components:
+- cv32e40p_aligner
+- cv32e40p_alu
+- cv32e40p_alu_div
+- cv32e40p_apu_disp
+- cv32e40p_compressed_decoder
+- cv32e40p_controller
+- cv32e40p_core
+- cv32e40p_cs_registers
+- cv32e40p_decoder
+- cv32e40p_ex_stage
+- cv32e40p_ff_one
+- cv32e40p_fifo
+- cv32e40p_fp_wrapper
+- cv32e40p_hwloop_regs
+- cv32e40p_id_stage
+- cv32e40p_if_stage
+- cv32e40p_int_controller
+- cv32e40p_load_store_unit
+- cv32e40p_mult
+- cv32e40p_obi_interface
+- cv32e40p_popcnt
+- cv32e40p_prefetch_buffer
+- cv32e40p_prefetch_controller
+- cv32e40p_register_file
+- cv32e40p_sleep_unit
+total_entities: 26

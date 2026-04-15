@@ -13,13 +13,13 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - library/util_cdc/sync_bits.v
-  - library/util_cdc/sync_data.v
-  - library/util_cdc/sync_event.v
-  - library/jesd204/axi_jesd204_tx/jesd204_up_tx.v
+  - library/common/up_axi.v
   - library/common/up_clock_mon.v
   - library/jesd204/axi_jesd204_common/jesd204_up_common.v
-  - library/common/up_axi.v
+  - library/util_cdc/sync_bits.v
+  - library/util_cdc/sync_event.v
+  - library/util_cdc/sync_data.v
+  - library/jesd204/axi_jesd204_tx/jesd204_up_tx.v
   - library/jesd204/axi_jesd204_common/jesd204_up_sysref.v
   - library/jesd204/axi_jesd204_tx/axi_jesd204_tx.v
 tags:

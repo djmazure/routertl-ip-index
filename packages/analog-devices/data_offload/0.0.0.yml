@@ -14,16 +14,16 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - library/util_cdc/sync_bits.v
+  - library/common/ad_mem.v
   - library/util_cdc/sync_gray.v
   - library/util_axis_fifo/util_axis_fifo_address_generator.v
-  - library/common/ad_mem.v
+  - library/util_cdc/sync_bits.v
   - library/util_axis_fifo/util_axis_fifo.v
-  - library/util_cdc/sync_data.v
   - library/util_cdc/sync_event.v
-  - library/data_offload/data_offload_regmap.v
   - library/data_offload/data_offload_fsm.v
   - library/common/up_axi.v
+  - library/util_cdc/sync_data.v
+  - library/data_offload/data_offload_regmap.v
   - library/util_axis_fifo_asym/util_axis_fifo_asym.v
   - library/data_offload/data_offload.v
 tags:

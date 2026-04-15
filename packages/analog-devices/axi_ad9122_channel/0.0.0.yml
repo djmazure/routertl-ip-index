@@ -14,6 +14,8 @@ routertl_compat:
   language: verilog
   library: work
   files:
+  - library/common/up_xfer_cntrl.v
+  - library/common/up_dac_channel.v
   - library/common/ad_dds_cordic_pipe.v
   - library/common/ad_dds_sine_cordic.v
   - library/xilinx/common/ad_mul.v
@@ -21,8 +23,6 @@ routertl_compat:
   - library/common/ad_dds_1.v
   - library/common/ad_dds_2.v
   - library/common/ad_dds.v
-  - library/common/up_xfer_cntrl.v
-  - library/common/up_dac_channel.v
   - library/axi_ad9122/axi_ad9122_channel.v
 tags:
 - ad9122

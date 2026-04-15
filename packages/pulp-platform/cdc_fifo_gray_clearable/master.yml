@@ -15,13 +15,13 @@ routertl_compat:
   library: work
   files:
   - src/sync.sv
+  - src/gray_to_binary.sv
+  - src/spill_register_flushable.sv
   - src/binary_to_gray.sv
   - src/cdc_reset_ctrlr_pkg.sv
-  - src/spill_register_flushable.sv
   - src/spill_register.sv
   - src/cdc_4phase.sv
   - src/cdc_reset_ctrlr.sv
-  - src/gray_to_binary.sv
   - src/cdc_fifo_gray_clearable.sv
 tags:
 - buffer

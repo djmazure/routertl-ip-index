@@ -21,8 +21,8 @@ routertl_compat:
   - src/lss/rtl/taxi_i2c_slave.sv
   - src/axi/rtl/taxi_axil_tie_wr.sv
   - src/axi/rtl/taxi_axil_interconnect_1s_wr.sv
-  - src/axi/rtl/taxi_axil_interconnect_rd.sv
   - src/axi/rtl/taxi_axil_tie_rd.sv
+  - src/axi/rtl/taxi_axil_interconnect_rd.sv
   - src/axi/rtl/taxi_axil_interconnect_1s_rd.sv
   - src/axi/rtl/taxi_axil_interconnect_1s.sv
 tags:

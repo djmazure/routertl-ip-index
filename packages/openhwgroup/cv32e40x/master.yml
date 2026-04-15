@@ -1,0 +1,166 @@
+name: cv32e40x
+namespace: openhwgroup
+version: master
+description: 'CV32E40X is a small and efficient, 32-bit, in-order RISC-V core with
+  a 4-stage pipeline that implements the following instruction set architecture:'
+license: Apache-2.0
+license_class: permissive
+source:
+  type: git
+  url: https://github.com/openhwgroup/cv32e40x.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: systemverilog
+  library: work
+  files:
+  - rtl/include/cv32e40x_pkg.sv
+  - rtl/cv32e40x_a_decoder.sv
+  - rtl/cv32e40x_align_check.sv
+  - rtl/cv32e40x_alignment_buffer.sv
+  - rtl/cv32e40x_alu_b_cpop.sv
+  - rtl/cv32e40x_ff_one.sv
+  - rtl/cv32e40x_alu.sv
+  - rtl/cv32e40x_b_decoder.sv
+  - rtl/cv32e40x_clic_int_controller.sv
+  - rtl/cv32e40x_compressed_decoder.sv
+  - rtl/cv32e40x_if_xif.sv
+  - rtl/cv32e40x_if_c_obi.sv
+  - rtl/cv32e40x_controller_fsm.sv
+  - rtl/cv32e40x_controller_bypass.sv
+  - rtl/cv32e40x_controller.sv
+  - rtl/cv32e40x_register_file.sv
+  - rtl/cv32e40x_register_file_wrapper.sv
+  - rtl/cv32e40x_prefetcher.sv
+  - rtl/cv32e40x_prefetch_unit.sv
+  - rtl/cv32e40x_pma.sv
+  - rtl/cv32e40x_mpu.sv
+  - rtl/cv32e40x_instr_obi_interface.sv
+  - rtl/cv32e40x_sequencer.sv
+  - rtl/cv32e40x_if_stage.sv
+  - rtl/cv32e40x_wpt.sv
+  - rtl/cv32e40x_lsu_response_filter.sv
+  - rtl/cv32e40x_write_buffer.sv
+  - rtl/cv32e40x_data_obi_interface.sv
+  - rtl/cv32e40x_load_store_unit.sv
+  - rtl/cv32e40x_wb_stage.sv
+  - rtl/cv32e40x_div.sv
+  - rtl/cv32e40x_mult.sv
+  - rtl/cv32e40x_ex_stage.sv
+  - rtl/cv32e40x_sleep_unit.sv
+  - rtl/cv32e40x_pc_target.sv
+  - rtl/cv32e40x_i_decoder.sv
+  - rtl/cv32e40x_m_decoder.sv
+  - rtl/cv32e40x_decoder.sv
+  - rtl/cv32e40x_id_stage.sv
+  - rtl/cv32e40x_int_controller.sv
+  - rtl/cv32e40x_csr.sv
+  - rtl/cv32e40x_debug_triggers.sv
+  - rtl/cv32e40x_cs_registers.sv
+  - rtl/cv32e40x_core.sv
+  - rtl/cv32e40x_popcnt.sv
+tags:
+- align
+- alignment
+- alu
+- buffer
+- bus
+- bypass
+- check
+- clic
+- compressed
+- controller
+- core
+- cpop
+- cs
+- csr
+- cv32e40x
+- data
+- debug
+- decoder
+- div
+- divider
+- ex
+- ff
+- file
+- filter
+- fsm
+- id
+- instr
+- int
+- interface
+- load
+- lsu
+- mpu
+- mult
+- obi
+- one
+- pc
+- pma
+- popcnt
+- prefetch
+- prefetcher
+- register
+- registers
+- response
+- sequencer
+- sleep
+- stage
+- store
+- target
+- triggers
+- unit
+- wb
+- wishbone
+- wpt
+- wrapper
+- write
+- xif
+role: repo
+top_modules:
+- cv32e40x_core
+- cv32e40x_popcnt
+components:
+- cv32e40x_a_decoder
+- cv32e40x_align_check
+- cv32e40x_alignment_buffer
+- cv32e40x_alu
+- cv32e40x_alu_b_cpop
+- cv32e40x_b_decoder
+- cv32e40x_clic_int_controller
+- cv32e40x_compressed_decoder
+- cv32e40x_controller
+- cv32e40x_controller_bypass
+- cv32e40x_controller_fsm
+- cv32e40x_cs_registers
+- cv32e40x_csr
+- cv32e40x_data_obi_interface
+- cv32e40x_debug_triggers
+- cv32e40x_decoder
+- cv32e40x_div
+- cv32e40x_ex_stage
+- cv32e40x_ff_one
+- cv32e40x_i_decoder
+- cv32e40x_id_stage
+- cv32e40x_if_c_obi
+- cv32e40x_if_stage
+- cv32e40x_if_xif
+- cv32e40x_instr_obi_interface
+- cv32e40x_int_controller
+- cv32e40x_load_store_unit
+- cv32e40x_lsu_response_filter
+- cv32e40x_m_decoder
+- cv32e40x_mpu
+- cv32e40x_mult
+- cv32e40x_pc_target
+- cv32e40x_pma
+- cv32e40x_prefetch_unit
+- cv32e40x_prefetcher
+- cv32e40x_register_file
+- cv32e40x_register_file_wrapper
+- cv32e40x_sequencer
+- cv32e40x_sleep_unit
+- cv32e40x_wb_stage
+- cv32e40x_wpt
+- cv32e40x_write_buffer
+total_entities: 44

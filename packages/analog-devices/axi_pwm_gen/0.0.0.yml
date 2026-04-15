@@ -15,12 +15,12 @@ routertl_compat:
   library: work
   files:
   - library/common/up_axi.v
-  - library/axi_pwm_gen/axi_pwm_gen_1.v
-  - library/util_cdc/sync_bits.v
-  - library/util_cdc/sync_data.v
   - library/common/ad_rst.v
+  - library/util_cdc/sync_bits.v
   - library/util_cdc/sync_event.v
+  - library/util_cdc/sync_data.v
   - library/axi_pwm_gen/axi_pwm_gen_regmap.sv
+  - library/axi_pwm_gen/axi_pwm_gen_1.v
   - library/axi_pwm_gen/axi_pwm_gen.sv
 tags:
 - amba

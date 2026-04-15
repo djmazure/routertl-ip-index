@@ -1,0 +1,39 @@
+name: litex
+namespace: enjoy-digital
+version: master
+description: '``` Copyright 2012-2026 / Enjoy-Digital & LiteX developers ```'
+license: BSD-2-Clause
+license_class: permissive
+source:
+  type: git
+  url: https://github.com/enjoy-digital/litex.git
+  tag: master
+  ip_yml_path: .
+routertl_compat:
+  language: verilog
+  library: work
+  files:
+  - litex/build/sim/verilog/iddr_verilog.v
+  - litex/build/sim/verilog/oddr_verilog.v
+  - litex/soc/cores/cpu/cva6/cva6_wrapper/cva6_wrapper_pkg.sv
+  - litex/soc/cores/cpu/cva6/cva6_wrapper/cva6_wrapper.sv
+  - litex/soc/cores/jtagphy_shift.v
+tags:
+- cva6
+- data
+- ddr
+- double
+- input
+- jtagphy
+- memory
+- output
+- rate
+- shift
+- wrapper
+role: repo
+top_modules:
+- DDR_INPUT
+- DDR_OUTPUT
+- cva6_wrapper
+- jtagphy_shift
+total_entities: 4

@@ -14,11 +14,11 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - library/axi_logic_analyzer/axi_logic_analyzer_trigger.v
   - library/common/up_axi.v
-  - library/common/up_xfer_cntrl.v
+  - library/axi_logic_analyzer/axi_logic_analyzer_trigger.v
   - library/common/ad_rst.v
   - library/common/up_xfer_status.v
+  - library/common/up_xfer_cntrl.v
   - library/axi_logic_analyzer/axi_logic_analyzer_reg.v
   - library/axi_logic_analyzer/axi_logic_analyzer.v
 tags:

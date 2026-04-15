@@ -15,8 +15,8 @@ routertl_compat:
   library: work
   files:
   - library/util_cdc/sync_bits.v
-  - library/util_cdc/sync_data.v
   - library/util_cdc/sync_event.v
+  - library/util_cdc/sync_data.v
   - library/spi_engine/spi_engine_offload/spi_engine_offload.v
 tags:
 - engine

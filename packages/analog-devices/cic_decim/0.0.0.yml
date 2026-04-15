@@ -14,8 +14,8 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - library/util_cic/cic_int.v
   - library/util_cic/cic_comb.v
+  - library/util_cic/cic_int.v
   - library/axi_adc_decimate/cic_decim.v
 tags:
 - cic

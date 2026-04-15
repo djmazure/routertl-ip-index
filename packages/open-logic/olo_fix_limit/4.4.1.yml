@@ -19,8 +19,8 @@ routertl_compat:
   - src/base/vhdl/olo_base_pkg_string.vhd
   - src/fix/vhdl/olo_fix_pkg.vhd
   - src/fix/vhdl/olo_fix_private_optional_reg.vhd
-  - src/fix/vhdl/olo_fix_round.vhd
   - src/fix/vhdl/olo_fix_saturate.vhd
+  - src/fix/vhdl/olo_fix_round.vhd
   - src/fix/vhdl/olo_fix_resize.vhd
   - src/fix/vhdl/olo_fix_limit.vhd
 tags:

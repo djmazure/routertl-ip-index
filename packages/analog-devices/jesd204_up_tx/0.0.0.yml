@@ -14,8 +14,8 @@ routertl_compat:
   library: work
   files:
   - library/util_cdc/sync_bits.v
-  - library/util_cdc/sync_data.v
   - library/util_cdc/sync_event.v
+  - library/util_cdc/sync_data.v
   - library/jesd204/axi_jesd204_tx/jesd204_up_tx.v
 tags:
 - jesd204

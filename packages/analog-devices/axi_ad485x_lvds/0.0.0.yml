@@ -14,9 +14,9 @@ routertl_compat:
   language: verilog
   library: work
   files:
+  - library/xilinx/common/ad_serdes_out.v
   - library/axi_ad485x/axi_ad485x_crc.v
   - library/xilinx/common/ad_data_in.v
-  - library/xilinx/common/ad_serdes_out.v
   - library/axi_ad485x/axi_ad485x_lvds.v
 tags:
 - ad485x

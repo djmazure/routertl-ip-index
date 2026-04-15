@@ -14,6 +14,12 @@ routertl_compat:
   language: verilog
   library: work
   files:
+  - library/common/ad_rst.v
+  - library/common/up_clock_mon.v
+  - library/common/up_xfer_cntrl.v
+  - library/common/up_xfer_status.v
+  - library/common/up_dac_common.v
+  - library/common/up_dac_channel.v
   - library/common/ad_dds_cordic_pipe.v
   - library/common/ad_dds_sine_cordic.v
   - library/xilinx/common/ad_mul.v
@@ -21,13 +27,7 @@ routertl_compat:
   - library/common/ad_dds_1.v
   - library/common/ad_dds_2.v
   - library/common/ad_dds.v
-  - library/common/up_xfer_cntrl.v
-  - library/common/up_dac_channel.v
   - library/axi_ad9783/axi_ad9783_channel.v
-  - library/common/ad_rst.v
-  - library/common/up_clock_mon.v
-  - library/common/up_xfer_status.v
-  - library/common/up_dac_common.v
   - library/axi_ad9783/axi_ad9783_core.v
 tags:
 - ad9783

@@ -14,11 +14,11 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - library/common/ad_ss_422to444.v
-  - library/axi_hdmi_rx/axi_hdmi_rx_es.v
   - library/common/ad_csc.v
   - library/common/ad_csc_CrYCb2RGB.v
   - library/axi_hdmi_rx/axi_hdmi_rx_tpm.v
+  - library/axi_hdmi_rx/axi_hdmi_rx_es.v
+  - library/common/ad_ss_422to444.v
   - library/axi_hdmi_rx/axi_hdmi_rx_core.v
 tags:
 - amba

@@ -13,9 +13,9 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
+  - src/sync.sv
   - src/rstgen_bypass.sv
   - src/rstgen.sv
-  - src/sync.sv
   - src/clk_mux_glitch_free.sv
 tags:
 - clk

@@ -16,8 +16,8 @@ routertl_compat:
   files:
   - library/axi_tdd/axi_tdd_pkg.sv
   - library/util_cdc/sync_bits.v
-  - library/util_cdc/sync_data.v
   - library/util_cdc/sync_event.v
+  - library/util_cdc/sync_data.v
   - library/axi_tdd/axi_tdd_regmap.sv
 tags:
 - amba

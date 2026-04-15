@@ -14,10 +14,10 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - src/spill_register_flushable.sv
-  - src/spill_register.sv
   - src/lzc.sv
   - src/rr_arb_tree.sv
+  - src/spill_register_flushable.sv
+  - src/spill_register.sv
   - src/stream_demux.sv
   - src/stream_xbar.sv
   - src/stream_omega_net.sv

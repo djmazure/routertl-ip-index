@@ -16,11 +16,11 @@ routertl_compat:
   files:
   - library/common/ad_g2b.v
   - library/common/ad_b2g.v
+  - library/intel/avl_dacfifo/avl_dacfifo_wr.v
   - library/common/ad_mem_asym.v
   - library/util_dacfifo/util_dacfifo_bypass.v
   - library/common/ad_mem.v
   - library/intel/avl_dacfifo/avl_dacfifo_rd.v
-  - library/intel/avl_dacfifo/avl_dacfifo_wr.v
   - library/intel/avl_dacfifo/avl_dacfifo.v
 tags:
 - avl
