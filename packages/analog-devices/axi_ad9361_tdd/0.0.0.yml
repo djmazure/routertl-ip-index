@@ -3,8 +3,8 @@ namespace: analog-devices
 version: 0.0.0
 description: In this HDL repository, there are many different and unique modules,
   consisting of various HDL (Verilog or VHDL) components. The individual modules are
-license: In this HDL repository, there are many different and unique modules, consisting
-license_class: unknown
+license: ADIBSD OR GPL-2.0-only
+license_class: permissive
 source:
   type: git
   url: https://github.com/analogdevicesinc/hdl.git
@@ -14,11 +14,11 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - library/common/ad_addsub.v
-  - library/common/ad_tdd_control.v
   - library/common/up_xfer_status.v
   - library/common/up_xfer_cntrl.v
   - library/common/up_tdd_cntrl.v
+  - library/common/ad_addsub.v
+  - library/common/ad_tdd_control.v
   - library/axi_ad9361/axi_ad9361_tdd.v
 tags:
 - ad9361

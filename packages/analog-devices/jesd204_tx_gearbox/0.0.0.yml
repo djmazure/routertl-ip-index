@@ -2,8 +2,8 @@ name: jesd204_tx_gearbox
 namespace: analog-devices
 version: 0.0.0
 description: 'Constraints: - IN_DATA_PATH_WIDTH >= OUT_DATA_PATH_WIDTH'
-license: In this HDL repository, there are many different and unique modules, consisting
-license_class: unknown
+license: ADIBSD OR GPL-2.0-only
+license_class: permissive
 source:
   type: git
   url: https://github.com/analogdevicesinc/hdl.git
@@ -13,8 +13,8 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - library/common/ad_upack.v
   - library/util_cdc/sync_bits.v
+  - library/common/ad_upack.v
   - library/common/ad_pack.v
   - library/jesd204/jesd204_tx/jesd204_tx_gearbox.v
 tags:

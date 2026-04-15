@@ -3,8 +3,8 @@ namespace: analog-devices
 version: 0.0.0
 description: In this HDL repository, there are many different and unique modules,
   consisting of various HDL (Verilog or VHDL) components. The individual modules are
-license: In this HDL repository, there are many different and unique modules, consisting
-license_class: unknown
+license: ADIBSD OR GPL-2.0-only
+license_class: permissive
 source:
   type: git
   url: https://github.com/analogdevicesinc/hdl.git
@@ -15,8 +15,6 @@ routertl_compat:
   library: work
   files:
   - library/i3c_controller/i3c_controller_host_interface/i3c_controller_cmd_parser.v
-  - library/i3c_controller/i3c_controller_host_interface/i3c_controller_write_ibi.v
-  - library/i3c_controller/i3c_controller_host_interface/i3c_controller_unpack.v
   - library/i3c_controller/i3c_controller_host_interface/i3c_controller_pack.v
   - library/i3c_controller/i3c_controller_host_interface/i3c_controller_regmap.vh
   - library/common/ad_mem.v
@@ -28,6 +26,8 @@ routertl_compat:
   - library/common/up_axi.v
   - library/common/ad_mem_dual.v
   - library/i3c_controller/i3c_controller_host_interface/i3c_controller_regmap.v
+  - library/i3c_controller/i3c_controller_host_interface/i3c_controller_write_ibi.v
+  - library/i3c_controller/i3c_controller_host_interface/i3c_controller_unpack.v
   - library/i3c_controller/i3c_controller_host_interface/i3c_controller_host_interface.v
 tags:
 - controller

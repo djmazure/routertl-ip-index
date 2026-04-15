@@ -3,8 +3,8 @@ namespace: analog-devices
 version: 0.0.0
 description: In this HDL repository, there are many different and unique modules,
   consisting of various HDL (Verilog or VHDL) components. The individual modules are
-license: In this HDL repository, there are many different and unique modules, consisting
-license_class: unknown
+license: ADIBSD OR GPL-2.0-only
+license_class: permissive
 source:
   type: git
   url: https://github.com/analogdevicesinc/hdl.git
@@ -16,8 +16,8 @@ routertl_compat:
   files:
   - library/axi_spdif_rx/rx_package.vhd
   - library/axi_spdif_rx/rx_decode.vhd
-  - library/axi_spdif_rx/rx_phase_det.vhd
   - library/axi_spdif_rx/rx_status_reg.vhd
+  - library/axi_spdif_rx/rx_phase_det.vhd
   - library/axi_spdif_rx/axi_spdif_rx.vhd
 tags:
 - amba

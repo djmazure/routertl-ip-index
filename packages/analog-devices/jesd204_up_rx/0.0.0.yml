@@ -2,8 +2,8 @@ name: jesd204_up_rx
 namespace: analog-devices
 version: 0.0.0
 description: 'analog-devices IP: jesd204_up_rx'
-license: In this HDL repository, there are many different and unique modules, consisting
-license_class: unknown
+license: ADIBSD OR GPL-2.0-only
+license_class: permissive
 source:
   type: git
   url: https://github.com/analogdevicesinc/hdl.git
@@ -14,9 +14,9 @@ routertl_compat:
   library: work
   files:
   - library/util_cdc/sync_bits.v
+  - library/util_cdc/sync_data.v
   - library/jesd204/axi_jesd204_rx/jesd204_up_ilas_mem.v
   - library/jesd204/axi_jesd204_rx/jesd204_up_rx_lane.v
-  - library/util_cdc/sync_data.v
   - library/jesd204/axi_jesd204_rx/jesd204_up_rx.v
 tags:
 - jesd204

@@ -2,8 +2,8 @@ name: jesd204_tx
 namespace: analog-devices
 version: 0.0.0
 description: 'analog-devices IP: jesd204_tx'
-license: In this HDL repository, there are many different and unique modules, consisting
-license_class: unknown
+license: ADIBSD OR GPL-2.0-only
+license_class: permissive
 source:
   type: git
   url: https://github.com/analogdevicesinc/hdl.git
@@ -13,22 +13,22 @@ routertl_compat:
   language: verilog
   library: work
   files:
+  - library/jesd204/jesd204_common/jesd204_frame_mark.v
   - library/jesd204/jesd204_common/jesd204_lmfc.v
-  - library/util_cdc/sync_bits.v
-  - library/util_cdc/sync_event.v
+  - library/jesd204/jesd204_common/jesd204_frame_align_replace.v
   - library/common/util_pipeline_stage.v
+  - library/jesd204/jesd204_common/jesd204_scrambler.v
+  - library/jesd204/jesd204_tx/jesd204_tx_lane.v
+  - library/util_cdc/sync_bits.v
+  - library/common/ad_upack.v
+  - library/common/ad_pack.v
+  - library/jesd204/jesd204_tx/jesd204_tx_gearbox.v
   - library/jesd204/jesd204_common/jesd204_crc12.v
   - library/jesd204/jesd204_tx/jesd204_tx_header.v
   - library/jesd204/jesd204_common/jesd204_scrambler_64b.v
   - library/jesd204/jesd204_tx/jesd204_tx_lane_64b.v
-  - library/common/ad_upack.v
-  - library/common/ad_pack.v
-  - library/jesd204/jesd204_tx/jesd204_tx_gearbox.v
-  - library/jesd204/jesd204_common/jesd204_frame_mark.v
   - library/jesd204/jesd204_tx/jesd204_tx_ctrl.v
-  - library/jesd204/jesd204_common/jesd204_frame_align_replace.v
-  - library/jesd204/jesd204_common/jesd204_scrambler.v
-  - library/jesd204/jesd204_tx/jesd204_tx_lane.v
+  - library/util_cdc/sync_event.v
   - library/jesd204/jesd204_tx/jesd204_tx.v
 tags:
 - jesd204
