@@ -14,9 +14,9 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
+  - src/lfsr_16bit.sv
   - src/delta_counter.sv
   - src/counter.sv
-  - src/lfsr_16bit.sv
   - src/stream_delay.sv
 tags:
 - delay

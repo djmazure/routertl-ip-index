@@ -1,8 +1,7 @@
 name: jesd204_f_tile_adapter_tx
 namespace: analog-devices
 version: 0.0.0
-description: In this HDL repository, there are many different and unique modules,
-  consisting of various HDL (Verilog or VHDL) components. The individual modules are
+description: JESD204 adapter with FIFO interface
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:
@@ -14,8 +13,8 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - library/intel/jesd204c/jesd204_f_tile_adapter_tx/gearbox_66b64b.v
   - library/util_cdc/sync_bits.v
+  - library/intel/jesd204c/jesd204_f_tile_adapter_tx/gearbox_66b64b.v
   - library/intel/jesd204c/jesd204_f_tile_adapter_tx/jesd204_f_tile_adapter_tx.v
 tags:
 - adapter

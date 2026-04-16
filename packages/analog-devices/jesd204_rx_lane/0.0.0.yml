@@ -1,7 +1,7 @@
 name: jesd204_rx_lane
 namespace: analog-devices
 version: 0.0.0
-description: 'analog-devices IP: jesd204_rx_lane'
+description: JESD204 with ready/valid handshake
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:
@@ -13,6 +13,7 @@ routertl_compat:
   language: verilog
   library: work
   files:
+  - library/jesd204/jesd204_rx/align_mux.v
   - library/jesd204/jesd204_common/jesd204_scrambler.v
   - library/common/ad_pack.v
   - library/common/ad_upack.v
@@ -21,9 +22,8 @@ routertl_compat:
   - library/jesd204/jesd204_common/jesd204_frame_align_replace.v
   - library/jesd204/jesd204_rx/jesd204_rx_frame_align.v
   - library/jesd204/jesd204_rx/jesd204_rx_cgs.v
-  - library/jesd204/jesd204_rx/jesd204_ilas_monitor.v
   - library/common/util_pipeline_stage.v
-  - library/jesd204/jesd204_rx/align_mux.v
+  - library/jesd204/jesd204_rx/jesd204_ilas_monitor.v
   - library/jesd204/jesd204_rx/jesd204_rx_lane.v
 tags:
 - jesd204

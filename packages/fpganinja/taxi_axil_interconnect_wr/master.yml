@@ -13,9 +13,9 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
+  - src/axi/rtl/taxi_axil_if.sv
   - src/prim/rtl/taxi_penc.sv
   - src/prim/rtl/taxi_arbiter.sv
-  - src/axi/rtl/taxi_axil_if.sv
   - src/axi/rtl/taxi_axil_interconnect_wr.sv
 tags:
 - axil

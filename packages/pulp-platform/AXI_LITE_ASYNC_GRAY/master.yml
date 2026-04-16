@@ -1,7 +1,7 @@
 name: AXI_LITE_ASYNC_GRAY
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: AXI_LITE_ASYNC_GRAY'
+description: Synchronizer
 license: Apache-2.0
 license_class: permissive
 source:

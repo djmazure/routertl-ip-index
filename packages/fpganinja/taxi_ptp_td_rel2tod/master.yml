@@ -16,8 +16,11 @@ routertl_compat:
   - src/axis/rtl/taxi_axis_if.sv
   - src/ptp/rtl/taxi_ptp_td_rel2tod.sv
 tags:
+- precision
+- protocol
 - ptp
 - rel2tod
 - taxi
 - td
+- time
 role: component

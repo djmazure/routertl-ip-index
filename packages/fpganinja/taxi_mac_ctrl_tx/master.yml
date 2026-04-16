@@ -1,7 +1,7 @@
 name: taxi_mac_ctrl_tx
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_mac_ctrl_tx'
+description: Controller
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:

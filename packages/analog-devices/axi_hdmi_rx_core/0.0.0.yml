@@ -1,8 +1,7 @@
 name: axi_hdmi_rx_core
 namespace: analog-devices
 version: 0.0.0
-description: In this HDL repository, there are many different and unique modules,
-  consisting of various HDL (Verilog or VHDL) components. The individual modules are
+description: 'analog-devices IP: axi_hdmi_rx_core'
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:
@@ -17,8 +16,8 @@ routertl_compat:
   - library/common/ad_csc.v
   - library/common/ad_csc_CrYCb2RGB.v
   - library/axi_hdmi_rx/axi_hdmi_rx_es.v
-  - library/common/ad_ss_422to444.v
   - library/axi_hdmi_rx/axi_hdmi_rx_tpm.v
+  - library/common/ad_ss_422to444.v
   - library/axi_hdmi_rx/axi_hdmi_rx_core.v
 tags:
 - amba

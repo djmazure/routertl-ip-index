@@ -1,8 +1,7 @@
 name: axi_spi_engine
 namespace: analog-devices
 version: 0.0.0
-description: In this HDL repository, there are many different and unique modules,
-  consisting of various HDL (Verilog or VHDL) components. The individual modules are
+description: AXI4-Lite with SPI interface and ready/valid handshake
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:
@@ -14,14 +13,14 @@ routertl_compat:
   language: verilog
   library: work
   files:
+  - library/util_cdc/sync_gray.v
+  - library/util_axis_fifo/util_axis_fifo_address_generator.v
   - library/util_cdc/sync_bits.v
+  - library/common/ad_mem.v
+  - library/util_axis_fifo/util_axis_fifo.v
   - library/util_cdc/sync_data.v
   - library/common/up_axi.v
   - library/common/ad_rst.v
-  - library/common/ad_mem.v
-  - library/util_cdc/sync_gray.v
-  - library/util_axis_fifo/util_axis_fifo_address_generator.v
-  - library/util_axis_fifo/util_axis_fifo.v
   - library/spi_engine/axi_spi_engine/axi_spi_engine.v
 tags:
 - amba

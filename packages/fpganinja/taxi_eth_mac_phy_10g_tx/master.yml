@@ -1,7 +1,7 @@
 name: taxi_eth_mac_phy_10g_tx
 namespace: fpganinja
 version: master
-description: Ethernet
+description: Ethernet transmit engine
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:

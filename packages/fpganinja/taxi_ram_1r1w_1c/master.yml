@@ -1,7 +1,7 @@
 name: taxi_ram_1r1w_1c
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_ram_1r1w_1c'
+description: RAM
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:

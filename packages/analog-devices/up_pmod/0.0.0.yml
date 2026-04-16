@@ -1,8 +1,7 @@
 name: up_pmod
 namespace: analog-devices
 version: 0.0.0
-description: In this HDL repository, there are many different and unique modules,
-  consisting of various HDL (Verilog or VHDL) components. The individual modules are
+description: 'analog-devices IP: up_pmod'
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:
@@ -14,8 +13,8 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - library/common/ad_rst.v
   - library/common/up_xfer_status.v
+  - library/common/ad_rst.v
   - library/common/up_pmod.v
 tags:
 - pmod

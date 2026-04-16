@@ -15,10 +15,10 @@ routertl_compat:
   library: work
   files:
   - src/axi_intf.sv
-  - src/axi_to_detailed_mem.sv
-  - src/axi_to_mem.sv
   - src/axi_demux_id_counters.sv
   - src/axi_demux_simple.sv
+  - src/axi_to_detailed_mem.sv
+  - src/axi_to_mem.sv
   - src/axi_to_mem_split.sv
 tags:
 - amba

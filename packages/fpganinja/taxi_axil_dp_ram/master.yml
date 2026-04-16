@@ -1,7 +1,7 @@
 name: taxi_axil_dp_ram
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_axil_dp_ram'
+description: RAM
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:
@@ -20,6 +20,7 @@ routertl_compat:
 tags:
 - access
 - axil
+- datapath
 - dp
 - memory
 - ram

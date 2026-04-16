@@ -1,7 +1,7 @@
 name: taxi_axi_adapter
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_axi_adapter'
+description: Adapter
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:

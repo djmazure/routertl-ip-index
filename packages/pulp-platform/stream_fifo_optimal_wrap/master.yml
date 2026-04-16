@@ -15,9 +15,9 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - src/spill_register_flushable.sv
   - src/fifo_v3.sv
   - src/stream_fifo.sv
+  - src/spill_register_flushable.sv
   - src/stream_fifo_optimal_wrap.sv
 tags:
 - buffer

@@ -1,7 +1,7 @@
 name: taxi_dma_if_axi
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_dma_if_axi'
+description: DMA with DMA interface
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:
@@ -13,9 +13,9 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
+  - src/dma/rtl/taxi_dma_desc_if.sv
   - src/dma/rtl/taxi_dma_ram_if.sv
   - src/axi/rtl/taxi_axi_if.sv
-  - src/dma/rtl/taxi_dma_desc_if.sv
   - src/axis/rtl/taxi_axis_if.sv
   - src/lss/rtl/taxi_i2c_slave.sv
   - src/dma/rtl/taxi_dma_if_axi_rd.sv

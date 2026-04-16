@@ -1,7 +1,7 @@
 name: taxi_stats_counter
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_stats_counter'
+description: Counter
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:
@@ -13,8 +13,8 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - src/axis/rtl/taxi_axis_if.sv
   - src/axi/rtl/taxi_axil_if.sv
+  - src/axis/rtl/taxi_axis_if.sv
   - src/stats/rtl/taxi_stats_counter.sv
 tags:
 - counter

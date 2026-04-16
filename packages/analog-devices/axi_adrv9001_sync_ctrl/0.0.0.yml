@@ -1,8 +1,7 @@
 name: axi_adrv9001_sync_ctrl
 namespace: analog-devices
 version: 0.0.0
-description: In this HDL repository, there are many different and unique modules,
-  consisting of various HDL (Verilog or VHDL) components. The individual modules are
+description: Synchronizer
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:
@@ -15,8 +14,8 @@ routertl_compat:
   library: work
   files:
   - library/common/ad_rst.v
-  - library/common/up_xfer_status.v
   - library/common/up_clock_mon.v
+  - library/common/up_xfer_status.v
   - library/common/up_xfer_cntrl.v
   - library/axi_adrv9001/axi_adrv9001_sync_ctrl.v
 tags:

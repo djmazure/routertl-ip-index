@@ -1,7 +1,7 @@
 name: AXI_BUS_ASYNC
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: AXI_BUS_ASYNC'
+description: Synchronizer
 license: Apache-2.0
 license_class: permissive
 source:

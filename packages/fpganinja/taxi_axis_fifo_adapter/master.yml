@@ -14,9 +14,9 @@ routertl_compat:
   library: work
   files:
   - src/axis/rtl/taxi_axis_if.sv
-  - src/axis/rtl/taxi_axis_adapter.sv
   - src/lss/rtl/taxi_i2c_slave.sv
   - src/axis/rtl/taxi_axis_fifo.sv
+  - src/axis/rtl/taxi_axis_adapter.sv
   - src/axis/rtl/taxi_axis_fifo_adapter.sv
 tags:
 - adapter

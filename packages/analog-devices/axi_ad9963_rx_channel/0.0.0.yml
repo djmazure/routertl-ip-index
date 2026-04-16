@@ -1,8 +1,7 @@
 name: axi_ad9963_rx_channel
 namespace: analog-devices
 version: 0.0.0
-description: In this HDL repository, there are many different and unique modules,
-  consisting of various HDL (Verilog or VHDL) components. The individual modules are
+description: 'analog-devices IP: axi_ad9963_rx_channel'
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:
@@ -14,15 +13,15 @@ routertl_compat:
   language: verilog
   library: work
   files:
+  - library/common/ad_pnmon.v
+  - library/axi_ad9963/axi_ad9963_rx_pnmon.v
+  - library/common/ad_datafmt.v
   - library/xilinx/common/ad_dcfilter.v
   - library/common/up_xfer_status.v
   - library/common/up_xfer_cntrl.v
   - library/common/up_adc_channel.v
   - library/xilinx/common/ad_mul.v
   - library/common/ad_iqcor.v
-  - library/common/ad_datafmt.v
-  - library/common/ad_pnmon.v
-  - library/axi_ad9963/axi_ad9963_rx_pnmon.v
   - library/axi_ad9963/axi_ad9963_rx_channel.v
 tags:
 - ad9963

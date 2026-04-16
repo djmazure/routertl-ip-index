@@ -1,7 +1,7 @@
 name: taxi_dma_if_mux_wr
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_dma_if_mux_wr'
+description: DMA multiplexer
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:

@@ -1,8 +1,7 @@
 name: ad_ip_jesd204_tpl_dac
 namespace: analog-devices
 version: 0.0.0
-description: In this HDL repository, there are many different and unique modules,
-  consisting of various HDL (Verilog or VHDL) components. The individual modules are
+description: AXI4-Lite with ready/valid handshake and configurable parameters
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:
@@ -14,31 +13,31 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - library/common/up_axi.v
-  - library/jesd204/ad_ip_jesd204_tpl_common/up_tpl_common.v
-  - library/common/ad_rst.v
-  - library/common/up_xfer_status.v
-  - library/common/up_clock_mon.v
-  - library/common/up_xfer_cntrl.v
-  - library/common/up_dac_common.v
-  - library/common/up_dac_channel.v
-  - library/jesd204/ad_ip_jesd204_tpl_dac/ad_ip_jesd204_tpl_dac_regmap.v
-  - library/jesd204/ad_ip_jesd204_tpl_dac/ad_ip_jesd204_tpl_dac_pn.v
-  - library/common/ad_mux_core.v
-  - library/common/ad_mux.v
-  - library/common/ad_perfect_shuffle.v
-  - library/jesd204/ad_ip_jesd204_tpl_dac/ad_ip_jesd204_tpl_dac_framer.v
-  - library/common/ad_dds_cordic_pipe.v
-  - library/common/ad_dds_sine_cordic.v
   - library/xilinx/common/ad_mul.v
   - library/common/ad_dds_sine.v
+  - library/common/ad_dds_cordic_pipe.v
+  - library/common/ad_dds_sine_cordic.v
   - library/common/ad_dds_1.v
   - library/common/ad_dds_2.v
   - library/common/ad_dds.v
   - library/common/ad_iqcor.v
   - library/jesd204/ad_ip_jesd204_tpl_dac/ad_ip_jesd204_tpl_dac_channel.v
+  - library/common/ad_perfect_shuffle.v
+  - library/jesd204/ad_ip_jesd204_tpl_dac/ad_ip_jesd204_tpl_dac_framer.v
+  - library/common/ad_mux_core.v
+  - library/common/ad_mux.v
+  - library/jesd204/ad_ip_jesd204_tpl_dac/ad_ip_jesd204_tpl_dac_pn.v
   - library/common/util_ext_sync.v
   - library/jesd204/ad_ip_jesd204_tpl_dac/ad_ip_jesd204_tpl_dac_core.v
+  - library/common/up_axi.v
+  - library/common/up_xfer_cntrl.v
+  - library/common/up_dac_channel.v
+  - library/jesd204/ad_ip_jesd204_tpl_common/up_tpl_common.v
+  - library/common/ad_rst.v
+  - library/common/up_clock_mon.v
+  - library/common/up_xfer_status.v
+  - library/common/up_dac_common.v
+  - library/jesd204/ad_ip_jesd204_tpl_dac/ad_ip_jesd204_tpl_dac_regmap.v
   - library/jesd204/ad_ip_jesd204_tpl_dac/ad_ip_jesd204_tpl_dac.v
 tags:
 - ad
@@ -49,9 +48,11 @@ tags:
 - internet
 - ip
 - jesd204
+- layer
 - network
 - protocol
 - tpl
+- transport
 role: top
 components:
 - ad_dds

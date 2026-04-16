@@ -1,7 +1,7 @@
 name: jesd204_eof_generator
 namespace: analog-devices
 version: 0.0.0
-description: 'analog-devices IP: jesd204_eof_generator'
+description: JESD204 generator
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:

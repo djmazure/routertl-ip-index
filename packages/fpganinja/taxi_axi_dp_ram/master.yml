@@ -1,7 +1,7 @@
 name: taxi_axi_dp_ram
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_axi_dp_ram'
+description: RAM
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:
@@ -13,9 +13,9 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
+  - src/axi/rtl/taxi_axi_if.sv
   - src/axis/rtl/taxi_axis_if.sv
   - src/lss/rtl/taxi_i2c_slave.sv
-  - src/axi/rtl/taxi_axi_if.sv
   - src/axi/rtl/taxi_axi_ram_if_rd.sv
   - src/axi/rtl/taxi_axi_ram_if_wr.sv
   - src/axi/rtl/taxi_axi_ram_if_rdwr.sv
@@ -25,6 +25,7 @@ tags:
 - amba
 - axi
 - bus
+- datapath
 - dp
 - memory
 - ram

@@ -1,7 +1,7 @@
 name: taxi_dma_ram_demux
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_dma_ram_demux'
+description: DMA multiplexer with DMA interface
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:

@@ -22,9 +22,11 @@ tags:
 - cndm
 - control
 - controller
+- corundum
 - ctrl
 - i2c
 - inter-integrated
+- nic
 role: top
 components:
 - cndm_lite_core

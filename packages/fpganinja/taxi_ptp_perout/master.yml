@@ -1,7 +1,7 @@
 name: taxi_ptp_perout
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_ptp_perout'
+description: PTP
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:
@@ -16,6 +16,9 @@ routertl_compat:
   - src/ptp/rtl/taxi_ptp_perout.sv
 tags:
 - perout
+- precision
+- protocol
 - ptp
 - taxi
+- time
 role: top

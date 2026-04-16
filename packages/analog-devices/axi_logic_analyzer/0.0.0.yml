@@ -1,8 +1,7 @@
 name: axi_logic_analyzer
 namespace: analog-devices
 version: 0.0.0
-description: In this HDL repository, there are many different and unique modules,
-  consisting of various HDL (Verilog or VHDL) components. The individual modules are
+description: AXI4-Lite
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:
@@ -15,11 +14,11 @@ routertl_compat:
   library: work
   files:
   - library/common/up_axi.v
+  - library/axi_logic_analyzer/axi_logic_analyzer_trigger.v
   - library/common/ad_rst.v
   - library/common/up_xfer_status.v
   - library/common/up_xfer_cntrl.v
   - library/axi_logic_analyzer/axi_logic_analyzer_reg.v
-  - library/axi_logic_analyzer/axi_logic_analyzer_trigger.v
   - library/axi_logic_analyzer/axi_logic_analyzer.v
 tags:
 - amba

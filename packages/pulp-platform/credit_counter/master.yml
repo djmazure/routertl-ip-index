@@ -1,7 +1,7 @@
 name: credit_counter
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: credit_counter'
+description: Counter
 license: Apache-2.0
 license_class: permissive
 source:

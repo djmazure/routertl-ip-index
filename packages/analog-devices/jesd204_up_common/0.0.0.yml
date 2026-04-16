@@ -1,7 +1,7 @@
 name: jesd204_up_common
 namespace: analog-devices
 version: 0.0.0
-description: Jesd204 IP core with interrupt support and configurable parameters
+description: JESD204 with interrupt support and configurable parameters
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:

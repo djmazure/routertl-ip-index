@@ -1,7 +1,7 @@
 name: cndm_micro_dp_mgr
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: cndm_micro_dp_mgr'
+description: Datapath manager
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:
@@ -13,12 +13,16 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - src/axis/rtl/taxi_axis_if.sv
   - src/apb/rtl/taxi_apb_if.sv
+  - src/axis/rtl/taxi_axis_if.sv
   - src/cndm/rtl/cndm_micro_dp_mgr.sv
 tags:
 - cndm
+- corundum
+- datapath
 - dp
+- manager
 - mgr
 - micro
+- nic
 role: component

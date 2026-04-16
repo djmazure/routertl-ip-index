@@ -1,8 +1,7 @@
 name: axi_ltc235x
 namespace: analog-devices
 version: 0.0.0
-description: In this HDL repository, there are many different and unique modules,
-  consisting of various HDL (Verilog or VHDL) components. The individual modules are
+description: AXI4-Lite with SPI interface and configurable parameters
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:
@@ -14,14 +13,14 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - library/axi_ltc235x/axi_ltc235x_lvds.v
-  - library/common/up_xfer_status.v
-  - library/common/up_xfer_cntrl.v
-  - library/common/up_adc_channel.v
   - library/common/ad_rst.v
   - library/common/up_clock_mon.v
+  - library/common/up_xfer_status.v
+  - library/common/up_xfer_cntrl.v
   - library/common/up_adc_common.v
+  - library/axi_ltc235x/axi_ltc235x_lvds.v
   - library/common/up_axi.v
+  - library/common/up_adc_channel.v
   - library/axi_ltc235x/axi_ltc235x_cmos.v
   - library/axi_ltc235x/axi_ltc235x.v
 tags:

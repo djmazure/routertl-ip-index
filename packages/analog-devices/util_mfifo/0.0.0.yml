@@ -1,8 +1,7 @@
 name: util_mfifo
 namespace: analog-devices
 version: 0.0.0
-description: In this HDL repository, there are many different and unique modules,
-  consisting of various HDL (Verilog or VHDL) components. The individual modules are
+description: FIFO buffer with configurable parameters
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:

@@ -1,7 +1,7 @@
 name: taxi_irq_rate_limit
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_irq_rate_limit'
+description: Rate limiter with interrupt support
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:

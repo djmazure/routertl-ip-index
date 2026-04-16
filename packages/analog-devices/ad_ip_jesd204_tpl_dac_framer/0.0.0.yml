@@ -1,8 +1,7 @@
 name: ad_ip_jesd204_tpl_dac_framer
 namespace: analog-devices
 version: 0.0.0
-description: In this HDL repository, there are many different and unique modules,
-  consisting of various HDL (Verilog or VHDL) components. The individual modules are
+description: JESD204 with configurable parameters
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:
@@ -26,7 +25,9 @@ tags:
 - internet
 - ip
 - jesd204
+- layer
 - network
 - protocol
 - tpl
+- transport
 role: component

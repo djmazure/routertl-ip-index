@@ -14,8 +14,8 @@ routertl_compat:
   library: work
   files:
   - library/common/ad_pack.v
-  - library/common/ad_upack.v
   - library/util_cdc/sync_bits.v
+  - library/common/ad_upack.v
   - library/jesd204/jesd204_tx/jesd204_tx_gearbox.v
 tags:
 - gearbox

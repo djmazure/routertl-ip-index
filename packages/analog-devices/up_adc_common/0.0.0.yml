@@ -1,8 +1,7 @@
 name: up_adc_common
 namespace: analog-devices
 version: 0.0.0
-description: In this HDL repository, there are many different and unique modules,
-  consisting of various HDL (Verilog or VHDL) components. The individual modules are
+description: Analog IP core with memory interface and interrupt support
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:
@@ -15,8 +14,8 @@ routertl_compat:
   library: work
   files:
   - library/common/ad_rst.v
-  - library/common/up_xfer_status.v
   - library/common/up_clock_mon.v
+  - library/common/up_xfer_status.v
   - library/common/up_xfer_cntrl.v
   - library/common/up_adc_common.v
 tags:

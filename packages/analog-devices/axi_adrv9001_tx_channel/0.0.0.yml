@@ -1,8 +1,7 @@
 name: axi_adrv9001_tx_channel
 namespace: analog-devices
 version: 0.0.0
-description: In this HDL repository, there are many different and unique modules,
-  consisting of various HDL (Verilog or VHDL) components. The individual modules are
+description: 'analog-devices IP: axi_adrv9001_tx_channel'
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:
@@ -14,14 +13,14 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - library/common/ad_pngen.v
-  - library/common/ad_dds_cordic_pipe.v
-  - library/common/ad_dds_sine_cordic.v
   - library/xilinx/common/ad_mul.v
   - library/common/ad_dds_sine.v
+  - library/common/ad_dds_cordic_pipe.v
+  - library/common/ad_dds_sine_cordic.v
   - library/common/ad_dds_1.v
   - library/common/ad_dds_2.v
   - library/common/ad_dds.v
+  - library/common/ad_pngen.v
   - library/common/ad_iqcor.v
   - library/common/up_xfer_cntrl.v
   - library/common/up_dac_channel.v

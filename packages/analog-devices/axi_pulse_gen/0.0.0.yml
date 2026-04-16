@@ -1,8 +1,7 @@
 name: axi_pulse_gen
 namespace: analog-devices
 version: 0.0.0
-description: In this HDL repository, there are many different and unique modules,
-  consisting of various HDL (Verilog or VHDL) components. The individual modules are
+description: AXI4-Lite generator
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:
@@ -14,13 +13,13 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - library/common/util_pulse_gen.v
-  - library/common/ad_rst.v
+  - library/common/up_axi.v
   - library/util_cdc/sync_bits.v
   - library/util_cdc/sync_data.v
   - library/util_cdc/sync_event.v
+  - library/common/ad_rst.v
   - library/axi_pulse_gen/axi_pulse_gen_regmap.v
-  - library/common/up_axi.v
+  - library/common/util_pulse_gen.v
   - library/axi_pulse_gen/axi_pulse_gen.v
 tags:
 - amba

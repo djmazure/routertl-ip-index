@@ -1,7 +1,7 @@
 name: taxi_dma_desc_mux
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_dma_desc_mux'
+description: DMA multiplexer
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:
@@ -20,6 +20,7 @@ routertl_compat:
 tags:
 - access
 - desc
+- descriptor
 - direct
 - dma
 - memory

@@ -1,8 +1,7 @@
 name: axi_ad9361_tx
 namespace: analog-devices
 version: 0.0.0
-description: In this HDL repository, there are many different and unique modules,
-  consisting of various HDL (Verilog or VHDL) components. The individual modules are
+description: Transmit engine with interrupt support
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:
@@ -16,10 +15,10 @@ routertl_compat:
   files:
   - library/common/ad_rst.v
   - library/common/up_delay_cntrl.v
-  - library/common/ad_dds_cordic_pipe.v
-  - library/common/ad_dds_sine_cordic.v
   - library/xilinx/common/ad_mul.v
   - library/common/ad_dds_sine.v
+  - library/common/ad_dds_cordic_pipe.v
+  - library/common/ad_dds_sine_cordic.v
   - library/common/ad_dds_1.v
   - library/common/ad_dds_2.v
   - library/common/ad_dds.v
@@ -27,8 +26,8 @@ routertl_compat:
   - library/common/up_xfer_cntrl.v
   - library/common/up_dac_channel.v
   - library/axi_ad9361/axi_ad9361_tx_channel.v
-  - library/common/up_xfer_status.v
   - library/common/up_clock_mon.v
+  - library/common/up_xfer_status.v
   - library/common/up_dac_common.v
   - library/axi_ad9361/axi_ad9361_tx.v
 tags:
