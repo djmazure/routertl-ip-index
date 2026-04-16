@@ -15,9 +15,9 @@ routertl_compat:
   files:
   - src/io/rtl/taxi_oddr.sv
   - src/io/rtl/taxi_ssio_sdr_out.sv
-  - src/sync/rtl/taxi_sync_reset.sv
-  - src/sync/rtl/taxi_sync_signal.sv
   - src/io/rtl/taxi_ssio_sdr_in.sv
+  - src/sync/rtl/taxi_sync_signal.sv
+  - src/sync/rtl/taxi_sync_reset.sv
   - src/eth/rtl/taxi_gmii_phy_if.sv
 tags:
 - gigabit

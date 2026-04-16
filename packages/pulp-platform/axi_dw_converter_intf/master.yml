@@ -1,8 +1,7 @@
 name: axi_dw_converter_intf
 namespace: pulp-platform
 version: master
-description: or agreed to in writing, software, hardware and materials distributed
-  under
+description: Converter
 license: Apache-2.0
 license_class: permissive
 source:
@@ -14,13 +13,13 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - src/axi_intf.sv
   - src/axi_pkg.sv
+  - src/axi_intf.sv
+  - src/axi_atop_filter.sv
+  - src/axi_err_slv.sv
   - src/axi_demux_id_counters.sv
   - src/axi_demux_simple.sv
   - src/axi_demux.sv
-  - src/axi_atop_filter.sv
-  - src/axi_err_slv.sv
   - src/axi_dw_upsizer.sv
   - src/axi_dw_downsizer.sv
   - src/axi_dw_converter.sv

@@ -1,8 +1,7 @@
 name: axi_lite_xbar_intf
 namespace: pulp-platform
 version: master
-description: or agreed to in writing, software, hardware and materials distributed
-  under
+description: Crossbar switch
 license: Apache-2.0
 license_class: permissive
 source:
@@ -15,11 +14,11 @@ routertl_compat:
   library: work
   files:
   - src/axi_intf.sv
-  - src/axi_lite_mux.sv
-  - src/axi_lite_to_axi.sv
-  - src/axi_lite_demux.sv
   - src/axi_atop_filter.sv
   - src/axi_err_slv.sv
+  - src/axi_lite_to_axi.sv
+  - src/axi_lite_mux.sv
+  - src/axi_lite_demux.sv
   - src/axi_lite_xbar.sv
 tags:
 - amba

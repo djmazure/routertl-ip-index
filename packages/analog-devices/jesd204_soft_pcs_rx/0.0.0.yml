@@ -13,8 +13,8 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - library/jesd204/jesd204_soft_pcs_rx/jesd204_8b10b_decoder.v
   - library/jesd204/jesd204_soft_pcs_rx/jesd204_pattern_align.v
+  - library/jesd204/jesd204_soft_pcs_rx/jesd204_8b10b_decoder.v
   - library/jesd204/jesd204_soft_pcs_rx/jesd204_soft_pcs_rx.v
 tags:
 - jesd204

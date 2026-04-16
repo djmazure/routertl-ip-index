@@ -1,8 +1,7 @@
 name: axi_id_serialize_intf
 namespace: pulp-platform
 version: master
-description: or agreed to in writing, software, hardware and materials distributed
-  under
+description: 'pulp-platform IP: axi_id_serialize_intf'
 license: Apache-2.0
 license_class: permissive
 source:
@@ -16,11 +15,11 @@ routertl_compat:
   files:
   - src/axi_intf.sv
   - src/axi_serializer.sv
-  - src/axi_id_prepend.sv
-  - src/axi_mux.sv
   - src/axi_demux_id_counters.sv
   - src/axi_demux_simple.sv
   - src/axi_demux.sv
+  - src/axi_id_prepend.sv
+  - src/axi_mux.sv
   - src/axi_id_serialize.sv
 tags:
 - amba

@@ -13,9 +13,9 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - library/common/up_xfer_status.v
   - library/common/ad_mem_asym.v
   - library/common/ad_axis_inf_rx.v
+  - library/common/up_xfer_status.v
   - library/xilinx/axi_adcfifo/axi_adcfifo_dma.v
 tags:
 - access

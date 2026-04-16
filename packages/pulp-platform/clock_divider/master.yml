@@ -1,8 +1,7 @@
 name: clock_divider
 namespace: pulp-platform
 version: master
-description: or agreed to in writing, software, hardware and materials distributed
-  under
+description: Divider
 license: Apache-2.0
 license_class: permissive
 source:
@@ -16,13 +15,13 @@ routertl_compat:
   files:
   - src/clk_int_div.sv
   - src/deprecated/clk_div.sv
+  - src/rstgen_bypass.sv
+  - src/rstgen.sv
   - src/delta_counter.sv
   - src/counter.sv
   - src/deprecated/clock_divider_counter.sv
   - src/deprecated/pulp_sync.sv
   - src/deprecated/pulp_sync_wedge.sv
-  - src/rstgen_bypass.sv
-  - src/rstgen.sv
   - src/deprecated/clock_divider.sv
 tags:
 - clock

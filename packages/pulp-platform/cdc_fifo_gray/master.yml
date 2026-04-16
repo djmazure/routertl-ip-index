@@ -1,8 +1,7 @@
 name: cdc_fifo_gray
 namespace: pulp-platform
 version: master
-description: or agreed to in writing, software, hardware and materials distributed
-  under
+description: FIFO buffer with ready/valid handshake and configurable parameters
 license: Apache-2.0
 license_class: permissive
 source:
@@ -14,11 +13,11 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - src/binary_to_gray.sv
+  - src/sync.sv
+  - src/gray_to_binary.sv
   - src/spill_register_flushable.sv
   - src/spill_register.sv
-  - src/gray_to_binary.sv
-  - src/sync.sv
+  - src/binary_to_gray.sv
   - src/cdc_fifo_gray.sv
 tags:
 - buffer

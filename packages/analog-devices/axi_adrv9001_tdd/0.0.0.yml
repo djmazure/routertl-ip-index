@@ -13,11 +13,11 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - library/common/up_xfer_status.v
-  - library/common/up_xfer_cntrl.v
-  - library/common/up_tdd_cntrl.v
   - library/common/ad_addsub.v
   - library/common/ad_tdd_control.v
+  - library/common/up_xfer_cntrl.v
+  - library/common/up_xfer_status.v
+  - library/common/up_tdd_cntrl.v
   - library/axi_adrv9001/axi_adrv9001_tdd.v
 tags:
 - adrv9001

@@ -13,8 +13,8 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - library/common/ad_xcvr_rx_if.v
   - library/common/ad_mem.v
+  - library/common/ad_xcvr_rx_if.v
   - library/axi_ad9671/axi_ad9671_if.v
 tags:
 - ad9671

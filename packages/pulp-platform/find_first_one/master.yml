@@ -1,8 +1,7 @@
 name: find_first_one
 namespace: pulp-platform
 version: master
-description: or agreed to in writing, software, hardware and materials distributed
-  under
+description: 'pulp-platform IP: find_first_one'
 license: Apache-2.0
 license_class: permissive
 source:

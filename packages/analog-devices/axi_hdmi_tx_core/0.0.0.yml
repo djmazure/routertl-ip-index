@@ -13,9 +13,9 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - library/axi_hdmi_tx/axi_hdmi_tx_es.v
   - library/common/ad_csc.v
   - library/common/ad_csc_RGB2CrYCb.v
+  - library/axi_hdmi_tx/axi_hdmi_tx_es.v
   - library/common/ad_ss_444to422.v
   - library/common/ad_mem.v
   - library/axi_hdmi_tx/axi_hdmi_tx_core.v

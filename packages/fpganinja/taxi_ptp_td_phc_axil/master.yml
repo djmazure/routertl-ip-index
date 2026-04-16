@@ -13,8 +13,8 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - src/ptp/rtl/taxi_ptp_td_phc.sv
   - src/ptp/rtl/taxi_ptp_td_leaf.sv
+  - src/ptp/rtl/taxi_ptp_td_phc.sv
   - src/axi/rtl/taxi_axil_if.sv
   - src/ptp/rtl/taxi_ptp_td_phc_axil.sv
 tags:

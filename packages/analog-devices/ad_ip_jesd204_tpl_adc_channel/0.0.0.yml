@@ -13,9 +13,9 @@ routertl_compat:
   language: verilog
   library: work
   files:
+  - library/common/ad_datafmt.v
   - library/common/ad_pnmon.v
   - library/jesd204/ad_ip_jesd204_tpl_adc/ad_ip_jesd204_tpl_adc_pnmon.v
-  - library/common/ad_datafmt.v
   - library/jesd204/ad_ip_jesd204_tpl_adc/ad_ip_jesd204_tpl_adc_channel.v
 tags:
 - ad

@@ -13,9 +13,9 @@ routertl_compat:
   language: verilog
   library: work
   files:
+  - library/xilinx/common/ad_serdes_out.v
   - library/xilinx/common/ad_mmcm_drp.v
   - library/xilinx/common/ad_serdes_clk.v
-  - library/xilinx/common/ad_serdes_out.v
   - library/axi_ad9122/axi_ad9122_if.v
 tags:
 - ad9122

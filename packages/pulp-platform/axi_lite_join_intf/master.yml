@@ -1,8 +1,7 @@
 name: axi_lite_join_intf
 namespace: pulp-platform
 version: master
-description: or agreed to in writing, software, hardware and materials distributed
-  under
+description: 'pulp-platform IP: axi_lite_join_intf'
 license: Apache-2.0
 license_class: permissive
 source:

@@ -1,8 +1,7 @@
 name: axi_to_mem_interleaved
 namespace: pulp-platform
 version: master
-description: or agreed to in writing, software, hardware and materials distributed
-  under
+description: 'pulp-platform IP: axi_to_mem_interleaved'
 license: Apache-2.0
 license_class: permissive
 source:
@@ -15,10 +14,10 @@ routertl_compat:
   library: work
   files:
   - src/axi_intf.sv
-  - src/axi_demux_id_counters.sv
-  - src/axi_demux_simple.sv
   - src/axi_to_detailed_mem.sv
   - src/axi_to_mem.sv
+  - src/axi_demux_id_counters.sv
+  - src/axi_demux_simple.sv
   - src/axi_to_mem_interleaved.sv
 tags:
 - amba

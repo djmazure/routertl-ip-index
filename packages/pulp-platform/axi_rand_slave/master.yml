@@ -1,8 +1,7 @@
 name: axi_rand_slave
 namespace: pulp-platform
 version: master
-description: or agreed to in writing, software, hardware and materials distributed
-  under
+description: Slave with ready/valid handshake
 license: Apache-2.0
 license_class: permissive
 source:

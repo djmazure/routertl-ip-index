@@ -15,6 +15,8 @@ routertl_compat:
   files:
   - library/axi_hsci/hsci_master_regs_defs.vh
   - library/axi_hsci/axi4_lite.sv
+  - library/axi_hsci/hsci_master_axi_slave.sv
+  - library/axi_hsci/pulse_sync.v
   - library/axi_hsci/hsci_mfrm_det.v
   - library/axi_hsci/hsci_mdec.sv
   - library/axi_hsci/hsci_menc.sv
@@ -23,9 +25,7 @@ routertl_compat:
   - library/axi_hsci/hsci_mcore.v
   - library/axi_hsci/hsci_master_regs_regs.sv
   - library/axi_hsci/hsci_master_logic.sv
-  - library/axi_hsci/pulse_sync.v
   - library/common/ad_rst.v
-  - library/axi_hsci/hsci_master_axi_slave.sv
   - library/axi_hsci/hsci_master_top.sv
 tags:
 - hsci

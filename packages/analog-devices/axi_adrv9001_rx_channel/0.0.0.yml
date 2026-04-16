@@ -13,15 +13,15 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - library/common/ad_pngen.v
   - library/common/ad_datafmt.v
   - library/xilinx/common/ad_dcfilter.v
-  - library/common/up_xfer_status.v
-  - library/common/up_xfer_cntrl.v
-  - library/common/up_adc_channel.v
+  - library/common/ad_pnmon.v
   - library/xilinx/common/ad_mul.v
   - library/common/ad_iqcor.v
-  - library/common/ad_pnmon.v
+  - library/common/up_xfer_cntrl.v
+  - library/common/up_xfer_status.v
+  - library/common/up_adc_channel.v
+  - library/common/ad_pngen.v
   - library/axi_adrv9001/axi_adrv9001_rx_channel.v
 tags:
 - adrv9001

@@ -13,10 +13,10 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - library/xilinx/common/ad_mul.v
-  - library/common/ad_dds_sine.v
   - library/common/ad_dds_cordic_pipe.v
   - library/common/ad_dds_sine_cordic.v
+  - library/xilinx/common/ad_mul.v
+  - library/common/ad_dds_sine.v
   - library/common/ad_dds_1.v
 tags:
 - ad

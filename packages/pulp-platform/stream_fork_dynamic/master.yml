@@ -1,8 +1,7 @@
 name: stream_fork_dynamic
 namespace: pulp-platform
 version: master
-description: or agreed to in writing, software, hardware and materials distributed
-  under
+description: 'pulp-platform IP: stream_fork_dynamic'
 license: Apache-2.0
 license_class: permissive
 source:

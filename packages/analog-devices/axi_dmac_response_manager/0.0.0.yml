@@ -15,8 +15,8 @@ routertl_compat:
   files:
   - library/util_cdc/sync_gray.v
   - library/util_axis_fifo/util_axis_fifo_address_generator.v
-  - library/util_cdc/sync_bits.v
   - library/common/ad_mem.v
+  - library/util_cdc/sync_bits.v
   - library/util_axis_fifo/util_axis_fifo.v
   - library/axi_dmac/axi_dmac_response_manager.v
 tags:

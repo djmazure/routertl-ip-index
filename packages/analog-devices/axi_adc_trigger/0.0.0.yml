@@ -13,9 +13,9 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - library/common/up_axi.v
   - library/common/up_xfer_cntrl.v
   - library/axi_adc_trigger/axi_adc_trigger_reg.v
+  - library/common/up_axi.v
   - library/axi_adc_trigger/axi_adc_trigger.v
 tags:
 - adc

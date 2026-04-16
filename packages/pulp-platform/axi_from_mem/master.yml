@@ -1,8 +1,7 @@
 name: axi_from_mem
 namespace: pulp-platform
 version: master
-description: or agreed to in writing, software, hardware and materials distributed
-  under
+description: ROM with memory interface
 license: Apache-2.0
 license_class: permissive
 source:
@@ -14,9 +13,9 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
+  - src/axi_lite_from_mem.sv
   - src/axi_intf.sv
   - src/axi_lite_to_axi.sv
-  - src/axi_lite_from_mem.sv
   - src/axi_from_mem.sv
 tags:
 - amba

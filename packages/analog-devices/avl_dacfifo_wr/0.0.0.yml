@@ -13,8 +13,8 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - library/common/ad_g2b.v
   - library/common/ad_b2g.v
+  - library/common/ad_g2b.v
   - library/intel/avl_dacfifo/avl_dacfifo_wr.v
 tags:
 - avl
