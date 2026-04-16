@@ -1,7 +1,7 @@
 name: taxi_xfcp_mod_apb
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_xfcp_mod_apb'
+description: Translates XFCP to APB.
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:

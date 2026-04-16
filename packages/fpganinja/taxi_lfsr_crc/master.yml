@@ -1,7 +1,7 @@
 name: taxi_lfsr_crc
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_lfsr_crc'
+description: Generates CRC.
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:

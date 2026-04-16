@@ -1,7 +1,7 @@
 name: axi_ad9625_pnmon
 namespace: analog-devices
 version: 0.0.0
-description: 'analog-devices IP: axi_ad9625_pnmon'
+description: Monitors AD9625 ADC pn sequence.
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:

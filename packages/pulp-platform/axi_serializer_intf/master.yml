@@ -1,7 +1,8 @@
 name: axi_serializer_intf
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: axi_serializer_intf'
+description: Serializes concurrent AXI transactions from slave to master port with
+  configurable read/write transaction limits.
 license: Apache-2.0
 license_class: permissive
 source:

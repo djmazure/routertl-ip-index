@@ -1,7 +1,8 @@
 name: axi_lite_driver
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: axi_lite_driver'
+description: Logs all five AXI-Lite channels (AW, W, B, AR, R) with ready/valid handshake
+  signals to a file.
 license: Apache-2.0
 license_class: permissive
 source:

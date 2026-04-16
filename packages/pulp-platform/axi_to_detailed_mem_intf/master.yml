@@ -1,7 +1,7 @@
 name: axi_to_detailed_mem_intf
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: axi_to_detailed_mem_intf'
+description: Translates AXI4+ATOP to detailed memory interface.
 license: Apache-2.0
 license_class: permissive
 source:

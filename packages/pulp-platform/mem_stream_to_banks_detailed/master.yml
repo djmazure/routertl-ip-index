@@ -1,7 +1,8 @@
 name: mem_stream_to_banks_detailed
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: mem_stream_to_banks_detailed'
+description: Converts AXI4+ATOP transactions into parallel memory bank requests with
+  configurable data width distribution and resp...
 license: Apache-2.0
 license_class: permissive
 source:

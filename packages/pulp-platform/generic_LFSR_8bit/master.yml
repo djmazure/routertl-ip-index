@@ -1,7 +1,7 @@
 name: generic_LFSR_8bit
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: generic_LFSR_8bit'
+description: Generates 8-bit LFSR sequence.
 license: Apache-2.0
 license_class: permissive
 source:

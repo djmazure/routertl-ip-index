@@ -1,7 +1,7 @@
 name: taxi_apb_tie
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_apb_tie'
+description: Ties APB master and slave interfaces.
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:

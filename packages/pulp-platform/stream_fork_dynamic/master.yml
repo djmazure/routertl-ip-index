@@ -1,7 +1,8 @@
 name: stream_fork_dynamic
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: stream_fork_dynamic'
+description: Dynamically routes a single input stream to multiple selectable output
+  streams using ready/valid handshakes.
 license: Apache-2.0
 license_class: permissive
 source:

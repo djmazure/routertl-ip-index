@@ -1,7 +1,7 @@
 name: taxi_axil_interconnect_1s_rd
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_axil_interconnect_1s_rd'
+description: Routes AXI4-lite read transactions.
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:

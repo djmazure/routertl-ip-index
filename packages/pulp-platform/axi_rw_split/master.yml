@@ -1,7 +1,8 @@
 name: axi_rw_split
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: axi_rw_split'
+description: Demultiplexes combined AXI read/write requests into separate read and
+  write master channels.
 license: Apache-2.0
 license_class: permissive
 source:

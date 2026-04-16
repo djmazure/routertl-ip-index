@@ -1,7 +1,7 @@
 name: axi_serializer
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: axi_serializer'
+description: Serializes AXI transactions.
 license: Apache-2.0
 license_class: permissive
 source:

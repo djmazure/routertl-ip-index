@@ -13,15 +13,15 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - src/axi_pkg.sv
   - src/axi_intf.sv
+  - src/axi_pkg.sv
   - src/axi_atop_filter.sv
   - src/axi_err_slv.sv
   - src/axi_demux_id_counters.sv
   - src/axi_demux_simple.sv
   - src/axi_demux.sv
-  - src/axi_dw_upsizer.sv
   - src/axi_dw_downsizer.sv
+  - src/axi_dw_upsizer.sv
   - src/axi_dw_converter.sv
 tags:
 - amba

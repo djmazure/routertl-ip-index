@@ -1,7 +1,7 @@
 name: axi_xp_intf
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: axi_xp_intf'
+description: Interconnects AXI slave ports to master ports.
 license: Apache-2.0
 license_class: permissive
 source:
@@ -14,6 +14,7 @@ routertl_compat:
   library: work
   files:
   - src/axi_intf.sv
+  - src/axi_id_remap.sv
   - src/axi_atop_filter.sv
   - src/axi_err_slv.sv
   - src/axi_demux_id_counters.sv
@@ -25,7 +26,6 @@ routertl_compat:
   - src/axi_id_prepend.sv
   - src/axi_mux.sv
   - src/axi_xbar.sv
-  - src/axi_id_remap.sv
   - src/axi_xp.sv
 tags:
 - amba

@@ -19,8 +19,8 @@ routertl_compat:
   - src/base/vhdl/olo_base_pkg_string.vhd
   - src/base/vhdl/olo_base_pkg_attribute.vhd
   - src/base/vhdl/olo_base_ram_sdp.vhd
-  - src/base/vhdl/olo_base_delay.vhd
   - src/base/vhdl/olo_base_fifo_sync.vhd
+  - src/base/vhdl/olo_base_delay.vhd
   - src/base/vhdl/olo_base_latency_comp.vhd
 tags:
 - base

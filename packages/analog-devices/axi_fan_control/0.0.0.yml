@@ -13,8 +13,8 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - library/common/util_pulse_gen.v
   - library/common/up_axi.v
+  - library/common/util_pulse_gen.v
   - library/axi_fan_control/axi_fan_control.v
 tags:
 - amba

@@ -1,7 +1,7 @@
 name: axi_chan_logger
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: axi_chan_logger'
+description: Logs AXI channel activity.
 license: Apache-2.0
 license_class: permissive
 source:

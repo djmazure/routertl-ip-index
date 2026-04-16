@@ -14,9 +14,9 @@ routertl_compat:
   library: work
   files:
   - library/axi_dmac/inc_id.vh
-  - library/axi_dmac/axi_dmac_resize_src.v
   - library/common/ad_mem_asym.v
   - library/axi_dmac/axi_dmac_resize_dest.v
+  - library/axi_dmac/axi_dmac_resize_src.v
   - library/util_cdc/sync_bits.v
   - library/axi_dmac/axi_dmac_burst_memory.v
 tags:

@@ -1,7 +1,8 @@
 name: axi_opt_lfsr
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: axi_opt_lfsr'
+description: AXI4-Lite LFSR module with parallel AXI interface and serial shift ports
+  for read/write data scanning.
 license: Apache-2.0
 license_class: permissive
 source:

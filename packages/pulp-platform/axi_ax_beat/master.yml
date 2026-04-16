@@ -1,7 +1,7 @@
 name: axi_ax_beat
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: axi_ax_beat'
+description: Logs AXI transactions.
 license: Apache-2.0
 license_class: permissive
 source:

@@ -1,7 +1,8 @@
 name: axi_lite_cut_intf
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: axi_lite_cut_intf'
+description: AXI cut module that optionally registers request/response signals to
+  break combinational paths between slave and mast...
 license: Apache-2.0
 license_class: permissive
 source:

@@ -14,12 +14,12 @@ routertl_compat:
   library: work
   files:
   - library/common/ad_mem_asym.v
-  - library/common/util_pipeline_stage.v
+  - library/common/ad_mem.v
   - library/util_cdc/sync_gray.v
   - library/util_axis_fifo/util_axis_fifo_address_generator.v
-  - library/common/ad_mem.v
   - library/util_cdc/sync_bits.v
   - library/util_axis_fifo/util_axis_fifo.v
+  - library/common/util_pipeline_stage.v
   - library/util_do_ram/util_do_ram.v
 tags:
 - access

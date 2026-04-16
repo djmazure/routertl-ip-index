@@ -1,7 +1,8 @@
 name: util_cpack2
 namespace: analog-devices
 version: 0.0.0
-description: 'analog-devices IP: util_cpack2'
+description: Packs multiple parallel input channels into a serialized output data
+  stream with configurable channel and sample widths.
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:

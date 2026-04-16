@@ -1,7 +1,8 @@
 name: axi_lite_to_apb
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: axi_lite_to_apb'
+description: Bridges AXI4-Lite slave interface to multiple APB4 master interfaces
+  with address-based slave selection.
 license: Apache-2.0
 license_class: permissive
 source:

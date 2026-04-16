@@ -1,7 +1,7 @@
 name: taxi_xfcp_mod_stats
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_xfcp_mod_stats'
+description: Collects statistics data.
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:
@@ -13,14 +13,14 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - src/axis/rtl/taxi_axis_if.sv
   - src/axi/rtl/taxi_axil_if.sv
+  - src/axis/rtl/taxi_axis_if.sv
+  - src/stats/rtl/taxi_stats_counter.sv
   - src/xfcp/rtl/taxi_xfcp_mod_axil.sv
+  - src/stats/rtl/taxi_stats_strings_full.sv
   - src/prim/rtl/taxi_penc.sv
   - src/prim/rtl/taxi_arbiter.sv
   - src/xfcp/rtl/taxi_xfcp_switch.sv
-  - src/stats/rtl/taxi_stats_counter.sv
-  - src/stats/rtl/taxi_stats_strings_full.sv
   - src/xfcp/rtl/taxi_xfcp_mod_stats.sv
 tags:
 - mod

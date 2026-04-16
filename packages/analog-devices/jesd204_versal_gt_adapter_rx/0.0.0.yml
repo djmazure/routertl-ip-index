@@ -13,8 +13,8 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - library/jesd204/jesd204_versal_gt_adapter_rx/lane_align.v
   - library/jesd204/jesd204_common/sync_header_align.v
+  - library/jesd204/jesd204_versal_gt_adapter_rx/lane_align.v
   - library/jesd204/jesd204_versal_gt_adapter_rx/jesd204_versal_gt_adapter_rx.v
 tags:
 - adapter

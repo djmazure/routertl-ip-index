@@ -1,7 +1,7 @@
 name: serial_deglitch
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: serial_deglitch'
+description: Removes glitches from serial data.
 license: Apache-2.0
 license_class: permissive
 source:

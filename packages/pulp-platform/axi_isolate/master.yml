@@ -1,7 +1,8 @@
 name: axi_isolate
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: axi_isolate'
+description: Isolates an AXI slave port from its master port, blocking transactions
+  and optionally returning error responses.
 license: Apache-2.0
 license_class: permissive
 source:

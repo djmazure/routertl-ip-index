@@ -1,7 +1,8 @@
 name: axi_to_detailed_mem
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: axi_to_detailed_mem'
+description: Converts AXI4+ATOP transactions into detailed multi-bank memory requests
+  with configurable buffering and bank striping.
 license: Apache-2.0
 license_class: permissive
 source:

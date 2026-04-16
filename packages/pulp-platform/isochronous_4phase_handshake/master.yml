@@ -1,7 +1,7 @@
 name: isochronous_4phase_handshake
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: isochronous_4phase_handshake'
+description: Transfers data between clocks.
 license: Apache-2.0
 license_class: permissive
 source:

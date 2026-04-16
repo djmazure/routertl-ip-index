@@ -1,7 +1,8 @@
 name: axi_adc_trigger_reg
 namespace: analog-devices
 version: 0.0.0
-description: 'analog-devices IP: axi_adc_trigger_reg'
+description: Configurable ADC trigger register interface that decodes AXI writes to
+  control trigger conditions, thresholds, and ou...
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:

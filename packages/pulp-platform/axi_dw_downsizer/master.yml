@@ -1,7 +1,8 @@
 name: axi_dw_downsizer
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: axi_dw_downsizer'
+description: Converts AXI transactions from a wider slave port to a narrower master
+  port with data width adaptation.
 license: Apache-2.0
 license_class: permissive
 source:

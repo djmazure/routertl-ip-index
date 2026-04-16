@@ -1,7 +1,7 @@
 name: taxi_rgmii_phy_if
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_rgmii_phy_if'
+description: Interfaces RGMII PHY to MAC.
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:
@@ -15,9 +15,9 @@ routertl_compat:
   files:
   - src/io/rtl/taxi_oddr.sv
   - src/sync/rtl/taxi_sync_reset.sv
-  - src/sync/rtl/taxi_sync_signal.sv
   - src/io/rtl/taxi_iddr.sv
   - src/io/rtl/taxi_ssio_ddr_in.sv
+  - src/sync/rtl/taxi_sync_signal.sv
   - src/eth/rtl/taxi_rgmii_phy_if.sv
 tags:
 - gigabit

@@ -1,7 +1,7 @@
 name: axi_id_remap
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: axi_id_remap'
+description: Remaps AXI IDs between master and slave ports.
 license: Apache-2.0
 license_class: permissive
 source:

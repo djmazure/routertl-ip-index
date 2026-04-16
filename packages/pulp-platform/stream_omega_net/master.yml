@@ -1,7 +1,8 @@
 name: stream_omega_net
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: stream_omega_net'
+description: Omega network switch fabric that routes multiple input streams to multiple
+  output ports with AXI-compatible handshaking.
 license: Apache-2.0
 license_class: permissive
 source:
@@ -13,11 +14,11 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - src/lzc.sv
-  - src/rr_arb_tree.sv
+  - src/stream_demux.sv
   - src/spill_register_flushable.sv
   - src/spill_register.sv
-  - src/stream_demux.sv
+  - src/lzc.sv
+  - src/rr_arb_tree.sv
   - src/stream_xbar.sv
   - src/stream_omega_net.sv
 tags:

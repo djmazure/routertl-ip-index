@@ -1,7 +1,8 @@
 name: pack_interconnect
 namespace: analog-devices
 version: 0.0.0
-description: 'analog-devices IP: pack_interconnect'
+description: Routes and optionally compresses/decompresses multi-port data using staged
+  multiplexers controlled by address signals.
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:

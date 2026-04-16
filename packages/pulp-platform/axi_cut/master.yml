@@ -1,7 +1,8 @@
 name: axi_cut
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: axi_cut'
+description: Decouples AXI slave and master ports with optional register stages on
+  individual channels.
 license: Apache-2.0
 license_class: permissive
 source:

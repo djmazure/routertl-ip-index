@@ -1,7 +1,7 @@
 name: taxi_axil_tie_wr
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_axil_tie_wr'
+description: Wraps AXI4 lite master with slave interface.
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:

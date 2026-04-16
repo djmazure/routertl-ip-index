@@ -1,7 +1,7 @@
 name: edge_propagator_ack
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: edge_propagator_ack'
+description: Propagates edges between clocks.
 license: Apache-2.0
 license_class: permissive
 source:

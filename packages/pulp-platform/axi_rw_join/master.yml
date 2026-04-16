@@ -1,7 +1,7 @@
 name: axi_rw_join
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: axi_rw_join'
+description: Merges read and write AXI interfaces.
 license: Apache-2.0
 license_class: permissive
 source:

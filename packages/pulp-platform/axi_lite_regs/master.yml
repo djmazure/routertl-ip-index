@@ -1,7 +1,8 @@
 name: axi_lite_regs
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: axi_lite_regs'
+description: AXI4-Lite slave interface that manages register reads/writes with configurable
+  access control and per-byte write prot...
 license: Apache-2.0
 license_class: permissive
 source:

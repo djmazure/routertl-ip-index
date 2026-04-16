@@ -1,7 +1,7 @@
 name: taxi_gmii_phy_if
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_gmii_phy_if'
+description: Adapts GMII interface between MAC and PHY.
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:
@@ -13,11 +13,11 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
+  - src/io/rtl/taxi_ssio_sdr_in.sv
+  - src/sync/rtl/taxi_sync_reset.sv
   - src/io/rtl/taxi_oddr.sv
   - src/io/rtl/taxi_ssio_sdr_out.sv
-  - src/io/rtl/taxi_ssio_sdr_in.sv
   - src/sync/rtl/taxi_sync_signal.sv
-  - src/sync/rtl/taxi_sync_reset.sv
   - src/eth/rtl/taxi_gmii_phy_if.sv
 tags:
 - gigabit

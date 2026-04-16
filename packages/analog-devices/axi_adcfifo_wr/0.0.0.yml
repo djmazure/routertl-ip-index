@@ -13,8 +13,8 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - library/common/ad_mem.v
   - library/common/ad_axis_inf_rx.v
+  - library/common/ad_mem.v
   - library/xilinx/axi_adcfifo/axi_adcfifo_wr.v
 tags:
 - adcfifo

@@ -1,7 +1,8 @@
 name: plru_tree
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: plru_tree'
+description: Tracks entry usage and identifies the least recently used entry in a
+  set-associative cache.
 license: Apache-2.0
 license_class: permissive
 source:

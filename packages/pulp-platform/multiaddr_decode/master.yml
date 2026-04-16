@@ -1,7 +1,8 @@
 name: multiaddr_decode
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: multiaddr_decode'
+description: Decodes which address map rules match a given address range specified
+  by address and mask.
 license: Apache-2.0
 license_class: permissive
 source:

@@ -1,7 +1,8 @@
 name: axi_isolate_intf
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: axi_isolate_intf'
+description: Isolates AXI4+ATOP slave port from master port, buffering pending transactions
+  and optionally returning error respons...
 license: Apache-2.0
 license_class: permissive
 source:

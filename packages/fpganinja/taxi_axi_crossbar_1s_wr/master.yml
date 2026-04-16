@@ -13,14 +13,14 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - src/axi/rtl/taxi_axi_if.sv
   - src/axis/rtl/taxi_axis_if.sv
   - src/lss/rtl/taxi_i2c_slave.sv
+  - src/axi/rtl/taxi_axi_if.sv
   - src/axi/rtl/taxi_axi_tie_wr.sv
-  - src/axi/rtl/taxi_axi_crossbar_addr.sv
   - src/axi/rtl/taxi_axi_register_wr.sv
   - src/prim/rtl/taxi_penc.sv
   - src/prim/rtl/taxi_arbiter.sv
+  - src/axi/rtl/taxi_axi_crossbar_addr.sv
   - src/axi/rtl/taxi_axi_crossbar_wr.sv
   - src/axi/rtl/taxi_axi_crossbar_1s_wr.sv
 tags:

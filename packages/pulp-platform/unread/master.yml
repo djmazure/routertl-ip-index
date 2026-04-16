@@ -1,7 +1,7 @@
 name: unread
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: unread'
+description: Unreads input signal.
 license: Apache-2.0
 license_class: permissive
 source:

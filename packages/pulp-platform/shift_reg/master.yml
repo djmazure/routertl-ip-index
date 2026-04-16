@@ -1,7 +1,8 @@
 name: shift_reg
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: shift_reg'
+description: Shifts input data through a configurable-depth pipeline register on each
+  clock cycle.
 license: Apache-2.0
 license_class: permissive
 source:

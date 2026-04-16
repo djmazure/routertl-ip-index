@@ -1,7 +1,7 @@
 name: axi_to_mem_interleaved_intf
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: axi_to_mem_interleaved_intf'
+description: Converts AXI4+ATOP to memory interleaved interface.
 license: Apache-2.0
 license_class: permissive
 source:

@@ -1,7 +1,8 @@
 name: ad_csc_CrYCb2RGB
 namespace: analog-devices
 version: 0.0.0
-description: 'analog-devices IP: ad_csc_CrYCb2RGB'
+description: Converts Cr-Y-Cb (YCbCr) color format to RGB color format with configurable
+  delay synchronization.
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:

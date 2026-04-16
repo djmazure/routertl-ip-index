@@ -1,7 +1,8 @@
 name: addr_decode_napot
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: addr_decode_napot'
+description: Decodes an address to a matching rule index using NAPOT (Naturally Aligned
+  Power-of-Two) address matching with option...
 license: Apache-2.0
 license_class: permissive
 source:

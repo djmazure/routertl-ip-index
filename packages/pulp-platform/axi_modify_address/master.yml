@@ -1,7 +1,7 @@
 name: axi_modify_address
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: axi_modify_address'
+description: Modifies AXI addresses.
 license: Apache-2.0
 license_class: permissive
 source:

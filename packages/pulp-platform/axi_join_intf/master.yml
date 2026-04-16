@@ -1,7 +1,8 @@
 name: axi_join_intf
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: axi_join_intf'
+description: Connects an AXI slave input interface to an AXI master output interface,
+  passing through AXI transactions.
 license: Apache-2.0
 license_class: permissive
 source:

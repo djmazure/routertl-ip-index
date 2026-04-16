@@ -1,7 +1,7 @@
 name: axi_to_axi_lite_id_reflect
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: axi_to_axi_lite_id_reflect'
+description: Converts AXI4 to AXI4-Lite.
 license: Apache-2.0
 license_class: permissive
 source:
@@ -15,11 +15,11 @@ routertl_compat:
   files:
   - src/axi_intf.sv
   - src/axi_atop_filter.sv
-  - src/axi_err_slv.sv
   - src/axi_cut.sv
   - src/axi_multicut.sv
   - src/axi_demux_id_counters.sv
   - src/axi_demux_simple.sv
+  - src/axi_err_slv.sv
   - src/axi_burst_splitter_gran.sv
   - src/axi_burst_splitter.sv
   - src/axi_to_axi_lite.sv

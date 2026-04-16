@@ -1,7 +1,7 @@
 name: axi_err_slv
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: axi_err_slv'
+description: Generates error responses.
 license: Apache-2.0
 license_class: permissive
 source:

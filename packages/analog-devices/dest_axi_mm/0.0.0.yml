@@ -13,10 +13,10 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - library/axi_dmac/inc_id.vh
-  - library/axi_dmac/address_generator.v
   - library/axi_dmac/resp.vh
+  - library/axi_dmac/inc_id.vh
   - library/axi_dmac/response_handler.v
+  - library/axi_dmac/address_generator.v
   - library/axi_dmac/dest_axi_mm.v
 tags:
 - amba

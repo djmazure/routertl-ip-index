@@ -1,7 +1,8 @@
 name: axi_zero_mem
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: axi_zero_mem'
+description: Interfaces AXI4+ATOP transactions to a zero-latency memory with banked
+  output and buffered responses.
 license: Apache-2.0
 license_class: permissive
 source:

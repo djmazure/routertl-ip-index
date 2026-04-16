@@ -13,8 +13,8 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - library/util_mii_to_rmii/phy_mac_link.v
   - library/util_mii_to_rmii/mac_phy_link.v
+  - library/util_mii_to_rmii/phy_mac_link.v
   - library/util_mii_to_rmii/util_mii_to_rmii.v
 tags:
 - independent

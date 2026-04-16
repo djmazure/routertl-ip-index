@@ -1,7 +1,7 @@
 name: axi_adc_decimate_reg
 namespace: analog-devices
 version: 0.0.0
-description: 'analog-devices IP: axi_adc_decimate_reg'
+description: Configures ADC decimation and correction.
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:

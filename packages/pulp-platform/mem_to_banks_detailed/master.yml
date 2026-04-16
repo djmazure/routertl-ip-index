@@ -1,7 +1,8 @@
 name: mem_to_banks_detailed
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: mem_to_banks_detailed'
+description: Splits memory transactions across multiple parallel banks, distributing
+  data and addresses while managing outstanding...
 license: Apache-2.0
 license_class: permissive
 source:

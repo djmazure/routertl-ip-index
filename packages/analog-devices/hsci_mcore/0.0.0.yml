@@ -13,11 +13,11 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - library/axi_hsci/hsci_mfrm_det.v
-  - library/axi_hsci/hsci_mdec.sv
-  - library/axi_hsci/hsci_menc.sv
   - library/axi_hsci/lfsr15_8.v
   - library/axi_hsci/hsci_mlink_ctrl.sv
+  - library/axi_hsci/hsci_menc.sv
+  - library/axi_hsci/hsci_mdec.sv
+  - library/axi_hsci/hsci_mfrm_det.v
   - library/axi_hsci/hsci_mcore.v
 tags:
 - hsci

@@ -1,7 +1,8 @@
 name: taxi_xfcp_mod_axil
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_xfcp_mod_axil'
+description: Translates XFCP protocol commands from upstream to AXI Lite master read/write
+  transactions.
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:
@@ -13,8 +14,8 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - src/axis/rtl/taxi_axis_if.sv
   - src/axi/rtl/taxi_axil_if.sv
+  - src/axis/rtl/taxi_axis_if.sv
   - src/xfcp/rtl/taxi_xfcp_mod_axil.sv
 tags:
 - axil

@@ -1,7 +1,8 @@
 name: exp_backoff
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: exp_backoff'
+description: Implements exponential backoff with random wait delays for retry logic
+  using an LFSR-based randomizer.
 license: Apache-2.0
 license_class: permissive
 source:

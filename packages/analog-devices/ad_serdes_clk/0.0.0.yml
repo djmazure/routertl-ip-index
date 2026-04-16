@@ -1,7 +1,7 @@
 name: ad_serdes_clk
 namespace: analog-devices
 version: 0.0.0
-description: 'analog-devices IP: ad_serdes_clk'
+description: Generates clocks.
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:

@@ -1,7 +1,7 @@
 name: taxi_stats_collect
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_stats_collect'
+description: Collects taxi statistics.
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:

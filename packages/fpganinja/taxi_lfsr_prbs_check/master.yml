@@ -1,7 +1,8 @@
 name: taxi_lfsr_prbs_check
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_lfsr_prbs_check'
+description: Verifies PRBS data integrity by checking incoming data against an LFSR-based
+  pseudo-random sequence.
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:

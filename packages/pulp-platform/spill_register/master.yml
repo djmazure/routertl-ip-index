@@ -1,7 +1,7 @@
 name: spill_register
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: spill_register'
+description: Stores data temporarily.
 license: Apache-2.0
 license_class: permissive
 source:

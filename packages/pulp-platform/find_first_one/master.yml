@@ -1,7 +1,7 @@
 name: find_first_one
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: find_first_one'
+description: Locates first one in a bit vector.
 license: Apache-2.0
 license_class: permissive
 source:

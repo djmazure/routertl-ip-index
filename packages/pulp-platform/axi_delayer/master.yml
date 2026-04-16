@@ -1,7 +1,7 @@
 name: axi_delayer
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: axi_delayer'
+description: Delays AXI channels.
 license: Apache-2.0
 license_class: permissive
 source:

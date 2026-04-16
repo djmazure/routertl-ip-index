@@ -14,14 +14,14 @@ routertl_compat:
   library: work
   files:
   - library/axi_tdd/axi_tdd_pkg.sv
+  - library/axi_tdd/axi_tdd_counter.sv
+  - library/axi_tdd/axi_tdd_sync_gen.sv
+  - library/common/up_axi.v
+  - library/axi_tdd/axi_tdd_channel.sv
   - library/util_cdc/sync_bits.v
   - library/util_cdc/sync_data.v
   - library/util_cdc/sync_event.v
   - library/axi_tdd/axi_tdd_regmap.sv
-  - library/axi_tdd/axi_tdd_counter.sv
-  - library/axi_tdd/axi_tdd_channel.sv
-  - library/axi_tdd/axi_tdd_sync_gen.sv
-  - library/common/up_axi.v
   - library/axi_tdd/axi_tdd.sv
 tags:
 - amba

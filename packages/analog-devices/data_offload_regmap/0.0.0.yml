@@ -1,7 +1,7 @@
 name: data_offload_regmap
 namespace: analog-devices
 version: 0.0.0
-description: 'analog-devices IP: data_offload_regmap'
+description: Maps data between domains.
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:

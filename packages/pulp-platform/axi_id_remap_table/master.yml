@@ -1,7 +1,8 @@
 name: axi_id_remap_table
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: axi_id_remap_table'
+description: Remaps AXI transaction IDs from a wider slave port to a narrower master
+  port while enforcing per-ID and total in-flig...
 license: Apache-2.0
 license_class: permissive
 source:

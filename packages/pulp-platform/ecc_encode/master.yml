@@ -1,7 +1,7 @@
 name: ecc_encode
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: ecc_encode'
+description: Encodes input data with ECC.
 license: Apache-2.0
 license_class: permissive
 source:

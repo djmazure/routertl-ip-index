@@ -1,7 +1,7 @@
 name: ad_csc_RGB2CrYCb
 namespace: analog-devices
 version: 0.0.0
-description: 'analog-devices IP: ad_csc_RGB2CrYCb'
+description: Converts RGB to CrYCb.
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:

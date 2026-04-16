@@ -1,7 +1,8 @@
 name: taxi_axis_register
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_axis_register'
+description: Registers AXI4-Stream data with configurable buffering (bypass, simple,
+  or skid buffer).
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:

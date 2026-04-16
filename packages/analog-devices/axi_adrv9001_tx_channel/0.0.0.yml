@@ -1,7 +1,8 @@
 name: axi_adrv9001_tx_channel
 namespace: analog-devices
 version: 0.0.0
-description: 'analog-devices IP: axi_adrv9001_tx_channel'
+description: Manages AXI-controlled transmit channel for ADRV9001 RF transceiver with
+  DDS, IQ correction, and DAC data processing.
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:
@@ -15,15 +16,15 @@ routertl_compat:
   files:
   - library/common/up_xfer_cntrl.v
   - library/common/up_dac_channel.v
-  - library/xilinx/common/ad_mul.v
-  - library/common/ad_iqcor.v
-  - library/common/ad_pngen.v
   - library/common/ad_dds_cordic_pipe.v
   - library/common/ad_dds_sine_cordic.v
+  - library/xilinx/common/ad_mul.v
   - library/common/ad_dds_sine.v
   - library/common/ad_dds_1.v
   - library/common/ad_dds_2.v
   - library/common/ad_dds.v
+  - library/common/ad_pngen.v
+  - library/common/ad_iqcor.v
   - library/axi_adrv9001/axi_adrv9001_tx_channel.v
 tags:
 - adrv9001

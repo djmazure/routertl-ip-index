@@ -1,7 +1,7 @@
 name: axi_lite_multicut_intf
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: axi_lite_multicut_intf'
+description: Multiplexes AXI Lite transactions.
 license: Apache-2.0
 license_class: permissive
 source:
