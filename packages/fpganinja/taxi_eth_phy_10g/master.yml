@@ -1,7 +1,7 @@
 name: taxi_eth_phy_10g
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_eth_phy_10g'
+description: Ethernet
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:
@@ -13,15 +13,15 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
+  - src/eth/rtl/taxi_xgmii_baser_enc.sv
   - src/lfsr/rtl/taxi_lfsr.sv
   - src/eth/rtl/taxi_eth_phy_10g_tx_if.sv
-  - src/eth/rtl/taxi_xgmii_baser_enc.sv
   - src/eth/rtl/taxi_eth_phy_10g_tx.sv
-  - src/eth/rtl/taxi_xgmii_baser_dec.sv
-  - src/eth/rtl/taxi_eth_phy_10g_rx_frame_sync.sv
-  - src/eth/rtl/taxi_eth_phy_10g_rx_ber_mon.sv
   - src/eth/rtl/taxi_eth_phy_10g_rx_watchdog.sv
+  - src/eth/rtl/taxi_eth_phy_10g_rx_ber_mon.sv
+  - src/eth/rtl/taxi_eth_phy_10g_rx_frame_sync.sv
   - src/eth/rtl/taxi_eth_phy_10g_rx_if.sv
+  - src/eth/rtl/taxi_xgmii_baser_dec.sv
   - src/eth/rtl/taxi_eth_phy_10g_rx.sv
   - src/eth/rtl/taxi_eth_phy_10g.sv
 tags:

@@ -1,7 +1,7 @@
 name: cndm_brd_ctrl_i2c
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: cndm_brd_ctrl_i2c'
+description: I2C controller
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:

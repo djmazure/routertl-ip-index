@@ -1,7 +1,7 @@
 name: si5340_i2c_init
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: si5340_i2c_init'
+description: I2C
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:

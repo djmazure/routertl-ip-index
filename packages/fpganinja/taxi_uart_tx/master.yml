@@ -1,7 +1,7 @@
 name: taxi_uart_tx
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_uart_tx'
+description: UART
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:

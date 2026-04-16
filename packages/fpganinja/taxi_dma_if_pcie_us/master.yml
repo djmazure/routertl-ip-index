@@ -1,7 +1,7 @@
 name: taxi_dma_if_pcie_us
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_dma_if_pcie_us'
+description: PCIe with configurable parameters
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:
@@ -14,11 +14,11 @@ routertl_compat:
   library: work
   files:
   - src/dma/rtl/taxi_dma_ram_if.sv
-  - src/dma/rtl/taxi_dma_desc_if.sv
   - src/axis/rtl/taxi_axis_if.sv
+  - src/dma/rtl/taxi_dma_desc_if.sv
   - src/lss/rtl/taxi_i2c_slave.sv
-  - src/dma/rtl/taxi_dma_if_pcie_us_wr.sv
   - src/dma/rtl/taxi_dma_if_pcie_us_rd.sv
+  - src/dma/rtl/taxi_dma_if_pcie_us_wr.sv
   - src/dma/rtl/taxi_dma_if_pcie_us.sv
 tags:
 - access

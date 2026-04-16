@@ -1,7 +1,7 @@
 name: cdc_2phase_dst
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: cdc_2phase_dst'
+description: Clock domain crossing with ready/valid handshake
 license: Apache-2.0
 license_class: permissive
 source:

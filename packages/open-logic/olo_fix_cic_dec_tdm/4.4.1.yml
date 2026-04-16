@@ -19,6 +19,8 @@ routertl_compat:
   - src/base/vhdl/olo_base_pkg_math.vhd
   - src/base/vhdl/olo_base_pkg_string.vhd
   - src/fix/vhdl/olo_fix_pkg.vhd
+  - src/base/vhdl/olo_base_pkg_logic.vhd
+  - src/base/vhdl/olo_base_dyn_sft.vhd
   - src/base/vhdl/olo_base_pkg_attribute.vhd
   - src/base/vhdl/olo_base_ram_sdp.vhd
   - src/base/vhdl/olo_base_delay.vhd
@@ -27,8 +29,6 @@ routertl_compat:
   - src/fix/vhdl/olo_fix_round.vhd
   - src/fix/vhdl/olo_fix_resize.vhd
   - src/fix/vhdl/olo_fix_mult.vhd
-  - src/base/vhdl/olo_base_pkg_logic.vhd
-  - src/base/vhdl/olo_base_dyn_sft.vhd
   - src/fix/vhdl/olo_fix_cic_dec_tdm.vhd
 tags:
 - cic

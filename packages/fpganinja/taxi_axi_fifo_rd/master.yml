@@ -1,7 +1,7 @@
 name: taxi_axi_fifo_rd
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_axi_fifo_rd'
+description: FIFO buffer with configurable parameters
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:

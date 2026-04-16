@@ -1,7 +1,7 @@
 name: fifo
 namespace: pulp-platform
 version: master
-description: 'pulp-platform IP: fifo'
+description: FIFO buffer with FIFO interface
 license: Apache-2.0
 license_class: permissive
 source:

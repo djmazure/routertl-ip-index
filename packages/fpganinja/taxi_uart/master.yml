@@ -1,7 +1,7 @@
 name: taxi_uart
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_uart'
+description: UART
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:
@@ -13,10 +13,10 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - src/lss/rtl/taxi_uart_brg.sv
   - src/axis/rtl/taxi_axis_if.sv
-  - src/lss/rtl/taxi_uart_rx.sv
+  - src/lss/rtl/taxi_uart_brg.sv
   - src/lss/rtl/taxi_uart_tx.sv
+  - src/lss/rtl/taxi_uart_rx.sv
   - src/lss/rtl/taxi_uart.sv
 tags:
 - asynchronous

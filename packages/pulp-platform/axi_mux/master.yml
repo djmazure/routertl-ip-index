@@ -14,8 +14,8 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - src/axi_id_prepend.sv
   - src/axi_intf.sv
+  - src/axi_id_prepend.sv
   - src/axi_mux.sv
 tags:
 - amba

@@ -1,7 +1,8 @@
 name: util_adcfifo
 namespace: analog-devices
 version: 0.0.0
-description: null
+description: In this HDL repository, there are many different and unique modules,
+  consisting of various HDL (Verilog or VHDL) components. The individual modules are
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:
@@ -15,8 +16,8 @@ routertl_compat:
   files:
   - library/util_cdc/sync_gray.v
   - library/common/ad_rst.v
-  - library/common/ad_mem_asym.v
   - library/common/ad_axis_inf_rx.v
+  - library/common/ad_mem_asym.v
   - library/util_adcfifo/util_adcfifo.v
 tags:
 - adcfifo

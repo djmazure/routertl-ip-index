@@ -1,7 +1,8 @@
 name: axi_gpreg
 namespace: analog-devices
 version: 0.0.0
-description: null
+description: In this HDL repository, there are many different and unique modules,
+  consisting of various HDL (Verilog or VHDL) components. The individual modules are
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:
@@ -13,11 +14,11 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - library/common/up_clock_mon.v
-  - library/common/ad_rst.v
-  - library/axi_gpreg/axi_gpreg_clock_mon.v
   - library/common/up_axi.v
   - library/axi_gpreg/axi_gpreg_io.v
+  - library/common/ad_rst.v
+  - library/common/up_clock_mon.v
+  - library/axi_gpreg/axi_gpreg_clock_mon.v
   - library/axi_gpreg/axi_gpreg.v
 tags:
 - amba

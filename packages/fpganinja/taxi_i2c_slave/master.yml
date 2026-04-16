@@ -1,7 +1,7 @@
 name: taxi_i2c_slave
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_i2c_slave'
+description: I2C slave
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:

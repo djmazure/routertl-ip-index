@@ -1,7 +1,8 @@
 name: adrv9001_rx_link
 namespace: analog-devices
 version: 0.0.0
-description: null
+description: In this HDL repository, there are many different and unique modules,
+  consisting of various HDL (Verilog or VHDL) components. The individual modules are
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:
@@ -13,9 +14,9 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - library/axi_adrv9001/adrv9001_pack.v
   - library/axi_adrv9001/adrv9001_aligner8.v
   - library/axi_adrv9001/adrv9001_aligner4.v
+  - library/axi_adrv9001/adrv9001_pack.v
   - library/axi_adrv9001/adrv9001_rx_link.v
 tags:
 - adrv9001

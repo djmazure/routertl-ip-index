@@ -1,7 +1,7 @@
 name: taxi_i2c_single_reg
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_i2c_single_reg'
+description: I2C
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:

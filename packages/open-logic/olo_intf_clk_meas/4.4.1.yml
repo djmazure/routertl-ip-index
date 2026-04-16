@@ -16,12 +16,12 @@ routertl_compat:
   files:
   - src/base/vhdl/olo_base_pkg_array.vhd
   - src/base/vhdl/olo_base_pkg_math.vhd
-  - src/base/vhdl/olo_base_strobe_gen.vhd
   - src/base/vhdl/olo_base_pkg_attribute.vhd
   - src/base/vhdl/olo_base_cc_bits.vhd
   - src/base/vhdl/olo_base_cc_reset.vhd
   - src/base/vhdl/olo_base_cc_pulse.vhd
   - src/base/vhdl/olo_base_cc_simple.vhd
+  - src/base/vhdl/olo_base_strobe_gen.vhd
   - src/intf/vhdl/olo_intf_clk_meas.vhd
 tags:
 - clk

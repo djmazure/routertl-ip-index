@@ -1,7 +1,7 @@
 name: taxi_eth_mac_phy_10g_tx
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_eth_mac_phy_10g_tx'
+description: Ethernet
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:
@@ -15,9 +15,9 @@ routertl_compat:
   files:
   - src/axis/rtl/taxi_axis_if.sv
   - src/lfsr/rtl/taxi_lfsr.sv
+  - src/eth/rtl/taxi_axis_baser_tx_64.sv
   - src/eth/rtl/taxi_axis_baser_tx_32.sv
   - src/eth/rtl/taxi_eth_phy_10g_tx_if.sv
-  - src/eth/rtl/taxi_axis_baser_tx_64.sv
   - src/eth/rtl/taxi_eth_mac_phy_10g_tx.sv
 tags:
 - 10g

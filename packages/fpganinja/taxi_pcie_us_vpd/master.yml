@@ -1,7 +1,7 @@
 name: taxi_pcie_us_vpd
 namespace: fpganinja
 version: master
-description: 'fpganinja IP: taxi_pcie_us_vpd'
+description: PCIe
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:

@@ -1,7 +1,8 @@
 name: axi_adrv9001
 namespace: analog-devices
 version: 0.0.0
-description: null
+description: In this HDL repository, there are many different and unique modules,
+  consisting of various HDL (Verilog or VHDL) components. The individual modules are
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:
@@ -13,48 +14,48 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - library/axi_adrv9001/adrv9001_pack.v
-  - library/axi_adrv9001/adrv9001_aligner8.v
-  - library/axi_adrv9001/adrv9001_aligner4.v
-  - library/axi_adrv9001/adrv9001_rx_link.v
+  - library/common/up_axi.v
   - library/axi_adrv9001/intel/adrv9001_rx.v
   - library/axi_adrv9001/adrv9001_tx_link.v
   - library/axi_adrv9001/intel/adrv9001_tx.v
+  - library/axi_adrv9001/adrv9001_aligner8.v
+  - library/axi_adrv9001/adrv9001_aligner4.v
+  - library/axi_adrv9001/adrv9001_pack.v
+  - library/axi_adrv9001/adrv9001_rx_link.v
   - library/axi_adrv9001/axi_adrv9001_if.v
   - library/axi_adrv9001/axi_adrv9001_sync.v
-  - library/common/up_axi.v
-  - library/common/up_xfer_status.v
-  - library/common/up_xfer_cntrl.v
   - library/common/ad_rst.v
+  - library/common/up_xfer_status.v
   - library/common/up_clock_mon.v
-  - library/common/up_dac_common.v
-  - library/util_cdc/sync_bits.v
-  - library/common/up_dac_channel.v
-  - library/common/ad_pngen.v
-  - library/xilinx/common/ad_mul.v
-  - library/common/ad_dds_sine.v
-  - library/common/ad_dds_cordic_pipe.v
-  - library/common/ad_dds_sine_cordic.v
-  - library/common/ad_dds_1.v
-  - library/common/ad_dds_2.v
-  - library/common/ad_dds.v
-  - library/common/ad_iqcor.v
-  - library/axi_adrv9001/axi_adrv9001_tx_channel.v
-  - library/axi_adrv9001/axi_adrv9001_tx.v
-  - library/common/util_ext_sync.v
-  - library/common/up_delay_cntrl.v
+  - library/common/up_xfer_cntrl.v
   - library/axi_adrv9001/axi_adrv9001_sync_ctrl.v
-  - library/common/up_adc_channel.v
-  - library/common/ad_datafmt.v
-  - library/xilinx/common/ad_dcfilter.v
-  - library/common/ad_pnmon.v
-  - library/axi_adrv9001/axi_adrv9001_rx_channel.v
-  - library/common/up_adc_common.v
-  - library/axi_adrv9001/axi_adrv9001_rx.v
   - library/common/up_tdd_cntrl.v
   - library/common/ad_addsub.v
   - library/common/ad_tdd_control.v
   - library/axi_adrv9001/axi_adrv9001_tdd.v
+  - library/xilinx/common/ad_dcfilter.v
+  - library/common/up_adc_channel.v
+  - library/xilinx/common/ad_mul.v
+  - library/common/ad_iqcor.v
+  - library/common/ad_pnmon.v
+  - library/common/ad_pngen.v
+  - library/common/ad_datafmt.v
+  - library/axi_adrv9001/axi_adrv9001_rx_channel.v
+  - library/common/up_adc_common.v
+  - library/axi_adrv9001/axi_adrv9001_rx.v
+  - library/common/up_dac_common.v
+  - library/common/ad_dds_cordic_pipe.v
+  - library/common/ad_dds_sine_cordic.v
+  - library/common/ad_dds_sine.v
+  - library/common/ad_dds_1.v
+  - library/common/ad_dds_2.v
+  - library/common/ad_dds.v
+  - library/common/up_dac_channel.v
+  - library/axi_adrv9001/axi_adrv9001_tx_channel.v
+  - library/util_cdc/sync_bits.v
+  - library/axi_adrv9001/axi_adrv9001_tx.v
+  - library/common/up_delay_cntrl.v
+  - library/common/util_ext_sync.v
   - library/axi_adrv9001/axi_adrv9001_core.v
   - library/axi_adrv9001/axi_adrv9001.v
 tags:

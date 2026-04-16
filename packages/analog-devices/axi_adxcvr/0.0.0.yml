@@ -1,7 +1,8 @@
 name: axi_adxcvr
 namespace: analog-devices
 version: 0.0.0
-description: null
+description: In this HDL repository, there are many different and unique modules,
+  consisting of various HDL (Verilog or VHDL) components. The individual modules are
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:
@@ -14,10 +15,10 @@ routertl_compat:
   library: work
   files:
   - library/xilinx/axi_adxcvr/axi_adxcvr_mstatus.v
-  - library/common/up_axi.v
   - library/xilinx/axi_adxcvr/axi_adxcvr_es.v
-  - library/xilinx/axi_adxcvr/axi_adxcvr_mdrp.v
+  - library/common/up_axi.v
   - library/xilinx/axi_adxcvr/axi_adxcvr_up.v
+  - library/xilinx/axi_adxcvr/axi_adxcvr_mdrp.v
   - library/xilinx/axi_adxcvr/axi_adxcvr.v
 tags:
 - adxcvr

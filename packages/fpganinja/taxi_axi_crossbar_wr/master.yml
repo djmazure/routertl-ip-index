@@ -15,8 +15,8 @@ routertl_compat:
   files:
   - src/prim/rtl/taxi_penc.sv
   - src/prim/rtl/taxi_arbiter.sv
-  - src/axi/rtl/taxi_axi_if.sv
   - src/axi/rtl/taxi_axi_crossbar_addr.sv
+  - src/axi/rtl/taxi_axi_if.sv
   - src/axi/rtl/taxi_axi_register_wr.sv
   - src/axi/rtl/taxi_axi_crossbar_wr.sv
 tags:

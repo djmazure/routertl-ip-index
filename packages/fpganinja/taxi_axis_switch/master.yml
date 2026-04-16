@@ -14,10 +14,10 @@ routertl_compat:
   library: work
   files:
   - src/axis/rtl/taxi_axis_if.sv
-  - src/lss/rtl/taxi_i2c_slave.sv
-  - src/axis/rtl/taxi_axis_register.sv
   - src/prim/rtl/taxi_penc.sv
   - src/prim/rtl/taxi_arbiter.sv
+  - src/lss/rtl/taxi_i2c_slave.sv
+  - src/axis/rtl/taxi_axis_register.sv
   - src/axis/rtl/taxi_axis_switch.sv
 tags:
 - axi
