@@ -1,7 +1,8 @@
 name: rstgen
 namespace: pulp-platform
 version: master
-description: Generator
+description: Generates synchronized reset and initialization signals from an asynchronous
+  input reset.
 license: Apache-2.0
 license_class: permissive
 source:

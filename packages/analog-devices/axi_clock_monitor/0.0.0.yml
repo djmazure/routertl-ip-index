@@ -13,8 +13,8 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - library/common/up_axi.v
   - library/axi_ltc235x/axi_ltc235x_cmos.v
+  - library/common/up_axi.v
   - library/common/up_clock_mon.v
   - library/axi_clock_monitor/axi_clock_monitor.v
 tags:

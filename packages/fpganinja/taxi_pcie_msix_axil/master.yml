@@ -13,8 +13,8 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - src/pcie/rtl/taxi_pcie_tlp_if.sv
   - src/axi/rtl/taxi_axil_if.sv
+  - src/pcie/rtl/taxi_pcie_tlp_if.sv
   - src/axis/rtl/taxi_axis_if.sv
   - src/pcie/rtl/taxi_pcie_msix_axil.sv
 tags:
@@ -65,7 +65,6 @@ components:
 - taxi_axil_crossbar_1s_wr
 - taxi_axil_crossbar_rd
 - taxi_axil_crossbar_wr
-- taxi_axil_if
 - taxi_axil_interconnect_1s
 - taxi_axil_interconnect_1s_rd
 - taxi_axil_interconnect_1s_wr
@@ -91,7 +90,6 @@ components:
 - taxi_axis_fifo
 - taxi_axis_gmii_rx
 - taxi_axis_gmii_tx
-- taxi_axis_if
 - taxi_axis_null_src
 - taxi_axis_register
 - taxi_axis_tie
@@ -121,7 +119,6 @@ components:
 - taxi_irq_rate_limit
 - taxi_mac_ctrl_rx
 - taxi_mac_ctrl_tx
-- taxi_pcie_tlp_if
 - taxi_pcie_us_axil_master
 - taxi_pcie_us_vsec_apb
 - taxi_ptp_td_rel2tod

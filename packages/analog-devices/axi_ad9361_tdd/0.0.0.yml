@@ -1,8 +1,8 @@
 name: axi_ad9361_tdd
 namespace: analog-devices
 version: 0.0.0
-description: Manages time-division duplex (TDD) operation for AD9361 RF transceiver
-  with VCO/RF control and data flow synchronizat...
+description: Manages time-division duplex (TDD) mode for AD9361 RF transceiver with
+  register control and VCO/RF enable sequencing.
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:
@@ -16,8 +16,8 @@ routertl_compat:
   files:
   - library/common/ad_addsub.v
   - library/common/ad_tdd_control.v
-  - library/common/up_xfer_cntrl.v
   - library/common/up_xfer_status.v
+  - library/common/up_xfer_cntrl.v
   - library/common/up_tdd_cntrl.v
   - library/axi_ad9361/axi_ad9361_tdd.v
 tags:

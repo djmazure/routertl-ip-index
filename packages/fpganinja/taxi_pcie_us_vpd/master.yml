@@ -1,7 +1,8 @@
 name: taxi_pcie_us_vpd
 namespace: fpganinja
 version: master
-description: PCIe
+description: Bridges PCIe Extended Configuration space VPD capability requests to
+  an APB slave interface for read/write operations.
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:

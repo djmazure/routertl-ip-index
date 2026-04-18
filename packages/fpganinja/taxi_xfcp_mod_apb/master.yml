@@ -1,7 +1,8 @@
 name: taxi_xfcp_mod_apb
 namespace: fpganinja
 version: master
-description: Translates XFCP to APB.
+description: Bridges XFCP protocol traffic to APB master interface for remote register
+  access over a transport layer.
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:
@@ -43,7 +44,6 @@ components:
 - cndm_proto_port
 - cndm_proto_rx
 - cndm_proto_tx
-- taxi_apb_if
 - taxi_apb_interconnect_1s
 - taxi_apb_ram
 - taxi_axi_crossbar_1s_rd
@@ -81,7 +81,6 @@ components:
 - taxi_axis_fifo
 - taxi_axis_gmii_rx
 - taxi_axis_gmii_tx
-- taxi_axis_if
 - taxi_axis_null_src
 - taxi_axis_register
 - taxi_axis_tie

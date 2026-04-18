@@ -1,7 +1,7 @@
 name: wishbone_master
 namespace: vunit
 version: master
-description: This Source Code Form is subject to the terms of the Mozilla Public
+description: Wishbone master
 license: ''
 license_class: unknown
 source:

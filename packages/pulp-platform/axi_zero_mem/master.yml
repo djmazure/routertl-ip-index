@@ -1,8 +1,8 @@
 name: axi_zero_mem
 namespace: pulp-platform
 version: master
-description: Interfaces AXI4+ATOP transactions to a zero-latency memory with banked
-  output and buffered responses.
+description: AXI4+ATOP interface to memory adapter that zeroes memory regions and
+  buffers responses.
 license: Apache-2.0
 license_class: permissive
 source:
@@ -25,7 +25,6 @@ tags:
 - zero
 role: top
 components:
-- AXI_BUS
 - axi_atop_filter
 - axi_burst_splitter
 - axi_burst_splitter_gran

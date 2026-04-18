@@ -1,7 +1,8 @@
 name: jesd204_tx_lane
 namespace: analog-devices
 version: 0.0.0
-description: JESD204
+description: JESD204 transmit lane module that serializes and formats data with character
+  replacement, scrambling, and control sym...
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:
@@ -13,9 +14,9 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - library/jesd204/jesd204_common/jesd204_scrambler.v
-  - library/jesd204/jesd204_common/jesd204_frame_align_replace.v
   - library/common/util_pipeline_stage.v
+  - library/jesd204/jesd204_common/jesd204_frame_align_replace.v
+  - library/jesd204/jesd204_common/jesd204_scrambler.v
   - library/jesd204/jesd204_tx/jesd204_tx_lane.v
 tags:
 - jesd204

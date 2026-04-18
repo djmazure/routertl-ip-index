@@ -1,7 +1,7 @@
 name: taxi_axi_axil_adapter
 namespace: fpganinja
 version: master
-description: Adapter
+description: Adapts AXI4 to AXI4-Lite.
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:
@@ -13,10 +13,10 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - src/axi/rtl/taxi_axi_if.sv
   - src/axi/rtl/taxi_axil_if.sv
-  - src/axi/rtl/taxi_axi_axil_adapter_wr.sv
+  - src/axi/rtl/taxi_axi_if.sv
   - src/axi/rtl/taxi_axi_axil_adapter_rd.sv
+  - src/axi/rtl/taxi_axi_axil_adapter_wr.sv
   - src/axi/rtl/taxi_axi_axil_adapter.sv
 tags:
 - adapter
@@ -51,7 +51,6 @@ components:
 - taxi_axi_dma_wr
 - taxi_axi_fifo_rd
 - taxi_axi_fifo_wr
-- taxi_axi_if
 - taxi_axi_interconnect_1s_rd
 - taxi_axi_interconnect_1s_wr
 - taxi_axi_interconnect_rd
@@ -72,7 +71,6 @@ components:
 - taxi_axil_crossbar_1s_wr
 - taxi_axil_crossbar_rd
 - taxi_axil_crossbar_wr
-- taxi_axil_if
 - taxi_axil_interconnect_1s
 - taxi_axil_interconnect_1s_rd
 - taxi_axil_interconnect_1s_wr

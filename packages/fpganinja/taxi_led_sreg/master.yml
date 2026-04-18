@@ -1,8 +1,7 @@
 name: taxi_led_sreg
 namespace: fpganinja
 version: master
-description: Shifts LED data through a serial shift register with configurable count,
-  inversion, reversal, interleaving, and clock...
+description: Drives LEDs from shift register.
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:

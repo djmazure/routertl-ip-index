@@ -1,7 +1,7 @@
 name: ram_master
 namespace: vunit
 version: master
-description: This Source Code Form is subject to the terms of the Mozilla Public
+description: Master with memory interface
 license: ''
 license_class: unknown
 source:

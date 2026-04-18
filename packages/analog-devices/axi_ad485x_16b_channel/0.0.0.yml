@@ -1,8 +1,8 @@
 name: axi_ad485x_16b_channel
 namespace: analog-devices
 version: 0.0.0
-description: Processes and converts 16-bit ADC channel data from parallel input to
-  DMA-ready format with error monitoring and conf...
+description: Processes 16-bit ADC channel data from AXI interface with format control,
+  error monitoring, and DMA output.
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:
@@ -15,8 +15,8 @@ routertl_compat:
   library: work
   files:
   - library/common/ad_datafmt.v
-  - library/common/up_xfer_cntrl.v
   - library/common/up_xfer_status.v
+  - library/common/up_xfer_cntrl.v
   - library/common/up_adc_channel.v
   - library/axi_ad485x/axi_ad485x_16b_channel.v
 tags:

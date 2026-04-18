@@ -1,8 +1,8 @@
 name: up_delay_cntrl
 namespace: analog-devices
 version: 0.0.0
-description: Manages configurable delay line control via processor interface, providing
-  register-based load and readback of delay ...
+description: Manages configurable delay control with register-based processor interface
+  for multiple delay channels and DRP readba...
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:

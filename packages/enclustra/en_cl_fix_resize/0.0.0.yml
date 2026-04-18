@@ -1,9 +1,8 @@
 name: en_cl_fix_resize
 namespace: enclustra
 version: 0.0.0
-description: Permission is hereby granted, free of charge, to any person obtaining
-  a copy of this hardware, software, firmware, and associated documentation files
-  (the "Product"), to deal in the Product without...
+description: Resizes fixed-point data between formats with optional rounding, saturation,
+  and metadata pass-through.
 license: MIT
 license_class: permissive
 source:

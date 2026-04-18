@@ -1,7 +1,8 @@
 name: ad_iqcor
 namespace: analog-devices
 version: 0.0.0
-description: Corrects IQ imbalance in input data.
+description: Corrects I/Q imbalance in ADC data using programmable coefficients with
+  optional scaling.
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:

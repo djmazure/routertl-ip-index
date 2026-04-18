@@ -1,7 +1,8 @@
 name: find_first_one
 namespace: pulp-platform
 version: master
-description: Locates first one in a bit vector.
+description: Identifies the position of the first set bit in an input vector and signals
+  if no bits are set.
 license: Apache-2.0
 license_class: permissive
 source:

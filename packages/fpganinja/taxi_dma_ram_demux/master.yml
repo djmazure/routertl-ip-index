@@ -14,8 +14,8 @@ routertl_compat:
   library: work
   files:
   - src/dma/rtl/taxi_dma_ram_if.sv
-  - src/dma/rtl/taxi_dma_ram_demux_wr.sv
   - src/dma/rtl/taxi_dma_ram_demux_rd.sv
+  - src/dma/rtl/taxi_dma_ram_demux_wr.sv
   - src/dma/rtl/taxi_dma_ram_demux.sv
 tags:
 - access
@@ -55,4 +55,3 @@ components:
 - taxi_dma_psdpram
 - taxi_dma_ram_demux_rd
 - taxi_dma_ram_demux_wr
-- taxi_dma_ram_if

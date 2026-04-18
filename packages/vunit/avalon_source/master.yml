@@ -1,7 +1,8 @@
 name: avalon_source
 namespace: vunit
 version: master
-description: This Source Code Form is subject to the terms of the Mozilla Public
+description: Generates Avalon streaming source interface with ready/valid handshake,
+  framing signals, and configurable data output.
 license: ''
 license_class: unknown
 source:

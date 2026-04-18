@@ -1,7 +1,7 @@
 name: taxi_axi_interconnect
 namespace: fpganinja
 version: master
-description: Interconnects AXI interfaces.
+description: Connects AXI interfaces.
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:
@@ -13,9 +13,9 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - src/axi/rtl/taxi_axi_if.sv
   - src/prim/rtl/taxi_penc.sv
   - src/prim/rtl/taxi_arbiter.sv
+  - src/axi/rtl/taxi_axi_if.sv
   - src/axi/rtl/taxi_axi_interconnect_rd.sv
   - src/axi/rtl/taxi_axi_interconnect_wr.sv
   - src/axi/rtl/taxi_axi_interconnect.sv
@@ -46,7 +46,6 @@ components:
 - taxi_axi_dma_wr
 - taxi_axi_fifo_rd
 - taxi_axi_fifo_wr
-- taxi_axi_if
 - taxi_axi_interconnect_1s_rd
 - taxi_axi_interconnect_1s_wr
 - taxi_axi_interconnect_rd

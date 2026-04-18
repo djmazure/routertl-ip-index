@@ -1,8 +1,7 @@
 name: taxi_xfcp_switch
 namespace: fpganinja
 version: master
-description: Routes XFCP protocol messages between an upstream port and multiple configurable
-  downstream ports.
+description: Switches XFCP traffic between one upstream and multiple downstream ports.
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:
@@ -14,9 +13,9 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - src/axis/rtl/taxi_axis_if.sv
   - src/prim/rtl/taxi_penc.sv
   - src/prim/rtl/taxi_arbiter.sv
+  - src/axis/rtl/taxi_axis_if.sv
   - src/xfcp/rtl/taxi_xfcp_switch.sv
 tags:
 - switch

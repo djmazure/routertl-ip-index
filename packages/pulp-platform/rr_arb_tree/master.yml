@@ -1,7 +1,8 @@
 name: rr_arb_tree
 namespace: pulp-platform
 version: master
-description: Arbiter
+description: Round-robin tree arbiter that selects among multiple inputs with fair
+  or simple priority rotation and multiplexes cor...
 license: Apache-2.0
 license_class: permissive
 source:

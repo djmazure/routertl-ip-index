@@ -1,7 +1,8 @@
 name: jesd204_tx_lane_64b
 namespace: analog-devices
 version: 0.0.0
-description: JESD204
+description: Transmits 64-bit JESD204 data with optional scrambling, header insertion,
+  and lane control.
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:

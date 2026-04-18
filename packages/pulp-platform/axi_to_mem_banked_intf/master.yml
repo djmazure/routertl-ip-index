@@ -1,7 +1,8 @@
 name: axi_to_mem_banked_intf
 namespace: pulp-platform
 version: master
-description: Translates AXI4+ATOP to memory bank requests.
+description: Converts AXI4+ATOP transactions to banked memory requests with configurable
+  latency and data width adaptation.
 license: Apache-2.0
 license_class: permissive
 source:
@@ -30,7 +31,6 @@ tags:
 - mem
 role: top
 components:
-- AXI_BUS
 - axi_atop_filter
 - axi_burst_splitter
 - axi_burst_splitter_gran

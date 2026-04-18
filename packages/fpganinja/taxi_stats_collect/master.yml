@@ -1,7 +1,8 @@
 name: taxi_stats_collect
 namespace: fpganinja
 version: master
-description: Collects taxi statistics.
+description: Collects and periodically reports statistics from multiple channels as
+  incremented counter values.
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:

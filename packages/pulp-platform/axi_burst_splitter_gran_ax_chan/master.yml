@@ -15,11 +15,11 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
+  - src/axi_demux_id_counters.sv
+  - src/axi_demux_simple.sv
   - src/axi_intf.sv
   - src/axi_cut.sv
   - src/axi_multicut.sv
-  - src/axi_demux_id_counters.sv
-  - src/axi_demux_simple.sv
   - src/axi_atop_filter.sv
   - src/axi_err_slv.sv
   - src/axi_burst_splitter_gran.sv
@@ -34,7 +34,6 @@ tags:
 - splitter
 role: top
 components:
-- AXI_BUS
 - axi_atop_filter
 - axi_burst_splitter
 - axi_burst_splitter_gran

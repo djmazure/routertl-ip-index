@@ -1,7 +1,7 @@
 name: unread
 namespace: pulp-platform
 version: master
-description: Unreads input signal.
+description: Accepts single logic input.
 license: Apache-2.0
 license_class: permissive
 source:

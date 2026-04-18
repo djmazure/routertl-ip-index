@@ -1,7 +1,8 @@
 name: taxi_axi_register_wr
 namespace: fpganinja
 version: master
-description: Wraps AXI write interface.
+description: Registers AXI4 write channels (AW, W, B) with configurable buffering
+  stages for timing closure.
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:

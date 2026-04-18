@@ -14,8 +14,8 @@ routertl_compat:
   library: work
   files:
   - src/axi_intf.sv
-  - src/axi_cdc_src.sv
   - src/axi_cdc_dst.sv
+  - src/axi_cdc_src.sv
   - src/axi_cdc.sv
 tags:
 - amba
@@ -29,7 +29,6 @@ tags:
 - intf
 role: top
 components:
-- AXI_BUS
 - axi_atop_filter
 - axi_burst_splitter
 - axi_burst_splitter_gran

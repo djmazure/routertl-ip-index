@@ -1,7 +1,7 @@
 name: axi_write_slave
 namespace: vunit
 version: master
-description: This Source Code Form is subject to the terms of the Mozilla Public
+description: AXI4-Lite slave
 license: ''
 license_class: unknown
 source:

@@ -1,8 +1,8 @@
 name: taxi_mmcm_frac
 namespace: fpganinja
 version: master
-description: Generates fractionally-divided clock outputs from an input clock using
-  cascaded MMCMs with optional phase offset capa...
+description: Generates fractionally-divided clock outputs with optional phase offset
+  using cascaded MMCMs.
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:
@@ -75,7 +75,6 @@ components:
 - taxi_axis_fifo
 - taxi_axis_gmii_rx
 - taxi_axis_gmii_tx
-- taxi_axis_if
 - taxi_axis_null_src
 - taxi_axis_register
 - taxi_axis_tie

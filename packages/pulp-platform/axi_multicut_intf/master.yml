@@ -1,7 +1,8 @@
 name: axi_multicut_intf
 namespace: pulp-platform
 version: master
-description: Routes AXI requests to multiple destinations.
+description: Inserts configurable pipeline stages on AXI slave-to-master path to break
+  combinational timing paths.
 license: Apache-2.0
 license_class: permissive
 source:
@@ -25,7 +26,6 @@ tags:
 - multicut
 role: top
 components:
-- AXI_BUS
 - axi_atop_filter
 - axi_burst_splitter
 - axi_burst_splitter_gran

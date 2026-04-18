@@ -1,7 +1,7 @@
 name: taxi_apb_adapter
 namespace: fpganinja
 version: master
-description: Adapter
+description: Adapts APB master to slave interface.
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:
@@ -35,7 +35,6 @@ components:
 - cndm_micro_dp_mgr
 - cndm_micro_port
 - cndm_micro_queue_state
-- taxi_apb_if
 - taxi_apb_interconnect_1s
 - taxi_apb_ram
 - taxi_eth_mac_25g_us_ch

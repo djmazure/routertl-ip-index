@@ -1,7 +1,8 @@
 name: axi_chan_logger
 namespace: pulp-platform
 version: master
-description: Logs AXI channel activity.
+description: Logs AXI protocol transactions across all five channels (AW, W, B, AR,
+  R) with ready/valid handshake monitoring.
 license: Apache-2.0
 license_class: permissive
 source:
@@ -24,7 +25,6 @@ tags:
 - logger
 role: top
 components:
-- AXI_BUS
 - axi_atop_filter
 - axi_burst_splitter
 - axi_burst_splitter_gran

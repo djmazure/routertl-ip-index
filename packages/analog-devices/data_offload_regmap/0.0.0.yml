@@ -1,7 +1,8 @@
 name: data_offload_regmap
 namespace: analog-devices
 version: 0.0.0
-description: Maps data between domains.
+description: Provides register interface for controlling and monitoring a data offload
+  module with memory buffering, clock domain ...
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:

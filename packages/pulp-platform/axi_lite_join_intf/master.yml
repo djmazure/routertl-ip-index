@@ -1,7 +1,8 @@
 name: axi_lite_join_intf
 namespace: pulp-platform
 version: master
-description: Joins AXI-Lite interfaces.
+description: Forwards AXI-Lite transactions from slave input port to master output
+  port.
 license: Apache-2.0
 license_class: permissive
 source:
@@ -26,7 +27,6 @@ tags:
 - lite
 role: top
 components:
-- AXI_BUS
 - axi_atop_filter
 - axi_burst_splitter
 - axi_burst_splitter_gran

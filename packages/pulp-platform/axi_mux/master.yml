@@ -1,7 +1,8 @@
 name: axi_mux
 namespace: pulp-platform
 version: master
-description: Multiplexer
+description: Multiplexes multiple AXI slave ports onto a single AXI master port with
+  configurable transaction buffering and pipeli...
 license: Apache-2.0
 license_class: permissive
 source:

@@ -2,7 +2,7 @@ name: mem_stream_to_banks_detailed
 namespace: pulp-platform
 version: master
 description: Converts AXI4+ATOP transactions into parallel memory bank requests with
-  configurable data width distribution and resp...
+  interleaved addressing and response buffering.
 license: Apache-2.0
 license_class: permissive
 source:
@@ -23,7 +23,6 @@ tags:
 - stream
 role: top
 components:
-- AXI_BUS
 - axi_atop_filter
 - axi_burst_splitter
 - axi_burst_splitter_gran

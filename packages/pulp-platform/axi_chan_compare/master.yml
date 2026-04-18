@@ -1,8 +1,8 @@
 name: axi_chan_compare
 namespace: pulp-platform
 version: master
-description: Compares AXI transactions between two independent clock domains, validating
-  channel equivalence with optional ID rema...
+description: Compares two AXI interfaces for functional equivalence across clock domains
+  with configurable ID matching and respons...
 license: Apache-2.0
 license_class: permissive
 source:

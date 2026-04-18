@@ -1,7 +1,8 @@
 name: ad_sysref_gen
 namespace: analog-devices
 version: 0.0.0
-description: Generator
+description: Generates SYSREF synchronization pulses on demand when enabled by control
+  signal.
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:

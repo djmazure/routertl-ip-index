@@ -1,7 +1,8 @@
 name: axi_to_mem_split_intf
 namespace: pulp-platform
 version: master
-description: Splits AXI transactions into memory requests.
+description: Converts AXI4+ATOP transactions into parallel memory port requests with
+  configurable data width splitting and respons...
 license: Apache-2.0
 license_class: permissive
 source:
@@ -13,11 +14,11 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
+  - src/axi_demux_id_counters.sv
+  - src/axi_demux_simple.sv
   - src/axi_intf.sv
   - src/axi_to_detailed_mem.sv
   - src/axi_to_mem.sv
-  - src/axi_demux_id_counters.sv
-  - src/axi_demux_simple.sv
   - src/axi_to_mem_split.sv
 tags:
 - amba
@@ -29,7 +30,6 @@ tags:
 - split
 role: top
 components:
-- AXI_BUS
 - axi_atop_filter
 - axi_burst_splitter
 - axi_burst_splitter_gran

@@ -1,8 +1,8 @@
 name: plru_tree
 namespace: pulp-platform
 version: master
-description: Tracks entry usage and identifies the least recently used entry in a
-  set-associative cache.
+description: Identifies the least recently used entry among multiple entries using
+  a pseudo-LRU algorithm.
 license: Apache-2.0
 license_class: permissive
 source:

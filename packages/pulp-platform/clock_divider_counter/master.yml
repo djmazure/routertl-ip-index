@@ -1,7 +1,8 @@
 name: clock_divider_counter
 namespace: pulp-platform
 version: master
-description: Counter
+description: Divides an input clock by a programmable factor to generate a slower
+  output clock.
 license: Apache-2.0
 license_class: permissive
 source:

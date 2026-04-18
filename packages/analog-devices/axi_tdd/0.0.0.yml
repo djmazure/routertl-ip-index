@@ -1,7 +1,8 @@
 name: axi_tdd
 namespace: analog-devices
 version: 0.0.0
-description: AXI4-Lite
+description: AXI4-Lite controlled time-division duplex (TDD) frame generator with
+  configurable channel timing, burst repetition, a...
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:
@@ -15,13 +16,13 @@ routertl_compat:
   files:
   - library/axi_tdd/axi_tdd_pkg.sv
   - library/axi_tdd/axi_tdd_counter.sv
-  - library/axi_tdd/axi_tdd_sync_gen.sv
-  - library/common/up_axi.v
-  - library/axi_tdd/axi_tdd_channel.sv
   - library/util_cdc/sync_bits.v
   - library/util_cdc/sync_data.v
   - library/util_cdc/sync_event.v
   - library/axi_tdd/axi_tdd_regmap.sv
+  - library/common/up_axi.v
+  - library/axi_tdd/axi_tdd_sync_gen.sv
+  - library/axi_tdd/axi_tdd_channel.sv
   - library/axi_tdd/axi_tdd.sv
 tags:
 - amba

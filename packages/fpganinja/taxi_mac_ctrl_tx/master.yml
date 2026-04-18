@@ -1,7 +1,8 @@
 name: taxi_mac_ctrl_tx
 namespace: fpganinja
 version: master
-description: Controller
+description: Multiplexes MAC control frames with regular traffic on transmit path,
+  arbitrating pause requests and MAC frame insert...
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:

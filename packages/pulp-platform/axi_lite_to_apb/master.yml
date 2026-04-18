@@ -1,8 +1,8 @@
 name: axi_lite_to_apb
 namespace: pulp-platform
 version: master
-description: Bridges AXI4-Lite slave interface to multiple APB4 master interfaces
-  with address-based slave selection.
+description: Converts AXI4-Lite slave transactions to APB4 master transactions with
+  configurable address decoding and optional pip...
 license: Apache-2.0
 license_class: permissive
 source:
@@ -27,7 +27,6 @@ tags:
 - peripheral
 role: top
 components:
-- AXI_BUS
 - axi_atop_filter
 - axi_burst_splitter
 - axi_burst_splitter_gran

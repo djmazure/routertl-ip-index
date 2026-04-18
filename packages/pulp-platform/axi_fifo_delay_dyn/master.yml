@@ -26,7 +26,6 @@ tags:
 - queue
 role: top
 components:
-- AXI_BUS
 - axi_atop_filter
 - axi_burst_splitter
 - axi_burst_splitter_gran

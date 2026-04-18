@@ -1,7 +1,8 @@
 name: taxi_xfcp_mod_stats
 namespace: fpganinja
 version: master
-description: Collects statistics data.
+description: Collects and reports statistics via XFCP interface with configurable
+  counter width and pipeline depth.
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:
@@ -16,11 +17,11 @@ routertl_compat:
   - src/axi/rtl/taxi_axil_if.sv
   - src/axis/rtl/taxi_axis_if.sv
   - src/stats/rtl/taxi_stats_counter.sv
-  - src/xfcp/rtl/taxi_xfcp_mod_axil.sv
-  - src/stats/rtl/taxi_stats_strings_full.sv
   - src/prim/rtl/taxi_penc.sv
   - src/prim/rtl/taxi_arbiter.sv
   - src/xfcp/rtl/taxi_xfcp_switch.sv
+  - src/xfcp/rtl/taxi_xfcp_mod_axil.sv
+  - src/stats/rtl/taxi_stats_strings_full.sv
   - src/xfcp/rtl/taxi_xfcp_mod_stats.sv
 tags:
 - mod
@@ -73,7 +74,6 @@ components:
 - taxi_axil_crossbar_1s_wr
 - taxi_axil_crossbar_rd
 - taxi_axil_crossbar_wr
-- taxi_axil_if
 - taxi_axil_interconnect_1s
 - taxi_axil_interconnect_1s_rd
 - taxi_axil_interconnect_1s_wr
@@ -99,7 +99,6 @@ components:
 - taxi_axis_fifo
 - taxi_axis_gmii_rx
 - taxi_axis_gmii_tx
-- taxi_axis_if
 - taxi_axis_null_src
 - taxi_axis_register
 - taxi_axis_tie

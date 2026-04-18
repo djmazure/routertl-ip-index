@@ -1,7 +1,8 @@
 name: taxi_lfsr_crc
 namespace: fpganinja
 version: master
-description: Generates CRC.
+description: Computes CRC checksums on streaming data using a configurable LFSR with
+  selectable polynomial, architecture, and bit-...
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:

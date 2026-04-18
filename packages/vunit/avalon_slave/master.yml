@@ -1,7 +1,8 @@
 name: avalon_slave
 namespace: vunit
 version: master
-description: This Source Code Form is subject to the terms of the Mozilla Public
+description: Implements an Avalon Memory-Mapped Slave interface for reading and writing
+  data with configurable address and burst s...
 license: ''
 license_class: unknown
 source:

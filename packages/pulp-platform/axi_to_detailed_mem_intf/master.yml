@@ -1,7 +1,8 @@
 name: axi_to_detailed_mem_intf
 namespace: pulp-platform
 version: master
-description: Translates AXI4+ATOP to detailed memory interface.
+description: Converts AXI4+ATOP transactions to detailed memory interface requests
+  distributed across multiple banks.
 license: Apache-2.0
 license_class: permissive
 source:
@@ -25,7 +26,6 @@ tags:
 - mem
 role: top
 components:
-- AXI_BUS
 - axi_atop_filter
 - axi_burst_splitter
 - axi_burst_splitter_gran

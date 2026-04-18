@@ -1,7 +1,8 @@
 name: taxi_mt19937
 namespace: fpganinja
 version: master
-description: Generates random numbers.
+description: Generates pseudo-random numbers using the Mersenne Twister MT19937 algorithm
+  via AXI-Stream interface.
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:
@@ -72,7 +73,6 @@ components:
 - taxi_axis_fifo
 - taxi_axis_gmii_rx
 - taxi_axis_gmii_tx
-- taxi_axis_if
 - taxi_axis_null_src
 - taxi_axis_register
 - taxi_axis_tie

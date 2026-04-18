@@ -1,7 +1,8 @@
 name: axi_xbar_unmuxed_intf
 namespace: pulp-platform
 version: master
-description: Multiplexer
+description: AXI crossbar that routes transactions from multiple slave ports to multiple
+  master ports based on address mapping rules.
 license: Apache-2.0
 license_class: permissive
 source:
@@ -13,14 +14,14 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - src/axi_intf.sv
-  - src/axi_atop_filter.sv
-  - src/axi_err_slv.sv
   - src/axi_demux_id_counters.sv
   - src/axi_demux_simple.sv
+  - src/axi_intf.sv
   - src/axi_demux.sv
   - src/axi_cut.sv
   - src/axi_multicut.sv
+  - src/axi_atop_filter.sv
+  - src/axi_err_slv.sv
   - src/axi_xbar_unmuxed.sv
 tags:
 - amba
@@ -32,7 +33,6 @@ tags:
 - xbar
 role: top
 components:
-- AXI_BUS
 - axi_atop_filter
 - axi_burst_splitter
 - axi_burst_splitter_gran

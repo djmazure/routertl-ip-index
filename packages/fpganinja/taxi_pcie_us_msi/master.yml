@@ -1,7 +1,7 @@
 name: taxi_pcie_us_msi
 namespace: fpganinja
 version: master
-description: PCIe
+description: Generates PCIe MSI interrupts.
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:

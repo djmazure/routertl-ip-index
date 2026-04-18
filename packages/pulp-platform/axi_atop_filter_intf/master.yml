@@ -1,7 +1,8 @@
 name: axi_atop_filter_intf
 namespace: pulp-platform
 version: master
-description: Filter
+description: Filters AXI atomic transactions, managing in-flight write requests between
+  slave and master ports.
 license: Apache-2.0
 license_class: permissive
 source:
@@ -25,7 +26,6 @@ tags:
 - intf
 role: top
 components:
-- AXI_BUS
 - axi_atop_filter
 - axi_burst_splitter
 - axi_burst_splitter_gran

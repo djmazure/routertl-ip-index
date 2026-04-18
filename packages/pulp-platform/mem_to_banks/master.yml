@@ -1,7 +1,7 @@
 name: mem_to_banks
 namespace: pulp-platform
 version: master
-description: Splits memory requests into multiple bank requests.
+description: Splits memory requests across multiple banks and aggregates their responses.
 license: Apache-2.0
 license_class: permissive
 source:

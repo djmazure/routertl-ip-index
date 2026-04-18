@@ -1,7 +1,8 @@
 name: isochronous_4phase_handshake
 namespace: pulp-platform
 version: master
-description: Transfers data between clocks.
+description: Synchronizes ready/valid handshake signals between two independent clock
+  domains using four-phase handshaking protocol.
 license: Apache-2.0
 license_class: permissive
 source:

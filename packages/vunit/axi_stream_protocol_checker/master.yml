@@ -1,7 +1,8 @@
 name: axi_stream_protocol_checker
 namespace: vunit
 version: master
-description: This Source Code Form is subject to the terms of the Mozilla Public
+description: Validates AXI4-Stream protocol compliance by monitoring control signals
+  and data integrity.
 license: ''
 license_class: unknown
 source:

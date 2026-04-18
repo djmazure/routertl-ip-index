@@ -1,7 +1,7 @@
 name: taxi_stats_counter
 namespace: fpganinja
 version: master
-description: Counter
+description: Counts statistics.
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:

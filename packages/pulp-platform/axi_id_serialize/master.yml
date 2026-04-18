@@ -1,7 +1,8 @@
 name: axi_id_serialize
 namespace: pulp-platform
 version: master
-description: Serializes AXI IDs.
+description: Serializes AXI transactions by remapping slave port IDs to a constrained
+  set of master port IDs while enforcing per-I...
 license: Apache-2.0
 license_class: permissive
 source:
@@ -13,13 +14,13 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - src/axi_id_prepend.sv
-  - src/axi_intf.sv
-  - src/axi_mux.sv
   - src/axi_demux_id_counters.sv
   - src/axi_demux_simple.sv
+  - src/axi_intf.sv
   - src/axi_demux.sv
   - src/axi_serializer.sv
+  - src/axi_id_prepend.sv
+  - src/axi_mux.sv
   - src/axi_id_serialize.sv
 tags:
 - amba

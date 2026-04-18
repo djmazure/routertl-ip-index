@@ -1,7 +1,8 @@
 name: cc_onehot
 namespace: pulp-platform
 version: master
-description: Detects one-hot encoding.
+description: Detects whether the input is a one-hot encoded value (exactly one bit
+  set).
 license: Apache-2.0
 license_class: permissive
 source:

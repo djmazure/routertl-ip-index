@@ -1,8 +1,8 @@
 name: adrv9001_rx_link
 namespace: analog-devices
 version: 0.0.0
-description: Receives and processes multiplexed ADC data from ADRV9001 transceiver,
-  outputting formatted I/Q samples with configur...
+description: Deserializes and multiplexes ADC data streams into IQ sample pairs with
+  configurable SDR/DDR and single/dual-lane modes.
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:
@@ -14,9 +14,9 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - library/axi_adrv9001/adrv9001_aligner8.v
-  - library/axi_adrv9001/adrv9001_pack.v
   - library/axi_adrv9001/adrv9001_aligner4.v
+  - library/axi_adrv9001/adrv9001_pack.v
+  - library/axi_adrv9001/adrv9001_aligner8.v
   - library/axi_adrv9001/adrv9001_rx_link.v
 tags:
 - adrv9001

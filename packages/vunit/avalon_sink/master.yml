@@ -1,7 +1,8 @@
 name: avalon_sink
 namespace: vunit
 version: master
-description: This Source Code Form is subject to the terms of the Mozilla Public
+description: Receives data streams over Avalon interface with ready/valid handshaking
+  and packet demarcation.
 license: ''
 license_class: unknown
 source:

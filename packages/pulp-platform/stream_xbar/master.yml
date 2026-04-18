@@ -13,11 +13,11 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
+  - src/lzc.sv
+  - src/rr_arb_tree.sv
   - src/stream_demux.sv
   - src/spill_register_flushable.sv
   - src/spill_register.sv
-  - src/lzc.sv
-  - src/rr_arb_tree.sv
   - src/stream_xbar.sv
 tags:
 - stream

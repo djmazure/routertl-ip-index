@@ -1,7 +1,8 @@
 name: ad_ip_jesd204_tpl_adc_channel
 namespace: analog-devices
 version: 0.0.0
-description: JESD204
+description: Processes raw ADC data from JESD204 interface with optional formatting,
+  sign extension, and PN sequence testing.
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:

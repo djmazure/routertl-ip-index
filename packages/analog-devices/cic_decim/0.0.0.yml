@@ -1,8 +1,8 @@
 name: cic_decim
 namespace: analog-devices
 version: 0.0.0
-description: Decimates input signal at selectable rates with cascaded integrator-comb
-  filtering and output enable control.
+description: Decimates input signal by selectable rate with cascaded integrator-comb
+  filtering.
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:
@@ -14,8 +14,8 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - library/util_cic/cic_int.v
   - library/util_cic/cic_comb.v
+  - library/util_cic/cic_int.v
   - library/axi_adc_decimate/cic_decim.v
 tags:
 - cic

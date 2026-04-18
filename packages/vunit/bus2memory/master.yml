@@ -1,7 +1,7 @@
 name: bus2memory
 namespace: vunit
 version: master
-description: This Source Code Form is subject to the terms of the Mozilla Public
+description: Interfaces bus to memory.
 license: ''
 license_class: unknown
 source:

@@ -1,7 +1,7 @@
 name: taxi_apb_interconnect_1s
 namespace: fpganinja
 version: master
-description: Interconnects APB slave to multiple masters.
+description: Interconnects APB interfaces.
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:

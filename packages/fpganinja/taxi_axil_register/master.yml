@@ -1,7 +1,8 @@
 name: taxi_axil_register
 namespace: fpganinja
 version: master
-description: Buffers AXI4-Lite transactions.
+description: Registers AXI4-Lite transaction channels with configurable pipeline stages
+  for timing closure.
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:
@@ -43,7 +44,6 @@ components:
 - taxi_axil_crossbar_1s_wr
 - taxi_axil_crossbar_rd
 - taxi_axil_crossbar_wr
-- taxi_axil_if
 - taxi_axil_interconnect_1s
 - taxi_axil_interconnect_1s_rd
 - taxi_axil_interconnect_1s_wr

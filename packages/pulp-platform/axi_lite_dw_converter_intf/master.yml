@@ -1,7 +1,8 @@
 name: axi_lite_dw_converter_intf
 namespace: pulp-platform
 version: master
-description: Converter
+description: Converts AXI4-Lite transactions between slave and master ports with different
+  data widths.
 license: Apache-2.0
 license_class: permissive
 source:
@@ -27,7 +28,6 @@ tags:
 - lite
 role: top
 components:
-- AXI_BUS
 - axi_atop_filter
 - axi_burst_splitter
 - axi_burst_splitter_gran

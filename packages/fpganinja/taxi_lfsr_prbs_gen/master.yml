@@ -1,7 +1,8 @@
 name: taxi_lfsr_prbs_gen
 namespace: fpganinja
 version: master
-description: Generator
+description: Generates pseudo-random bit sequences using a configurable LFSR with
+  selectable Fibonacci or Galois topology.
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:

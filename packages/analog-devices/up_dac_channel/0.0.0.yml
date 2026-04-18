@@ -1,7 +1,8 @@
 name: up_dac_channel
 namespace: analog-devices
 version: 0.0.0
-description: Generates digital signals for DAC.
+description: Manages DAC channel configuration including DDS parameters, pattern data,
+  IQ correction, and user data type settings ...
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:

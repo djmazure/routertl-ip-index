@@ -1,7 +1,8 @@
 name: system_top
 namespace: analog-devices
 version: 0.0.0
-description: Controls GPIO, DCI, and SPI interfaces.
+description: Interfaces GPIO inputs/outputs, generates/receives differential clock
+  signals, outputs differential data, and control...
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:

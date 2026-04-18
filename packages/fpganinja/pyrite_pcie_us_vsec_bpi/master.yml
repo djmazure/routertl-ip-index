@@ -13,9 +13,9 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - src/apb/rtl/taxi_apb_if.sv
   - src/axi/rtl/taxi_axil_if.sv
   - src/pcie/rtl/taxi_pcie_us_vsec_axil.sv
+  - src/apb/rtl/taxi_apb_if.sv
   - src/pyrite/rtl/pyrite_pcie_us_vsec_bpi.sv
 tags:
 - bpi
@@ -37,7 +37,6 @@ components:
 - cndm_micro_queue_state
 - cndm_proto_core
 - cndm_proto_port
-- taxi_apb_if
 - taxi_apb_interconnect_1s
 - taxi_apb_ram
 - taxi_axi_axil_adapter_rd
@@ -51,7 +50,6 @@ components:
 - taxi_axil_crossbar_1s_wr
 - taxi_axil_crossbar_rd
 - taxi_axil_crossbar_wr
-- taxi_axil_if
 - taxi_axil_interconnect_1s
 - taxi_axil_interconnect_1s_rd
 - taxi_axil_interconnect_1s_wr

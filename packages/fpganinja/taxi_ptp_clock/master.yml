@@ -1,7 +1,7 @@
 name: taxi_ptp_clock
 namespace: fpganinja
 version: master
-description: PTP
+description: Generates precise timestamps.
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:

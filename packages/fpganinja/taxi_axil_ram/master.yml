@@ -1,7 +1,7 @@
 name: taxi_axil_ram
 namespace: fpganinja
 version: master
-description: RAM
+description: Stores and retrieves data.
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:
@@ -13,9 +13,9 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
+  - src/axi/rtl/taxi_axil_if.sv
   - src/axis/rtl/taxi_axis_if.sv
   - src/lss/rtl/taxi_i2c_slave.sv
-  - src/axi/rtl/taxi_axil_if.sv
   - src/axi/rtl/taxi_axil_ram.sv
 tags:
 - access
@@ -65,7 +65,6 @@ components:
 - taxi_axil_crossbar_1s_wr
 - taxi_axil_crossbar_rd
 - taxi_axil_crossbar_wr
-- taxi_axil_if
 - taxi_axil_interconnect_1s
 - taxi_axil_interconnect_1s_rd
 - taxi_axil_interconnect_1s_wr
@@ -91,7 +90,6 @@ components:
 - taxi_axis_fifo
 - taxi_axis_gmii_rx
 - taxi_axis_gmii_tx
-- taxi_axis_if
 - taxi_axis_null_src
 - taxi_axis_register
 - taxi_axis_tie

@@ -1,7 +1,8 @@
 name: axi_lite_to_apb_intf
 namespace: pulp-platform
 version: master
-description: Translates AXI-Lite to APB.
+description: Converts AXI4-Lite slave requests to APB4 master requests with address
+  decoding across multiple APB slaves.
 license: Apache-2.0
 license_class: permissive
 source:
@@ -28,7 +29,6 @@ tags:
 - peripheral
 role: top
 components:
-- AXI_BUS
 - axi_atop_filter
 - axi_burst_splitter
 - axi_burst_splitter_gran

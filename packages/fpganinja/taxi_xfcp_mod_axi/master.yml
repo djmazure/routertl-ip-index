@@ -1,8 +1,7 @@
 name: taxi_xfcp_mod_axi
 namespace: fpganinja
 version: master
-description: XFCP module that translates upstream protocol commands into AXI master
-  read/write transactions.
+description: Translates XFCP to AXI master.
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:
@@ -14,10 +13,10 @@ routertl_compat:
   language: systemverilog
   library: work
   files:
-  - src/axi/rtl/taxi_axi_if.sv
   - src/axi/rtl/taxi_axil_if.sv
   - src/axis/rtl/taxi_axis_if.sv
   - src/xfcp/rtl/taxi_xfcp_mod_axil.sv
+  - src/axi/rtl/taxi_axi_if.sv
   - src/xfcp/rtl/taxi_xfcp_mod_axi.sv
 tags:
 - amba
@@ -57,7 +56,6 @@ components:
 - taxi_axi_dma_wr
 - taxi_axi_fifo_rd
 - taxi_axi_fifo_wr
-- taxi_axi_if
 - taxi_axi_interconnect_1s_rd
 - taxi_axi_interconnect_1s_wr
 - taxi_axi_interconnect_rd
@@ -78,7 +76,6 @@ components:
 - taxi_axil_crossbar_1s_wr
 - taxi_axil_crossbar_rd
 - taxi_axil_crossbar_wr
-- taxi_axil_if
 - taxi_axil_interconnect_1s
 - taxi_axil_interconnect_1s_rd
 - taxi_axil_interconnect_1s_wr
@@ -104,7 +101,6 @@ components:
 - taxi_axis_fifo
 - taxi_axis_gmii_rx
 - taxi_axis_gmii_tx
-- taxi_axis_if
 - taxi_axis_null_src
 - taxi_axis_register
 - taxi_axis_tie

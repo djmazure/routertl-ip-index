@@ -1,7 +1,8 @@
 name: taxi_axil_interconnect_wr
 namespace: fpganinja
 version: master
-description: Interconnects AXI write interfaces.
+description: Interconnect that routes AXI4-Lite write transactions from multiple slave
+  ports to multiple master ports with configu...
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:

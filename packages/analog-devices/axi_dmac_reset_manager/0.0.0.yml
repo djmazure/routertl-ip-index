@@ -1,8 +1,8 @@
 name: axi_dmac_reset_manager
 namespace: analog-devices
 version: 0.0.0
-description: Manages asynchronous reset and enable signals across multiple DMA clock
-  domains with cross-clock synchronization.
+description: Manages reset and enable signals across multiple clock domains for AXI
+  DMA controller request, destination, source, a...
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:

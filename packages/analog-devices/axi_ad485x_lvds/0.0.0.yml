@@ -1,8 +1,8 @@
 name: axi_ad485x_lvds
 namespace: analog-devices
 version: 0.0.0
-description: Interfaces with AD485x LVDS ADCs, deserializes serial data, and outputs
-  parallel multi-channel samples with CRC valid...
+description: Interfaces with AD485x LVDS ADC devices, managing serial data acquisition,
+  CRC validation, and multi-channel output f...
 license: ADIBSD OR GPL-2.0-only
 license_class: permissive
 source:
@@ -14,8 +14,8 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - library/xilinx/common/ad_serdes_out.v
   - library/xilinx/common/ad_data_in.v
+  - library/xilinx/common/ad_serdes_out.v
   - library/axi_ad485x/axi_ad485x_crc.v
   - library/axi_ad485x/axi_ad485x_lvds.v
 tags:

@@ -1,7 +1,8 @@
 name: axi_lite_regs_intf
 namespace: pulp-platform
 version: master
-description: Manages AXI4-Lite register access.
+description: Manages AXI4-Lite slave register accesses with per-byte read-only control
+  and protection filtering.
 license: Apache-2.0
 license_class: permissive
 source:
@@ -26,7 +27,6 @@ tags:
 - regs
 role: top
 components:
-- AXI_BUS
 - axi_atop_filter
 - axi_burst_splitter
 - axi_burst_splitter_gran

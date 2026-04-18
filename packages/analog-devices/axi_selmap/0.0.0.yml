@@ -13,8 +13,8 @@ routertl_compat:
   language: verilog
   library: work
   files:
-  - library/common/up_axi.v
   - library/xilinx/axi_selmap/async_cdc_fifo.v
+  - library/common/up_axi.v
   - library/xilinx/axi_selmap/axi_selmap_regmap.v
   - library/xilinx/axi_selmap/axi_selmap.v
 tags:

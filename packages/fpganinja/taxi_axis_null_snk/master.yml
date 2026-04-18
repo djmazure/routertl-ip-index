@@ -1,7 +1,8 @@
 name: taxi_axis_null_snk
 namespace: fpganinja
 version: master
-description: Accepts and discards AXI4-Stream data without storing or processing it.
+description: Absorbs and discards incoming AXI4-Stream data without processing or
+  output.
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:
@@ -76,7 +77,6 @@ components:
 - taxi_axis_fifo
 - taxi_axis_gmii_rx
 - taxi_axis_gmii_tx
-- taxi_axis_if
 - taxi_axis_null_src
 - taxi_axis_register
 - taxi_axis_tie

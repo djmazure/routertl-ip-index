@@ -1,7 +1,8 @@
 name: axi_read_slave
 namespace: vunit
 version: master
-description: This Source Code Form is subject to the terms of the Mozilla Public
+description: AXI read slave that accepts read requests and returns data with response
+  information.
 license: ''
 license_class: unknown
 source:

@@ -1,7 +1,8 @@
 name: taxi_ram_2rw_2c
 namespace: fpganinja
 version: master
-description: RAM
+description: Dual-port RAM with independent read/write ports and byte-enable strobes
+  on separate clocks.
 license: CERN-OHL-S-2.0
 license_class: strong-copyleft
 source:

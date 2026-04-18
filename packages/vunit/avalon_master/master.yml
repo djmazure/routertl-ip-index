@@ -1,7 +1,8 @@
 name: avalon_master
 namespace: vunit
 version: master
-description: This Source Code Form is subject to the terms of the Mozilla Public
+description: Avalon bus master interface that initiates read and write transactions
+  with configurable latency and request probabil...
 license: ''
 license_class: unknown
 source:

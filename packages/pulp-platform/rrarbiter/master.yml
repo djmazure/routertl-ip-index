@@ -1,7 +1,8 @@
 name: rrarbiter
 namespace: pulp-platform
 version: master
-description: Arbiter
+description: Arbitrates multiple requests using round-robin priority, outputting the
+  selected request index and acknowledgment sig...
 license: Apache-2.0
 license_class: permissive
 source:
