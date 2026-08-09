@@ -799,6 +799,27 @@
       "reviewed_at": "2026-05-07",
       "reviewed_by": "dmazure",
       "notes": "RTL-P3.404 Path B sibling ingestion. Required dep for white-rabbit/wr-cores \u2014 every wr-* bucket use-clauses gencores_pkg / genram_pkg / wishbone_pkg."
+    },
+    "pulp-platform/cdc_reset_ctrlr": {
+      "verdict": "good",
+      "locked_text": "Title : CDC Clear Signaling Synchronization",
+      "reviewed_at": "2026-08-09",
+      "reviewed_by": "dmazure",
+      "notes": "RTL-P2.924: locked after the 2026-08-09 pulp rescan proposed a vaguer replacement. The live text is the specific one and must survive future rescans."
+    },
+    "pulp-platform/cdc_reset_ctrlr_half": {
+      "verdict": "good",
+      "locked_text": "Title : CDC Clear Signaling Synchronization",
+      "reviewed_at": "2026-08-09",
+      "reviewed_by": "dmazure",
+      "notes": "RTL-P2.924: locked after the 2026-08-09 pulp rescan proposed a vaguer replacement. The live text is the specific one and must survive future rescans."
+    },
+    "pulp-platform/ring_buffer": {
+      "verdict": "good",
+      "locked_text": "This module implements a flexible ring buffer with decoupled write and read access. It supports sequential writes and random reads with a valid/ready handshake protocol.",
+      "reviewed_at": "2026-08-09",
+      "reviewed_by": "dmazure",
+      "notes": "RTL-P2.924: locked after the 2026-08-09 pulp rescan proposed a vaguer replacement. The live text is the specific one and must survive future rescans."
     }
   }
 }
